@@ -1,0 +1,18 @@
+name = Ideal Main
+description = Custom module.
+core = 7.x
+package = openideaL
+
+dependencies[] = nodequeue
+files[] = ideal_main.rules.inc
+files[] = views/views_handler_argument_vote_only_user_uid.inc
+files[] = views/views_handler_filter_vote_only_user_uid.inc
+files[] = views/views_handler_argument_idea_comment_only_user_uid.inc
+files[] = views/views_handler_filter_idea_comment_only_user_uid.inc
+
+; Information added by Drupal.org packaging script on 2016-02-13
+version = "7.x-2.8"
+core = "7.x"
+project = "idea"
+datestamp = "1455367263"
+

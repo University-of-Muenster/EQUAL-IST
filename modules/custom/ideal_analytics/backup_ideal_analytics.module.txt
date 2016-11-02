@@ -1,0 +1,43 @@
+ $header = $nodes = array();
+  $fid = db_query("SELECT fid FROM {flags} WHERE name = :name", array(':name' => 'blast_idea'))->fetchField();
+  $i = 0;
+  $f = $from;
+  while ($f <= $to) {
+    // Building the header - list of date from today backward.
+    $header[$i]   = date('d.m.y', $f);
+    // The number of nodes become blast ideas each day.
+    $nodes[$i]  = db_query("SELECT COUNT(*) FROM {flag_content} WHERE fid = :fid AND FROM_UNIXTIME(timestamp,'%d.%m.%y') = :dete", array(':fid' => $fid, ':dete' => $header[$i]))->fetchField();
+    
+    $i ++;
+    $f = strtotime("+1 day", $f);
+  }
+  // Building the rows, array of the data point arrays.
+  $rows = array($nodes);
+  // The labels for the rows.
+  $columns = array('No. Of blast Ideas');
+  
+  // Put all the data into the settings array, 
+  // which will be send to draw.
+ 
+  // Must empty the array first.
+  $settings = array();
+  $settings['chart']['chartBlast'] = array(  
+    'header' => $header,
+    'rows' => $rows,
+    'columns' => $columns,
+    'weight' => 4,   
+    'chartType' => 'LineChart',// LineChart, PieChart, ,ColumnChart, ,AreaChart, Gauge, BarChart, etc....
+    'options' => array( // Optionals.
+      'curveType' => "function",
+      'colors' => array('red'), 
+      'forceIFrame' => FALSE,  
+      'title' => 'Blast Ideas',
+      'width' => 500,
+      'height' => 300  
+    )   
+  );
+  
+  //Draw it.
+  $ret[] = draw_chart($settings);
+  
+  return $ret;
