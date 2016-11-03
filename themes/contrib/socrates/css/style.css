@@ -34,8 +34,7 @@
 -----------------------------------------------*/
 /* line 96, icons-smart/*.png */
 .icons-smart-sprite, .pane-node-field-attachments .field-item a:before, .pane-node-field-attachments .field-item a[type*='text']:before, .pane-node-field-attachments .field-item a[type*='pdf']:before, #popup .modal-footer .go-home, #popup .modal-footer .share-wrap .share-btn {
-  /*background-image: url(http://imgur.com/gallery/pY3JZsH);*/
-  background-image: url('/images/icons-smart-s5603513990.png');*/
+  background-image: url('/images/icons-smart-s5603513990.png');
   background-repeat: no-repeat;
 }
 
@@ -185,9 +184,7 @@ img {
 -----------------------------------------------*/
 /* line 67, ../sass/partials/_general-elements.scss */
 .caption {
-  caption-side: bottom;
-  position: relative;
-  top: 10;
+  position: absolute;
   bottom: 0;
   margin: 0;
   left: 0;
@@ -197,17 +194,13 @@ img {
   font-weight: lighter;
   width: 100%;
   color: #fff;
-  background-color: grey;
-  background-color: rgba(0,0,0,0.5);
+  background-color: #2b2b2b;
+  background-color: rgba(43, 43, 43, 0.8);
   box-sizing: border-box;
 }
 /* line 64, ../sass/_mixins.scss */
 .caption a {
-  caption-side: bottom;
-  color: white;
-  font-family: Georgia, serif;
-  
-  
+  color: #fff;
 }
 /* line 65, ../sass/_mixins.scss */
 .caption:empty, .caption.empty {
@@ -226,7 +219,7 @@ img {
   font-weight: lighter;
   width: 100%;
   color: #fff;
-  background-color: yellow;
+  background-color: #2b2b2b;
   background-color: rgba(43, 43, 43, 0.8);
   box-sizing: border-box;
   top: 0;
@@ -248,7 +241,7 @@ img {
 .row-bottom-openideal {
   min-height: 45px;
   clear: both;
-  position: fixed;
+  position: relative;
   background-color: black;
   display: table;
   width: 101%;
@@ -893,7 +886,6 @@ body header#navbar {
   padding: 0;
   width: 100%;
   max-width: none;
-  
 }
 /* line 22, ../sass/partials/_space-layout.scss */
 body header#navbar > .container,
@@ -996,8 +988,6 @@ body.panels-ipe .panel-pane,
 /*-----------------------------------------------
                      Header
 -----------------------------------------------*/
-
-
 /* VON Mika bearbeitet */
 @media all and (min-width: 768px) {
 	header#navbar {
@@ -1011,7 +1001,6 @@ body.panels-ipe .panel-pane,
 /* line 16, ../sass/partials/_space-header-footer.scss */
 header#navbar {
   z-index: 1;
-
   /* --- logo --- */
   /* --- menu --- */
   /* --- search --- */
