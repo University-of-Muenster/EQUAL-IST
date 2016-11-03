@@ -1,14 +1,26 @@
 
 div.toboggan-container {
-  text-align: center;
+ 
+´ 
+
 }
 
 div.toboggan-login-link-container {
-  text-align: left;
+  text-align: right;
+  
+  width: 300px;
+  
 }
 
 div.toboggan-login-link-container a {
   text-decoration: none;
+  color: white;
+  padding: 13px 10px; 
+  display: block;
+}
+div.toboggan-login-link-container a:hover, a:focus{
+  text-decoration: none;
+  background-color: #000;
 }
 
 div.toboggan-block-message {
@@ -16,11 +28,22 @@ div.toboggan-block-message {
 }
 
 div.user-login-block {
+  clear:both;
+  
   text-align: left;
+  color: white;
+  background-color: #222;
+  
+  
+  padding: 10px;
+   
+ 
+
 }
 
 div.user-login-block a {
   text-align: left;
+  color: white;
 }
 
 /* Unified login */
