@@ -68,7 +68,8 @@
 -----------------------------------------------*/
 /* line 6, ../sass/partials/_general-elements.scss */
 a {
-  text-decoration: underline;
+  text-decoration: none;
+  
 }
 /* line 8, ../sass/partials/_general-elements.scss */
 a:hover {
