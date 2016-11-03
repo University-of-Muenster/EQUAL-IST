@@ -18,7 +18,7 @@ div.toboggan-login-link-container a {
   padding: 13px 10px; 
   display: block;
 }
-div.toboggan-login-link-container a:hover, a:focus{
+div.toboggan-login-link-container a:hover,div.toboggan-login-link-container a:focus{
   text-decoration: none;
   background-color: #000;
 }
