@@ -69,7 +69,6 @@
 /* line 6, ../sass/partials/_general-elements.scss */
 a {
   text-decoration: none;
-  
 }
 /* line 8, ../sass/partials/_general-elements.scss */
 a:hover {
@@ -3271,6 +3270,36 @@ body .panels-bootstrap-inner_page .pane-node-field-idea-image .pane-content .bx-
 #popup .modal-footer .share-wrap .share-btn {
   background-position: -16px -26px;
   background-color: #43ac6a;
+}
+/*-----------------------------------------------
+           taxonomy_role_filter module
+-----------------------------------------------*/
+.taxonomy_role_filter_active, a.taxonomy_role_filter_deactive:hover {
+	float: right;
+	display:block;
+	background-image: url("../images/switch/on.png");
+    background-repeat: no-repeat;
+    background-position: center right; 
+	
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 100px;
+	height: 40px;
+	border: 1px dashed #c3c3c3;
+	
+}
+.taxonomy_role_filter_deactive, a.taxonomy_role_filter_active:hover {
+	float: right;
+	display:block;
+	background-image: url("../images/switch/off.png");
+    background-repeat: no-repeat;
+	background-position: center right; 
+	
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 100px;
+	height: 40px;
+	border: 1px dashed #c3c3c3;
 }
 
 /*-----------------------------------------------
