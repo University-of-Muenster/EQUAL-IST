@@ -360,7 +360,7 @@ section {
 <div class="content">
 <ul>
     <li><a href="https://www.facebook.com/EQUALISTproject/?fref=ts" title="Facebook" class="facebook"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" width="50" height="50"/>EQUAL-IST <br> Like us on Facebook </a></li>
-    <li><a href="https://twitter.com/equalistproject" title="Twitter" class="twitter"><img src="http://www.freeiconspng.com/uploads/twitter-icon--basic-round-social-iconset--s-icons-0.png" width="50" height="50"/>@EQUALISTproject <br> Link up with us on Twitter</a></li>
+    <li><a href="https://twitter.com/equalistproject" title="Twitter" class="twitter"><img src="http://www.freeiconspng.com/uploads/twitter-icon--basic-round-social-iconset--s-icons-0.png" width="50" height="50"/>@EQUALISTproject <br> Follow us on Twitter</a></li>
     <li><a href="https://de.linkedin.com/" title="Linkedin" class="linkedin"><img src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png" width="50" height="50"/>EQUAL-IST <br> Join the LinkedIn Group</a></li>
 </ul>  
 </div>
