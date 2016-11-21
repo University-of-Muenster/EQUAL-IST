@@ -353,6 +353,9 @@ textarea:focus, input:focus { outline: 0; }
 
 #footer .content a:hover { text-decoration: underline; }
 
+#footer .content img {border: none; padding: 0.8em; float:left; }
+
+
 /* subfooter */
 
 #subfooter { background: #222; clear: both; padding: 20px 0; text-align: center; border-top: 5px solid ##D7D7D7; margin: 0px auto; color: #999; font-size: 12px; }
