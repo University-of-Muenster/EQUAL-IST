@@ -1010,6 +1010,84 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto;  padding: 0; m
 .portfolio-items-not-filterable:after { content: ""; display: block;  height: 0; overflow: hidden; clear: both; }
 
 .portfolio-items-not-filterable li { width: 190px!important; margin: 0 20px 0px 0!important;  float: left; height: 220px!important; overflow: hidden; }
+    
+    
+    .challenges_list
+{
+    width: 100%;
+}
+
+
+
+.clearfix
+h1{
+    color: rgba(158,9,93,1.0);
+    margin-top: 10%;
+}
+
+.views-field
+
+a{
+    color: rgba(158,9,93,1.0);
+    margin-left: 10%;
+    
+}
+
+.row-bottom-ideal
+{
+    color: aquamarine;
+}
+
+.field-content img{
+    margin-right: 10%;
+}
+
+.field-content p{
+    margin-left: 30%;
+}
+
+.row-bottom-openideal
+{
+    display: inline-block;
+    margin-bottom: 20%;
+    margin-top: 10%;
+    margin-left: 10%;
+   
+}
+
+.views-field-nothing {
+    margin-left: 0%;
+}
+
+.challenge-add-idea-button a{
+    color: black;
+}
+
+.views-row-1 {
+    margin-bottom: 10%;
+}
+
+.views-row-2 {
+    margin-bottom: 10%;
+}
+
+.views-row-3 {
+    margin-bottom: 10%;
+}
+
+ul.pager li a:hover, ul.pager li.pager-current {
+    background-color: rgba(158,9,93,1.0);
+    
+}
+
+ul.pager li a, ul.pager li.pager-current{
+    background-color: white;
+    color: #333;
+}
+
+.item-list ul{
+    margin-top: 20%;
+}
 
 #filterable { display: inline; float: left; margin-bottom: 20px;  margin-right: 0px; }
 
