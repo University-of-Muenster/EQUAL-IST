@@ -1,83 +1,123 @@
- - OpenideaL -
---------------------------------------------------------------------------------
 
-Index
-1. Introduction
-2. Features
-2.1 HybridAuth installation & configuration
-2.2 Alerts & Notifications
-2.3 Activity
+CONTENTS OF THIS FILE
+---------------------
 
-2.1 HybridAuth installation & configuration
---------------------------------------------------------------------------------
+ * About Drupal
+ * Configuration and features
+ * Installation profiles
+ * Appearance
+ * Developing for Drupal
 
-1. Download the HybridAuth library:
-http://sourceforge.net/projects/hybridauth/files/hybridauth-2.1.2.zip/download
-2. Extract the archive to sites/all/libraries/hybridauth
-(or profiles/idea/libraries/hybridauth)
-3. Enable the HybridAuth module
-4. Go to admin/config/people/hybridauth and enable all authentication providers
-you whish to use
-5. Click on the "Settings" link for every enabled provider and add the
-authentication keys supplied by the provider
-6. To automatically assign values from a service to user fields, create a rule
-using the event "User registered through HybridAuth" and set the data values
+ABOUT DRUPAL
+------------
 
-2.2 Alerts & Notifications
---------------------------------------------------------------------------------
+Drupal is an open source content management platform supporting a variety of
+websites ranging from personal weblogs to large community-driven websites. For
+more information, see the Drupal website at http://drupal.org/, and join the
+Drupal community at http://drupal.org/community.
 
-Notifications are e-mails that get sent by the system to alert users of the site
-of certain events.
-Drupal rules are used for its configuration and can be modified here:
-admin/config/workflow/rules
+Legal information about Drupal:
+ * Know your rights when using Drupal:
+   See LICENSE.txt in the same directory as this document.
+ * Learn about the Drupal trademark and logo policy:
+   http://drupal.com/trademark
 
-There are notifications for the following events:
+CONFIGURATION AND FEATURES
+--------------------------
 
-User notifications:
-- When an idea is created in a challenge he is following
-  Rule: Send mail for new idea
-- When a comment is posted in a idea he is following
-  Rule: Send mail for idea status change
-- When he is mentioned in a comment or idea
-  Rule: Send mail for new user
-- When the status of one of his ideas has changed
-  Rule: Send mail notification about the mention
+Drupal core (what you get when you download and extract a drupal-x.y.tar.gz or
+drupal-x.y.zip file from http://drupal.org/project/drupal) has what you need to
+get started with your website. It includes several modules (extensions that add
+functionality) for common website features, such as managing content, user
+accounts, image uploading, and search. Core comes with many options that allow
+site-specific configuration. In addition to the core modules, there are
+thousands of contributed modules (for functionality not included with Drupal
+core) available for download.
 
-Admin notifications:
-- When a new user has registered
+More about configuration:
+ * Install, upgrade, and maintain Drupal:
+   See INSTALL.txt and UPGRADE.txt in the same directory as this document.
+ * Learn about how to use Drupal to create your site:
+   http://drupal.org/documentation
+ * Download contributed modules to sites/all/modules to extend Drupal's
+   functionality:
+   http://drupal.org/project/modules
+ * See also: "Developing for Drupal" for writing your own modules, below.
 
-In the user profile, notifications for the following notification types can be
-configured:
+INSTALLATION PROFILES
+---------------------
 
-- Notifications for new content
-- Notifications for new comments
-- Notifications for mentions
+Installation profiles define additional steps (such as enabling modules,
+defining content types, etc.) that run after the base installation provided
+by core when Drupal is first installed. There are two basic installation
+profiles provided with Drupal core.
 
+Installation profiles from the Drupal community modify the installation process
+to provide a website for a specific use case, such as a CMS for media
+publishers, a web-based project tracking tool, or a full-fledged CRM for
+non-profit organizations raising money and accepting donations. They can be
+distributed as bare installation profiles or as "distributions". Distributions
+include Drupal core, the installation profile, and all other required
+extensions, such as contributed and custom modules, themes, and third-party
+libraries. Bare installation profiles require you to download Drupal Core and
+the required extensions separately; place the downloaded profile in the
+/profiles directory before you start the installation process. Note that the
+contents of this directory may be overwritten during updates of Drupal core;
+it is advised to keep code backups or use a version control system.
 
-2.3 Activity
---------------------------------------------------------------------------------
-For the activity streams the message module is used. On the frontpage a number 
-of different streams are show in a mini-panel called latest and greatest. Also 
-an overal activity stream is available as a view (block).
+Additionally, modules and themes may be placed inside subdirectories in a
+specific installation profile such as profiles/your_site_profile/modules and
+profiles/your_site_profile/themes respectively to restrict their usage to only
+sites that were installed with that specific profile.
 
-Main activity stream
-- New content (idea, challenge, news)
-- New comments
-- New users
-- Various aggregated activity
--- received 10, 25, 50, 100 votes (x people have voted on [title])
--- reveived 10, 25, 50, 100 comments (x comments have been made for [title])
--- new users (x new users have joined this (week, month, year))
+More about installation profiles and distributions:
+ * Read about the difference between installation profiles and distributions:
+   http://drupal.org/node/1089736
+ * Download contributed installation profiles and distributions:
+   http://drupal.org/project/distributions
+ * Develop your own installation profile or distribution:
+   http://drupal.org/developing/distributions
 
-Users
-- Posted x ideas
-- User has joined
+APPEARANCE
+----------
 
-Ideas
-- Idea was shared
-- Idea won challenge
-- Idea was posted
+In Drupal, the appearance of your site is set by the theme (themes are
+extensions that set fonts, colors, and layout). Drupal core comes with several
+themes. More themes are available for download, and you can also create your own
+custom theme.
 
-Discussions
-- New comment
-- x-th votes on comment
+More about themes:
+ * Download contributed themes to sites/all/themes to modify Drupal's
+   appearance:
+   http://drupal.org/project/themes
+ * Develop your own theme:
+   http://drupal.org/documentation/theme
+
+DEVELOPING FOR DRUPAL
+---------------------
+
+Drupal contains an extensive API that allows you to add to and modify the
+functionality of your site. The API consists of "hooks", which allow modules to
+react to system events and customize Drupal's behavior, and functions that
+standardize common operations such as database queries and form generation. The
+flexible hook architecture means that you should never need to directly modify
+the files that come with Drupal core to achieve the functionality you want;
+instead, functionality modifications take the form of modules.
+
+When you need new functionality for your Drupal site, search for existing
+contributed modules. If you find a module that matches except for a bug or an
+additional needed feature, change the module and contribute your improvements
+back to the project in the form of a "patch". Create new custom modules only
+when nothing existing comes close to what you need.
+
+More about developing:
+ * Search for existing contributed modules:
+   http://drupal.org/project/modules
+ * Contribute a patch:
+   http://drupal.org/patch/submit
+ * Develop your own module:
+   http://drupal.org/developing/modules
+ * Follow best practices:
+   http://drupal.org/best-practices
+ * Refer to the API documentation:
+   http://api.drupal.org/api/drupal/7
