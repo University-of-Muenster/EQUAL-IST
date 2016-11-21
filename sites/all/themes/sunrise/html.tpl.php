@@ -18,7 +18,7 @@
   <![endif]-->
   <?php print $scripts; ?>
   <!-- next 5 lines are for the integration of tinymce-->
-  <script src="http://equal-ist.uni-muenster.de/drupal/sites/all/libraries/tinymce/js/tinymce/tinymce.min.js"></script> 
+  <script src="/drupal/sites/all/libraries/tinymce/js/tinymce/tinymce.min.js"></script> 
     <script>
     tinymce.init({ selector:'textarea' });
 </script>
