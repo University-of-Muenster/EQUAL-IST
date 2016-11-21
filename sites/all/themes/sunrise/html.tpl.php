@@ -17,6 +17,11 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   <?php print $scripts; ?>
+  <!-- next 5 lines are for the integration of tinymce-->
+  <script src="sites/all/libraries/tinymce/js/tinymce/tinymce.min.js"></script> 
+    <script>
+    tinymce.init({ selector:'textarea' });
+</script>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">
@@ -25,5 +30,7 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
+  <!-- next line is for the integration of tinymce
+  <textarea id= "elm1" name="area"></textarea>-->
 </body>
 </html>
