@@ -1,80 +1,94 @@
+<!-- header-banner-wrapper --> 
 <div id="header-banner-wrapper">
     <div id="header-wrapper">
-<?php if ($page['header_top_left'] || $page['header_top_right']) :?>
-<!-- #header-top -->
+    
+    <?php if ($page['header_top_left'] || $page['header_top_right']) :?>
+        
+    <!-- #header-top -->
+    <div id="header-top" class="clearfix" >
+        <!--<div class="container">-->
 
-<div id="header-top" class="clearfix" >
-    <!--<div class="container">-->
-
-        <!-- #header-top-inside -->
-        <div id="header-top-inside" class="clearfix">
-                <div class="col-md-6">                 
-                    <?php if ($page['header_top_left']) :?>
-                    <!-- #header-top-left -->
-                    <div id="header-top-left" class="clearfix">
-                        <?php print render($page['header_top_left']); ?>
+            <!-- #header-top-inside -->
+            <div id="header-top-inside" class="clearfix">
+                    <div class="col-md-6">                 
+                        <?php if ($page['header_top_left']) :?>
+                        <!-- #header-top-left -->
+                        <div id="header-top-left" class="clearfix">
+                            <?php print render($page['header_top_left']); ?>
+                        </div>
+                        <!-- EOF:#header-top-left -->
+                        <?php endif; ?>
                     </div>
-                    <!-- EOF:#header-top-left -->
-                    <?php endif; ?>
-                </div>
 
-                <div class="col-md-6">    
-                    <?php if ($page['header_top_right']) :?>
-                    <!-- #header-top-right -->
-                    <div id="header-top-right" class="clearfix">
-                        <?php print render($page['header_top_right']); ?>
+                    <div class="col-md-6">    
+                        <?php if ($page['header_top_right']) :?>
+                        <!-- #header-top-right -->
+                        <div id="header-top-right" class="clearfix">
+                            <?php print render($page['header_top_right']); ?>
+                        </div>
+                        <!-- EOF:#header-top-right -->
+                        <?php endif; ?>
                     </div>
-                    <!-- EOF:#header-top-right -->
-                    <?php endif; ?>
-                </div>
-        </div>
-        <!-- EOF: #header-top-inside -->
+            </div>
+            <!-- EOF: #header-top-inside -->
 
-    <!--</div>-->
-</div>
-<!-- EOF: #header-top -->    
-<?php endif; ?>
+        <!--</div>-->
+    </div>
+    <!-- EOF: #header-top -->    
 
+    <?php endif; ?>
+
+    
     <!-- header -->
     <header id="header" role="banner" class="clearfix">
       <!--  <div class="container"> -->
 
             <!-- #header-inside -->
             <div id="header-inside" class="clearfix">
-                    <div class="col-md-12">
+                <div class="col-md-12">
                     
                     <?php if ($logo):?>
                     <div id="logo">
                         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"> 
-                            <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /> 
+                        <img src="https://equal-ist.eu/eq-uploads/2016/11/EQUALIST_logo2.png" width="269" height="112" alt="<?php print t('Home'); ?>" /> 
                         </a>
                     </div>
-                    <?php endif; ?>
+                    <?php endif; ?> 
 
                     <?php if ($site_name):?>
                     <div id="site-name">
-                    <!--<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>-->
+                    <!--<a href="<?php print $front_page; ?>" title="<?php print t('EQUAL-IST'); ?>"><?php print $site_name; ?></a>-->
                     </div>
                     <?php endif; ?>
 
-                    <?php if ($site_slogan):?>
-                    <div id="site-slogan">
-                    <?php print $site_slogan; ?>
+                    <?php if ($slogan):?>
+                    <div id="slogan">
+                    <!--<?php print t('This is a crowdsourcing platform!'); ?>-->
                     </div>
                     <?php endif; ?>
 
+                    <div class="content" >
+                        <div class="social">                             <ul class="social">
+                            <li><a href="https://twitter.com/equalistproject" title="Twitter" class="twitter"></a></li>
+                            <li><a href="https://www.facebook.com/EQUALISTproject/?fref=ts" title="Facebook" class="facebook"></a></li>
+                            <li><a href="https://www.googleplus" title="Gplus" class="gplus"></a></li>
+                            <li><a href="https://de.linkedin.com/" title="Linkedin" class="linkedin"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
                     <?php if ($page['header']) :?>
-                    <?php print render($page['header']); ?>
+                        <?php print render($page['header']); ?>
                     <?php endif; ?>
-
-
-                    </div>
+                                    
                 </div>
+             </div>
             <!-- EOF: #header-inside -->
-        <!--</div>-->
         
+        <!--</div>-->
     </header>
     <!-- EOF: #header --> 
+        
 
     <!-- #main-navigation --> 
     <div id="main-navigation" class="clearfix">
@@ -84,6 +98,7 @@
                         <nav role="navigation">
                             <?php if ($page['navigation']) :?>
                             <?php print drupal_render($page['navigation']); ?>
+                            
                             <?php else : ?>
 
                             <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('class' => array('main-menu', 'menu'), ), 'heading' => array('text' => t('Main menu'), 'level' => 'h2', 'class' => array('element-invisible'), ), )); ?>
@@ -92,18 +107,19 @@
                         </nav>
             </div>
             <!-- EOF: #main-navigation-inside -->
-    </div>
-    <!-- EOF: #main-navigation -->    
     
+    </div>
+    <!-- EOF: #main-navigation -->
+        
     <div id="social2" class="clearfix" >
-    <div class="container">
+        <div class="container">
             <div class="row">
                 <div class="col-md-12">                 
                     <?php if ($page['social']) :?>
                             <?php print render($page['social']); ?>
                     <?php endif; ?>
                 </div>
-                </div>
+            </div>
         </div>
     </div>
         
@@ -125,9 +141,12 @@
             <!-- EOF: #banner-inside -->      
         </div>
     </div>
-    <!-- EOF:#banner -->
-    <?php endif; ?>    
-</div> <!-- #header, menu, slogan and banner wrapper --> 
+    <?php endif; ?> 
+    
+</div> 
+<!-- EOF: #header-banner-wrapper -->
+
+
 
 <!-- #page -->
 <div id="page" class="clearfix">
@@ -166,6 +185,8 @@
     </div>
     <!-- EOF: #promoted -->
     <?php endif; ?>
+    
+
 
     <!-- #main-content -->
     <div id="main-content">
@@ -257,68 +278,103 @@
 <!-- EOF:#page -->
 
 
+
     
-<?php if ($page['google_map_region']):?>
-<!-- #google_map_region -->
-<div id="google_map_region" class="clearfix">
-    <?php print render($page['google_map_region']); ?>
-</div>
-<?php endif; ?>
-<!-- EOF:#google_map_region -->
 
-<!-- #map-canvas -->
-<div id="map-canvas"></div>
-<!-- EOF: #map-canvas -->
-
-
-<?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third'] || $page['footer_fourth']):?>
 <!-- #footer -->
 <footer id="footer" class="clearfix">
-    <div class="container">
+<div class="container">
     
-        <!-- #footer-inside -->
-        <div id="footer-inside" class="clearfix">
-            <div class="row">
-                <div class="col-md-3">
-                    <?php if ($page['footer_first']):?>
-                    <div class="footer-area">
-                    <?php print render($page['footer_first']); ?>
-                    </div>
-                    <?php endif; ?>
-                </div>
+<!-- #footer-inside -->
+<div id="footer-inside" class="clearfix">
+<div class="row">
+
+<div class="col-md-3">       
+<div class="region region-footer-first">
+
+<div id="block-block-18" class="block block-block clearfix">    
+<h2>Contact Us</h2>
+
+    <div class="content">
+<ul>
+    <li><a href="www.equal-ist-eu"> Website: ww.equal-ist.eu</a></li>
+    <li><a href="info@equal-ist.eu">info@equal-ist.eu</a></li>
+</ul>  
+</div>    
+
+</div>
+    
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="region region-footer-second">
+    
+<div id="block-block-19" class="block block-block clearfix">
+<h2>Get Social</h2>
+
+<div class="content">
+<ul>
+    <li><a href="https://www.facebook.com/EQUALISTproject/?fref=ts" title="Facebook" class="facebook"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" width="50" height="50"/>EQUAL-IST <br> Like us on Facebook </a></li>
+    <li><a href="https://twitter.com/equalistproject" title="Twitter" class="twitter"><img src="http://www.freeiconspng.com/uploads/twitter-icon--basic-round-social-iconset--s-icons-0.png" width="50" height="50"/>@EQUALISTproject <br> Link up with us on Twitter</a></li>
+    <li><a href="https://de.linkedin.com/" title="Linkedin" class="linkedin"><img src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png" width="50" height="50"/>EQUAL-IST <br> Join the LinkedIn Group</a></li>
+</ul>  
+</div>
+
+    
+</div>
+    
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="region region-footer-third">
+
+<div id="block-block-20" class="block block-block clearfix">
+<h2>Partners</h2>
+    
+<div class="content">
+<ul>
+    <li><a href="http://www.unimore.it/">University of Modena and Reggio Emilia (UNIMORE)</a></li>
+    <li><a href="https://www.uminho.pt/EN">The University of Minho (UMINHO)</a></li>
+    <li><a href="http://www.hneu.edu.ua/">Simon Kuznets Kharkiv National University of Economics (KhNUE)</a></li>    
+    <li><a href="https://www.uni-muenster.de/en/">The University of Münster (WWU)</a></li>       
+</ul>
+</div>
+    
+</div>
+    
+</div>
+</div>
+    
+    
+<div class="col-md-3">
+<div class="region region-footer-third">
+
+<div id="block-block-20" class="block block-block clearfix">
+<h2> <br> </h2>
+    
+<div class="content">
+<ul>
+    <li><a href="http://www.unive.it/pag/13526/">Ca' Foscari University of Venice (UNIVE)</a></li>
+    <li><a href="https://www.uni.li/en">The University of Liechtenstein (UNILI)</a></li>
+    <li><a href="http://www.utu.fi/en/Pages/home.aspx">The University of Turku (UTU)</a></li>
+    <li><a href="http://ktu.edu/en">Kaunas University of Technology (KTU)</a></li>
+</ul>
+</div>
+    
+</div>
+    
+</div>
+</div>
+    
+</div>
+</div>
+<!-- EOF: #footer-inside -->
+    
+</div>
+</footer>
                 
-                <div class="col-md-3">
-                    <?php if ($page['footer_second']):?>
-                    <div class="footer-area">
-                    <?php print render($page['footer_second']); ?>
-                    </div>
-                    <?php endif; ?>
-                </div>
-
-                <div class="col-md-3">
-                    <?php if ($page['footer_third']):?>
-                    <div class="footer-area">
-                    <?php print render($page['footer_third']); ?>
-                    </div>
-                    <?php endif; ?>
-                </div>
-
-                <div class="col-md-3">
-                    <?php if ($page['footer_fourth']):?>
-                    <div class="footer-area">
-                    <?php print render($page['footer_fourth']); ?>
-                    </div>
-                    <?php endif; ?>
-                </div>
-            </div>
-        </div>
-        <!-- EOF: #footer-inside -->
-    
-    </div>
-</footer> 
-<!-- EOF #footer -->
-<?php endif; ?>
-
 <footer id="subfooter" class="clearfix">
     <div class="container">
         
@@ -328,9 +384,10 @@
                 <div class="col-md-12">
                     <!-- #subfooter-left -->
                     <div class="subfooter-area">                  
-                    <?php if ($page['footer']):?>
-                    <?php print render($page['footer']); ?>
-                    <?php endif; ?>
+                    <p> 
+                    <a href="#">©2016 EQUAL-IST All rights reserved.</a> <br>
+                    <a href="#">Terms of Use</a>
+                    </p>
                     </div>
                     <!-- EOF: #subfooter-left -->
                 </div>
@@ -341,3 +398,4 @@
     </div>
 </footer>
 <!-- EOF:#subfooter -->
+                    
