@@ -138,6 +138,44 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
   #header-banner-wrapper .slogan p { font-size: 20px; }
 }
 
+
+/* promoted-insied */
+
+
+<?php if (is_landing_page()):?>
+
+#block-block-1 h1 { margin: 0px 0px 0px; font-size: 36px; font-weight: bold; color: grey; text-align: center; margin-bottom: 10px; line-height: 1; align-content: center; }
+
+#block-block-1 h3 { margin: 0px 20px 50px; font-size: 34px; font-weight: bold; color: grey; text-align: center; margin-bottom: 10px; line-height: 1; align-content: center; }
+
+#block-block-1 { width: 90%; max-width: 1500px; margin: 0 auto; position: relative; z-index: 1; padding: 50px 0px; }
+
+.post-thumb-wrap { background: url(../images/local/pattern1.png) top left repeat; position: inherit; overflow: hidden; padding: 15px; display: inline-block; -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%; margin-bottom: 20px; }
+
+.post-thumb-wrap:hover {-webkit-transform: rotate(50deg); -moz-transform: rotate(50deg); -ms-transform: rotate(50deg); -o-transform: rotate(50deg); transform: rotate(50deg); }
+
+.post-thumb-wrap img {display: inline-block; -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%; max-width: 245px; width: 100%; height: auto; margin: 0; }
+
+
+<?php endif ?>
+
+
+.fusion-left {
+    width: 27%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+    text-align: justify;
+}
+
+.fusion-right {
+    width: 27%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+    text-align: justify;
+}
+
 /* navigation */
 
 .sf-menu li { float: none; list-style: none; }
