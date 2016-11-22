@@ -203,6 +203,7 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
     z-index: 10;
 	padding: 10px 20px 10px 10px;
 	cursor:pointer;
+	vertical-align:top;
 }
 .equal-search-icon {
 	float:right;
@@ -211,6 +212,7 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
     z-index: 10;
 	padding: 20px 20px 10px 10px;
 	cursor:pointer;
+	vertical-align:top;
 }
 .equal-search-block {
 	display:none;
@@ -223,6 +225,7 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 	position: relative;
     z-index: 10;
 	padding: 10px 20px 10px 20px;
+	vertical-align:top;
 }
 #equal-login-link a {
 	color: #ddd; 
