@@ -18,7 +18,7 @@
   <![endif]-->
   <?php print $scripts; ?>
   <!-- next 6 lines are for the integration of tinymce-->
- <script type="text/javascript" src="http:/equal-ist.uni-muenster.de/drupal/sites/all/libraries/tinymce/js/tinymce.min.js"></script>
+ <script type="text/javascript" src="/drupal/sites/all/libraries/tinymce/js/tinymce.min.js"></script>
 <!-- Just be careful that you give correct path to your tinymce.min.js file, above is the default example -->
 <script type="text/javascript">
     tinymce.init({
