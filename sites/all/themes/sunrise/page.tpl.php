@@ -116,7 +116,6 @@ section {
                             <li><a href="https://twitter.com/equalistproject" title="Twitter" class="twitter"></a></li>
                             <li><a href="https://www.facebook.com/EQUALISTproject/?fref=ts" title="Facebook" class="facebook"></a></li>
                             <li><a href="https://www.googleplus" title="Gplus" class="gplus"></a></li>
-                            <li><a href="https://de.linkedin.com/" title="Linkedin" class="linkedin"></a></li>
                             </ul>
                         </div>
                     </div>
