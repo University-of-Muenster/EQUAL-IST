@@ -80,7 +80,8 @@ function sunrise_preprocess_html(&$variables) {
 	*  Add Javascript for User menu and Search expand
 	*/
 	drupal_add_js('jQuery(document).ready(function($) { 
-		
+		$(".equal-user-menu-block").hide();
+		$(".equal-search-block").hide();
 		$(".equal-search-icon").click(function() {
 			if ($(".equal-search-block").is(":visible")){
 				$(".equal-search-block").hide("fade");			
