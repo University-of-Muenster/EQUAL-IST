@@ -1404,6 +1404,7 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
 
 .feedback-link {
     color: #333;
+    border: 1px solid black;
     border-color: rgba(158,9,93,1.0); 
 }
 
