@@ -1252,3 +1252,75 @@ ul.pager li a, ul.pager li.pager-current{
 .views-row-2 {
     margin-bottom: 220px;
 }
+
+
+.pane-content a{
+    color: rgba(158,9,93,1.0);
+}
+
+
+
+
+ /* Detailled Challenge page */
+
+ul.pager li.active a, ul.pager li.pager-current{
+    background-color: rgba(158,9,93,1.0);
+    color: white;}
+/* Add Attachment File to Drupal/Modules/File/icons/text-plain.png*/
+
+.field-item-even img{
+    width: 100px;
+    height: 100px;
+}
+
+.field-item img {
+    height:50px;
+    width: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+/* Add Idea Button*/
+.challenge-add-idea-button a{
+    color: #333;
+    background-color: white;
+    border-color: rgba(158,9,93,1.0); 
+}
+
+.challenge-add-idea-button a:hover{
+    background-color: rgba(158,9,93,1.0);
+    border-color:rgba(158,9,93,1.0); 
+    color:white;
+}
+
+/* Navigation Bar Top*/
+
+ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93,1.0);  } ul.primary li.active a { border-bottom: 1px solid #fff; }
+
+.tabs li a {
+    color: #333;
+    background-color: rgba(158,9,93,1.0); 
+}
+
+/* Post Comment Button*/
+
+/*Challenge Desciption*/
+
+.pane-content h3{
+    padding-bottom: 20px;
+    
+}
+
+.panels-bootstrap-row-inner_page-main-row
+{
+    padding-right: 30px;
+}
+
+.pane-content a.username{
+    padding-bottom: 10px;
+}
+
+.field-items p{
+    padding-top: 20px;
+}
