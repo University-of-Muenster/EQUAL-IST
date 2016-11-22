@@ -194,6 +194,43 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 
 #main-navigation-inside ul.menu li a:hover, #main-navigation-inside ul.menu li.current-menu-item a, #main-navigation-inside ul.menu li.current_page_item a { color: #fff; text-decoration: underline}
 
+/* equal_ist_user_menu */
+
+.equal-user-menu-icon {
+	float:right;
+	position: relative;
+    z-index: 10;
+	padding: 5px 20px 5px 5px;
+	cursor:pointer;
+}
+.equal-search-icon {
+	float:right;
+	position: relative;
+    z-index: 10;
+	padding: 20px 20px 10px 10px;
+	cursor:pointer;
+}
+#equal-login-link {
+	float:right;
+	position: relative;
+    z-index: 10;
+	padding: 10px 20px 10px 20px;
+}
+#equal-login-link a {
+	color: #ddd; 
+	text-decoration: none; 
+	transition:none; 
+	
+	text-transform: uppercase; font-weight: 700; 
+	font-family: Georgia, serif; font-style: italic; font-weight: normal;
+}
+#equal-login-link a:hover {
+	color: #fff; text-decoration: underline
+}
+#search-block-form{
+
+}
+
 /* sub-menu */
 
 #main-navigation-inside ul.sf-menu ul { position: absolute; background: url(../images/local/bg_nav.png) top left repeat; margin-top: 4px; margin-left: -15px; width: 250px; text-align: left; z-index:999; padding:0; }

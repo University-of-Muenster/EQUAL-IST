@@ -76,6 +76,33 @@ function sunrise_preprocess_html(&$variables) {
 		});',
 		array('type' => 'inline', 'scope' => 'header'));
 	}
+	/**
+	*  Add Javascript for User menu and Search expand
+	*/
+	drupal_add_js('jQuery(document).ready(function($) { 
+		$(".equal-user-menu-block").hide();
+		$(".equal-search-block").hide();
+		$(".equal-search-icon").click(function() {
+			if ($(".equal-search-block").is(":visible")){
+				$(".equal-search-block").hide("fade");			
+			}else{
+				$(".equal-user-menu-block").hide();
+				$(".equal-search-block").show("fade");
+			}
+			
+		});
+		$(".equal-user-menu-icon").click(function() {
+			if ($(".equal-user-menu-block").is(":visible")){
+				$(".equal-user-menu-block").hide("fade");			
+			}else{
+				$(".equal-search-block").hide();
+				$(".equal-user-menu-block").show("fade");
+			}
+		});
+		
+		
+		});',
+		array('type' => 'inline', 'scope' => 'header'));
 	//EOF:Javascript
 }
 

@@ -29,10 +29,14 @@ function menu_icon_menu_link($variables) {
     }
   }
   $link = '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
+  /*
+   * no need of user picture in front of user menu anymore: module equal_ist_user_menu
+   *
   if ($element['#title'] == t('My account') ) {
          $image = theme('user_picture', array('account' => $user));
        $link =  $image . '<li' . drupal_attributes($element['#attributes']) . '>'. $output . $sub_menu . "</li>\n";
   }
+  */
   return $link;
 }
 
