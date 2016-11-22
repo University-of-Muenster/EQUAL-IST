@@ -1404,7 +1404,12 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
 
 .feedback-link {
     color: #333;
-    background-color: white;
     border-color: rgba(158,9,93,1.0); 
+}
+
+.feedback-link:hover{
+    background-color: rgba(158,9,93,1.0);
+    border-color:rgba(158,9,93,1.0); 
+    color:white;
 }
 
