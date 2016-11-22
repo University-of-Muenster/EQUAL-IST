@@ -1381,3 +1381,12 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
     border-color:rgba(158,9,93,1.0); 
     color:white;
 }
+
+
+
+/**/
+
+.views-field-field-idea-image img{
+    height: 200px;
+    width: 100px;
+}
