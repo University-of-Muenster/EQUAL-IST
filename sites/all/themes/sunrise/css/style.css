@@ -210,6 +210,12 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 	padding: 20px 20px 10px 10px;
 	cursor:pointer;
 }
+.equal-search-block {
+	display:none;
+}
+.equal-user-menu-block {
+	display:none;
+}
 #equal-login-link {
 	float:right;
 	position: relative;
