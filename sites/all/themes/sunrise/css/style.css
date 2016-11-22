@@ -1302,8 +1302,6 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
     background-color: rgba(158,9,93,1.0); 
 }
 
-/* Post Comment Button*/
-
 /*Challenge Desciption*/
 
 .pane-content h3{
@@ -1324,6 +1322,21 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
     padding-top: 20px;
 }
 
-.count {
-    padding-right: 2px;
+.col-xs-4 h2{
+    color: white;
+        
+}
+
+/*Post Comment Button*/
+
+.form-wrapper input {
+    color: #333;
+    background-color: white;
+    border-color: rgba(158,9,93,1.0); 
+}
+
+.form-wrapper input:hover {
+    background-color: rgba(158,9,93,1.0);
+    border-color:rgba(158,9,93,1.0); 
+    color:white;
 }
