@@ -1330,6 +1330,10 @@ ul.pager li.active a, ul.pager li.pager-current{
     color:white;
 }
 
+.field-name-field-challenge-image img{
+    width: 300px;
+    height: 300px;
+}
 /* Navigation Bar Top*/
 
 ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93,1.0);  } ul.primary li.active a { border-bottom: 1px solid #fff; }
