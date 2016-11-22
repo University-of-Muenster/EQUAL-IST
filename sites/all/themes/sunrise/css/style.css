@@ -1324,3 +1324,7 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
 .field-items p{
     padding-top: 20px;
 }
+
+.count {
+    padding-right: 2px;
+}
