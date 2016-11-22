@@ -324,6 +324,8 @@ section {
 <a href="#header-wrapper" class="smoothScroll">
 <img src="http://image.flaticon.com/icons/svg/53/53598.svg">
 </a>
+        <br>
+        <br>
 
     
 
