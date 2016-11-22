@@ -346,7 +346,6 @@ section {
 <ul>
     <li><a href="www.equal-ist-eu"> Website: ww.equal-ist.eu</a></li>
     <li><a href="info@equal-ist.eu">info@equal-ist.eu</a></li>
-    <li><a href="info@equal-ist.eu"><span class="feedback-link" style="cursor: pointer;"><span id="feedback-form-toggle">[ + ]</span> Feedback</span></a></li>
 </ul>  
 </div>    
 
