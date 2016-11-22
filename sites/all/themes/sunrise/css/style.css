@@ -1402,7 +1402,7 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
     width: 200px;
 }
 
-.feedback-link a{
+.feedback-link {
     color: #333;
     background-color: white;
     border-color: rgba(158,9,93,1.0); 
