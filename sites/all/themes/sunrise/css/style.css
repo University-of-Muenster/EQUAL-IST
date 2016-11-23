@@ -1574,7 +1574,11 @@ section button:hover {
 }
 
 .taxonomy_role_filter_tab_active {
-
+   display:inline-block;
+}
+.taxonomy_role_filter_tab_deactive {
+	display:inline-block;
+	background-color:#fff;
 }
 .taxonomy_role_filter_none {
 	display:none;
