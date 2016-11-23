@@ -115,7 +115,7 @@ section {
                         <div class="social">                             <ul class="social">
                             <li><a href="https://twitter.com/equalistproject" title="Twitter" class="twitter" target="_blank"></a></li>
                             <li><a href="https://www.facebook.com/EQUALISTproject/?fref=ts" title="Facebook" class="facebook" target="_blank"></a></li>
-                            <li><a href="https://www.googleplus" title="Gplus" class="gplus" target="_blank"></a></li>
+                            <li><a href="https://plus.google.com/" title="Gplus" class="gplus" target="_blank"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -344,7 +344,7 @@ section {
 
     <div class="content">
 <ul>
-    <li><a href="www.equal-ist-eu"target="_blank"> Website: ww.equal-ist.eu</a></li>
+    <li><a href="https://equal-ist.eu/"target="_blank">www.equal-ist.eu</a></li>
     <li><a href="info@equal-ist.eu"target="_blank">info@equal-ist.eu</a></li>
 </ul>  
 </div>    
