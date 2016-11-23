@@ -1416,4 +1416,5 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
 
 .EQUALIST_description a{
     color: white;
+    text-decoration: underline;
 }
