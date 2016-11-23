@@ -1414,3 +1414,6 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
     color:white;
 }
 
+.EQUALIST_description a{
+    color: white;
+}
