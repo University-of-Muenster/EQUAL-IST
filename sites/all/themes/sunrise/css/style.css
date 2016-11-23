@@ -1531,7 +1531,8 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
            taxonomy_role_filter module
 -----------------------------------------------*/
 .taxonomy_role_filter_active, a.taxonomy_role_filter_deactive:hover {
-	
+	position: relative;
+    z-index: 10;
 	display:block;
 	background-image: url("../images/switch/on.png");
     background-repeat: no-repeat;
@@ -1545,7 +1546,8 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
 	
 }
 .taxonomy_role_filter_deactive, a.taxonomy_role_filter_active:hover {
-	
+	position: relative;
+    z-index: 10;
 	display:block;
 	background-image: url("../images/switch/off.png");
     background-repeat: no-repeat;
@@ -1559,7 +1561,8 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
 }
 
 .taxonomy_role_filter_tab_active {
-	
+	position: relative;
+    z-index: 10;
 }
 .taxonomy_role_filter_none {
 	display:none;
