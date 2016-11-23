@@ -1536,8 +1536,8 @@ section button {
   transition: all 0.3s ease-in-out;
 }
 
-section a:hover {
-  background-color: #ffffff;
+section button:hover {
+  background-color: #333;
   color: rgba(158,9,93,1.0);
   border-color: rgba(158,9,93,1.0);
 }
