@@ -1445,3 +1445,51 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
     color: white;
     text-decoration: underline;
 }
+
+
+/*Block Start Page*/
+
+.info-header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.large-container {
+    width: 85%;
+    margin: auto;
+}
+
+.how_it_works_column {
+    width: 25%;
+    float: left;
+    position: relative;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding: 100px;
+   
+   
+}
+
+.how_it_works_column img{
+    border-radius: 50%;
+    border:4px solid #333;    
+}
+
+.how_it_works_column img:hover{
+    border-radius: 50%;
+    border:3px solid #021a40;
+    transform: rotate(360deg);
+}
+
+
+
+.how_it_works h3{
+    font-size: 24px;
+    text-align: center;
+}
+
+.how_it_works p {
+    font-size: 12px;
+    text-align: center;
+}
