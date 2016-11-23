@@ -1588,8 +1588,6 @@ section button:hover {
     float:left; 
     margin-right: 20px;
     margin-bottom: 20px;
-    width: 256px;
-    height: 256px;
 }
 
 .views-field-title a {
@@ -1608,3 +1606,26 @@ section button:hover {
     clear:both;
     margin-bottom: 100px;
 }
+
+
+.pane-title {
+    color:white;
+    font-size: 0px;
+}
+
+
+div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1) {
+        color: #333;
+    padding:10px;
+    border: 1px solid rgba(158,9,93,1.0);
+    background-color: white;
+   
+}
+
+div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
+    padding:10px;
+    background-color: rgba(158,9,93,1.0);
+    border-color:rgba(158,9,93,1.0); 
+    color:white;
+}
+
