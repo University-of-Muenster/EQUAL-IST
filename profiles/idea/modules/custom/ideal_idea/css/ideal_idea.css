@@ -1,4 +1,6 @@
-fieldset.filter-wrapper, form.node-idea-form .form-item-title label, form.node-idea-form .field-name-body label, form.node-idea-form .field-name-field-category label{
+/* Nachfolgend (display:none) fuer folgende css geloescht: form.node-idea-form .field-name-body label, form.node-idea-form .form-item-title label
+*/
+fieldset.filter-wrapper, form.node-idea-form .field-name-field-category label{
 	display: none;
 }
 .go-back span{
