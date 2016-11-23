@@ -344,8 +344,8 @@ section {
 
     <div class="content">
 <ul>
-    <li><a href="www.equal-ist-eu"> Website: ww.equal-ist.eu</a></li>
-    <li><a href="info@equal-ist.eu">info@equal-ist.eu</a></li>
+    <li><a href="www.equal-ist-eu"target="_blank"> Website: ww.equal-ist.eu</a></li>
+    <li><a href="info@equal-ist.eu"target="_blank">info@equal-ist.eu</a></li>
 </ul>  
 </div>    
 
@@ -362,9 +362,9 @@ section {
 
 <div class="content">
 <ul>
-    <li><a href="https://www.facebook.com/EQUALISTproject/?fref=ts" title="Facebook" class="facebook"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" width="50" height="50"/>EQUAL-IST <br> Like us on Facebook </a></li>
-    <li><a href="https://twitter.com/equalistproject" title="Twitter" class="twitter"><img src="http://www.freeiconspng.com/uploads/twitter-icon--basic-round-social-iconset--s-icons-0.png" width="50" height="50"/>@EQUALISTproject <br> Follow us on Twitter</a></li>
-    <li><a href="https://de.linkedin.com/" title="Linkedin" class="linkedin"><img src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png" width="50" height="50"/>EQUAL-IST <br> Join the LinkedIn Group</a></li>
+    <li><a href="https://www.facebook.com/EQUALISTproject/?fref=ts" target="_blank" title="Facebook" class="facebook"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" width="50" height="50"/>EQUAL-IST <br> Like us on Facebook </a></li>
+    <li><a href="https://twitter.com/equalistproject" target="_blank" title="Twitter" class="twitter"><img src="http://www.freeiconspng.com/uploads/twitter-icon--basic-round-social-iconset--s-icons-0.png" width="50" height="50"/>@EQUALISTproject <br> Follow us on Twitter</a></li>
+    <li><a href="https://de.linkedin.com/" target="_blank"title="Linkedin" class="linkedin"><img src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png" width="50" height="50"/>EQUAL-IST <br> Join the LinkedIn Group</a></li>
 </ul>  
 </div>
 
@@ -382,10 +382,10 @@ section {
     
 <div class="content">
 <ul>
-    <li><a href="http://www.unimore.it/">University of Modena and Reggio Emilia (UNIMORE)</a></li>
-    <li><a href="https://www.uminho.pt/EN">The University of Minho (UMINHO)</a></li>
-    <li><a href="http://www.hneu.edu.ua/">Simon Kuznets Kharkiv National University of Economics (KhNUE)</a></li>    
-    <li><a href="https://www.uni-muenster.de/en/">The University of Münster (WWU)</a></li>       
+    <li><a href="http://www.unimore.it/"target="_blank">University of Modena and Reggio Emilia (UNIMORE)</a></li>
+    <li><a href="https://www.uminho.pt/EN"target="_blank">The University of Minho (UMINHO)</a></li>
+    <li><a href="http://www.hneu.edu.ua/"target="_blank">Simon Kuznets Kharkiv National University of Economics (KhNUE)</a></li>    
+    <li><a href="https://www.uni-muenster.de/en/"target="_blank">The University of Münster (WWU)</a></li>       
 </ul>
 </div>
     
@@ -403,10 +403,10 @@ section {
     
 <div class="content">
 <ul>
-    <li><a href="http://www.unive.it/pag/13526/">Ca' Foscari University of Venice (UNIVE)</a></li>
-    <li><a href="https://www.uni.li/en">The University of Liechtenstein (UNILI)</a></li>
-    <li><a href="http://www.utu.fi/en/Pages/home.aspx">The University of Turku (UTU)</a></li>
-    <li><a href="http://ktu.edu/en">Kaunas University of Technology (KTU)</a></li>
+    <li><a href="http://www.unive.it/pag/13526/" target="_blank">Ca' Foscari University of Venice (UNIVE)</a></li>
+    <li><a href="https://www.uni.li/en"target="_blank">The University of Liechtenstein (UNILI)</a></li>
+    <li><a href="http://www.utu.fi/en/Pages/home.aspx"target="_blank">The University of Turku (UTU)</a></li>
+    <li><a href="http://ktu.edu/en"target="_blank">Kaunas University of Technology (KTU)</a></li>
 </ul>
 </div>
     
