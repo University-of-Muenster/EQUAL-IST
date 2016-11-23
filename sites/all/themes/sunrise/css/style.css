@@ -1535,12 +1535,28 @@ section button {
   transition: all 0.3s ease-in-out;
 }
 
-section button:hover {
-  background-color: white;
-  color: rgba(158,9,93,1.0);
+
+
+section button.inverse {
+  margin: 0 auto;
+  font-size: 2.0rem;
+  padding: 1.25rem 2.5rem;
+  display: block;
+  background-color: rgba(158,9,93,1.0);
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+section button.inverse:hover {
+  background-color: rgba(158,9,93,1.0);
+  color: white;
   border-color: rgba(158,9,93,1.0);
 }
-
 
 /*-----------------------------------------------
            taxonomy_role_filter module
