@@ -1526,3 +1526,41 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
 	top:1px;
     color: white;
 }
+
+/*-----------------------------------------------
+           taxonomy_role_filter module
+-----------------------------------------------*/
+.taxonomy_role_filter_active, a.taxonomy_role_filter_deactive:hover {
+	
+	display:block;
+	background-image: url("../images/switch/on.png");
+    background-repeat: no-repeat;
+    background-position: center right; 
+	
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 100px;
+	height: 40px;
+	border: 1px dashed #c3c3c3;
+	
+}
+.taxonomy_role_filter_deactive, a.taxonomy_role_filter_active:hover {
+	
+	display:block;
+	background-image: url("../images/switch/off.png");
+    background-repeat: no-repeat;
+	background-position: center right; 
+	
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 100px;
+	height: 40px;
+	border: 1px dashed #c3c3c3;
+}
+
+.taxonomy_role_filter_tab_active {
+	
+}
+.taxonomy_role_filter_none {
+	display:none;
+}
