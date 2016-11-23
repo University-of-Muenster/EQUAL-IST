@@ -1547,8 +1547,7 @@ section button:hover {
            taxonomy_role_filter module
 -----------------------------------------------*/
 .taxonomy_role_filter_active, a.taxonomy_role_filter_deactive:hover {
-	position: relative;
-    z-index: 100;
+
 	display:block;
 	background-image: url("../images/switch/on.png");
     background-repeat: no-repeat;
@@ -1562,8 +1561,7 @@ section button:hover {
 	
 }
 .taxonomy_role_filter_deactive, a.taxonomy_role_filter_active:hover {
-	position: relative;
-    z-index: 100;
+
 	display:block;
 	background-image: url("../images/switch/off.png");
     background-repeat: no-repeat;
@@ -1577,13 +1575,8 @@ section button:hover {
 }
 
 .taxonomy_role_filter_tab_active {
-	position: relative;
-    z-index: 100;
+
 }
 .taxonomy_role_filter_none {
 	display:none;
-}
-.pane-taxonomy-role-filter-taxonomy-role-filter-switch-view {
-	position: relative;
-    z-index: 100;
 }
