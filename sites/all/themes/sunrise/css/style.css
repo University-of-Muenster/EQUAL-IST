@@ -1580,3 +1580,31 @@ section button:hover {
 .taxonomy_role_filter_none {
 	display:none;
 }
+
+
+/*idea*/
+
+.views-field-field-idea-image img {
+    float:left; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 256px;
+    height: 256px;
+}
+
+.views-field-title a {
+    color: rgba(158,9,93,1.0);
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.views-field views-field-body p {
+    font-size: 20px;
+    margin: 50px;
+    text-align: justify;
+}
+
+.views-row {
+    clear:both;
+    margin-bottom: 100px;
+}
