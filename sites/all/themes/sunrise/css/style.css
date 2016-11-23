@@ -1390,6 +1390,33 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
     color:white;
 }
 
+/*idea*/
+
+.views-field-field-idea-image img {
+    border color: rgba(158,9,93,1.0);
+    float:left; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.views-field-title a {
+    color: rgba(158,9,93,1.0);
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+
+.views-field views-field-body p {
+    font-size: 20px;
+    margin: 50px;
+    text-align: justify;
+}
+
+.views-row {
+    clear:both;
+    margin-bottom: 100px;
+}
 
 
 /**/
