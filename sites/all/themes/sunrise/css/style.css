@@ -1493,3 +1493,36 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
     font-size: 12px;
     text-align: center;
 }
+
+/*Participate now Button*/
+
+
+.myButton {
+	background-color:rgba(158,9,93,1.0);
+    color:#ffffff;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	/*border:1px solid rgba(158,9,93,1.0);;*/
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:72px;
+	padding:16px 31px;
+	text-decoration:none;
+    
+   
+}
+.myButton:hover {
+	background-color:rgba(240,78,35,1.0);
+    color: #ffffff;
+    text-decoration: none;
+    
+   transform: scale(1.1);
+    
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+    color: white;
+}
