@@ -1537,7 +1537,7 @@ section button.inverse {
   padding: 1.25rem 2.5rem;
   display: block;
   background-color: #fff;
-  border: rgba(158,9,93,1.0);
+  border: 1px solid rgba(158,9,93,1.0);
   color: rgba(158,9,93,1.0);
   font-weight: 300;
   -webkit-border-radius: 3px;
@@ -1550,6 +1550,11 @@ section button.inverse:hover {
   background-color: rgba(158,9,93,1.0);
   color: #fff;
   border-color: transparent;
+}
+section button.inverse:disabled:hover {
+  background-color: white;
+  color: rgba(158,9,93,1.0);
+  border-color: rgba(158,9,93,1.0);
 }
 
 /*-----------------------------------------------
