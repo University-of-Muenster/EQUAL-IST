@@ -1312,8 +1312,8 @@ ul.pager li.active a, ul.pager li.pager-current{
 }
 
 .field-item img {
-    height:50px;
-    width: 50px;
+    /*height:50px;
+    width: 50px;*/
     padding-bottom: 10px;
     padding-top: 10px;
 }
