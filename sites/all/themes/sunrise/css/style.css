@@ -1825,3 +1825,16 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
 	float: left;
 	border: 1px solid rgba(158,9,93,1.0);
 }
+
+/* Challenge Seite Detail */
+.field-name-field-challenge-image {float:left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	width:256px;
+	height:256px;}
+	
+.pane-node-comment-form {
+	clear:both;
+}
+
+
