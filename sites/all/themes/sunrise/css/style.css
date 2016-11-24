@@ -1603,9 +1603,7 @@ section button:hover {
 }
 .taxonomy_role_filter_tab_deactive {
 	display:inline-block;
-	background-color:#fff;
-	color: rgba(158,9,93,1.0);
-	border-color: rgba(158,9,93,1.0);
+	
 }
 .taxonomy_role_filter_none {
 	display:none;
