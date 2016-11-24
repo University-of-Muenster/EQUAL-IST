@@ -1751,14 +1751,20 @@ section button:hover {
 
 
 div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1) {
-    color: #333;
-    padding:10px;
-    border: 1px solid rgba(158,9,93,1.0);
-    background-color: white;
     width: 50%;
     text-align: center;   
     display: block; 
     margin-left: 25%;
+    padding: 1.25rem 2.5rem;
+    background-color: #fff;
+    border: 1px solid rgba(158,9,93,1.0);
+    color: rgba(158,9,93,1.0);
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
