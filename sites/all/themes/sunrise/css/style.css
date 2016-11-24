@@ -1531,9 +1531,9 @@ section button:hover {
   border-color: rgba(158,9,93,1.0);
 }
 
-section button.inverse {
+.button-inverse {
   margin: 0 auto;
-  font-size: 2.0rem;
+  font-size: 1.75rem;
   padding: 1.25rem 2.5rem;
   display: block;
   background-color: #fff;
@@ -1546,15 +1546,25 @@ section button.inverse {
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-section button.inverse:hover {
+.button-inverse:hover {
   background-color: rgba(158,9,93,1.0);
   color: #fff;
   border-color: transparent;
 }
-section button.inverse:disabled:hover {
-  background-color: white;
-  color: rgba(158,9,93,1.0);
-  border-color: rgba(158,9,93,1.0);
+.button-inverse-disabled {
+  margin: 0 auto;
+  font-size: 1.75rem;
+  padding: 1.25rem 2.5rem;
+  display: block;
+  background-color: rgba(158,9,93,1.0);
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /*-----------------------------------------------
