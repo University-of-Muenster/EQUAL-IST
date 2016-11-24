@@ -1568,6 +1568,113 @@ section button:hover {
   transition: all 0.3s ease-in-out;
 }
 
+#quicktabs-tab-ideas_by_category-0 {
+    text-align: center;
+    margin-bottom: 20%;
+    font-size: 30px;
+    padding: 1.25rem 2.5rem;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid rgba(158,9,93,1.0);
+    color: rgba(158,9,93,1.0);
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+
+#quicktabs-tab-ideas_by_category-0:hover {
+    background-color: rgba(158,9,93,1.0);
+    color: #fff;
+    border-color: transparent;
+    font-size: 30px;
+    display: inline-block;; 
+    text-align: center;
+    margin-bottom: 20%;
+    padding: 1.25rem 2.5rem;
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+}
+
+
+#quicktabs-tab-ideas_by_category-1 {
+    text-align: center;
+    margin-bottom: 20%;
+    font-size: 30px;
+    padding: 1.25rem 2.5rem;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid rgba(158,9,93,1.0);
+    color: rgba(158,9,93,1.0);
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+#quicktabs-tab-ideas_by_category-1:hover {
+    background-color: rgba(158,9,93,1.0);
+    color: #fff;
+    border-color: transparent;
+    font-size: 30px;
+    display: inline-block;; 
+    text-align: center;
+    margin-bottom: 20%;
+    padding: 1.25rem 2.5rem;
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+}
+
+#quicktabs-tab-ideas_by_category-2 {
+    text-align: center;
+    margin-bottom: 20%;
+    font-size: 30px;
+    padding: 1.25rem 2.5rem;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid rgba(158,9,93,1.0);
+    color: rgba(158,9,93,1.0);
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+#quicktabs-tab-ideas_by_category-2:hover {
+    background-color: rgba(158,9,93,1.0);
+    color: #fff;
+    border-color: transparent;
+    font-size: 30px;
+    display: inline-block;; 
+    text-align: center;
+    margin-bottom: 20%;
+    padding: 1.25rem 2.5rem;
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+}
+
 /*-----------------------------------------------
            taxonomy_role_filter module
 -----------------------------------------------*/
