@@ -1631,7 +1631,7 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1) {
     border: 1px solid rgba(158,9,93,1.0);
     background-color: white;
     width: 50%;
-    align-content: center;   
+    display: block; 
 }
 
 div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
@@ -1640,7 +1640,8 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
     border-color:rgba(158,9,93,1.0); 
     color:white;
     width: 50%;
-    align-content: center;    
+    align-content: center;   
+    display: block;  
 }
 
 
