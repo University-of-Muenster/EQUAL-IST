@@ -1248,6 +1248,18 @@ a{
     
 }
 
+.views-field-field-challenge-image img {
+    float:left; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.views-row {
+    clear:both;
+    margin-bottom: 100px;
+}
+
 
 .field-content p{
     padding: 5px;
