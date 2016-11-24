@@ -1645,6 +1645,13 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
     text-align: center;   
     display: block;  
     margin-left: 25%;
+    text-decoration: none;
+}
+
+.quicktabs-tabs {
+    color: rgba(158,9,93,1.0);
+    font-size: 25px;
+    display: block; 
 }
 
 
