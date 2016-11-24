@@ -1416,18 +1416,32 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
 /**/
 
 .feedback-link {
-    color: #333;
-    padding:10px;
+    text-align: center;
+    padding: 1.25rem 2.5rem;
+    background-color: #fff;
     border: 1px solid rgba(158,9,93,1.0);
-    background-color: white;
-   
+    color: rgba(158,9,93,1.0);
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .feedback-link:hover{
-    padding:10px;
     background-color: rgba(158,9,93,1.0);
-    border-color:rgba(158,9,93,1.0); 
-    color:white;
+    color: #fff;
+    border-color: transparent;
+    text-align: center;
+    padding: 1.25rem 2.5rem;
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
 }
 
 .EQUALIST_description a{
@@ -1753,7 +1767,6 @@ section button:hover {
 div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1) {
     text-align: center;
     margin-bottom: 50px;
-    font-size: 30px;
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: #fff;
@@ -1765,13 +1778,14 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1) {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+    width: 50%;
+    margin-left: 25%;
 }
 
 div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
     background-color: rgba(158,9,93,1.0);
     color: #fff;
     border-color: transparent;
-    font-size: 30px;
     display: inline-block;; 
     text-align: center;
     margin-bottom: 50px;
@@ -1783,6 +1797,8 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     text-decoration: none;
+    width: 50%;
+    margin-left: 25%;
 }
 
 
