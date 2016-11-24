@@ -405,7 +405,7 @@ textarea:focus, input:focus { outline: 0; }
 
 #footer p { padding-left: 40px; }
 
-#footer ul li { list-style-type: none; border-bottom: none; margin: 15px 0; clear:both }
+#footer ul li { list-style-type: none; border-bottom: none; margin: 0px 15px 15px 0px; clear:both }
 
 #footer .content a { font-weight: 600; color: #fff; text-decoration: none; }
 
