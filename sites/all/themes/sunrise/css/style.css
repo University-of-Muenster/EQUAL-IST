@@ -1831,4 +1831,8 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
 	clear:both;
 }
 
+div.views-field:nth-child(1) > div:nth-child(1) {
+	clear:both;
+}
+
 
