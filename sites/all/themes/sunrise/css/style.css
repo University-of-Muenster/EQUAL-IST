@@ -1550,6 +1550,7 @@ section button:hover {
   background-color: rgba(158,9,93,1.0);
   color: #fff;
   border-color: transparent;
+  text-decoration:none;
 }
 .button-inverse-disabled {
   margin: 0 auto;
