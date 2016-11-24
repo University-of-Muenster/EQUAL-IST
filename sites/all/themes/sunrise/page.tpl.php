@@ -115,7 +115,7 @@ section {
                         <div class="social">                             <ul class="social">
                             <li><a href="https://twitter.com/equalistproject" title="Twitter" class="twitter" target="_blank"></a></li>
                             <li><a href="https://www.facebook.com/EQUALISTproject/?fref=ts" title="Facebook" class="facebook" target="_blank"></a></li>
-                            <li><a href="https://plus.google.com/" title="Gplus" class="gplus" target="_blank"></a></li>
+                            <li><a href="https://de.linkedin.com/" title="Linkedin" class="Linkedin" target="_blank"></a></li>
                             </ul>
                         </div>
                     </div>
