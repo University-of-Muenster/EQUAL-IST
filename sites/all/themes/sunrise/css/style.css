@@ -1751,11 +1751,11 @@ section button:hover {
 
 
 div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1) {
-    width: 50%;
-    text-align: center;   
-    display: block; 
-    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
     padding: 1.25rem 2.5rem;
+    display: inline-block;
     background-color: #fff;
     border: 1px solid rgba(158,9,93,1.0);
     color: rgba(158,9,93,1.0);
@@ -1768,15 +1768,13 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1) {
 }
 
 div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
-    border-color:rgba(158,9,93,1.0); 
-    width: 50%;
-    text-align: center;   
-    display: block;  
-    margin-left: 25%;
-    text-decoration: none;
     background-color: rgba(158,9,93,1.0);
     color: #fff;
     border-color: transparent;
+    font-size: 30px;
+    display: inline-block;; 
+    text-align: center;
+    margin-bottom: 50px;
     padding: 1.25rem 2.5rem;
     font-weight: 300;
     -webkit-border-radius: 3px;
@@ -1787,14 +1785,6 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
     text-decoration: none;
 }
 
-.quicktabs-tabs {
-    color: rgba(158,9,93,1.0);
-    font-size: 30px;
-    display: block; 
-    text-align: center;
-    margin-left: 30%;
-    margin-bottom: 20%;
-}
 
 /* Vote up / down */
 .vud-widget-alternate {
