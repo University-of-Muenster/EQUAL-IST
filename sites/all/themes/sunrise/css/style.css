@@ -1650,8 +1650,10 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
 
 .quicktabs-tabs {
     color: rgba(158,9,93,1.0);
-    font-size: 25px;
+    font-size: 30px;
     display: block; 
+    text-align: center;
+    margin-left: 30%;
 }
 
 
