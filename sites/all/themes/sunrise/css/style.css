@@ -1420,11 +1420,6 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
 
 /**/
 
-.views-field-field-idea-image img{
-    height: 200px;
-    width: 200px;
-}
-
 .feedback-link {
     color: #333;
     padding:10px;
