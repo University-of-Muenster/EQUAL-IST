@@ -14,7 +14,9 @@ body { color: #666666; font-family: 'Open Sans', sans-serif; font-size: 14px; li
 
 p { margin: 0 0 0; padding: 0; }
 
-a, a:visited { color: #E54D1B; text-decoration: none; }
+//Entfernung der Blöcke von About unten
+
+a, a:visited { color: #E54D1B; text-decoration: none; display:none; }
 
 a:hover { color: #FF4D4D; text-decoration: underline; }
 
