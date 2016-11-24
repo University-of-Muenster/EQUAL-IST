@@ -1592,6 +1592,7 @@ section button:hover {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+
 }
 
 #quicktabs-tab-ideas_by_category-0 {
@@ -1609,6 +1610,7 @@ section button:hover {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+    font-size: 1.75rem;
 }
 
 
@@ -1628,6 +1630,7 @@ section button:hover {
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     text-decoration: none;
+    font-size: 1.75rem;
 }
 
 
@@ -1645,6 +1648,7 @@ section button:hover {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+    font-size: 1.75rem;
 }
 
 #quicktabs-tab-ideas_by_category-1:hover {
@@ -1662,6 +1666,7 @@ section button:hover {
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     text-decoration: none;
+    font-size: 1.75rem;
 }
 
 #quicktabs-tab-ideas_by_category-2 {
@@ -1678,6 +1683,7 @@ section button:hover {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+    font-size: 1.75rem;
 }
 
 #quicktabs-tab-ideas_by_category-2:hover {
@@ -1695,6 +1701,7 @@ section button:hover {
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     text-decoration: none;
+    font-size: 1.75rem;
 }
 
 /*-----------------------------------------------
@@ -1788,6 +1795,7 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1) {
     transition: all 0.3s ease-out;
     width: 50%;
     margin-left: 25%;
+    font-size: 1.75rem;
 }
 
 div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
@@ -1807,6 +1815,7 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
     text-decoration: none;
     width: 50%;
     margin-left: 25%;
+    font-size: 1.75rem;
 }
 
 
