@@ -1633,7 +1633,7 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1) {
     width: 50%;
     text-align: center;   
     display: block; 
-    margin: 25%;
+    margin-left: 25%;
 }
 
 div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
@@ -1644,7 +1644,7 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
     width: 50%;
     text-align: center;   
     display: block;  
-    margin: 25%;
+    margin-left: 25%;
 }
 
 
