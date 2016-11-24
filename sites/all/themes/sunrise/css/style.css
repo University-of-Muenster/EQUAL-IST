@@ -1609,8 +1609,6 @@ section button.inverse:hover {
     float:left; 
     margin-right: 20px;
     margin-bottom: 20px;
-    width:782;
-    height:523;
 }
 
 .views-field-title a {
@@ -1642,8 +1640,8 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1) {
     padding:10px;
     border: 1px solid rgba(158,9,93,1.0);
     background-color: white;
-    margin: 100px
-   
+    width: 50%;
+    align-content: center;   
 }
 
 div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
@@ -1651,7 +1649,8 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
     background-color: rgba(158,9,93,1.0);
     border-color:rgba(158,9,93,1.0); 
     color:white;
-    margin: 100px
+    width: 50%;
+    align-content: center;    
 }
 
 
