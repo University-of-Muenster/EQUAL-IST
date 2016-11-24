@@ -1600,7 +1600,6 @@ section button:hover {
 #quicktabs-tab-ideas_by_category-0 {
     text-align: center;
     margin-bottom: 50px;
-    margin-left: 20%;
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: #fff;
@@ -1761,6 +1760,7 @@ section button:hover {
     color: rgba(158,9,93,1.0);
     margin-bottom: 40px;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .views-field views-field-body p {
