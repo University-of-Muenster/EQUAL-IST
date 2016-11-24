@@ -1598,7 +1598,6 @@ section button:hover {
     text-align: center;
     margin-bottom: 50px;
     margin-left: 50px;
-    font-size: 30px;
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: #fff;
@@ -1617,7 +1616,6 @@ section button:hover {
     background-color: rgba(158,9,93,1.0);
     color: #fff;
     border-color: transparent;
-    font-size: 30px;
     display: inline-block;; 
     text-align: center;
     margin-bottom: 50px;
@@ -1636,7 +1634,6 @@ section button:hover {
 #quicktabs-tab-ideas_by_category-1 {
     text-align: center;
     margin-bottom: 50px;
-    font-size: 30px;
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: #fff;
@@ -1654,7 +1651,6 @@ section button:hover {
     background-color: rgba(158,9,93,1.0);
     color: #fff;
     border-color: transparent;
-    font-size: 30px;
     display: inline-block;; 
     text-align: center;
     margin-bottom: 50px;
@@ -1671,7 +1667,6 @@ section button:hover {
 #quicktabs-tab-ideas_by_category-2 {
     text-align: center;
     margin-bottom: 50px;
-    font-size: 30px;
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: #fff;
@@ -1689,7 +1684,6 @@ section button:hover {
     background-color: rgba(158,9,93,1.0);
     color: #fff;
     border-color: transparent;
-    font-size: 30px;
     display: inline-block;; 
     text-align: center;
     margin-bottom: 50px;
