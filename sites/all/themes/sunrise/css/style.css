@@ -1585,6 +1585,7 @@ section button:hover {
 #quicktabs-tab-ideas_by_category-0 {
     text-align: center;
     margin-bottom: 50px;
+    margin-left: 20%;
     font-size: 30px;
     padding: 1.25rem 2.5rem;
     display: inline-block;
@@ -1608,6 +1609,7 @@ section button:hover {
     display: inline-block;; 
     text-align: center;
     margin-bottom: 50px;
+     margin-left: 20%;
     padding: 1.25rem 2.5rem;
     font-weight: 300;
     -webkit-border-radius: 3px;
