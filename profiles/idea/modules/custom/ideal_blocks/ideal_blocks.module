@@ -160,16 +160,22 @@ function _ideal_blocks_idea_stats() {
     $phase = t('Phase');
 
     // Generate output.
+	
+	/* No Votes / Dislikes stats removed - mika
+	*
     $output = '<div id="ideal-challenge-stats">';
     $output .= '<table class="top idea-page"><tr>';
     $output .= '  <td class="votes"><div class="name">' . t('Votes') . '</div><div class="count">' . $vote_count . '</div></td>';
     $output .= '  <td class="dislikes"><div class="name">' . t('Dislikes') . '</div><div class="count">' . $dislike_count . '</div></td></tr></table>';
     $output .= '</div>';
-
+	
+	* Erste Zeile neu:
+	*/
+	$output = '<div id="ideal-challenge-stats">';
     $output .= '<table class="counts idea-page" ><tr>';
-    $output .= '  <td class="col views"><div class="name">' . t('Views') . '</div><div class="count">' . $view_count . '</div></td>';
-    $output .= '  <td class="col comments"><div class="name">' . t('Comments') . '</div><div class="count">' . $comment_count . '</div></td>';
-    $output .= '  <td class="col phase"><div class="name">' . t('Phase') . '</div><div class="count">' . $phase . '</div></td>';
+    $output .= '  <td class="col views ideal-challenge-stats-icon-td"><div class="ideal-challenge-stats-views-icon">' . t(' ') . '</div><div class="ideal-challenge-stats-count">' . $view_count . '</div></td>';
+    $output .= '  <td class="col comments ideal-challenge-stats-icon-td"><div class="ideal-challenge-stats-comments-icon">' . t(' ') . '</div><div class="ideal-challenge-stats-count">' . $comment_count . '</div></td>';	
+	//$output .= '  <td class="col phase"><div class="name">' . t('Phase') . '</div><div class="count">' . $phase . '</div></td>';
     $output .= '</tr></table>';
     $output.= '</div>';
 
