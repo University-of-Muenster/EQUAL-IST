@@ -1948,9 +1948,13 @@ div.views-field:nth-child(1)  {
 	padding: 20px;
 }
 
-/* Adaption of the comment textfield*/
+/* Adaptation of the comment textfield*/
 
 #mceu_14 {
+	visibility: hidden;
+}
+
+#mceu_2-open {
 	visibility: hidden;
 }
 
