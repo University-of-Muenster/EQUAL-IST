@@ -1870,4 +1870,24 @@ div.views-field:nth-child(1)  {
   float: none;
 }
 
+/*Schrift Profil*/
+.group-right {
+	font-size: 17px; 
+	color: rgba(0,0,0,1.0);
+}
+
+/*Schrift Labels Profil*/
+.field-label {
+	text-transform: uppercase; 
+	font-weight: normal; 
+	color: rgba(240, 78, 35, 1.0);
+}
+
+.user-profile .group-right {
+	border: 1px solid rgba(240, 78, 35,1.0);
+	/*-webkit-border-radius: 3px;
+    border-radius: 3px;*/
+	padding:10px;
+}
+
 >>>>>>> origin/master
