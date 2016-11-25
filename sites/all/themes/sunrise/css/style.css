@@ -1950,7 +1950,7 @@ div.views-field:nth-child(1)  {
 
 /* Adaptation of the comment textfield*/
 
-#mceu_14 {
+/*#mceu_14 {
 	visibility: hidden;
 }
 
@@ -1966,6 +1966,9 @@ div.views-field:nth-child(1)  {
 	float: left;
 }
 
+#mceu_24 {
+	float: left;
+}*/
 
 
 >>>>>>> origin/master
