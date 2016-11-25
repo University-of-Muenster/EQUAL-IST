@@ -1749,6 +1749,13 @@ section button:hover {
 	display:none;
 }
 
+/*Idea page: Überschrift */
+.view-display-id-block_1 > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1) > a:nth-child(1) {
+    color: rgba(158,9,93,1.0);
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: bold;   
+}
 
 /*idea-page*/
 
@@ -1765,7 +1772,7 @@ section button:hover {
     font-weight: bold;
 }
 
-.views-field-body p {
+.views-field views-field-body p {
     font-size: 20px;
     margin: 50px;
     text-align: justify;
@@ -1775,6 +1782,7 @@ section button:hover {
     clear:both;
     margin-bottom: 100px;
 }
+
 
 .pane-title {
     color:white;
@@ -1787,23 +1795,22 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1) {
     margin-bottom: 50px;
     padding: 1.25rem 2.5rem;
     display: inline-block;
-    background-color: #fff;
+    background-color: rgba(158,9,93,1.0);
     border: 1px solid rgba(158,9,93,1.0);
-    color: rgba(158,9,93,1.0);
+    color: white;
     font-weight: 300;
     -webkit-border-radius: 3px;
     border-radius: 3px;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    width: 50%;
-    margin-left: 25%;
-    font-size: 1.75rem;
+    margin: 0 auto;
+    font-size: 2.0rem;
 }
 
 div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
-    background-color: rgba(158,9,93,1.0);
-    color: #fff;
+    background-color: white;
+    color: rgba(158,9,93,1.0);
     border-color: transparent;
     display: inline-block;; 
     text-align: center;
@@ -1816,9 +1823,8 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     text-decoration: none;
-    width: 50%;
-    margin-left: 25%;
-    font-size: 1.75rem;
+    margin: 0 auto;
+    font-size: 2.0rem;
 }
 
 
