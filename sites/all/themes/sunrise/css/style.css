@@ -16,6 +16,8 @@ p { margin: 0 0 0; padding: 0; }
 
 //Entfernung der Blöcke von About unten
 
+.links .inline .forward_link .first { color: red; text-decoration: none; }
+
 a, a:visited { color: #E54D1B; text-decoration: none; }
 
 a:hover { color: #FF4D4D; text-decoration: underline; }
