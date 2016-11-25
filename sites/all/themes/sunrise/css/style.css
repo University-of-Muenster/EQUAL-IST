@@ -1880,13 +1880,12 @@ div.views-field:nth-child(1)  {
 .field-label {
 	text-transform: uppercase; 
 	font-weight: normal; 
-	color: rgba(240, 78, 35, 1.0);
 }
 
 .user-profile .group-right {
 	border: 1px solid rgba(240, 78, 35,1.0);
-	/*-webkit-border-radius: 3px;
-    border-radius: 3px;*/
+	-webkit-border-radius: 3px;
+    border-radius: 3px;
 	padding:10px;
 }
 
