@@ -1931,6 +1931,12 @@ div.views-field:nth-child(1)  {
 	border-left-style: solid;
 	border-left-width: 5px;
 	padding: 20px;
-} 
+}
+
+/* Adaption of the comment textfield*/
+
+#mceu_14-body {
+	visibility: hidden;
+}
 
 >>>>>>> origin/master
