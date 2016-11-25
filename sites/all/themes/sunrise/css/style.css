@@ -1900,15 +1900,15 @@ div.views-field:nth-child(1)  {
 	border-left-width: 5px;
 	padding: 20px;
 } 
- /*Style der Tabs*/
+ /*Style der Tabs
  ul.primary {
   border-bottom: 5px solid rgba(158, 0, 93, 1.0);
-  /*border-collapse: collapse;*/
+  /*border-collapse: collapse;
   height: auto;
   line-height: normal;
   list-style: none;
   margin: 5px;
-  padding: 0 0 0 1em; /* LTR */
+  padding: 0 0 0 1em; /* LTR 
   white-space: nowrap;
 }
 ul.primary li {
@@ -1920,15 +1920,15 @@ ul.primary li a {
   border-style: none none solid none;
   border-width: 5px;
   height: auto;
-  margin-right: 0.5em; /* LTR */
+  margin-right: 0.5em; /* LTR 
   padding: 0 1em;
   text-decoration: none;
   color: #FFFFFF;
 }
 ul.primary li.active a {
   background-color: rgba(240,78, 35, 1.0);
-  /*border: 1px solid rgba(158, 0, 93, 1.0);*/
-  /*border-bottom: solid rgba(240,78, 35, 1.0);*/
+  /*border: 1px solid rgba(158, 0, 93, 1.0);
+  /*border-bottom: solid rgba(240,78, 35, 1.0);
   border-style: none none none none;
   background-image: linear-gradient(to bottom, rgba(240,78,35,1.0), rgba(158,0,93,1.0));
 }
@@ -1937,5 +1937,5 @@ ul.primary li a:hover {
   border-color: rgba(240,78, 35, 1.0);
   border-bottom-color: rgba(240,78, 35, 1.0);
   color: rgba(240,78, 35, 1.0);
-}
+}*/
 >>>>>>> origin/master
