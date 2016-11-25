@@ -547,13 +547,14 @@ a img { border: 0px none; }
 
 .comment span.username { font-weight: 700; }
 
-.comment .field-name-comment-body { padding-left: 65px }
+
 
 #main .comment p { margin: 15px 0; padding-bottom: 0px; }
 
-.comment ul.inline li { padding-left: 65px; display: block; }
 
-.comment ul.links.inline li a { color:#fff; min-width: 0; padding: 5px 10px; font-size: 10px; width: auto; display: inline-block; opacity: 0.5; margin-top: 5px; margin-bottom: 15px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; float:left; margin-right: 5px; }
+.comment ul.inline li {  display: inline-block; }
+
+.comment ul.links.inline li a { color:rgba(158,0,93,1.0); min-width: 0; padding: 5px 10px 5px 0px; font-size: 10px; width: auto; display: inline-block; opacity: 0.5; margin-top: 5px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;  margin-right: 5px; }
 
 .comment ul.links.inline li a:hover { opacity: 1; }
 
@@ -1244,14 +1245,14 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 
 .clearfix
 h1{
-    color: rgba(158,9,93,1.0);
+    color: rgba(158,0,93,1.0);
     padding-bottom: 5%;
 }
 
 .views-field
 
 a{
-    color: rgba(158,9,93,1.0);
+    color: rgba(158,0,93,1.0);
     margin-left: 0%;
     
 }
@@ -1290,7 +1291,7 @@ a{
 
 
 ul.pager li a:hover, ul.pager li.pager-current {
-    background-color: rgba(158,9,93,1.0);
+    background-color: rgba(158,0,93,1.0);
     
 }
 
@@ -1313,7 +1314,7 @@ ul.pager li a, ul.pager li.pager-current{
 
 
 .pane-content a{
-    color: rgba(158,9,93,1.0);
+    color: rgba(158,0,93,1.0);
 }
 
 
@@ -1322,7 +1323,7 @@ ul.pager li a, ul.pager li.pager-current{
  /* Detailled Challenge page */
 
 ul.pager li.active a, ul.pager li.pager-current{
-    background-color: rgba(158,9,93,1.0);
+    background-color: rgba(158,0,93,1.0);
     color: white;}
 /* Add Attachment File to Drupal/Modules/File/icons/text-plain.png*/
 
@@ -1343,12 +1344,12 @@ ul.pager li.active a, ul.pager li.pager-current{
 .challenge-add-idea-button a{
     color: #333;
     background-color: white;
-    border-color: rgba(158,9,93,1.0); 
+    border-color: rgba(158,0,93,1.0); 
 }
 
 .challenge-add-idea-button a:hover{
-    background-color: rgba(158,9,93,1.0);
-    border-color:rgba(158,9,93,1.0); 
+    background-color: rgba(158,0,93,1.0);
+    border-color:rgba(158,0,93,1.0); 
     color:white;
 }
 
@@ -1358,11 +1359,11 @@ ul.pager li.active a, ul.pager li.pager-current{
 }
 /* Navigation Bar Top*/
 
-ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93,1.0);  } ul.primary li.active a { border-bottom: 1px solid #fff; }
+ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93,1.0);  } ul.primary li.active a { border-bottom: 1px solid #fff; }
 
 .tabs li a {
     color: #333;
-    background-color: rgba(158,9,93,1.0); 
+    background-color: rgba(158,0,93,1.0); 
 }
 
 /*Challenge Desciption*/
@@ -1393,21 +1394,22 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
 /*Post Comment Button*/
 
 .form-wrapper input {
-    color: #333;
-    background-color: white;
-    border-color: rgba(158,9,93,1.0); 
+	background-color: rgba(158,0,93,1.0);
+    border-color:rgba(158,0,93,1.0); 
+    color:white;
+    
 }
 
 .form-wrapper input:hover {
-    background-color: rgba(158,9,93,1.0);
-    border-color:rgba(158,9,93,1.0); 
-    color:white;
+	color: #333;
+    background-color: white;
+    border-color: rgba(158,0,93,1.0); 
 }
 
 /*idea*/
 
 .views-field-field-idea-image img {
-    border color: rgba(158,9,93,1.0);
+    border color: rgba(158,0,93,1.0);
     float:left; 
     margin-right: 20px;
     margin-bottom: 20px;
@@ -1415,7 +1417,7 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
 }
 
 .views-field-title a {
-    color: rgba(158,9,93,1.0);
+    color: rgba(158,0,93,1.0);
     margin-bottom: 40px;
     font-size: 30px;
 }
@@ -1548,7 +1550,7 @@ section button {
   font-size: 2.0rem;
   padding: 1.25rem 2.5rem;
   display: block;
-  background-color: rgba(158,9,93,1.0);
+  background-color: rgba(158,0,93,1.0);
   border: 1px solid transparent;
   color: #ffffff;
   font-weight: 300;
@@ -1561,8 +1563,8 @@ section button {
 
 section button:hover {
   background-color: white;
-  color: rgba(158,9,93,1.0);
-  border-color: rgba(158,9,93,1.0);
+  color: rgba(158,0,93,1.0);
+  border-color: rgba(158,0,93,1.0);
 }
 
 .button-inverse {
@@ -1571,8 +1573,8 @@ section button:hover {
   padding: 1.25rem 2.5rem;
   display: block;
   background-color: #fff;
-  border: 1px solid rgba(158,9,93,1.0);
-  color: rgba(158,9,93,1.0);
+  border: 1px solid rgba(158,0,93,1.0);
+  color: rgba(158,0,93,1.0);
   font-weight: 300;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -1581,7 +1583,7 @@ section button:hover {
   transition: all 0.3s ease-out;
 }
 .button-inverse:hover {
-  background-color: rgba(158,9,93,1.0);
+  background-color: rgba(158,0,93,1.0);
   color: #fff;
   border-color: transparent;
   text-decoration:none;
@@ -1591,7 +1593,7 @@ section button:hover {
   font-size: 1.75rem;
   padding: 1.25rem 2.5rem;
   display: block;
-  background-color: rgba(158,9,93,1.0);
+  background-color: rgba(158,0,93,1.0);
   border: 1px solid transparent;
   color: #ffffff;
   font-weight: 300;
@@ -1600,7 +1602,6 @@ section button:hover {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-
 }
 
 /* Idea page: Catehorisierung von Ideas*/
@@ -1610,8 +1611,8 @@ section button:hover {
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: #fff;
-    border: 1px solid rgba(158,9,93,1.0);
-    color: rgba(158,9,93,1.0);
+    border: 1px solid rgba(158,0,93,1.0);
+    color: rgba(158,0,93,1.0);
     font-weight: 300;
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -1623,7 +1624,7 @@ section button:hover {
 
 
 #quicktabs-tab-ideas_by_category-0:hover {
-    background-color: rgba(158,9,93,1.0);
+    background-color: rgba(158,0,93,1.0);
     color: #fff;
     border-color: transparent;
     display: inline-block;; 
@@ -1647,8 +1648,8 @@ section button:hover {
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: #fff;
-    border: 1px solid rgba(158,9,93,1.0);
-    color: rgba(158,9,93,1.0);
+    border: 1px solid rgba(158,0,93,1.0);
+    color: rgba(158,0,93,1.0);
     font-weight: 300;
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -1659,7 +1660,7 @@ section button:hover {
 }
 
 #quicktabs-tab-ideas_by_category-1:hover {
-    background-color: rgba(158,9,93,1.0);
+    background-color: rgba(158,0,93,1.0);
     color: #fff;
     border-color: transparent;
     display: inline-block;; 
@@ -1682,8 +1683,8 @@ section button:hover {
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: #fff;
-    border: 1px solid rgba(158,9,93,1.0);
-    color: rgba(158,9,93,1.0);
+    border: 1px solid rgba(158,0,93,1.0);
+    color: rgba(158,0,93,1.0);
     font-weight: 300;
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -1694,7 +1695,7 @@ section button:hover {
 }
 
 #quicktabs-tab-ideas_by_category-2:hover {
-    background-color: rgba(158,9,93,1.0);
+    background-color: rgba(158,0,93,1.0);
     color: #fff;
     border-color: transparent;
     display: inline-block;; 
@@ -1770,7 +1771,7 @@ section button:hover {
 }
 
 .views-field-title a {
-    color: rgba(158,9,93,1.0);
+    color: rgba(158,0,93,1.0);
     margin-bottom: 40px;
     font-size: 30px;
     font-weight: bold;
@@ -1867,19 +1868,84 @@ div.contextual-links-region:nth-child(7) > div:nth-child(2) > p:nth-child(2) > a
   margin: 0 auto;
   font-size: 2.0rem;
 }
+/* Vote up / down module
+*  and node:Ideas right side
+**/
 
+.vud-widget-alternate  a {
+	color: #fff;
+}
+.vud-link-reset {
+	display: inline-block;
+}
+.vud-widget-alternate::before {
+	display: inline-block;
+    content: "Votes: ";
 
-/* Vote up / down */
+	padding-left:10px;
+}
 .vud-widget-alternate {
-	clear:both;
+	
 	float: none;
+	display:block;
+	width: 100%;
+	background-image: linear-gradient(to right, rgba(240,78,35,1.0), rgba(158,0,93,1.0));
+	/*background-color:rgba(158,0,93,1.0);*/
+	color: #fff;
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 }
 .vud-widget-alternate .alternate-votes-display {
-	float: left;
-	border: 1px solid rgba(158,0,93,1.0);
-}
+	display: inline-block;
+	height: 80%;
+	border: 0;
+	font: 700 2rem 'Lato', Verdana, Helvetica, sans-serif;
+	color:rgba(158,0,93,1.0);
+	padding:5px 30px;
+	margin:5px;
+    background-color:#fff;
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 
-<<<<<<< HEAD
+}
+.vud-widget-alternate .up-inactive {
+	float:right;
+	background:url('../images/icons/Material_Icons_e8dc(1)_64.png');
+	background-size: 45px 45px;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-top:5px;
+    height:45px;
+	width: 60px;
+	margin-right:20px;
+	border-left:1px solid #fff;
+}
+.vud-widget-alternate .up-active {
+	float:right;
+	background:url('../images/icons/daumenicons/Material_Icons_e8dc(5)_64.png');
+	background-size: 45px 45px;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-top:5px;
+    height:45px;
+	width: 60px;
+	margin-right:20px;
+	border-left:1px solid #fff;
+}
+.vud-widget-alternate .up-inactive:hover {
+	background:url('../images/icons/daumenicons/Material_Icons_e8dc(5)_64.png');
+	background-size: 45px 45px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+/* Sidebar Vote */
+.Sidebar .vud-widget-alternate {
+	float: none;
+	display:block;
+	width: 100%;
+}
 
 =======
 /* Challenge Seite Detail */
@@ -1888,14 +1954,43 @@ div.contextual-links-region:nth-child(7) > div:nth-child(2) > p:nth-child(2) > a
 	margin-bottom: 10px;
 	width:256px;
 	height:256px;}
+.Sidebar .vud-widget-alternate .alternate-votes-display {
 	
-.pane-node-comment-form {
+	font: 700 2rem 'Lato', Verdana, Helvetica, sans-serif;
+
+
+}
+.Sidebar .vud-widget-alternate .up-inactive {
+	background-size: 45px 45px;
+	margin-top:5px;
+    height:45px;
+	width: 60px;
+	margin-right:20px;
+}
+.Sidebar .vud-widget-alternate .up-active {
+	background-size: 45px 45px;
+    height:45px;
+	width: 60px;
+	margin-right:20px;
+}
+.Sidebar .vud-widget-alternate .up-inactive:hover {
+	background-size: 45px 45px;
+}
+/* Idea / Challenge Vote */
+.Sidebar .vud-widget-alternate {
 	clear:both;
 }
-
-
-div.views-field:nth-child(1)  {
-	clear:both;
+/* Idea all View Vote */
+.view-ideas-all .vud-widget-alternate{
+	clear:none;
+	float:right;
+	width: 200px;
+	height: 35px;
+	font-size:1.25rem;
+}
+.view-ideas-all .vud-widget-alternate .alternate-votes-display {
+	font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
+	padding:5px 10px;
 	
 }
 
