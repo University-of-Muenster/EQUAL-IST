@@ -1436,7 +1436,6 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
     padding: 1.25rem 2.5rem;
     background-color: #fff;
     border: 1px solid rgba(158,9,93,1.0);
-	border-style: solid solid solid solid;
     color: rgba(158,9,93,1.0);
     font-weight: 300;
     -webkit-border-radius: 3px;
