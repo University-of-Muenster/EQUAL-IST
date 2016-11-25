@@ -2233,22 +2233,6 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 
 /* Adaptation of the comment textfield*/
 
-.mce_txt {
-	color: #FFFFFF;
-}
-
-.mce-caret {
-	color: #FFFFFF;
-}
-
-.mce-ico {
-	color: #FFFFFF;
-}
-
-#mceu_13 {
-	background: rgba(158,0,93,1.0);
-}
-
 #mceu_15 {
 	visibility: hidden;
 }
@@ -2263,14 +2247,6 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 
 #mceu_18 {
 	float: left;
-}
-
-#mceu_29 {
-	background: rgba(158,0,93,1.0);
-}
-
-#mceu_28 {
-	background: rgba(158,0,93,1.0);
 }
 
 >>>>>>> origin/master
