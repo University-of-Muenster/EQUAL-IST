@@ -433,7 +433,8 @@ section {
                     <div class="subfooter-area">                  
                     <p> 
                     <a href="#">©2016 EQUAL-IST All rights reserved.</a> <br>
-                    <a href="#">Terms of Use</a>
+                    <a href="http://equal-ist.uni-muenster.de/drupal/sites/defaul/files/Terms_and_Conditions.pdf">Terms of Use</a>
+					<a href="http://equal-ist.uni-muenster.de/drupal/sites/defaul/files/House_Rules.pdf"> House Rules </a>
                     </p>
                     </div>
                     <!-- EOF: #subfooter-left -->
