@@ -1832,10 +1832,10 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
 }
 
 div.contextual-links-region:nth-child(7) > div:nth-child(2) > p:nth-child(2) > a:nth-child(1) {
- margin: 0 auto;
+  margin: 0 auto;
   font-size: 2.0rem;
   padding: 1.25rem 2.5rem;
-  display: block;
+  display: inline-block;
   background-color: rgba(158,9,93,1.0);
   border: 1px solid transparent;
   color: #ffffff;
@@ -1845,12 +1845,27 @@ div.contextual-links-region:nth-child(7) > div:nth-child(2) > p:nth-child(2) > a
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 div.contextual-links-region:nth-child(7) > div:nth-child(2) > p:nth-child(2) > a:nth-child(1):hover {
   background-color: white;
   color: rgba(158,9,93,1.0);
   border-color: rgba(158,9,93,1.0);
+  display: inline-block;; 
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 1.25rem 2.5rem;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  margin: 0 auto;
+  font-size: 2.0rem;
 }
 
 
