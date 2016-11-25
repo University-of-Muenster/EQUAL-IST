@@ -1960,6 +1960,9 @@ div.views-field:nth-child(1)  {
 
 #mceu_16 {
 	float: left;
+}
+
+#mceu_16-open {
 	color: white;
 }
 
@@ -1972,7 +1975,7 @@ div.views-field:nth-child(1)  {
 	color: white;
 }
 
-#mceu_20 {
+#mceu_29 {
 	background: rgba(158,0,93,1.0);
 }
 
