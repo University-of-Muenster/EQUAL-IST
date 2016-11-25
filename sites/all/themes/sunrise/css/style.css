@@ -1749,13 +1749,6 @@ section button:hover {
 	display:none;
 }
 
-/*Idea page: Überschrift */
-.view-display-id-block_1 > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1) > a:nth-child(1) {
-    color: rgba(158,9,93,1.0);
-    margin-bottom: 40px;
-    font-size: 30px;
-    font-weight: bold;   
-}
 
 /*idea-page*/
 
@@ -1772,7 +1765,7 @@ section button:hover {
     font-weight: bold;
 }
 
-.views-field views-field-body p {
+.views-field-body p {
     font-size: 20px;
     margin: 50px;
     text-align: justify;
@@ -1782,7 +1775,6 @@ section button:hover {
     clear:both;
     margin-bottom: 100px;
 }
-
 
 .pane-title {
     color:white;
