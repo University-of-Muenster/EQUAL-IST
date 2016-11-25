@@ -7,3 +7,5 @@ sites/*/private
 
 # Ignore self-installed modules
 sites/*/modules/*
+*.png~HEAD
+profiles/idea/themes/contrib/bootstrap/starterkits/less/screenshot.png~refs_remotes_origin_master
