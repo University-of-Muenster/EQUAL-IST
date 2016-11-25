@@ -1833,10 +1833,7 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
 }
 
 <<<<<<< HEAD
-/*userprofil*/
-.field-label {
-	font-size: 17px;
-}
+
 =======
 /* Challenge Seite Detail */
 .field-name-field-challenge-image {float:left;
@@ -1855,26 +1852,14 @@ div.views-field:nth-child(1)  {
 	
 }
 
-/*Seitenverhältnis display-suite 2 rows fluid*/
-.ds-2col-fluid > .group-left {
-  float: left; /* LTR */
-  width: 30%;
-}
-
-.ds-2col-fluid > .group-right {
-  float: right; /* LTR */
-  width: 60%;
-}
-
-.ds-2col-fluid.group-one-column > .group-left,
-.ds-2col-fluid.group-one-column > .group-right {
-  width: 100%;
-  float: none;
-}
-
 /*Schrift Profil*/
 .group-right {
 	font-size: 17px; 
+	color: rgba(0,0,0,1.0);
+}
+
+.group-footer{
+	font-size: 17px;
 	color: rgba(0,0,0,1.0);
 }
 
@@ -1883,6 +1868,11 @@ div.views-field:nth-child(1)  {
 	-webkit-border-radius: 3px;
     border-radius: 3px;
 	padding:10px;
+}
+
+/*userprofil*/
+.field-label {
+	font-size: 17px;
 }
 
 >>>>>>> origin/master
