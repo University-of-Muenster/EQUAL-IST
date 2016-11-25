@@ -14,7 +14,9 @@ body { color: #666666; font-family: 'Open Sans', sans-serif; font-size: 14px; li
 
 p { margin: 0 0 0; padding: 0; }
 
-a, a:visited { color: #E54D1B; text-decoration: none; }
+//Entfernung der Blöcke von About unten
+
+a, a:visited { color: #E54D1B; text-decoration: none; display:none; }
 
 a:hover { color: #FF4D4D; text-decoration: underline; }
 
@@ -1248,6 +1250,18 @@ a{
     
 }
 
+.views-field-field-challenge-image img {
+    float:left; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.views-row {
+    clear:both;
+    margin-bottom: 100px;
+}
+
 
 .field-content p{
     padding: 5px;
@@ -1580,13 +1594,12 @@ section button:hover {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+
 }
 
 #quicktabs-tab-ideas_by_category-0 {
     text-align: center;
     margin-bottom: 50px;
-    margin-left: 50px;
-    font-size: 30px;
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: #fff;
@@ -1598,6 +1611,7 @@ section button:hover {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+    font-size: 1.75rem;
 }
 
 
@@ -1605,11 +1619,9 @@ section button:hover {
     background-color: rgba(158,9,93,1.0);
     color: #fff;
     border-color: transparent;
-    font-size: 30px;
     display: inline-block;; 
     text-align: center;
     margin-bottom: 50px;
-    margin-left: 50px;
     padding: 1.25rem 2.5rem;
     font-weight: 300;
     -webkit-border-radius: 3px;
@@ -1618,13 +1630,13 @@ section button:hover {
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     text-decoration: none;
+    font-size: 1.75rem;
 }
 
 
 #quicktabs-tab-ideas_by_category-1 {
     text-align: center;
     margin-bottom: 50px;
-    font-size: 30px;
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: #fff;
@@ -1636,13 +1648,13 @@ section button:hover {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+    font-size: 1.75rem;
 }
 
 #quicktabs-tab-ideas_by_category-1:hover {
     background-color: rgba(158,9,93,1.0);
     color: #fff;
     border-color: transparent;
-    font-size: 30px;
     display: inline-block;; 
     text-align: center;
     margin-bottom: 50px;
@@ -1654,12 +1666,12 @@ section button:hover {
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     text-decoration: none;
+    font-size: 1.75rem;
 }
 
 #quicktabs-tab-ideas_by_category-2 {
     text-align: center;
     margin-bottom: 50px;
-    font-size: 30px;
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: #fff;
@@ -1671,13 +1683,13 @@ section button:hover {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+    font-size: 1.75rem;
 }
 
 #quicktabs-tab-ideas_by_category-2:hover {
     background-color: rgba(158,9,93,1.0);
     color: #fff;
     border-color: transparent;
-    font-size: 30px;
     display: inline-block;; 
     text-align: center;
     margin-bottom: 50px;
@@ -1689,6 +1701,7 @@ section button:hover {
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     text-decoration: none;
+    font-size: 1.75rem;
 }
 
 /*-----------------------------------------------
@@ -1746,6 +1759,7 @@ section button:hover {
     color: rgba(158,9,93,1.0);
     margin-bottom: 40px;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .views-field views-field-body p {
@@ -1782,6 +1796,7 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1) {
     transition: all 0.3s ease-out;
     width: 50%;
     margin-left: 25%;
+    font-size: 1.75rem;
 }
 
 div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
@@ -1801,6 +1816,7 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
     text-decoration: none;
     width: 50%;
     margin-left: 25%;
+    font-size: 1.75rem;
 }
 
 
@@ -1814,7 +1830,44 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
 	border: 1px solid rgba(158,9,93,1.0);
 }
 
+<<<<<<< HEAD
 /*userprofil*/
 .field-label {
 	font-size: 17px;
 }
+=======
+/* Challenge Seite Detail */
+.field-name-field-challenge-image {float:left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	width:256px;
+	height:256px;}
+	
+.pane-node-comment-form {
+	clear:both;
+}
+
+
+div.views-field:nth-child(1)  {
+	clear:both;
+	
+}
+
+/*Seitenverhältnis display-suite 2 rows fluid*/
+.ds-2col-fluid > .group-left {
+  float: left; /* LTR */
+  width: 30%;
+}
+
+.ds-2col-fluid > .group-right {
+  float: right; /* LTR */
+  width: 60%;
+}
+
+.ds-2col-fluid.group-one-column > .group-left,
+.ds-2col-fluid.group-one-column > .group-right {
+  width: 100%;
+  float: none;
+}
+
+>>>>>>> origin/master
