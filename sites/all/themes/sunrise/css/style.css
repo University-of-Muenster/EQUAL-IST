@@ -1950,25 +1950,30 @@ div.views-field:nth-child(1)  {
 
 /* Adaptation of the comment textfield*/
 
-/*#mceu_14 {
+#mceu_13 {
+	background: rgba(158,0,93,1.0);
+}
+
+#mceu_15 {
 	visibility: hidden;
 }
 
-#mceu_21 {
-	visibility: hidden;
-}
-
-#mceu_22 {
-	visibility: hidden;
-}
-
-#mceu_23 {
+#mceu_16 {
 	float: left;
 }
 
-#mceu_24 {
+#mceu_17 {
+	visibility: hidden;
+}
+
+#mceu_18 {
 	float: left;
-}*/
+}
+
+
+
+
+
 
 
 >>>>>>> origin/master
