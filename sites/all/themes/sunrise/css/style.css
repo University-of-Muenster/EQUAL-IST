@@ -1711,6 +1711,14 @@ section button:hover {
     text-decoration: none;
     font-size: 1.75rem;
 }
+.quicktabs-tabs {
+    color: rgba(158,0,93,1.0);
+    font-size: 30px;
+    display: block; 
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 20%;
+}
 
 /*-----------------------------------------------
            taxonomy_role_filter module
@@ -1992,6 +2000,186 @@ div.contextual-links-region:nth-child(7) > div:nth-child(2) > p:nth-child(2) > a
 	font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
 	padding:5px 10px;
 	
+}
+.view-ideas-all .vud-widget-alternate .up-active, .view-ideas-all  .vud-widget-alternate .up-inactive {
+	height:25px;
+	width: 30px;
+	background-size: 25px 25px;
+	margin-right:10px;
+}
+.view-ideas-all .vud-widget-alternate .up-inactive:hover {
+	background-size: 25px 25px;
+}
+.view-ideas-all .field-name-field-vote .field-label {
+	display:none;
+}
+/* Comment Vote */
+.comment .vud-widget-alternate{
+	clear:none;
+	float:right;
+	width: 200px;
+	height: 35px;
+	font-size:1.25rem;
+}
+.comment .vud-widget-alternate .alternate-votes-display {
+	font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
+	padding:5px 10px;
+	
+}
+.comment .vud-widget-alternate .up-active, .comment  .vud-widget-alternate .up-inactive {
+	height:25px;
+	width: 30px;
+	background-size: 25px 25px;
+	margin-right:10px;
+}
+.comment .vud-widget-alternate .up-inactive:hover {
+	background-size: 25px 25px;
+}
+.comment .field-name-field-vote .field-label {
+	display:none;
+}
+/*  Vote Ende */
+
+
+
+.ideal-challenge-stats-views-icon {
+	width: 64px;
+	height: 64px;
+	background:url('../images/icons/iconsohneschatten/Material_Icons_e8f4(5)_64.png');
+	background-size: 64px 64px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.ideal-challenge-stats-comments-icon {
+	width: 64px;
+	height: 64px;
+	background:url('../images/icons/iconsohneschatten/Material_Icons_e0bf(1)_64.png');
+	background-size: 64px 64px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.ideal-challenge-stats-icon-td {
+	padding-left:3px;
+}
+.ideal-challenge-stats-count {
+	vertical-align:top;
+	font: 400 2rem 'Lato', Verdana, Helvetica, sans-serif;
+	margin-top: 18px;
+	margin-left: 5px;
+	display: inline-block;
+}
+#ideal-challenge-stats {
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.counts.idea-page{
+	border: 0;
+	margin:0;
+}
+.pane-node-field-share {
+	background:url('../images/icons/iconsohneschatten/Material_Icons_e80d(4)_64.png') no-repeat;
+	background-size: 64px 64px;
+	background-position: 0px 15px;
+	min-height: 75px;
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	padding:10px 10px 10px 0;
+	margin:0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+.field-name-field-share {
+	margin-left: 60px;
+}
+span.social-button {	
+	margin:0;
+	padding:0;
+	width:80px;
+	display:inline-block;
+	padding:5px;
+}
+
+.pane-user-picture {
+	display: inline-block;
+}
+.pane-node-author{
+	display: inline-block;
+}
+.pane-equal-ist-blocks-equal-ist-blocks-author {
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.pane-node-field-challenge-ref {
+background:url('../images/icons/iconsohneschatten/Material_Icons_e0c6(0)_64.png') no-repeat;
+	background-size: 64px 64px;
+	background-position: 0px 0px;
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 25px 20px 25px 70px;
+}
+.field-name-field-university {
+background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png') no-repeat;
+	background-size: 64px 64px;
+	background-position: 0px 15px;
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	padding: 35px 20px 35px 70px;
+	color: #666666;
+}
+.equal_ist_blocks_author{
+	margin-left: 10px;
+}
+.equal_ist_blocks_author::before {
+	display: inline-block;
+	content: "By: ";
+	vertical-align:top;
+	padding-top:10px;
+	padding-right:20px;
+	
+}
+.equal_ist_blocks_author_pic {
+	display: inline-block;
+}
+.equal_ist_blocks_author_name {
+	display: inline-block;
+	vertical-align:top;
+	padding-top:10px;
+	padding-left:20px;
+}
+/* Comments */
+.comment {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin:40px 0px 20px 0;
+}
+.field-name-comment-body {
+	clear:both;
+	margin-bottom:30px;
+	background-color: #fafafa;
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	padding: 10px 15px 10px 15px;
+	margin-left: 65px;
+	color: #333;
+}
+/* no reply */
+.comment ul.inline  li.comment-reply{
+	display:none;
 }
 
 /*Schrift Profil*/
