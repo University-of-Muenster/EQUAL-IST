@@ -1950,6 +1950,18 @@ div.views-field:nth-child(1)  {
 
 /* Adaptation of the comment textfield*/
 
+.mceu_text {
+	color: #FFFFFF;
+}
+
+.mce-caret {
+	color: #FFFFFF;
+}
+
+.mce-ico {
+	color: #FFFFFF;
+}
+
 #mceu_13 {
 	background: rgba(158,0,93,1.0);
 }
@@ -1962,17 +1974,12 @@ div.views-field:nth-child(1)  {
 	float: left;
 }
 
-#mceu_16-open {
-	color: #FFFFFF;
-}
-
 #mceu_17 {
 	visibility: hidden;
 }
 
 #mceu_18 {
 	float: left;
-	color: #FFFFFF;
 }
 
 #mceu_29 {
@@ -1982,11 +1989,5 @@ div.views-field:nth-child(1)  {
 #mceu_28 {
 	background: rgba(158,0,93,1.0);
 }
-
-
-
-
-
-
 
 >>>>>>> origin/master
