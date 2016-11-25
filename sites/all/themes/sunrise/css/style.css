@@ -14,9 +14,9 @@ body { color: #666666; font-family: 'Open Sans', sans-serif; font-size: 14px; li
 
 p { margin: 0 0 0; padding: 0; }
 
-//Entfernung der Blöcke von About unten
+/**Entfernung der Blöcke von About unten */
 
-li:forward_link:first { display:none; }
+ul.links.inline { display:none; }
 
 a, a:visited { color: #E54D1B; text-decoration: none; }
 
