@@ -1878,11 +1878,6 @@ div.views-field:nth-child(1)  {
 	color: rgba(0,0,0,1.0);
 }
 
-/*Schrift Labels Profil*/
-.field-label {
-	font-weight: normal; 
-}
-
 .user-profile .group-right {
 	border: 1px solid rgba(158, 0, 93,1.0);
 	-webkit-border-radius: 3px;
