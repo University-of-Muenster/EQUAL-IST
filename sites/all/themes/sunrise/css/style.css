@@ -1881,13 +1881,11 @@ div.views-field:nth-child(1)  {
 .ds-2col-stacked-fluid > .group-left {
   float: left; /* LTR */
   width: 30%;
-  padding: 20px;
 }
 
 .ds-2col-stacked-fluid > .group-right {
   float: right; /* LTR */
   width: 70%;
-  padding: 20px;
 }
 
 .ds-2col-stacked-fluid.group-one-column > .group-left,
