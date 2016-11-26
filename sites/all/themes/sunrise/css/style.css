@@ -1825,6 +1825,10 @@ a.button-inverse {
     font-size: 20px;
 }
 
+.views-field-title-1 {
+    font-size:15px;
+}
+
 /*Add Idea button auf Idea page*/
 
 div.contextual-links-region:nth-child(5) > div:nth-child(2) > p:nth-child(2) > a:nth-child(1) {
