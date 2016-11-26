@@ -2442,7 +2442,8 @@ ul.secondary a.active {
 }
 #user-register-form  input,#user-register-form select {
   border-color:  rgba(158, 0, 93, 1.0);
-  
+  -webkit-border-radius: 3px;
+     border-radius: 3px;
 }
 #user-register-form legend {
   font-size: 17px;
