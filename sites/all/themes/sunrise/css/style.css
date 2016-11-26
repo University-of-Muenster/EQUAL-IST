@@ -2248,7 +2248,7 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 #mceu_18 {
 	float: left;
 }
-/*tab styling:*/
+/*tab styling*/
 
 ul.primary {
   border-bottom: 5px solid rgba(158, 0, 93, 1.0);
@@ -2307,4 +2307,13 @@ ul.secondary a.active {
   color: rgba(158, 0, 93, 1.0);
 }
 
+/*removing certain headlines on the profile page*/
+
+.user-profile .group-right h3{
+	display:none;
+}
+
+#block-quicktabs-user-ideas h2{
+	display: none;
+}
 >>>>>>> origin/master
