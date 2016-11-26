@@ -2451,7 +2451,7 @@ ul.secondary a {
 }
 ul.secondary a.active {
   border-bottom: 0px;
-  color: white;
+  color: rgba(158, 0, 93, 1.0);
   
 }
 
