@@ -1391,7 +1391,7 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
         
 }
 
-/*Post Comment Button*/
+/*Post Comment Button
 
 .form-wrapper input {
 	background-color: rgba(158,0,93,1.0);
@@ -1405,7 +1405,7 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
     background-color: white;
     border-color: rgba(158,0,93,1.0); 
 }
-
+*/
 /*idea*/
 
 .views-field-field-idea-image img {
