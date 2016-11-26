@@ -199,7 +199,7 @@ function sunrise_form_alter(&$form, &$form_state, $form_id) {
 			} else {
 				alert("ERERGIEGEGIEGE");
 			}
-		)',
+		);',
 		array('type' => 'inline'));
 	}
 }
