@@ -1735,9 +1735,9 @@ a.button-inverse {
 .taxonomy_role_filter_active, a.taxonomy_role_filter_deactive:hover {
 
 	display:block;
-	background-image: url("../images/switch/on.png");
+	background-image: url('../images/icons/iconsohnerand/octicons_f0d7(2)_64.png'), url("../images/switch/on.png");
     background-repeat: no-repeat;
-    background-position: center right; 
+    background-position: center left, center right; 
 	
 	padding-top: 10px;
 	padding-left: 10px;
@@ -1749,9 +1749,9 @@ a.button-inverse {
 .taxonomy_role_filter_deactive, a.taxonomy_role_filter_active:hover {
 
 	display:block;
-	background-image: url("../images/switch/off.png");
+	background-image: url('../images/icons/iconsohnerand/octicons_f0d7(2)_64.png'), url("../images/switch/off.png");
     background-repeat: no-repeat;
-	background-position: center right; 
+	background-position: center left, center right; 
 	
 	padding-top: 10px;
 	padding-left: 10px;
