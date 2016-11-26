@@ -1817,16 +1817,28 @@ a.button-inverse {
 .views-field-totalcount {
     display: inline-block;
     margin-right: 20px;
+    margin-right: 20px;
     font-size: 20px;
+    width: 64px;
+	height: 64px;
+    background:url('../images/icons/iconsohneschatten/Material_Icons_e8f4(5)_64.png');
+	background-size: 64px 64px;
+	background-repeat: no-repeat;
 }
 .views-field-comment-count {
+    margin-right: 20px;
     display: inline-block;
     margin-right: 20px;
     font-size: 20px;
+    width: 64px;
+	height: 64px;	background:url('../images/icons/iconsohneschatten/Material_Icons_e0bf(1)_64.png');
+	background-size: 64px 64px;
+	background-repeat: no-repeat;
 }
 
 .views-field-title-1 {
     font-size:15px;
+    margin-bottom: 20px
 }
 
 /*Add Idea button auf Idea page*/
