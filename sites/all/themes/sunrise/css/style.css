@@ -1242,37 +1242,28 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 }
 
 
+/*Challenges*/
 
-.clearfix
-h1{
-    color: rgba(158,0,93,1.0);
-    padding-bottom: 5%;
-}
 
-.views-field
-
-a{
-    color: rgba(158,0,93,1.0);
-    margin-left: 0%;
-    
-}
-
+/*challenges*/
 .views-field-field-challenge-image img {
     float:left; 
+    width: 256px;
+    height: 256px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
 
-
-.views-row {
-    clear:both;
-    margin-bottom: 100px;
+.views-field-title h3 {
+    color: rgba(158,9,93,1.0);
+    font-size: 30px;
 }
 
-
-.field-content p{
-    padding: 5px;
+.views-field-title p {
+    font-size: 20px;
     text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .row-bottom-openideal
@@ -1287,9 +1278,6 @@ a{
     margin-left: 10%;
 }
 
-
-
-
 ul.pager li a:hover, ul.pager li.pager-current {
     background-color: rgba(158,0,93,1.0);
     
@@ -1303,15 +1291,6 @@ ul.pager li a, ul.pager li.pager-current{
 .item-list ul{
     margin-top: 2%;
 }
-
-.views-row-1 {
-    margin-bottom: 220px;
-}
-
-.views-row-2 {
-    margin-bottom: 220px;
-}
-
 
 .pane-content a{
     color: rgba(158,0,93,1.0);
