@@ -1406,34 +1406,6 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
     border-color: rgba(158,0,93,1.0); 
 }
 
-/*idea*/
-
-.views-field-field-idea-image img {
-    border color: rgba(158,0,93,1.0);
-    float:left; 
-    margin-right: 20px;
-    margin-bottom: 20px;
-    
-}
-
-.views-field-title a {
-    color: rgba(158,0,93,1.0);
-    margin-bottom: 40px;
-    font-size: 30px;
-}
-
-
-.views-field views-field-body p {
-    font-size: 20px;
-    margin: 50px;
-    text-align: justify;
-}
-
-.views-row {
-    clear:both;
-    margin-bottom: 100px;
-}
-
 
 /**/
 
@@ -1762,33 +1734,26 @@ section button:hover {
 	display:none;
 }
 
-/*Idea page: Überschrift */
-.view-display-id-block_1 > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1) > a:nth-child(1) {
-    color: rgba(158,9,93,1.0);
-    margin-bottom: 40px;
-    font-size: 30px;
-    font-weight: bold;   
-}
-
 /*idea-page*/
-
 .views-field-field-idea-image img {
     float:left; 
+    width: 256px;
+    height: 256px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
 
 .views-field-title a {
-    color: rgba(158,0,93,1.0);
-    margin-bottom: 40px;
+    color: rgba(158,9,93,1.0);
     font-size: 30px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
-.views-field views-field-body p {
+.views-field-body p {
     font-size: 20px;
-    margin: 50px;
     text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .views-row {
@@ -1796,11 +1761,11 @@ section button:hover {
     margin-bottom: 100px;
 }
 
-
 .pane-title {
     color:white;
     font-size: 0px;
 }
+
 
 /*Add Idea button auf Idea page*/
 div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1) {
@@ -1876,6 +1841,32 @@ div.contextual-links-region:nth-child(7) > div:nth-child(2) > p:nth-child(2) > a
   margin: 0 auto;
   font-size: 2.0rem;
 }
+
+
+/*Challenges*/
+.views-field-field-challenge-image img {
+    float:left; 
+    width: 256px;
+    height: 256px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.views-field-title h3 {
+    color: rgba(158,9,93,1.0);
+    font-size: 30px;
+}
+
+.views-field-title p {
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
 /* Vote up / down module
 *  and node:Ideas right side
 **/
