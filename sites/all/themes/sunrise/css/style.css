@@ -1689,7 +1689,7 @@ a.button-inverse {
     margin-bottom: 20%;
 }
 /* Buttons */
-.btn-success {
+.btn-success, input[type="button"], input[type="submit"], input[type="reset"] {
 	margin: 0 auto;
   font-size: 1.75rem;
   padding: 1.25rem 2.5rem;
@@ -1704,7 +1704,7 @@ a.button-inverse {
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.btn-success:hover {
+.btn-success:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
   background-color: #fff;
   color: rgba(158,0,93,1.0);
   border-color: rgba(158,0,93,1.0);
@@ -2440,7 +2440,7 @@ ul.secondary a.active {
 }
 /* User registration form */
 #user-register-form  label {
-  color:  rgba(240,78, 35, 1.0);
+  font-size: 17px;
   
 }
 #user-register-form  input {
