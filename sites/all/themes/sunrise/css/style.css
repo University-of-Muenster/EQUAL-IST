@@ -2037,7 +2037,7 @@ div.contextual-links-region:nth-child(7) > div:nth-child(2) > p:nth-child(2) > a
 	padding:5px 10px;
 	
 }
-.view-challenges-list .vud-widget-alternate .up-active, .view-ideas-all  .vud-widget-alternate .up-inactive {
+.view-challenges-list .vud-widget-alternate .up-active, .view-challenges-list  .vud-widget-alternate .up-inactive {
 	height:25px;
 	width: 30px;
 	background-size: 25px 25px;
