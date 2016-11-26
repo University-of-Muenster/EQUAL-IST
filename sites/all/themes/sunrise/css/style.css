@@ -1321,15 +1321,19 @@ ul.pager li.active a, ul.pager li.pager-current{
 
 /* Add Idea Button*/
 .challenge-add-idea-button a{
-    color: #333;
-    background-color: white;
-    border-color: rgba(158,0,93,1.0); 
+	background-color: rgba(158,0,93,1.0);
+    border-color:rgba(158,0,93,1.0); 
+    color:white;	
 }
 
 .challenge-add-idea-button a:hover{
-    background-color: rgba(158,0,93,1.0);
-    border-color:rgba(158,0,93,1.0); 
-    color:white;
+     color: rgba(158,0,93,1.0);
+    background-color: white;
+    border-color: rgba(158,0,93,1.0);
+}
+.Sidebar .challenge-add-idea-button {
+	display:block;
+	width:100%;
 }
 
 .field-name-field-challenge-image img{
