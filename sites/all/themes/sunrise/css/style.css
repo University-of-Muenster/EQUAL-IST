@@ -705,8 +705,6 @@ ul.links li { margin: 0; display: inherit; }
 
 div.messages { padding: 15px 15px 15px 50px;  border: 1px solid transparent; border-radius: 4px; background-position: 13px 15px; }
 
-/*div.messages {margin-top: -215%;}*/
-
 div.messages a { font-weight: bold; }
 
 div.messages.status { color: #468847; background-color: #dff0d8; border-color: #d6e9c6; }
@@ -2440,7 +2438,16 @@ ul.secondary a.active {
   color: rgba(255,255,255, 0.9);;
   
 }
-
+/* User registration form */
+#user-register-form  label {
+  color:  rgba(240,78, 35, 1.0);
+  
+}
+#user-register-form  input {
+  border-color:  rgba(158, 0, 93, 1.0);
+  
+}
+body.front div.messages {margin-top: -215%;}
 /*removing certain headlines on the profile page*/
 
 .user-profile .group-right h3{
