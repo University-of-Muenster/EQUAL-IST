@@ -1285,6 +1285,13 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
     display: none;
 }
 
+.views-label-totalcount {
+    display: none;
+}
+
+.views-label-comment-count {
+    display: none;
+}
 
 .row-bottom-openideal
 {
