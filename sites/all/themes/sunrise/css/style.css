@@ -1367,7 +1367,10 @@ ul.pager li.active a, ul.pager li.pager-current{
 	display:block;
 	width:100%;
 }
-
+.panels-bootstrap-column-inner_page-main .challenge-add-idea-button {
+	margin-top:15px;
+	margin-bottom:15px;
+}
 /* Navigation Bar Top*/
 
 ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93,1.0);  } ul.primary li.active a { border-bottom: 1px solid #fff; }
@@ -1728,12 +1731,19 @@ a.button-inverse {
   border-color: rgba(158,0,93,1.0);
   text-decoration:none;
 }
+.btn-success:focus {
+  background-color: #fff;
+  color: rgba(158,0,93,1.0);
+  border-color: rgba(158,0,93,1.0);
+  text-decoration:none;
+}
 .btn-success.form-submit:focus {
   background-color: #fff;
   color: rgba(158,0,93,1.0);
   border-color: rgba(158,0,93,1.0);
   text-decoration:none;
 }
+
 /*-----------------------------------------------
            taxonomy_role_filter module
 -----------------------------------------------*/
@@ -2299,6 +2309,9 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 }
 .comment-form .form-actions.form-wrapper {
 	margin-left:65px;
+}
+.pane-node-comment-wrapper {
+	clear:both;
 }
 /*Schrift Profil*/
 .group-right {
