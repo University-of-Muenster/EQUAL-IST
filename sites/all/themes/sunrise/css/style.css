@@ -1251,7 +1251,7 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
     width: 256px;
     height: 256px;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .views-field-title h3 {
@@ -1260,7 +1260,7 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 }
 
 .views-field-title p {
-    font-size: 20px;
+    font-size: 10px;
     text-align: justify;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -1719,7 +1719,7 @@ section button:hover {
     width: 256px;
     height: 256px;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .views-field-title a {
@@ -1729,9 +1729,9 @@ section button:hover {
 }
 
 .views-field-body p {
-    font-size: 20px;
+    font-size: 10px;
     text-align: justify;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
