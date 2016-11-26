@@ -1537,7 +1537,7 @@ section button:hover {
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.button-inverse a{
+a.button-inverse {
 	color: #fff;
 }
 .button-inverse:hover {
