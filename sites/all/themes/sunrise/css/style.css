@@ -2024,6 +2024,31 @@ div.contextual-links-region:nth-child(7) > div:nth-child(2) > p:nth-child(2) > a
 .view-ideas-all .field-name-field-vote .field-label {
 	display:none;
 }
+/* Challenge all View Vote */
+.view-challenges-list .vud-widget-alternate{
+	clear:none;
+	float:right;
+	width: 200px;
+	height: 35px;
+	font-size:1.25rem;
+}
+.view-challenges-list .vud-widget-alternate .alternate-votes-display {
+	font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
+	padding:5px 10px;
+	
+}
+.view-challenges-list .vud-widget-alternate .up-active, .view-ideas-all  .vud-widget-alternate .up-inactive {
+	height:25px;
+	width: 30px;
+	background-size: 25px 25px;
+	margin-right:10px;
+}
+.view-challenges-list .vud-widget-alternate .up-inactive:hover {
+	background-size: 25px 25px;
+}
+.view-challenges-list .field-name-field-vote .field-label {
+	display:none;
+}
 /* Comment Vote */
 .comment .vud-widget-alternate{
 	clear:none;
