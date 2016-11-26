@@ -24,6 +24,11 @@ ul.links.inline { display:none; }
 
 a, a:visited { color: #E54D1B; text-decoration: none; }
 
+/** Color adaption User`s watched posts Tabs secondary */
+
+ul .tabs .secondary .active{ color: #ffffff; }
+
+
 a:hover { color: #FF4D4D; text-decoration: underline; }
 
 a:focus { text-decoration: none; }
