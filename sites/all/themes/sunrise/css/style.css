@@ -1249,31 +1249,6 @@ h1{
     padding-bottom: 5%;
 }
 
-.views-field
-
-a{
-    color: rgba(158,0,93,1.0);
-    margin-left: 0%;
-    
-}
-
-.views-field-field-challenge-image img {
-    float:left; 
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-
-.views-row {
-    clear:both;
-    margin-bottom: 100px;
-}
-
-
-.field-content p{
-    padding: 5px;
-    text-align: justify;
-}
 
 .row-bottom-openideal
 {
@@ -1304,14 +1279,7 @@ ul.pager li a, ul.pager li.pager-current{
     margin-top: 2%;
 }
 
-.views-row-1 {
-    margin-bottom: 220px;
-}
-
-.views-row-2 {
-    margin-bottom: 220px;
-}
-
+/*view-row*/
 
 .pane-content a{
     color: rgba(158,0,93,1.0);
@@ -1407,7 +1375,7 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
 }
 
 
-/**/
+/*feedback-button*/
 
 .feedback-link {
     text-align: center;
@@ -1768,44 +1736,7 @@ section button:hover {
 
 
 /*Add Idea button auf Idea page*/
-div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1) {
-    text-align: center;
-    margin-bottom: 50px;
-    padding: 1.25rem 2.5rem;
-    display: inline-block;
-    background-color: rgba(158,9,93,1.0);
-    border: 1px solid rgba(158,9,93,1.0);
-    color: white;
-    font-weight: 300;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    margin: 0 auto;
-    font-size: 2.0rem;
-}
-
-div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
-    background-color: white;
-    color: rgba(158,9,93,1.0);
-    border-color: transparent;
-    display: inline-block;; 
-    text-align: center;
-    margin-bottom: 50px;
-    padding: 1.25rem 2.5rem;
-    font-weight: 300;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    text-decoration: none;
-    margin: 0 auto;
-    font-size: 2.0rem;
-}
-
-div.contextual-links-region:nth-child(7) > div:nth-child(2) > p:nth-child(2) > a:nth-child(1) {
+div.contextual-links-region:nth-child(5) > div:nth-child(2) > p:nth-child(2) > a:nth-child(1) {
   margin: 0 auto;
   font-size: 2.0rem;
   padding: 1.25rem 2.5rem;
