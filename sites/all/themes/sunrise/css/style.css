@@ -2295,7 +2295,7 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 	visibility: hidden;
 }
 
-.mce-statusbar .mce-container .mce-panel .mce-stack-layout-item .mce-last {
+div.mce-statusbar {
 	visibility: hidden;
 }
 /*tab styling*/
