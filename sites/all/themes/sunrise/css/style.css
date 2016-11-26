@@ -1347,11 +1347,6 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
 
 /*Challenge Desciption*/
 
-.pane-content h3{
-    padding-bottom: 20px;
-    
-}
-
 .panels-bootstrap-row-inner_page-main-row
 {
     padding-right: 30px;
@@ -1731,7 +1726,7 @@ section button:hover {
 .views-field-body p {
     font-size: 15px;
     text-align: justify;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
