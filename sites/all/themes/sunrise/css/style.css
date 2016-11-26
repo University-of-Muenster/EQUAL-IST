@@ -1369,6 +1369,8 @@ ul.pager li.active a, ul.pager li.pager-current{
 .panels-bootstrap-column-inner_page-main .challenge-add-idea-button {
 	margin-top:15px;
 	margin-bottom:15px;
+	margin-left: auto;
+    margin-right: auto;
 }
 /* Navigation Bar Top*/
 
