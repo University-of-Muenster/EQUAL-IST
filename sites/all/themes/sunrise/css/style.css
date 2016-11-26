@@ -1710,7 +1710,24 @@ a.button-inverse {
   border-color: rgba(158,0,93,1.0);
   text-decoration:none;
 }
-
+.btn-success .form-submit:hover {
+  background-color: #fff;
+  color: rgba(158,0,93,1.0);
+  border-color: rgba(158,0,93,1.0);
+  text-decoration:none;
+}
+.btn-success .form-submit:active {
+  background-color: #fff;
+  color: rgba(158,0,93,1.0);
+  border-color: rgba(158,0,93,1.0);
+  text-decoration:none;
+}
+.btn-success .form-submit:focus {
+  background-color: #fff;
+  color: rgba(158,0,93,1.0);
+  border-color: rgba(158,0,93,1.0);
+  text-decoration:none;
+}
 /*-----------------------------------------------
            taxonomy_role_filter module
 -----------------------------------------------*/
