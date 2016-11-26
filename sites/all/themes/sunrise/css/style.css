@@ -1770,30 +1770,26 @@ section button:hover {
     font-weight: bold;   
 }
 
-/*idea-page*/
-
+/*ideas*/
 .views-field-field-idea-image img {
     float:left; 
+    width: 256px;
+    height: 256px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
 
 .views-field-title a {
-    color: rgba(158,0,93,1.0);
-    margin-bottom: 40px;
+    color: rgba(158,9,93,1.0);
     font-size: 30px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
-.views-field views-field-body p {
+.views-field-body p {
     font-size: 20px;
-    margin: 50px;
     text-align: justify;
-<<<<<<< HEAD
-=======
-    margin-top: 30px;
-    margin-bottom: 20px;
->>>>>>> origin/master
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .views-row {
@@ -1801,10 +1797,20 @@ section button:hover {
     margin-bottom: 100px;
 }
 
-
 .pane-title {
     color:white;
     font-size: 0px;
+}
+
+.views-field-totalcount {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.views-field-comment-count {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
 }
 
 /*Add Idea button auf Idea page*/
