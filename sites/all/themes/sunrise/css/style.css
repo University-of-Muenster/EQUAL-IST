@@ -2301,30 +2301,6 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 .pane-node-comment-wrapper {
 	clear:both;
 }
-/*Schrift Profil*/
-.group-right {
-	font-size: 17px; 
-	color: rgba(0,0,0,1.0);
-}
-
-.group-footer{
-	font-size: 17px;
-	color: rgba(0,0,0,1.0);
-}
-
-.user-profile .group-right {
-	border: 1px solid rgba(158,0,93,1.0);
-	-webkit-border-radius: 3px;
-     border-radius: 3px;
-	margin-top: 15px;
-	padding: 10px;
-	line-height: 25px;
-}
-
-.user-profile .group-left{
-	margin-top: 10px;
-}
-
 
 /*user profil*/
 .field-label {
@@ -2355,10 +2331,10 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
   padding-top: 10px;
 }
 
-.ds-2cal-stacked > .group-left{
+.ds-2col-stacked > .group-left{
 	padding-bottom: 10px;
 }
-.ds-2cal-stacked > .group-right{
+.ds-2col-stacked > .group-right{
 	padding-bottom: 10px;
 }
 
