@@ -1718,7 +1718,7 @@ section button:hover {
 }
 
 .views-field-body p {
-    font-size: 20px;
+    font-size: 15px;
     text-align: justify;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -1789,7 +1789,7 @@ div.contextual-links-region:nth-child(7) > div:nth-child(2) > p:nth-child(2) > a
 }
 
 .views-field-title p {
-    font-size: 20px;
+    font-size: 15px;
     text-align: justify;
     margin-top: 20px;
     margin-bottom: 20px;
