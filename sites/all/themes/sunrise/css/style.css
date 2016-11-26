@@ -2091,13 +2091,14 @@ div.contextual-links-region:nth-child(5) > div:nth-child(2) > p:nth-child(2) > a
 	background-color: rgba(153, 255, 153,1.0);
     -webkit-border-radius: 3px;
     border-radius: 3px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	padding: 10px;
-	color: #000;
+	
 }
 .pane-node-field-status .pane-content {
 	display: inline-block;
+	color: #000;
 }
 .pane-node-field-status::before {
 	display: inline-block;
