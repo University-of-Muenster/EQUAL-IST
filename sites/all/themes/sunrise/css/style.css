@@ -2313,6 +2313,7 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 	margin-top: 10px;
+	line-height: 10px;
 }
  
  .ds-2col-stacked > .group-left > h3{
@@ -2329,13 +2330,14 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
   border-top: 1px solid rgba(158, 0, 93, 1.0); 
   margin-top: 10px;
   padding-top: 10px;
+  border-bottom: 1px solid rgba(158, 0, 93, 1.0); 
 }
 
 .ds-2col-stacked > .group-left{
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 .ds-2col-stacked > .group-right{
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 
 
