@@ -201,6 +201,7 @@ function sunrise_form_alter(&$form, &$form_state, $form_id) {
 	}'array('type' => 'inline'));
 	
 }
+}
 
 
 /**
