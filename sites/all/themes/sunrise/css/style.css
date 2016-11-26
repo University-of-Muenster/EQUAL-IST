@@ -1737,7 +1737,6 @@ section button:hover {
 
 /*Add Idea button auf Idea page*/
 div.contextual-links-region:nth-child(5) > div:nth-child(2) > p:nth-child(2) > a:nth-child(1) {
-  margin: 0 auto;
   font-size: 2.0rem;
   padding: 1.25rem 2.5rem;
   display: inline-block;
@@ -1752,6 +1751,7 @@ div.contextual-links-region:nth-child(5) > div:nth-child(2) > p:nth-child(2) > a
   transition: all 0.3s ease-in-out;
   text-align: center;
   margin-bottom: 50px;
+  margin-left: 48%;
 }
 
 div.contextual-links-region:nth-child(7) > div:nth-child(2) > p:nth-child(2) > a:nth-child(1):hover {
@@ -1769,7 +1769,7 @@ div.contextual-links-region:nth-child(7) > div:nth-child(2) > p:nth-child(2) > a
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   text-decoration: none;
-  margin: 0 auto;
+  margin-left: 48%;
   font-size: 2.0rem;
 }
 
