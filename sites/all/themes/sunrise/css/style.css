@@ -2291,9 +2291,9 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 	float: left;
 }
 
-/*div.mce-statusbar {
+.mce-statusbar .mce-container-body{
 	visibility: hidden;
-}*/
+}
 /*tab styling*/
 
 ul.primary {
