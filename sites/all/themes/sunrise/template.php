@@ -190,6 +190,16 @@ function sunrise_form_alter(&$form, &$form_state, $form_id) {
 	 	$form['search_block_form']['#attributes'] = array('onblur' => "if (this.value == '') {this.value = '{$form_default}';}", 'onfocus' => "if (this.value == '{$form_default}') {this.value = '';}" );
 	}
 	
+	if($form_id == 'user_profile_form') {
+		drupal_add_js(
+		'window.onload = function () {
+			if(jQuery(".field-name-field-selectgender, .field-items, .field-item, .even").text() == "Other") {
+				jQuery(".field-name-field-selectgender, .field-items").hide();
+			} else {
+				alert("SDFASFSDF");
+			}
+	}'array('type' => 'inline'));
+	
 }
 
 
