@@ -1789,6 +1789,11 @@ section button:hover {
     font-size: 20px;
     margin: 50px;
     text-align: justify;
+<<<<<<< HEAD
+=======
+    margin-top: 30px;
+    margin-bottom: 20px;
+>>>>>>> origin/master
 }
 
 .views-row {
@@ -1855,6 +1860,7 @@ div.contextual-links-region:nth-child(7) > div:nth-child(2) > p:nth-child(2) > a
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   text-align: center;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -1873,7 +1879,12 @@ div.contextual-links-region:nth-child(7) > div:nth-child(2) > p:nth-child(2) > a
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   text-decoration: none;
+<<<<<<< HEAD
   margin: 0 auto;
+=======
+  margin-top: 50px;
+  margin-left: 48%;
+>>>>>>> origin/master
   font-size: 2.0rem;
 }
 /* Vote up / down module
