@@ -2443,7 +2443,7 @@ ul.secondary a.active {
   font-size: 17px;
   
 }
-#user-register-form  input {
+#user-register-form  input,#user-register-form select {
   border-color:  rgba(158, 0, 93, 1.0);
   
 }
