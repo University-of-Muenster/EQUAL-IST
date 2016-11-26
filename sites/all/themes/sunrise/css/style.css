@@ -1281,9 +1281,10 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
     margin-bottom: 20px;
 }
 
-div.views-row:nth-child(1) > div:nth-child(6) > span:nth-child(1) {
+.views-label-field-vote{
     display: none;
 }
+
 
 .row-bottom-openideal
 {
