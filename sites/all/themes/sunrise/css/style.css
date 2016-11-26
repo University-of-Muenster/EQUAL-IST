@@ -18,6 +18,10 @@ p { margin: 0 0 0; padding: 0; }
 
 ul.links.inline { display:none; }
 
+/** Entfernung der Add Idea Teil 2 */
+
+
+
 a, a:visited { color: #E54D1B; text-decoration: none; }
 
 a:hover { color: #FF4D4D; text-decoration: underline; }
@@ -543,13 +547,14 @@ a img { border: 0px none; }
 
 .comment span.username { font-weight: 700; }
 
-.comment .field-name-comment-body { padding-left: 65px }
+
 
 #main .comment p { margin: 15px 0; padding-bottom: 0px; }
 
-.comment ul.inline li { padding-left: 65px; display: block; }
 
-.comment ul.links.inline li a { color:#fff; min-width: 0; padding: 5px 10px; font-size: 10px; width: auto; display: inline-block; opacity: 0.5; margin-top: 5px; margin-bottom: 15px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; float:left; margin-right: 5px; }
+.comment ul.inline li {  display: inline-block; }
+
+.comment ul.links.inline li a { color:rgba(158,0,93,1.0); min-width: 0; padding: 5px 10px 5px 0px; font-size: 10px; width: auto; display: inline-block; opacity: 0.5; margin-top: 5px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;  margin-right: 5px; }
 
 .comment ul.links.inline li a:hover { opacity: 1; }
 
@@ -1240,14 +1245,14 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 
 .clearfix
 h1{
-    color: rgba(158,9,93,1.0);
+    color: rgba(158,0,93,1.0);
     padding-bottom: 5%;
 }
 
 .views-field
 
 a{
-    color: rgba(158,9,93,1.0);
+    color: rgba(158,0,93,1.0);
     margin-left: 0%;
     
 }
@@ -1286,7 +1291,7 @@ a{
 
 
 ul.pager li a:hover, ul.pager li.pager-current {
-    background-color: rgba(158,9,93,1.0);
+    background-color: rgba(158,0,93,1.0);
     
 }
 
@@ -1309,7 +1314,7 @@ ul.pager li a, ul.pager li.pager-current{
 
 
 .pane-content a{
-    color: rgba(158,9,93,1.0);
+    color: rgba(158,0,93,1.0);
 }
 
 
@@ -1318,7 +1323,7 @@ ul.pager li a, ul.pager li.pager-current{
  /* Detailled Challenge page */
 
 ul.pager li.active a, ul.pager li.pager-current{
-    background-color: rgba(158,9,93,1.0);
+    background-color: rgba(158,0,93,1.0);
     color: white;}
 /* Add Attachment File to Drupal/Modules/File/icons/text-plain.png*/
 
@@ -1339,12 +1344,12 @@ ul.pager li.active a, ul.pager li.pager-current{
 .challenge-add-idea-button a{
     color: #333;
     background-color: white;
-    border-color: rgba(158,9,93,1.0); 
+    border-color: rgba(158,0,93,1.0); 
 }
 
 .challenge-add-idea-button a:hover{
-    background-color: rgba(158,9,93,1.0);
-    border-color:rgba(158,9,93,1.0); 
+    background-color: rgba(158,0,93,1.0);
+    border-color:rgba(158,0,93,1.0); 
     color:white;
 }
 
@@ -1354,11 +1359,11 @@ ul.pager li.active a, ul.pager li.pager-current{
 }
 /* Navigation Bar Top*/
 
-ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93,1.0);  } ul.primary li.active a { border-bottom: 1px solid #fff; }
+ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93,1.0);  } ul.primary li.active a { border-bottom: 1px solid #fff; }
 
 .tabs li a {
     color: #333;
-    background-color: rgba(158,9,93,1.0); 
+    background-color: rgba(158,0,93,1.0); 
 }
 
 /*Challenge Desciption*/
@@ -1389,21 +1394,22 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
 /*Post Comment Button*/
 
 .form-wrapper input {
-    color: #333;
-    background-color: white;
-    border-color: rgba(158,9,93,1.0); 
+	background-color: rgba(158,0,93,1.0);
+    border-color:rgba(158,0,93,1.0); 
+    color:white;
+    
 }
 
 .form-wrapper input:hover {
-    background-color: rgba(158,9,93,1.0);
-    border-color:rgba(158,9,93,1.0); 
-    color:white;
+	color: #333;
+    background-color: white;
+    border-color: rgba(158,0,93,1.0); 
 }
 
 /*idea*/
 
 .views-field-field-idea-image img {
-    border color: rgba(158,9,93,1.0);
+    border color: rgba(158,0,93,1.0);
     float:left; 
     margin-right: 20px;
     margin-bottom: 20px;
@@ -1411,7 +1417,7 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,9,93
 }
 
 .views-field-title a {
-    color: rgba(158,9,93,1.0);
+    color: rgba(158,0,93,1.0);
     margin-bottom: 40px;
     font-size: 30px;
 }
@@ -1544,7 +1550,7 @@ section button {
   font-size: 2.0rem;
   padding: 1.25rem 2.5rem;
   display: block;
-  background-color: rgba(158,9,93,1.0);
+  background-color: rgba(158,0,93,1.0);
   border: 1px solid transparent;
   color: #ffffff;
   font-weight: 300;
@@ -1557,8 +1563,8 @@ section button {
 
 section button:hover {
   background-color: white;
-  color: rgba(158,9,93,1.0);
-  border-color: rgba(158,9,93,1.0);
+  color: rgba(158,0,93,1.0);
+  border-color: rgba(158,0,93,1.0);
 }
 
 .button-inverse {
@@ -1567,8 +1573,8 @@ section button:hover {
   padding: 1.25rem 2.5rem;
   display: block;
   background-color: #fff;
-  border: 1px solid rgba(158,9,93,1.0);
-  color: rgba(158,9,93,1.0);
+  border: 1px solid rgba(158,0,93,1.0);
+  color: rgba(158,0,93,1.0);
   font-weight: 300;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -1577,7 +1583,7 @@ section button:hover {
   transition: all 0.3s ease-out;
 }
 .button-inverse:hover {
-  background-color: rgba(158,9,93,1.0);
+  background-color: rgba(158,0,93,1.0);
   color: #fff;
   border-color: transparent;
   text-decoration:none;
@@ -1587,7 +1593,7 @@ section button:hover {
   font-size: 1.75rem;
   padding: 1.25rem 2.5rem;
   display: block;
-  background-color: rgba(158,9,93,1.0);
+  background-color: rgba(158,0,93,1.0);
   border: 1px solid transparent;
   color: #ffffff;
   font-weight: 300;
@@ -1596,17 +1602,17 @@ section button:hover {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-
 }
 
+/* Idea page: Catehorisierung von Ideas*/
 #quicktabs-tab-ideas_by_category-0 {
     text-align: center;
     margin-bottom: 50px;
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: #fff;
-    border: 1px solid rgba(158,9,93,1.0);
-    color: rgba(158,9,93,1.0);
+    border: 1px solid rgba(158,0,93,1.0);
+    color: rgba(158,0,93,1.0);
     font-weight: 300;
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -1618,7 +1624,7 @@ section button:hover {
 
 
 #quicktabs-tab-ideas_by_category-0:hover {
-    background-color: rgba(158,9,93,1.0);
+    background-color: rgba(158,0,93,1.0);
     color: #fff;
     border-color: transparent;
     display: inline-block;; 
@@ -1642,8 +1648,8 @@ section button:hover {
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: #fff;
-    border: 1px solid rgba(158,9,93,1.0);
-    color: rgba(158,9,93,1.0);
+    border: 1px solid rgba(158,0,93,1.0);
+    color: rgba(158,0,93,1.0);
     font-weight: 300;
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -1654,7 +1660,7 @@ section button:hover {
 }
 
 #quicktabs-tab-ideas_by_category-1:hover {
-    background-color: rgba(158,9,93,1.0);
+    background-color: rgba(158,0,93,1.0);
     color: #fff;
     border-color: transparent;
     display: inline-block;; 
@@ -1677,8 +1683,8 @@ section button:hover {
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: #fff;
-    border: 1px solid rgba(158,9,93,1.0);
-    color: rgba(158,9,93,1.0);
+    border: 1px solid rgba(158,0,93,1.0);
+    color: rgba(158,0,93,1.0);
     font-weight: 300;
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -1689,7 +1695,7 @@ section button:hover {
 }
 
 #quicktabs-tab-ideas_by_category-2:hover {
-    background-color: rgba(158,9,93,1.0);
+    background-color: rgba(158,0,93,1.0);
     color: #fff;
     border-color: transparent;
     display: inline-block;; 
@@ -1704,6 +1710,14 @@ section button:hover {
     transition: all 0.3s ease-out;
     text-decoration: none;
     font-size: 1.75rem;
+}
+.quicktabs-tabs {
+    color: rgba(158,0,93,1.0);
+    font-size: 30px;
+    display: block; 
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 20%;
 }
 
 /*-----------------------------------------------
@@ -1748,8 +1762,15 @@ section button:hover {
 	display:none;
 }
 
+/*Idea page: Überschrift */
+.view-display-id-block_1 > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1) > a:nth-child(1) {
+    color: rgba(158,9,93,1.0);
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: bold;   
+}
 
-/*idea*/
+/*idea-page*/
 
 .views-field-field-idea-image img {
     float:left; 
@@ -1758,7 +1779,7 @@ section button:hover {
 }
 
 .views-field-title a {
-    color: rgba(158,9,93,1.0);
+    color: rgba(158,0,93,1.0);
     margin-bottom: 40px;
     font-size: 30px;
     font-weight: bold;
@@ -1781,29 +1802,28 @@ section button:hover {
     font-size: 0px;
 }
 
-
+/*Add Idea button auf Idea page*/
 div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1) {
     text-align: center;
     margin-bottom: 50px;
     padding: 1.25rem 2.5rem;
     display: inline-block;
-    background-color: #fff;
+    background-color: rgba(158,9,93,1.0);
     border: 1px solid rgba(158,9,93,1.0);
-    color: rgba(158,9,93,1.0);
+    color: white;
     font-weight: 300;
     -webkit-border-radius: 3px;
     border-radius: 3px;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    width: 50%;
-    margin-left: 25%;
-    font-size: 1.75rem;
+    margin: 0 auto;
+    font-size: 2.0rem;
 }
 
 div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
-    background-color: rgba(158,9,93,1.0);
-    color: #fff;
+    background-color: white;
+    color: rgba(158,9,93,1.0);
     border-color: transparent;
     display: inline-block;; 
     text-align: center;
@@ -1816,23 +1836,124 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     text-decoration: none;
-    width: 50%;
-    margin-left: 25%;
-    font-size: 1.75rem;
+    margin: 0 auto;
+    font-size: 2.0rem;
 }
 
+div.contextual-links-region:nth-child(7) > div:nth-child(2) > p:nth-child(2) > a:nth-child(1) {
+  margin: 0 auto;
+  font-size: 2.0rem;
+  padding: 1.25rem 2.5rem;
+  display: inline-block;
+  background-color: rgba(158,9,93,1.0);
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  margin-bottom: 50px;
+}
 
-/* Vote up / down */
+div.contextual-links-region:nth-child(7) > div:nth-child(2) > p:nth-child(2) > a:nth-child(1):hover {
+  background-color: white;
+  color: rgba(158,9,93,1.0);
+  border-color: rgba(158,9,93,1.0);
+  display: inline-block;; 
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 1.25rem 2.5rem;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  margin: 0 auto;
+  font-size: 2.0rem;
+}
+/* Vote up / down module
+*  and node:Ideas right side
+**/
+
+.vud-widget-alternate  a {
+	color: #fff;
+}
+.vud-link-reset {
+	display: inline-block;
+}
+.vud-widget-alternate::before {
+	display: inline-block;
+    content: "Votes: ";
+
+	padding-left:10px;
+}
 .vud-widget-alternate {
-	clear:both;
+	
 	float: none;
+	display:block;
+	width: 100%;
+	background-image: linear-gradient(to right, rgba(240,78,35,1.0), rgba(158,0,93,1.0));
+	/*background-color:rgba(158,0,93,1.0);*/
+	color: #fff;
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 }
 .vud-widget-alternate .alternate-votes-display {
-	float: left;
-	border: 1px solid rgba(158,0,93,1.0);
-}
+	display: inline-block;
+	height: 80%;
+	border: 0;
+	font: 700 2rem 'Lato', Verdana, Helvetica, sans-serif;
+	color:rgba(158,0,93,1.0);
+	padding:5px 30px;
+	margin:5px;
+    background-color:#fff;
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 
-<<<<<<< HEAD
+}
+.vud-widget-alternate .up-inactive {
+	float:right;
+	background:url('../images/icons/Material_Icons_e8dc(1)_64.png');
+	background-size: 45px 45px;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-top:5px;
+    height:45px;
+	width: 60px;
+	margin-right:20px;
+	border-left:1px solid #fff;
+}
+.vud-widget-alternate .up-active {
+	float:right;
+	background:url('../images/icons/daumenicons/Material_Icons_e8dc(5)_64.png');
+	background-size: 45px 45px;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-top:5px;
+    height:45px;
+	width: 60px;
+	margin-right:20px;
+	border-left:1px solid #fff;
+}
+.vud-widget-alternate .up-inactive:hover {
+	background:url('../images/icons/daumenicons/Material_Icons_e8dc(5)_64.png');
+	background-size: 45px 45px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+/* Sidebar Vote */
+.Sidebar .vud-widget-alternate {
+	float: none;
+	display:block;
+	width: 100%;
+}
 
 =======
 /* Challenge Seite Detail */
@@ -1841,15 +1962,224 @@ div.pane-content:nth-child(1) > p:nth-child(1) > a:nth-child(1):hover{
 	margin-bottom: 10px;
 	width:256px;
 	height:256px;}
+.Sidebar .vud-widget-alternate .alternate-votes-display {
 	
-.pane-node-comment-form {
+	font: 700 2rem 'Lato', Verdana, Helvetica, sans-serif;
+
+
+}
+.Sidebar .vud-widget-alternate .up-inactive {
+	background-size: 45px 45px;
+	margin-top:5px;
+    height:45px;
+	width: 60px;
+	margin-right:20px;
+}
+.Sidebar .vud-widget-alternate .up-active {
+	background-size: 45px 45px;
+    height:45px;
+	width: 60px;
+	margin-right:20px;
+}
+.Sidebar .vud-widget-alternate .up-inactive:hover {
+	background-size: 45px 45px;
+}
+/* Idea / Challenge Vote */
+.Sidebar .vud-widget-alternate {
 	clear:both;
 }
-
-
-div.views-field:nth-child(1)  {
-	clear:both;
+/* Idea all View Vote */
+.view-ideas-all .vud-widget-alternate{
+	clear:none;
+	float:right;
+	width: 200px;
+	height: 35px;
+	font-size:1.25rem;
+}
+.view-ideas-all .vud-widget-alternate .alternate-votes-display {
+	font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
+	padding:5px 10px;
 	
+}
+.view-ideas-all .vud-widget-alternate .up-active, .view-ideas-all  .vud-widget-alternate .up-inactive {
+	height:25px;
+	width: 30px;
+	background-size: 25px 25px;
+	margin-right:10px;
+}
+.view-ideas-all .vud-widget-alternate .up-inactive:hover {
+	background-size: 25px 25px;
+}
+.view-ideas-all .field-name-field-vote .field-label {
+	display:none;
+}
+/* Comment Vote */
+.comment .vud-widget-alternate{
+	clear:none;
+	float:right;
+	width: 200px;
+	height: 35px;
+	font-size:1.25rem;
+}
+.comment .vud-widget-alternate .alternate-votes-display {
+	font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
+	padding:5px 10px;
+	
+}
+.comment .vud-widget-alternate .up-active, .comment  .vud-widget-alternate .up-inactive {
+	height:25px;
+	width: 30px;
+	background-size: 25px 25px;
+	margin-right:10px;
+}
+.comment .vud-widget-alternate .up-inactive:hover {
+	background-size: 25px 25px;
+}
+.comment .field-name-field-vote .field-label {
+	display:none;
+}
+/*  Vote Ende */
+
+
+
+.ideal-challenge-stats-views-icon {
+	width: 64px;
+	height: 64px;
+	background:url('../images/icons/iconsohneschatten/Material_Icons_e8f4(5)_64.png');
+	background-size: 64px 64px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.ideal-challenge-stats-comments-icon {
+	width: 64px;
+	height: 64px;
+	background:url('../images/icons/iconsohneschatten/Material_Icons_e0bf(1)_64.png');
+	background-size: 64px 64px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.ideal-challenge-stats-icon-td {
+	padding-left:3px;
+}
+.ideal-challenge-stats-count {
+	vertical-align:top;
+	font: 400 2rem 'Lato', Verdana, Helvetica, sans-serif;
+	margin-top: 18px;
+	margin-left: 5px;
+	display: inline-block;
+}
+#ideal-challenge-stats {
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.counts.idea-page{
+	border: 0;
+	margin:0;
+}
+.pane-node-field-share {
+	background:url('../images/icons/iconsohneschatten/Material_Icons_e80d(4)_64.png') no-repeat;
+	background-size: 64px 64px;
+	background-position: 0px 15px;
+	min-height: 75px;
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	padding:10px 10px 10px 0;
+	margin:0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+.field-name-field-share {
+	margin-left: 60px;
+}
+span.social-button {	
+	margin:0;
+	padding:0;
+	width:80px;
+	display:inline-block;
+	padding:5px;
+}
+
+.pane-user-picture {
+	display: inline-block;
+}
+.pane-node-author{
+	display: inline-block;
+}
+.pane-equal-ist-blocks-equal-ist-blocks-author {
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.pane-node-field-challenge-ref {
+background:url('../images/icons/iconsohneschatten/Material_Icons_e0c6(0)_64.png') no-repeat;
+	background-size: 64px 64px;
+	background-position: 0px 0px;
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 25px 20px 25px 70px;
+}
+.field-name-field-university {
+background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png') no-repeat;
+	background-size: 64px 64px;
+	background-position: 0px 15px;
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	padding: 35px 20px 35px 70px;
+	color: #666666;
+}
+.equal_ist_blocks_author{
+	margin-left: 10px;
+}
+.equal_ist_blocks_author::before {
+	display: inline-block;
+	content: "By: ";
+	vertical-align:top;
+	padding-top:10px;
+	padding-right:20px;
+	
+}
+.equal_ist_blocks_author_pic {
+	display: inline-block;
+}
+.equal_ist_blocks_author_name {
+	display: inline-block;
+	vertical-align:top;
+	padding-top:10px;
+	padding-left:20px;
+}
+/* Comments */
+.comment {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin:40px 0px 20px 0;
+}
+.field-name-comment-body {
+	clear:both;
+	margin-bottom:30px;
+	background-color: #fafafa;
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	padding: 10px 15px 10px 15px;
+	margin-left: 65px;
+	color: #333;
+}
+/* no reply */
+.comment ul.inline  li.comment-reply{
+	display:none;
 }
 
 /*Schrift Profil*/
@@ -1899,6 +2229,7 @@ div.views-field:nth-child(1)  {
 	border-left-style: solid;
 	border-left-width: 5px;
 	padding: 20px;
+<<<<<<< HEAD
 } 
  /*Style der Tabs
  ul.primary {
@@ -1938,4 +2269,26 @@ ul.primary li a:hover {
   border-bottom-color: rgba(240,78, 35, 1.0);
   color: rgba(240,78, 35, 1.0);
 }*/
+=======
+}
+
+/* Adaptation of the comment textfield*/
+
+#mceu_15 {
+	visibility: hidden;
+}
+
+#mceu_16 {
+	float: left;
+}
+
+#mceu_17 {
+	visibility: hidden;
+}
+
+#mceu_18 {
+	float: left;
+}
+
+>>>>>>> parent of 300c476... Tabs Style Änderung
 >>>>>>> origin/master
