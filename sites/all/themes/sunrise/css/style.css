@@ -26,7 +26,7 @@ a, a:visited { color: #E54D1B; text-decoration: none; }
 
 /** Color adaption User`s watched posts Tabs secondary */
 
-ul .tabs .secondary .active {   
+.tabs .tabs .secondary li {   
   background-color: rgba(158, 0, 93, 1.0);
   border-color: rgba(158, 0, 93, 1.0);
   border-style: none none solid none;
