@@ -2446,7 +2446,7 @@ ul.secondary a.active {
   font-size: 17px;
   
 }
-#user-register-form  input,#user-register-form select {
+input, select {
   border-color:  rgba(158, 0, 93, 1.0);
   -webkit-border-radius: 3px;
      border-radius: 3px;
