@@ -2447,6 +2447,10 @@ ul.secondary a.active {
   border-color:  rgba(158, 0, 93, 1.0);
   
 }
+#user-register-form legend {
+  font-size: 17px;
+  border-bottom:0;
+}
 body.front div.messages {margin-top: -215%;}
 /*removing certain headlines on the profile page*/
 
