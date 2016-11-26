@@ -2455,9 +2455,9 @@ ul.secondary a.active {
   color: #666666;
   margin-bottom:0;
 }
-#user-register-form div.form-item-field-user-date-birth-und-0-value-day,
-#user-register-form div.form-item-field-user-date-birth-und-0-value-month, 
-#user-register-form div.form-item-field-user-date-birth-und-0-value-year {
+#user-register-form .form-item-field-user-date-birth-und-0-value-day,
+#user-register-form .form-item-field-user-date-birth-und-0-value-month, 
+#user-register-form .form-item-field-user-date-birth-und-0-value-year {
 	font-size: 14px;
 }
 body.front div.messages {margin-top: -215%;}
