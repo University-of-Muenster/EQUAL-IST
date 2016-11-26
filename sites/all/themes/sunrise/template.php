@@ -191,7 +191,7 @@ function sunrise_form_alter(&$form, &$form_state, $form_id) {
 	}
 	
 	/* Adaptation of the gender-field in the user profile*/
-	if ($form_id =='user_profil_form') {
+	if ($form_id =='user_profile_form') {
 		drupal_add_js('
 		window.onload = function() {
 			if (jQuery(".field-item.even").val() == "other") {
@@ -199,7 +199,8 @@ function sunrise_form_alter(&$form, &$form_state, $form_id) {
 			} else {
 				alert("ERERGIEGEGIEGE");
 			}
-		}');
+		}',
+		array('type' => 'inline'));
 	}
 }
 
