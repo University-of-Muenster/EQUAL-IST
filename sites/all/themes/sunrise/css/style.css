@@ -1741,14 +1741,6 @@ section button:hover {
 	display:none;
 }
 
-/*Idea page: Überschrift */
-.view-display-id-block_1 > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1) > a:nth-child(1) {
-    color: rgba(158,9,93,1.0);
-    margin-bottom: 40px;
-    font-size: 30px;
-    font-weight: bold;   
-}
-
 /*ideas*/
 .views-field-field-idea-image img {
     float:left; 
