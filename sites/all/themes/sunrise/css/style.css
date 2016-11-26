@@ -2240,6 +2240,7 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 	border-left-style: solid;
 	border-left-width: 5px;
 	padding: 20px;
+	margin-top: 30px;
 }
 
 /* Adaptation of the comment textfield*/
@@ -2322,6 +2323,10 @@ ul.secondary a.active {
 
 .user-profile .group-right h3{
 	display:none;
+}
+
+.user-profile dl {
+	margin-top: 20px;
 }
 
 #block-quicktabs-user-ideas h2{
