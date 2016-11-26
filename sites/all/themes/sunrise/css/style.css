@@ -2451,7 +2451,8 @@ ul.secondary a {
 }
 ul.secondary a.active {
   border-bottom: 0px;
-  color: rgba(158, 0, 93, 1.0);
+  color: white;
+  
 }
 
 /*removing certain headlines on the profile page*/
