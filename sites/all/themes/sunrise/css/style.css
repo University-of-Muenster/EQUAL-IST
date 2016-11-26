@@ -2448,6 +2448,7 @@ ul.secondary li {
 ul.secondary a {
   padding: 0;
   text-decoration: none;
+  color:white;
 }
 ul.secondary a.active {
   border-bottom: 0px;
