@@ -1750,6 +1750,7 @@ div.contextual-links-region:nth-child(5) > div:nth-child(2) > p:nth-child(2) > a
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   text-align: center;
+  margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 48%;
   text-decoration: none;
@@ -1770,6 +1771,7 @@ div.contextual-links-region:nth-child(5) > div:nth-child(2) > p:nth-child(2) > a
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   text-decoration: none;
+  margin-top: 50px;
   margin-left: 48%;
   font-size: 2.0rem;
   text-decoration: none;
