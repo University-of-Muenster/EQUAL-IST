@@ -397,7 +397,7 @@ textarea:focus, input:focus { outline: 0; }
 
 /* tags */
 
-.field-type-taxonomy-term-reference { margin: 20px 0; color: #ccc; }
+.field-type-taxonomy-term-reference { margin: 20px 0; color: #666666; }
 
 .field-type-taxonomy-term-reference a { font-size: 14px; background: #f0f0f0; display: inline-block; padding: 5px 10px; margin: 0 -5px 5px 0; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 
@@ -2099,6 +2099,10 @@ div.contextual-links-region:nth-child(5) > div:nth-child(2) > p:nth-child(2) > a
 .pane-node-field-status .pane-content {
 	display: inline-block;
 	color: #000;
+}
+.pane-node-field-status .field-name-field-status{
+	margin-top:0;
+	margin-bottom:0;
 }
 .pane-node-field-status::before {
 	display: inline-block;
