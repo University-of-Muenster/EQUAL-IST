@@ -705,7 +705,7 @@ ul.links li { margin: 0; display: inherit; }
 
 /* Drupal status messages */
 
-div.messages { padding: 15px 15px 15px 50px; margin-top: 20px; border: 1px solid transparent; border-radius: 4px; background-position: 13px 15px; }
+div.messages { padding: 15px 15px 15px 50px; margin-top: -215%; border: 1px solid transparent; border-radius: 4px; background-position: 13px 15px; }
 
 div.messages a { font-weight: bold; }
 
