@@ -1260,7 +1260,7 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 }
 
 .views-field-title p {
-    font-size: 10px;
+    font-size: 15px;
     text-align: justify;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -1729,7 +1729,7 @@ section button:hover {
 }
 
 .views-field-body p {
-    font-size: 10px;
+    font-size: 15px;
     text-align: justify;
     margin-top: 30px;
     margin-bottom: 30px;
