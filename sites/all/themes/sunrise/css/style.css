@@ -1737,12 +1737,14 @@ a.button-inverse {
 	display:block;
 	background-image: url('../images/icons/iconsohnerand/octicons_f0d7(2)_64.png'), url("../images/switch/on.png");
     background-repeat: no-repeat;
+	
     background-position: center left, center right; 
 	
-	padding-top: 10px;
-	padding-left: 10px;
+	padding-top: 20px;
+	padding-left: 20px;
 	padding-right: 100px;
-	height: 40px;
+	padding-left: 60px;
+	height: 60px;
 	border: 1px dashed #c3c3c3;
 	
 }
@@ -1753,10 +1755,11 @@ a.button-inverse {
     background-repeat: no-repeat;
 	background-position: center left, center right; 
 	
-	padding-top: 10px;
-	padding-left: 10px;
+	padding-top: 20px;
+	padding-left: 20px;
 	padding-right: 100px;
-	height: 40px;
+	padding-left: 60px;
+	height: 60px;
 	border: 1px dashed #c3c3c3;
 }
 
