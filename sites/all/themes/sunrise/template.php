@@ -194,8 +194,8 @@ function sunrise_form_alter(&$form, &$form_state, $form_id) {
 	if ($form_id =='user_profile_form') {
 		drupal_add_js('
 		window.onload = function() {
-			if (jQuery(".field-item.even").val() == "other") {
-				jQuery(".field-item.even").val("");
+			if (jQuery(".field-item.even").text() == "other") {
+				jQuery(".field-item.even").text("");
 			} else {
 				alert("ERERGIEGEGIEGE");
 			}
