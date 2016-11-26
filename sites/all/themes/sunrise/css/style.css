@@ -2039,7 +2039,7 @@ div.contextual-links-region:nth-child(5) > div:nth-child(2) > p:nth-child(2) > a
 /*  Vote Ende */
 
 
-
+/* Ideal Stats */
 .ideal-challenge-stats-views-icon {
 	width: 64px;
 	height: 64px;
@@ -2052,6 +2052,22 @@ div.contextual-links-region:nth-child(5) > div:nth-child(2) > p:nth-child(2) > a
 	width: 64px;
 	height: 64px;
 	background:url('../images/icons/iconsohneschatten/Material_Icons_e0bf(1)_64.png');
+	background-size: 64px 64px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.ideal-challenge-stats-users-icon {
+	width: 64px;
+	height: 64px;
+	background:url('../images/icons/iconsohneschatten/Material_Icons_e7fb(3)_64.png');
+	background-size: 64px 64px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.ideal-challenge-stats-votes-icon {
+	width: 64px;
+	height: 64px;
+	background:url('../images/icons/iconsohneschatten/Material_Icons_e8dc(9)_64.png');
 	background-size: 64px 64px;
 	background-repeat: no-repeat;
 	display: inline-block;
@@ -2078,6 +2094,15 @@ div.contextual-links-region:nth-child(5) > div:nth-child(2) > p:nth-child(2) > a
 	border: 0;
 	margin:0;
 }
+.ideal-challenge-stats-name {
+	display: inline-block;
+}
+.ideal-challenge-stats-ideas {
+	display: inline-block;
+	color: rgba(158,0,93,1.0);
+
+}
+/* Sidebar Idea and Challenge */
 .pane-node-field-share {
 	background:url('../images/icons/iconsohneschatten/Material_Icons_e80d(4)_64.png') no-repeat;
 	background-size: 64px 64px;
