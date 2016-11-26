@@ -2087,13 +2087,17 @@ div.contextual-links-region:nth-child(5) > div:nth-child(2) > p:nth-child(2) > a
 }
 /* Sidebar Idea and Challenge */
 .pane-node-field-status {
-	border: 1px solid rgba(158,0,93,1.0);	
+	border: 1px solid rgba(153, 255, 153,1.0);	
 	background-color: rgba(153, 255, 153,1.0);
     -webkit-border-radius: 3px;
     border-radius: 3px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 10px;
+	color: #000;
+}
+.pane-node-field-status .pane-content {
+	display: inline-block;
 }
 .pane-node-field-status::before {
 	display: inline-block;
