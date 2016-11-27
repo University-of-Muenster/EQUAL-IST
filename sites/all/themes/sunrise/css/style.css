@@ -2591,4 +2591,12 @@ div.filefield-sources-list{
     display:none;
 }
 
+.block.block-system.clearfix{
+    display:none;
+}
+
+div.col-md-6{
+    display:none;
+}
+
 >>>>>>> origin/master
