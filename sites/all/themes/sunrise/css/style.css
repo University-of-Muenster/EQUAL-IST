@@ -2372,10 +2372,10 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 .mce-statusbar .mce-container-body{
 	visibility: hidden;
 }
-
+/*
 .mce-edit-area {
 	max-width: 15em;
-}
+}*/
 /*tab styling*/
 
 ul.primary {
