@@ -643,7 +643,7 @@ ul.links li { margin: 0; display: inherit; }
 
 #block-search-form .form-actions, .sidebar-search-block .form-actions input[type="submit"], #search-block-form .form-actions  input[type="submit"] { width: 0px; margin: 0px 1px; height: 28px; }
 
-#block-search-form .form-actions, .sidebar-search-block .form-actions, #search-block-form .form-actions { border: 0; }
+#block-search-form .form-actions, .sidebar-search-block .form-actions, #search-block-form .form-actions { border: 0;  display:none;}
 
 #block-search-form .form-item, .sidebar-search-block .form-item input.form-text, #search-block-form .form-item input.form-text { width: 90%; height: auto; margin-bottom: inherit; }
 
@@ -2597,7 +2597,7 @@ div.filefield-sources-list{
     display:none;
 }
 
-/**Hiding the unnecessary search field for extern users*/
+/**Hiding the unnecessary search field for extern users
 div.equal-search-block div.contextual-links-wrapper div.container-inline div.form-actions div.form-wrapper {
 	visibility : hidden;
 }
@@ -2609,5 +2609,5 @@ div.equal-search-block div.contextual-links-wrapper div.container-inline div.for
 input[name="op"] {
 	visibility: hidden;
 }
-
+*/
 >>>>>>> origin/master
