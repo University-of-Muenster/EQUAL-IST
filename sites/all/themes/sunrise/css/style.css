@@ -2597,9 +2597,13 @@ div.filefield-sources-list{
     display:none;
 }
 
-/*Hiding the unnecessary search field for extern users*/
+/**Hiding the unnecessary search field for extern users*/
 div.equal-search-block div.contextual-links-wrapper div.container-inline div.form-actions div.form-wrapper {
 	visibility : hidden;
+}
+
+#edit-actions.form-actions.form-wrapper div {
+	display:none;
 }
 
 >>>>>>> origin/master
