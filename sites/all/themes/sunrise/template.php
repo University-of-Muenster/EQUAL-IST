@@ -97,6 +97,7 @@ function sunrise_preprocess_html(&$variables) {
 				$(".equal-search-block").hide();
 				$(".equal-user-menu-block").show("fade");
 			}
+			$(".equal-user-menu-block").show("fade");
 		});
 		
 		
