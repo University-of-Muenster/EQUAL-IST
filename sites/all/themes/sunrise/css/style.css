@@ -2602,4 +2602,7 @@ div.equal-search-block div.contextual-links-wrapper div.container-inline div.for
 	visibility : hidden;
 }
 
+div#edit-actions.form-actions.form-wrapper {
+	visibility: hidden;
+}
 >>>>>>> origin/master
