@@ -2596,7 +2596,7 @@ div.filefield-sources-list{
 }
 
 /*Hiding the unnecessary search field for extern users*/
-div.pane-search-form div.equal-search-block div.pane-content form#search-block-form div.container-inline div.form-actions div.form-wrapper #edit-submit {
+#edit-submit {
 	display : none;
 }
 
