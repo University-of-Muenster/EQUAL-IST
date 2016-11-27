@@ -1313,6 +1313,10 @@ ul.pager li a, ul.pager li.pager-current{
 ul.pager li.active a, ul.pager li.pager-current{
     background-color: rgba(158,0,93,1.0);
     color: white;}
+	
+div.views-row-even {
+	float: left; 
+}
 /* Add Attachment File to Drupal/Modules/File/icons/text-plain.png*/
 
 .field-item-even img{
