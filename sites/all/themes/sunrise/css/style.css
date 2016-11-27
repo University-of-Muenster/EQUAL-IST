@@ -2188,7 +2188,7 @@ div.contextual-links-region:nth-child(5) > div:nth-child(2) > p:nth-child(2) > a
 .pane-node-field-share {
 	background:url('../images/icons/iconsohneschatten/Material_Icons_e80d(4)_64.png') no-repeat;
 	background-size: 64px 64px;
-	background-position: 0px 15px;
+	background-position: center left;
 	min-height: 75px;
 	border: 1px solid rgba(158,0,93,1.0);	
     -webkit-border-radius: 3px;
@@ -2228,7 +2228,7 @@ span.social-button {
 .pane-node-field-challenge-ref {
 background:url('../images/icons/iconsohneschatten/Material_Icons_e0c6(0)_64.png') no-repeat;
 	background-size: 64px 64px;
-	background-position: 0px 0px;
+	background-position: center left;
 	border: 1px solid rgba(158,0,93,1.0);	
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -2239,7 +2239,7 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e0c6(0)_64.png'
 .field-name-field-university {
 background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png') no-repeat;
 	background-size: 64px 64px;
-	background-position: 0px 15px;
+	background-position: center left;
 	border: 1px solid rgba(158,0,93,1.0);	
     -webkit-border-radius: 3px;
     border-radius: 3px;
