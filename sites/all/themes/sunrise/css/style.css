@@ -2587,4 +2587,8 @@ body.front div.messages {margin-top: -190%;}
     display:none;
 }
 
+div.filefield-sources-list{
+    display:none;
+}
+
 >>>>>>> origin/master
