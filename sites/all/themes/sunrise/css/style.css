@@ -2573,6 +2573,12 @@ body.front div.messages {margin-top: -190%;}
     font-size: 1.75rem;
 }
 
+
+/*Challenge Detailed page*/
+div.col-md-4:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+    display: none;
+}
+
 /** Hiding the unnecessary buttons of add challenge form */
 
 .filefield-source.filefield-source-reference.clear-block {
