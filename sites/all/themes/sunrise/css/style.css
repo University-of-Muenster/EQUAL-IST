@@ -2596,8 +2596,8 @@ div.filefield-sources-list{
 }
 
 /*Hiding the unnecessary search field for extern users*/
-div.form-actions div.form-wrapper #edit-actions {
-	visibility: hidden;
+div.pane-search-form div.equal-search-block div.pane-content form#search-block-form div.container-inline div.form-actions div.form-wrapper #edit-submit {
+	display : none;
 }
 
 >>>>>>> origin/master
