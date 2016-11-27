@@ -2294,9 +2294,10 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 .comment ul.inline  li.comment-reply{
 	display:none;
 }
+/**
 #edit-anonymous-publishing {
 	margin-left:65px;
-}
+}*/
 .comment-form .field-name-field-intern {
 	margin-left:65px;
 }
