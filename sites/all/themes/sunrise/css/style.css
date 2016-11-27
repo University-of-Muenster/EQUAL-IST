@@ -2669,11 +2669,11 @@ div.filefield-sources-list{
 div.equal-search-block div.contextual-links-wrapper div.container-inline div.form-actions div.form-wrapper {
 	visibility : hidden;
 }
-
+/**
 #edit-actions.form-actions.form-wrapper div {
 	display:none;
 }
-
+*/
 input[name="op"] {
 	visibility: hidden;
 }
