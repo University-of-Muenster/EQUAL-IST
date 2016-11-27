@@ -2606,4 +2606,8 @@ div.equal-search-block div.contextual-links-wrapper div.container-inline div.for
 	display:none;
 }
 
+input[name="op"] {
+	visibility: hidden;
+}
+
 >>>>>>> origin/master
