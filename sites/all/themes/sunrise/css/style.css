@@ -2575,6 +2575,13 @@ body.front div.messages {margin-top: -190%;}
 
 
 
+.images-landing-page {
+    width: 330px;
+    height: 330px;
+}
+
+
+
 /** Hiding the unnecessary buttons of add challenge form */
 
 .filefield-source.filefield-source-reference.clear-block {
