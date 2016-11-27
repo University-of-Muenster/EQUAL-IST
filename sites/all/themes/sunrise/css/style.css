@@ -1245,8 +1245,6 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 /*challenges*/
 .views-field-field-challenge-image img {
     float:left; 
-    width: 256px;
-    height: 256px;
     margin-right: 20px;
     margin-bottom: 30px;
 }
