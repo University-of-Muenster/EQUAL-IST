@@ -2575,15 +2575,15 @@ body.front div.messages {margin-top: -190%;}
 
 /** Hiding the unnecessary buttons of add challenge form */
 
-.filefield-source .filefield-source-reference .clear-block {
+.filefield-source.filefield-source-reference.clear-block {
     display:none;
 }
 
-.filefield-source .filefield-source-remote .clear-block{
+.filefield-source.filefield-source-remote.clear-block{
     display:none;
 }
 
-.filefield-source .filefield-source-attach .clear-block{
+.filefield-source.filefield-source-attach.clear-block{
     display:none;
 }
 
