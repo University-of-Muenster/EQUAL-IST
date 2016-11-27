@@ -2591,5 +2591,8 @@ div.filefield-sources-list{
     display:none;
 }
 
+#header-top-left.clearfix div{
+    display:none;
+}
 
 >>>>>>> origin/master
