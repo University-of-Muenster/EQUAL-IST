@@ -9,7 +9,6 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 * { transition: all 0.3s ease-out; } 
 
-
 body { color: #666666; font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 1.5; }
 
 p { margin: 0 0 0; padding: 0; }
@@ -2572,6 +2571,20 @@ body.front div.messages {margin-top: -190%;}
     transition: all 0.3s ease-out;
     text-decoration: none;
     font-size: 1.75rem;
+}
+
+/** Hiding the unnecessary buttons of add challenge form */
+
+.filefield-source .filefield-source-reference .clear-block {
+    display:none;
+}
+
+.filefield-source .filefield-source-remote .clear-block{
+    display:none;
+}
+
+.filefield-source .filefield-source-attach .clear-block{
+    display:none;
 }
 
 >>>>>>> origin/master
