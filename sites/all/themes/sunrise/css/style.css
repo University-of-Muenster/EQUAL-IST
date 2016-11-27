@@ -2596,8 +2596,8 @@ div.filefield-sources-list{
 }
 
 /*Hiding the unnecessary search field for extern users*/
-#edit-submit {
+/*#edit-submit {
 	visibility : hidden;
-}
+}*/
 
 >>>>>>> origin/master
