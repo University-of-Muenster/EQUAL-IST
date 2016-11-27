@@ -16,7 +16,7 @@ p { margin: 0 0 0; padding: 0; }
 
 /**Entfernung der Blöcke von About unten */
 
-ul.links.inline { display:none; }
+/* ul.links.inline { display:none; }*/
 
 /** Entfernung der Add Idea Teil 2 */
 
