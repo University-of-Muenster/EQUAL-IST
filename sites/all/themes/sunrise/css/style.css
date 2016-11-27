@@ -1327,10 +1327,6 @@ ul.pager li.active a, ul.pager li.pager-current{
     padding-top: 10px;
 }
 
-div.views-row-even:nth-child(1) > div:nth-child(3) {
-	float:left;
-}
-
 
 /* Add Idea Button*/
 .challenge-add-idea-button a{
