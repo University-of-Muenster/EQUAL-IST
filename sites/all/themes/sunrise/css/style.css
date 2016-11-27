@@ -2596,7 +2596,7 @@ div.filefield-sources-list{
 }
 
 /*Hiding the unnecessary search field for extern users*/
-#edit-actions {
+div.container-inline div.form-actions div.form-wrapper {
 	visibility : hidden;
 }
 
