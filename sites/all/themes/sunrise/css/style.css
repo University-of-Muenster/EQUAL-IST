@@ -2661,10 +2661,6 @@ div.filefield-sources-list{
     display:none;
 }
 
-.go-back.form-submit input{
-    margin-right:5px;
-}
-
 /**Hiding the unnecessary search field for extern users
 div.equal-search-block div.contextual-links-wrapper div.container-inline div.form-actions div.form-wrapper {
 	visibility : hidden;
