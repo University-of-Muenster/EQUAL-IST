@@ -2715,4 +2715,11 @@ div.filefield-sources-list{
 .form-managed-file .form-file {
 	width: 100%;
 }
+/*Challenge List abstand */
+.pane-views-challenges-list-block-1 .views-row {
+	margin-bottom: 20px;
+}
+.view-id-ideas_all .views-row {
+	margin-bottom: 20px;
+}
 >>>>>>> origin/master
