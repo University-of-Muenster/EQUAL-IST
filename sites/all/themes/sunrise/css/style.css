@@ -2401,6 +2401,7 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 }
 .comment-form .field-name-field-intern {
 	margin-left:65px;
+	display: none;
 }
 .comment-form  .form-item.form-type-item {
 	margin-left:65px;
@@ -2706,19 +2707,6 @@ div.filefield-sources-list{
     display:none;
 }
 
-/**Hiding the unnecessary search field for extern users
-div.equal-search-block div.contextual-links-wrapper div.container-inline div.form-actions div.form-wrapper {
-	visibility : hidden;
-}
-
-#edit-actions.form-actions.form-wrapper div {
-	display:none;
-}
-
-input[name="op"] {
-	visibility: hidden;
-}
-*/
 #quicktabs-ideas_by_category .item-list ul li {
 	margin:0;
 }
