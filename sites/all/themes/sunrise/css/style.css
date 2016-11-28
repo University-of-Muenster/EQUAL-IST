@@ -1325,6 +1325,13 @@ div.views-row-even {
 .views_slideshow_cycle_div_ideas_in_challenge-block_1 {
 	margin-bottom: 20px; 
 }
+
+
+
+#views_slideshow_cycle_teaser_section_ideas_in_challenge-block {
+    height: 300px;
+}
+
 /* Add Attachment File to Drupal/Modules/File/icons/text-plain.png*/
 
 .field-item-even img{
@@ -1813,7 +1820,6 @@ a.button-inverse {
 
 .views-row {
     clear:both;
-    margin-bottom: 100px;
 }
 
 .pane-title {
@@ -2632,12 +2638,6 @@ body.front div.messages {margin-top: -190%;}
     font-size: 1.75rem;
 }
 
-
-
-img.images-landing-page {
-    width: 330px;
-    height: 330px;
-}
 
 
 
