@@ -1614,7 +1614,7 @@ a.button-inverse {
 }
 
 
-#quicktabs-tab-ideas_by_category-0:hover {
+#quicktabs-tab-ideas_by_category-0:hover, #quicktabs-tab-ideas_by_category-0:active, #quicktabs-tab-ideas_by_category-0:focus {
     background-color: white;
     color: rgba(158,0,93,1.0);
     border-color: 1px solid rgba(158,0,93,1.0);
@@ -1650,7 +1650,7 @@ a.button-inverse {
     font-size: 1.75rem;
 }
 
-#quicktabs-tab-ideas_by_category-1:hover {
+#quicktabs-tab-ideas_by_category-1:hover, #quicktabs-tab-ideas_by_category-1:focus, #quicktabs-tab-ideas_by_category-1:active  {
     background-color: white;
     color: rgba(158,0,93,1.0);
     border-color: 1px solid rgba(158,0,93,1.0);
@@ -1685,7 +1685,7 @@ a.button-inverse {
     font-size: 1.75rem;
 }
 
-#quicktabs-tab-ideas_by_category-2:hover {
+#quicktabs-tab-ideas_by_category-2:hover, #quicktabs-tab-ideas_by_category-2:focus , #quicktabs-tab-ideas_by_category-2:active  {
     background-color: white;
     color: rgba(158,0,93,1.0);
     border-color: 1px solid rgba(158,0,93,1.0);
@@ -1720,7 +1720,7 @@ a.button-inverse {
     font-size: 1.75rem;
 }
 
-#quicktabs-tab-ideas_by_category-3:hover {
+#quicktabs-tab-ideas_by_category-3:hover, #quicktabs-tab-ideas_by_category-3:focus, #quicktabs-tab-ideas_by_category-3:active {
     background-color: white;
     color: rgba(158,0,93,1.0);
     border-color: 1px solid rgba(158,0,93,1.0);
@@ -1737,6 +1737,7 @@ a.button-inverse {
     text-decoration: none;
     font-size: 1.75rem;
 }
+
  
 .quicktabs-tabs {
     color: rgba(158,0,93,1.0);
