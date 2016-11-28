@@ -2718,4 +2718,7 @@ input[name="op"] {
 	visibility: hidden;
 }
 */
+#quicktabs-ideas_by_category .item-list ul li {
+	margin:0;
+}
 >>>>>>> origin/master
