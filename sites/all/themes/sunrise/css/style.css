@@ -1312,9 +1312,11 @@ ul.pager li.active a, ul.pager li.pager-current{
     background-color: rgba(158,0,93,1.0);
     color: white;}
 	
+
+/** Einrückung auf der Idea Overview Reiter Most commented ideas
 div.views-row-even {
 	float: left; 
-}
+}*/
 
 .views_slideshow_controls_text_ideas_in_challenge-block {
 	align-content: center;
