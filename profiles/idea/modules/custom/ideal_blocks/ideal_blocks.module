@@ -95,9 +95,9 @@ function _ideal_blocks_challenge_stats() {
     $output = '<div id="ideal-challenge-stats">';
     $output .= '<div class="row top ideas col-xs-12"><div class="ideal-challenge-stats-name">Contribution: </div>' . format_plural($idea_count, '<div class="ideal-challenge-stats-ideas">1 idea </div>', '<div class="ideal-challenge-stats-ideas">@count ideas </div>') . '</div>';
     $output .= '<table class="counts challenge-page"><tr>';
-    $output .= '<td class="col users ideal-challenge-stats-icon-td"><div class="ideal-challenge-stats-small-users-icon">' . t(' ') . '</div><div class="challenge-stats-count">' . $user_count . '</div></td>';
-    $output .= '<td class="col votes ideal-challenge-stats-icon-td"><div class="ideal-challenge-stats-small-votes-icon">' . t(' ') . '</div><div class="challenge-stats-count">' . $vote_count . '</div></td>';
-    $output .= '<td class="col comments ideal-challenge-stats-icon-td"><div class="ideal-challenge-stats-small-comments-icon">' . t(' ') . '</div><div class="challenge-stats-count">' . $comment_count . '</div></td>';
+    $output .= '<td class="col users ideal-challenge-stats-icon-td" title="People involved in ideas of this challenge"><div class="ideal-challenge-stats-small-users-icon" >' . t(' ') . '</div><div class="challenge-stats-count">' . $user_count . '</div></td>';
+    $output .= '<td class="col votes ideal-challenge-stats-icon-td" title="Idea votings of this challenge"><div class="ideal-challenge-stats-small-votes-icon" >' . t(' ') . '</div><div class="challenge-stats-count">' . $vote_count . '</div></td>';
+    $output .= '<td class="col comments ideal-challenge-stats-icon-td" title="Idea comments of this challenge"><div class="ideal-challenge-stats-small-comments-icon">' . t(' ') . '</div><div class="challenge-stats-count">' . $comment_count . '</div></td>';
     $output .= '</tr></table></div></div>';
 
     return $output;
