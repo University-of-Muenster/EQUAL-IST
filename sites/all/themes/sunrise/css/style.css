@@ -2711,4 +2711,8 @@ div.filefield-sources-list{
 #quicktabs-ideas_by_category .item-list ul li {
 	margin:0;
 }
+/* Bug Fix Datei auswählen */
+.form-managed-file .form-file {
+	width: 100%;
+}
 >>>>>>> origin/master
