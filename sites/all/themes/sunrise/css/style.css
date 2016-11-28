@@ -1750,6 +1750,7 @@ a.button-inverse {
 /* Buttons */
 .btn-success, input[type="button"], input[type="submit"], input[type="reset"] {
 	margin: 0 auto;
+	margin-right:10px;
   font-size: 1.75rem;
   padding: 1.25rem 2.5rem;
   display: inline-block;
@@ -2596,7 +2597,7 @@ body.front div.messages {margin-top: -190%;}
     font-size: 1.75rem;
 }
 
-#quicktabs-tab-user_ideas-0:hover {
+#quicktabs-tab-user_ideas-0:hover, #quicktabs-tab-user_ideas-0:active, #quicktabs-tab-user_ideas-0:focus {
     background-color: white;
     color: rgba(158,0,93,1.0);
     border-color: 1px solid rgba(158,0,93,1.0);
@@ -2630,7 +2631,7 @@ body.front div.messages {margin-top: -190%;}
     font-size: 1.75rem;
 }
 
-#quicktabs-tab-user_ideas-1:hover {
+#quicktabs-tab-user_ideas-1:hover, #quicktabs-tab-user_ideas-1:active, #quicktabs-tab-user_ideas-1:focus {
     background-color: white;
     color: rgba(158,0,93,1.0);
     border-color: 1px solid rgba(158,0,93,1.0);
@@ -2664,7 +2665,7 @@ body.front div.messages {margin-top: -190%;}
     font-size: 1.75rem;
 }
 
-#quicktabs-tab-user_ideas-2:hover {
+#quicktabs-tab-user_ideas-2:hover, #quicktabs-tab-user_ideas-2:focus, #quicktabs-tab-user_ideas-2:active  {
     background-color: white;
     color: rgba(158,0,93,1.0);
     border-color: 1px solid rgba(158,0,93,1.0);
