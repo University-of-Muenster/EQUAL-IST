@@ -1261,6 +1261,10 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
     margin-bottom: 20px;
 }
 
+.views-row-0 > div:nth-child(3) {
+	text-align: justify;
+}
+
 .views-label-field-vote{
     display: none;
 }
