@@ -19,7 +19,7 @@ p { margin: 0 0 0; padding: 0; }
 
 /** Entfernung der Add Idea Teil 2 */
 
-a, a:visited { color: #E54D1B; text-decoration: none; }
+a, a:visited { color: #E54D1B; text-decoration: underline; }
 
 a:hover { color: #FF4D4D; text-decoration: underline; }
 
@@ -1259,10 +1259,6 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
     text-align: justify;
     margin-top: 30px;
     margin-bottom: 20px;
-}
-
-.views-row-0 > div:nth-child(3) {
-	text-align: justify;
 }
 
 .views-label-field-vote{
