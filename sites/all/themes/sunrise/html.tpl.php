@@ -18,7 +18,7 @@
   <![endif]-->
   <?php print $scripts; ?>
   <!-- next 5 lines are for the integration of tinymce-->
- <script src="/drupal/sites/all/libraries/tinymce/js/tinymce/tinymce.min.js"></script>
+ <script src="/sites/all/libraries/tinymce/jscripts/tiny_mce/tiny_mce.js"></script>
 <!-- Just be careful that you give correct path to your tinymce.min.js file, above is the default example -->
  <!-- Just be careful that you give correct path to your tinymce.min.js file, above is the default example -->
     <script>
