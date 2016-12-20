@@ -2147,6 +2147,32 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 .view-challenges-list .field-name-field-vote .field-label {
 	display:none;
 }
+/* User Profile Ideas / Challenges */
+#quicktabs-user_ideas .vud-widget-alternate{
+	clear:none;
+	float:right;
+	width: 200px;
+	height: 35px;
+	font-size:1.25rem;
+}
+#quicktabs-user_ideas .vud-widget-alternate .alternate-votes-display {
+	font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
+	padding:5px 10px;
+	
+}
+#quicktabs-user_ideas .vud-widget-alternate .up-active, #quicktabs-user_ideas  .vud-widget-alternate .up-inactive {
+	height:25px;
+	width: 30px;
+	background-size: 25px 25px;
+	margin-right:10px;
+}
+#quicktabs-user_ideas .vud-widget-alternate .up-inactive:hover {
+	background-size: 25px 25px;
+}
+#quicktabs-user_ideas .field-name-field-vote .field-label {
+	display:none;
+}
+
 /* Comment Vote */
 .comment .vud-widget-alternate{
 	clear:none;
@@ -2728,3 +2754,7 @@ div.filefield-sources-list{
     display:none;
 }
 >>>>>>> origin/master
+/* USer Profile  user Ideas/ challenges */
+#quicktabs-user_ideas .views-row {
+	margin-bottom: 100px;
+}
