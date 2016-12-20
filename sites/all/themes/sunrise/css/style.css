@@ -2723,7 +2723,7 @@ div.filefield-sources-list{
 	margin-bottom: 100px;
 }
 
-div #edit-author--2 .form-item.form-type-item{
+div #edit-author--2 .form-item .form-type-item{
     
     display:none;
 }
