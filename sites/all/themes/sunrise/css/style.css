@@ -2757,7 +2757,7 @@ div.filefield-sources-list{
 }
 
 #edit-anonymous-publishing.collapsible.form-wrapper{
-	display:none;
+	float:bottom;
 }
 >>>>>>> origin/master
 /* USer Profile  user Ideas/ challenges */
