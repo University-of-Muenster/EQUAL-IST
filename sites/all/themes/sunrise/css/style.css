@@ -197,7 +197,7 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 
 #main-navigation-inside ul.menu li a span { color: black; font-family: Georgia, serif; font-style: italic; font-weight: normal; }
 
-#main-navigation-inside ul.menu li a:hover, #main-navigation-inside ul.menu li.current-menu-item a, #main-navigation-inside ul.menu li.current_page_item a { color: #fff; text-decoration: underline}
+#main-navigation-inside ul.menu li a:hover, #main-navigation-inside ul.menu li.current-menu-item a, #main-navigation-inside ul.menu li.current_page_item a { color: rgba(158,0,93,1.0); text-decoration: underline}
 
 /* equal_ist_user_menu */
 
