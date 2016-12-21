@@ -240,7 +240,7 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 	text-transform: uppercase; font-weight: 700;
 }
 #equal-login-link a:hover {
-	color: #fff; text-decoration: underline
+	color: rgba(158,0,93,1.0); text-decoration: none;
 }
 #search-block-form{
 
