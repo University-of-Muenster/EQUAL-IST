@@ -2756,7 +2756,7 @@ div.filefield-sources-list{
     display:none;
 }
 
-fieldset #edit-anonymous-publishing.collapsible.form-wrapper{
+#edit-anonymous-publishing.collapsible.form-wrapper{
 	display:none;
 }
 >>>>>>> origin/master
