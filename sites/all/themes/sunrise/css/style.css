@@ -191,9 +191,9 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 
 #main-navigation-inside ul.menu { display: inline-block;}
 
-#main-navigation-inside ul.menu li { padding: 0 15px; font-size: 14px; font-weight: 700; text-transform: uppercase; transition:none; }
+#main-navigation-inside ul.menu li {color: black; padding: 0 15px; font-size: 14px; font-weight: 700; text-transform: uppercase; transition:none; }
 
-#main-navigation-inside ul.menu li a { padding: 21px 5px; color: #ddd; text-decoration: none; transition:none; text-transform: uppercase; font-weight: 700; padding: 20px 20px 10px 20px; }
+#main-navigation-inside ul.menu li a {color: black; padding: 21px 5px; color: #ddd; text-decoration: none; transition:none; text-transform: uppercase; font-weight: 700; padding: 20px 20px 10px 20px; }
 
 #main-navigation-inside ul.menu li a span { font-family: Georgia, serif; font-style: italic; font-weight: normal; }
 
