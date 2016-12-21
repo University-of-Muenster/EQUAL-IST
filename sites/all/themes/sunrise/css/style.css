@@ -2439,7 +2439,7 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 .pane-node-comment-wrapper {
 	clear:both;
 }
-.idea-form .collapsible.form-wrapper{
+div #content-wrapper .collapsible.form-wrapper{
 	float:bottom;
 }
 
