@@ -2812,7 +2812,7 @@ div.filefield-sources-list{
 #edit-timezone.collapsible.form-wrapper{
     display:none;
 }
-div.form-item.from-type-checkbox.form-item-field-mention-notification-und{
+.form-item .from-type-checkbox.form-item-field-mention-notification-und{
     display:none;
 }
 /*END frome time zone and mention notifications*/
