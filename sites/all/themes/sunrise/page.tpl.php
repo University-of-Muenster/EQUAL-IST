@@ -421,8 +421,8 @@ section {
     <br>
     <br>
         <ul>
-        <li><img src="/var/www/html/sites/default/files/EU.jpg" align="center"> </img></li>
-        <li align="center"> This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement Nr.710549</li>
+        <li><img src="EU.jpg" align="center"> </img></li>
+        <li align="center"> This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement Nr.710549.</li>
     </ul>
     </div>      
 </div>
