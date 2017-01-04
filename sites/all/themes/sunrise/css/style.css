@@ -2803,10 +2803,10 @@ div.filefield-sources-list{
 #edit-author--2.form-item.form-type-item{
     display:none;
 }
-
+/** Versuch den select anonymous nach unten zu packen wahrscheinlich über das Modul machen müssen 
 #edit-anonymous-publishing.collapsible.form-wrapper{
 	weight:-500;
-}
+} */
 >>>>>>> origin/master
 /* USer Profile  user Ideas/ challenges */
 #quicktabs-user_ideas .views-row {
