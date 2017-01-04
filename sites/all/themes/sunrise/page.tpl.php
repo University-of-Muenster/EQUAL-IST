@@ -346,7 +346,6 @@ section {
 <ul>
     <li><a href="https://equal-ist.eu/"target="_blank">www.equal-ist.eu</a></li>
     <li><a href="info@equal-ist.eu"target="_blank">info@equal-ist.eu</a></li>
-    <li><a src="http://www.crowdequality.eu/var/www/html/sites/default/files/EU.jpg"> </a></li>
 </ul>  
 </div>    
 
@@ -418,6 +417,14 @@ section {
 </div>
     
 </div>
+    <div>
+    <br>
+    <br>
+        <ul>
+        <li><img src="http://www.crowdequality.eu/var/www/html/sites/default/files/EU.jpg"> </img></li>
+        <li> This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement Nr.710549</li>
+    </ul>
+    </div>      
 </div>
 <!-- EOF: #footer-inside -->
     
