@@ -2809,7 +2809,7 @@ div.filefield-sources-list{
 } */
 
 /*Deletion Time zone and Mention notifications from user profile*/
-#edit-timezone .collapsible.form-wrapper{
+#edit-timezone .collapsible.form-wrapper fieldset{
     display:none;
 }
 .form-item .from-type-checkbox .form-item-field-mention-notification-und{
