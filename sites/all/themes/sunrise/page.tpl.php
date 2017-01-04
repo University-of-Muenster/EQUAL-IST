@@ -382,10 +382,11 @@ section {
     
 <div class="content">
 <ul>
+    <li><a href="https://www.uni-muenster.de/en/"target="_blank">The University of Münster (WWU)</a></li>  
     <li><a href="http://www.unimore.it/"target="_blank">University of Modena and Reggio Emilia (UNIMORE)</a></li>
     <li><a href="https://www.uminho.pt/EN"target="_blank">The University of Minho (UMINHO)</a></li>
     <li><a href="http://www.hneu.edu.ua/"target="_blank">Simon Kuznets Kharkiv National University of Economics (KhNUE)</a></li>    
-    <li><a href="https://www.uni-muenster.de/en/"target="_blank">The University of Münster (WWU)</a></li>       
+         
 </ul>
 </div>
     
