@@ -346,6 +346,7 @@ section {
 <ul>
     <li><a href="https://equal-ist.eu/"target="_blank">www.equal-ist.eu</a></li>
     <li><a href="info@equal-ist.eu"target="_blank">info@equal-ist.eu</a></li>
+    <li><a href="/var/www/html/sites/default/files/EU.jpg"> </a></li>
 </ul>  
 </div>    
 
