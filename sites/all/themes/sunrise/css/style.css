@@ -2814,11 +2814,11 @@ div.filefield-sources-list{
 }
 /*END frome time zone and mention notifications*/
 
-/*Changing position of the comment type select list */
+/*Changing position of the comment type select list 
 .form-item.form-type-select-or-other.form-item-field-comment-type-und .select-or-other{
     display:none;
 }
-
+*/
 >>>>>>> origin/master
 /* USer Profile  user Ideas/ challenges */
 #quicktabs-user_ideas .views-row {
