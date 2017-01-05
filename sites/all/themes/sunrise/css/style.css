@@ -1475,7 +1475,6 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
 .how_it_works_column {
     width: 25%;
     float: left;
-    position: relative;
     margin-right: auto;
     margin-left: auto;
     margin-top: 0%;
