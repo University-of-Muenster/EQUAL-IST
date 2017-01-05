@@ -2815,8 +2815,8 @@ div.filefield-sources-list{
 /*END frome time zone and mention notifications*/
 
 /*Changing position of the comment type select list */
-#edit-field-comment-type.field-type-text.field-name-field-comment-type.field-widget-select-or-other.form-wrapper{
-    padding-left:10%;
+.form-item.form-type-select-or-other.form-item-field-comment-type-und .select-or-other{
+    display:none;
 }
 
 >>>>>>> origin/master
