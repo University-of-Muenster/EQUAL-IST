@@ -2814,6 +2814,11 @@ div.filefield-sources-list{
 }
 /*END frome time zone and mention notifications*/
 
+/*Changing position of the comment type select list */
+#edit-field-comment-type.field-type-text.field-name-field-comment-type.field-widget-select-or-other.form-wrapper{
+    display:none;
+}
+
 >>>>>>> origin/master
 /* USer Profile  user Ideas/ challenges */
 #quicktabs-user_ideas .views-row {
