@@ -2816,7 +2816,7 @@ div.filefield-sources-list{
 
 /*Changing position of the comment type select list */
 #edit-field-comment-type.field-type-text.field-name-field-comment-type.field-widget-select-or-other.form-wrapper{
-    display:none;
+    padding-left:10%;
 }
 
 >>>>>>> origin/master
