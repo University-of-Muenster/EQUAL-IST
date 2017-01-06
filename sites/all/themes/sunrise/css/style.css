@@ -571,7 +571,7 @@ a img { border: 0px none; }
 
 .field-type-taxonomy-term-reference .field-label { font-weight: 400; }
 
-.field-type-taxonomy-term-reference .field-label, .field-type-taxonomy-term-reference .field-items { display: inline-block; }
+/*.field-type-taxonomy-term-reference .field-label, .field-type-taxonomy-term-reference .field-items { display: inline-block; }*/
 
 .field-type-taxonomy-term-reference .field-item { margin: 0; display:inline;}
 
@@ -2820,6 +2820,7 @@ div.filefield-sources-list{
 }
 
 */
+/*styling the Categories_Subcategories field add challenge */
 .draggable.odd.drag-previous.field-multiple-drag{
     display:none;
 }
@@ -2827,7 +2828,7 @@ div.filefield-sources-list{
 .form-item .tabledrag-toggle-weight-wrapper{
     display:none;
 }
-
+/*END therefore 574 commented*/
 >>>>>>> origin/master
 /* USer Profile  user Ideas/ challenges */
 #quicktabs-user_ideas .views-row {
