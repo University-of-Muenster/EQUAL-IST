@@ -1978,7 +1978,7 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 #logo_nav {
     height: 50px;
     width: 50px;
-    padding-left: 50px;
+    padding-left: 30px;
 }
 
 .pane-block-15 > div:nth-child(1) > p:nth-child(2) > a:nth-child(1) {
