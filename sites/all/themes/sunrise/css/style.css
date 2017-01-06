@@ -2820,9 +2820,14 @@ div.filefield-sources-list{
 }
 
 */
-.draggable.odd.drag-previous .field-multiple-drag{
+.draggable.odd.drag-previous.field-multiple-drag{
     display:none;
 }
+
+.form-item .tabledrag-toggle-weight-wrapper{
+    display:none;
+}
+
 >>>>>>> origin/master
 /* USer Profile  user Ideas/ challenges */
 #quicktabs-user_ideas .views-row {
