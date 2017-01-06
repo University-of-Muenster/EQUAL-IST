@@ -1979,6 +1979,7 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
     height: 45px;
     width: 45px;
     margin-left: 20px;
+    margin-top: 10px;
 
 }
 
