@@ -1975,7 +1975,7 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
   text-decoration: none;
 }
 
-.logo_nav {
+#logo_nav {
     height: auto;
    padding-left: 20px;
 }
