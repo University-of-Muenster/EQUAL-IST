@@ -2821,11 +2821,11 @@ div.filefield-sources-list{
 
 */
 /*styling the Categories_Subcategories field add challenge */
-.draggable.odd.drag-previous.field-multiple-drag{
+.field-multiple-drag{
     display:none;
 }
 
-.form-item .tabledrag-toggle-weight-wrapper{
+.form-item .tabledrag-toggle-weight-wrapper{ /*ready*/
     display:none;
 }
 /*END therefore 574 commented*/
