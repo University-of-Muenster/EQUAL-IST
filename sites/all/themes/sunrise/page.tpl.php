@@ -362,9 +362,9 @@ section {
 
 <div class="content">
 <ul>
-    <li><a href="https://www.facebook.com/EQUALISTproject/?fref=ts" target="_blank" title="Facebook" class="facebook"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" width="50" height="50"/>EQUAL-IST <br> Like us on Facebook </a></li>
-    <li><a href="https://twitter.com/equalistproject" target="_blank" title="Twitter" class="twitter"><img src="http://www.freeiconspng.com/uploads/twitter-icon--basic-round-social-iconset--s-icons-0.png" width="50" height="50"/>@EQUALISTproject <br> Follow us on Twitter</a></li>
-    <li><a href="https://de.linkedin.com/" target="_blank"title="Linkedin" class="linkedin"><img src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png" width="50" height="50"/>linkedin.com <br> Join the LinkedIn Group</a></li>
+    <li><a href="https://www.facebook.com/EQUALISTproject/?fref=ts" target="_blank" title="Facebook" class="facebook"><img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_facebook-128.png" width="50" height="50"/></a></li>
+    <li><a href="https://twitter.com/equalistproject" target="_blank" title="Twitter" class="twitter"><img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/twitter_online_social_media-128.png" width="50" height="50"/></a></li>
+    <li><a href="https://de.linkedin.com/" target="_blank"title="Linkedin" class="linkedin"><img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/linked_in_online_social_media-128.png" width="50" height="50"/></a></li>
 </ul>  
 </div>
 
