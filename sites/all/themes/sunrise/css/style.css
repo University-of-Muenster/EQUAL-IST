@@ -2818,7 +2818,11 @@ div.filefield-sources-list{
 .form-item.form-type-select-or-other.form-item-field-comment-type-und .select-or-other{
     display:none;
 }
+
 */
+.draggable.odd.drag-previous .field-multiple-drag{
+    display:none;
+}
 >>>>>>> origin/master
 /* USer Profile  user Ideas/ challenges */
 #quicktabs-user_ideas .views-row {
