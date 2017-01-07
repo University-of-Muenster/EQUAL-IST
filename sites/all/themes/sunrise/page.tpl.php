@@ -360,7 +360,7 @@ section {
 <div id="block-block-19" class="block block-block clearfix">
 <h2>Get Social</h2>
 
-<div class="content">
+<div class="content"> /*warum wurde hier der Text entfernt?*/
 <ul>
     <li><a href="https://www.facebook.com/EQUALISTproject/?fref=ts" target="_blank" title="Facebook" class="facebook"><img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_facebook-128.png" width="50" height="50"/></a></li>
     <li><a href="https://twitter.com/equalistproject" target="_blank" title="Twitter" class="twitter"><img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/twitter_online_social_media-128.png" width="50" height="50"/></a></li>
