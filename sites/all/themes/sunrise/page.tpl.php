@@ -354,8 +354,9 @@ section {
         <p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement Nr.710549.</p>
             
         <br>
+            <div class="EU_image">
           <img src="https://europa.eu/european-union/sites/europaeu/files/docs/body/flag_yellow_low.jpg" />
-        
+        </div>
         </div>
 </div>    
 
