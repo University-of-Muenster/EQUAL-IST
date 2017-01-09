@@ -408,7 +408,7 @@ textarea:focus, input:focus { outline: 0; }
 
 #footer h2 { font-family: 'Open Sans', sans-serif; line-height: 36px; font-size: 20px; color: grey; margin-bottom: 40px; padding-left: 40px; }	
 
-#footer p { padding-left: 40px; }
+#footer p { padding-left: 40px; color: white }
 
 #footer ul li { list-style-type: none; border-bottom: none; margin: 0px 0px 15px 0px; clear:both }
 
