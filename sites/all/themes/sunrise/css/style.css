@@ -416,7 +416,7 @@ textarea:focus, input:focus { outline: 0; }
 
 #footer .content a:hover { text-decoration: underline; }
 
-#footer .content img {border: none; padding: 0.8em; float:left; width: 70px; height: 70px }
+#footer .content img {border: none;margin-left: 10%; padding: 0.8em; float:left; width: 70px; height: 70px }
 
 /* subfooter */
 
