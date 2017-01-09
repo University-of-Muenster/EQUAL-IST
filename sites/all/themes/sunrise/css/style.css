@@ -2888,3 +2888,11 @@ div.filefield-sources-list{
 #idea-node-form .related_nodes_challenge_title:hover, #idea-node-form .related_nodes_tag_title:hover{
 	cursor:pointer
 }
+
+.EU_Footer_inside p{
+    color: white;
+}
+#footer .content .EU_Footer_inside img {
+    width: 230px;
+    height: 150px;
+}
