@@ -2453,6 +2453,28 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 	width:100%;
 	
 }
+.pane-node-field-related-ideas {
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.pane-node-field-related-ideas .pane-title{
+	display: block;
+	font-size: 15px;
+	color:#333;
+	margin-top:0px;
+
+}
+.pane-node-field-related-ideas .field-item:before {
+	content: "\2022   ";
+}
+.pane-node-field-related-ideas .field-item {
+	margin-left:5px;
+}
+
 /* Comments */
 .comment {
 	border-bottom: 1px solid #ccc;
@@ -2682,7 +2704,7 @@ body.front div.messages {margin-top: -190%;}
 #quicktabs-tab-user_ideas-0:hover, #quicktabs-tab-user_ideas-0:active, #quicktabs-tab-user_ideas-0:focus {
     background-color: white;
     color: rgba(158,0,93,1.0);
-    border-color: 1px solid rgba(158,0,93,1.0);
+    border: 1px solid rgba(158,0,93,1.0);
     display: inline-block; 
     text-align: center;
     /*margin-bottom: 50px;*/
@@ -2716,7 +2738,7 @@ body.front div.messages {margin-top: -190%;}
 #quicktabs-tab-user_ideas-1:hover, #quicktabs-tab-user_ideas-1:active, #quicktabs-tab-user_ideas-1:focus {
     background-color: white;
     color: rgba(158,0,93,1.0);
-    border-color: 1px solid rgba(158,0,93,1.0);
+    border: 1px solid rgba(158,0,93,1.0);
     display: inline-block; 
     text-align: center;
     /*margin-bottom: 50px;*/
@@ -2750,7 +2772,7 @@ body.front div.messages {margin-top: -190%;}
 #quicktabs-tab-user_ideas-2:hover, #quicktabs-tab-user_ideas-2:focus, #quicktabs-tab-user_ideas-2:active  {
     background-color: white;
     color: rgba(158,0,93,1.0);
-    border-color: 1px solid rgba(158,0,93,1.0);
+    border: 1px solid rgba(158,0,93,1.0);
     display: inline-block; 
     text-align: center;
     /*margin-bottom: 50px;*/
@@ -2842,17 +2864,27 @@ div.filefield-sources-list{
 #quicktabs-user_ideas .views-row {
 	margin-bottom: 100px;
 }
-
-
-
-.EU_Footer_inside p{
-    color: white;
+/* Idea Form */
+/* Related Nodes */
+#idea-node-form .related_nodes{
+	height:auto !important; 
+	padding:10px;
+    border: 1px solid rgba(158,0,93,1.0);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 }
-
-#footer .content .EU_Footer_inside img {
-    width: 230px;
-    height: 150px;
+#idea-node-form .related_nodes_title{
+	color:rgba(158,0,93,1.0);
+	margin-bottom: 10px;
 }
-
-
-
+#idea-node-form .related_nodes_challenge, #idea-node-form .related_nodes_tag{
+	display: none;
+} 
+#idea-node-form .related_nodes_challenge_title, #idea-node-form .related_nodes_tag_title{
+	display: inline-block;
+	padding:5px;
+	font-size: 13px;
+}
+#idea-node-form .related_nodes_challenge_title:hover, #idea-node-form .related_nodes_tag_title:hover{
+	cursor:pointer
+}
