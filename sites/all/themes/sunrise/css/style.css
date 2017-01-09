@@ -2842,3 +2842,18 @@ div.filefield-sources-list{
 #quicktabs-user_ideas .views-row {
 	margin-bottom: 100px;
 }
+
+
+
+.EU_Footer_inside p{
+    color: white;
+}
+
+.EU_Footer_inside img{
+    margin-left: 17%;
+}
+
+.EU_Footer_inside a{
+    margin-left: 17%;
+    float: left;
+}

@@ -346,7 +346,17 @@ section {
 <ul>
     <li><a href="https://equal-ist.eu/"target="_blank">www.equal-ist.eu</a></li>
     <li><a href="info@equal-ist.eu"target="_blank">info@equal-ist.eu</a></li>
-</ul>  
+</ul> 
+        
+        <div class="EU_Footer_inside" id="EU_Footer_inside">
+            <br>
+            
+        <p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement Nr.710549.</p>
+            
+        <br>
+          <img src="https://s-media-cache-ak0.pinimg.com/736x/20/b0/b9/20b0b92d7d8249204e12987ef105e9b9.jpg" width="50" height="50" />
+        
+        </div>
 </div>    
 
 </div>
@@ -417,14 +427,20 @@ section {
 </div>
     
 </div>
-    <div id="EuropenAgreement">
+    <div class = "EU_Footer" id="EU_Footer">
     <br>
     <br>
         
+<<<<<<< Updated upstream
         <a href="https://europa.eu/european-union/about-eu/symbols/flag_en" target="_blank" title="EU" class="EU" margin:"auto">       <img src="https://s-media-cache-ak0.pinimg.com/736x/20/b0/b9/20b0b92d7d8249204e12987ef105e9b9.jpg" width="50" height="50" />europe.eu</a> <br>
+=======
+        <a href="https://europa.eu/european-union/about-eu/symbols/flag_en" target="_blank" title="EU" class="EU" margin-right="auto" margin-left="auto">       <img src="https://s-media-cache-ak0.pinimg.com/736x/20/b0/b9/20b0b92d7d8249204e12987ef105e9b9.jpg" width="50" height="50" />europe.eu</a> <br>
+        <div class = "EU_Footer_Text" id = "EU_Footer_Text">
+>>>>>>> Stashed changes
         This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement Nr.710549.
-  
-    </div>      
+    </div>
+    </div>
+    </div>
         
 <!-- EOF: #footer-inside -->
     
