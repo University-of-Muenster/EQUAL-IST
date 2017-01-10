@@ -2932,8 +2932,10 @@ div.panel-pane:nth-child(13) > div:nth-child(1) > h3:nth-child(1) {
  
 }
 
-.field-name-ds-user-picture {
+.user-picture > a:nth-child(1) > img:nth-child(1) {
     margin-left: 300px;
+    height: 400px;
+    width: 400px;
 }
 
 
