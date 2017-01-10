@@ -2483,6 +2483,29 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 .pane-node-field-related-ideas .field-item {
 	margin-left:5px;
 }
+.pane-node-field-tags-for-related-challenge {
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.pane-node-field-tags-for-related-challenge .pane-title{
+	display: block;
+	font-size: 15px;
+	color:#333;
+	margin-top:0px;
+
+}
+.pane-node-field-tags-for-related-challenge li {
+	list-style-type: none;
+	display: inline-block;
+
+}
+.pane-node-field-tags-for-related-challenge .item-list:after {
+	content:"";
+}
 
 /* Comments */
 .comment {
