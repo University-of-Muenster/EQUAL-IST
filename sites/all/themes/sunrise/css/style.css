@@ -2897,6 +2897,6 @@ div.filefield-sources-list{
 }
 
 /* Hiding the unnecessary wysiwyg-window of the feedback-module */
-form.feedback-form div.form-item div.form-textarea-wrapper #edit-message_parent{
+form.feedback-form div.form-item div.form-textarea-wrapper span.mceEditor{
 	display: none;
 }
