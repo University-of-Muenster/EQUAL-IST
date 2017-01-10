@@ -2927,7 +2927,6 @@ div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) > dt:nth-child
     display: inline;
     font-size: 25px;
     line-height: 1.5;
-    margin-bottom: 0px;
 }
 
 div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) > dd:nth-child(2) {
@@ -2935,6 +2934,9 @@ div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) > dd:nth-child
     font-family: 'Open Sans';
     line-height: 1.5;
     display: inline;
+}
+
+div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) {
     margin-bottom: 0px;
 }
 
