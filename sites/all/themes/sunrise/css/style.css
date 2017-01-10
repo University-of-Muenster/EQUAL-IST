@@ -2503,8 +2503,11 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 	display: inline-block;
 
 }
-.pane-node-field-tags-for-related-challenge .item-list:after {
-	content:"";
+.pane-node-field-tags-for-related-challenge .field-name-field-tags-for-related-challenge {
+	margin-bottom:0px;
+}
+.pane-node-field-tags-for-related-challenge .field-item.even:after {
+	content:none;
 }
 
 /* Comments */
