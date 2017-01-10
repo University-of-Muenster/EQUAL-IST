@@ -2846,10 +2846,10 @@ div.filefield-sources-list{
 
 /*Changing position of the comment type select list */
 .form-item.form-type-select-or-other.form-item-field-comment-type-und {
-    margin: 0px 0px 20px 80px;
+    margin: 0px 0px 20px 75px;
 }
 .title.comment-form{
-    margin: 0px 0px 0px 80px;
+    margin: 0px 0px 0px 75px;
 }
 
 /*styling the Categories_Subcategories field add challenge*/ 
