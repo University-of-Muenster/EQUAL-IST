@@ -1476,9 +1476,13 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
     width: 33%;
     float: left;
     position:center;
-    margin:auto;
+    margin-right: 0%;
+    margin-left: 0%;
     margin-top: 0%;
-    padding: 100px;
+    padding-left: 7%;   
+    padding-right: 7%;   
+    padding-top: 20px;   
+    padding-bottom: 20px;
 }
 
 .how_it_works_column img{
@@ -1500,7 +1504,7 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
 }
 
 .how_it_works p {
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
 }
 
