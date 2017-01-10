@@ -2896,7 +2896,12 @@ div.filefield-sources-list{
     height: auto;
 }
 
-/* Hiding the unnecessary wysiwyg-window of the feedback-module */
+/* Hiding the unnecessary wysiwyg-window of the feedback-module. */
 form.feedback-form div.form-item div.form-textarea-wrapper span.mceEditor{
 	display: none;
+}
+
+/* Displaying the message textarea of the feedback-window. */
+form.feedback-form div.form-item div.form-textarea-wrapper textarea.feedback-message{
+	display: block;
 }
