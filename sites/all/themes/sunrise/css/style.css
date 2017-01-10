@@ -2918,26 +2918,11 @@ div.panel-pane:nth-child(13) > div:nth-child(1) > h3:nth-child(1) {
     display: none;
 }
 
-.ds-2col-stacked > .group-header {
-  border-bottom: 1px solid rgba(158, 0, 93, 1.0); 
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-}
-
-.ds-2col-stacked > .group-footer {
-  border-top: 1px solid rgba(158, 0, 93, 1.0); 
-  margin-top: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
- 
-}
-
 .user-picture > a:nth-child(1) > img:nth-child(1) {
     margin-left: 300px;
     height: 400px;
     width: 400px;
 }
-
 
 .field-item {
     font-size: 25px;
@@ -2951,14 +2936,7 @@ div.panel-pane:nth-child(13) > div:nth-child(1) > h3:nth-child(1) {
     line-height: 1.5;
 }
 
-div.panel-pane:nth-child(13) {
-    font-size: 25px;
-    font-family: 'Open Sans';
-    line-height: 1.5;
-    display: inline;
-}
-
-.ds-2col-stacked > div:nth-child(3) > dl:nth-child(8) > dd:nth-child(2) {
+div.panel-pane:nth-child(13) > div:nth-child(1) > dl:nth-child(2) {
     display: inline;
     font-size: 25px;
     line-height: 1.5;
