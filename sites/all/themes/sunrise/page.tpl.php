@@ -447,7 +447,7 @@ section {
                     <div class="subfooter-area">                  
                     <p> 
                     <a href="#">©2016 EQUAL-IST All rights reserved.</a> <br>
-                    <a href="/node/82">Terms of Use</a> <br>
+                    <a href="/node/82">Terms and Conditions</a> <br>
 					<a href="/node/83"> House Rules </a>
                     </p>
                     </div>
