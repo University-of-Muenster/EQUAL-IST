@@ -2920,5 +2920,9 @@ div.panel-pane:nth-child(13) > div:nth-child(1) > h3:nth-child(1) {
 
 .page-user .user-picture {
     max-width: 400px;
-    margin-left: 200px;
+    margin-left: 50px;
+}
+
+div.panel-pane:nth-child(13) > div:nth-child(1) > dl:nth-child(2) > dd:nth-child(2) {
+    display: inline;
 }
