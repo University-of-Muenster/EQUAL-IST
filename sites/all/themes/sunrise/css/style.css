@@ -1496,10 +1496,12 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
     transform: rotate(360deg);
 }
 
-
+#info-header > h5:nth-child(2) {
+    font-size: 20px;
+}
 
 .how_it_works h3{
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
 }
 
