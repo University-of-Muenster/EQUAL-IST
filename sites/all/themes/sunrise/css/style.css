@@ -2960,19 +2960,11 @@ div.panel-col-last:nth-child(2) > div:nth-child(1) {
     max-width: 400px;
     margin-left: 50px;
 }
-
-div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) > dt:nth-child(1) {
+.page-user .pane-user-summary dd, .page-user .pane-user-summary dt {
     display: inline;
     font-size: 25px;
     line-height: 1.5;
     font-weight: bold;
-}
-
-div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) > dd:nth-child(2) {
-    font-size: 25px;
-    font-family: 'Open Sans';
-    line-height: 1.5;
-    display: inline;
 }
 
 div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) {
