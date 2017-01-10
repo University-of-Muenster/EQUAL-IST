@@ -2846,7 +2846,7 @@ div.filefield-sources-list{
 
 /*Changing position of the comment type select list */
 .form-item.form-type-select-or-other.form-item-field-comment-type-und .select-or-other.select-or-other-processed{
-    margin: 0px 0px 0px 1000px;
+    margin: 0px 0px 0px 100px;
 }
 
 
