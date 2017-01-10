@@ -2845,13 +2845,12 @@ div.filefield-sources-list{
 /*END frome time zone and mention notifications*/
 
 /*Changing position of the comment type select list */
-.form-item.form-type-select-or-other.form-item-field-comment-type-und .select-or-other.select-or-other-processed{
+.form-item.form-type-select-or-other.form-item-field-comment-type-und {
     margin: 0px 0px 0px 80px;
 }
-.form-item.form-type-select-or-other.form-item-field-comment-type-und .select-or-other.select-or-other-processed .description{
+.title.comment-form{
     margin: 0px 0px 0px 80px;
 }
-
 
 /*styling the Categories_Subcategories field add challenge*/ 
 .field-multiple-drag{
