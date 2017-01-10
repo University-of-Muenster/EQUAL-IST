@@ -2918,7 +2918,7 @@ div.panel-pane:nth-child(13) > div:nth-child(1) > h3:nth-child(1) {
     display: none;
 }
 
-.user-picture > a:nth-child(1) > img:nth-child(1) {
+.user-picture > a:nth-child(1) {
     height: 100%;
     width: 100%;
     margin-left: 300px;
