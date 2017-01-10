@@ -2893,6 +2893,5 @@ div.filefield-sources-list{
     color: white;
 }
 #footer .content .EU_Footer_inside img {
-    width: 230px;
-    height: 150px;
+    height: auto;
 }
