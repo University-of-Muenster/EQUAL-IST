@@ -2069,7 +2069,7 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 	background-position: right;
 }
 .Sidebar {
-	margin-left: 15px;
+	margin-left: 30px;
 }
 /* Sidebar Vote */
 .Sidebar .vud-widget-alternate {
