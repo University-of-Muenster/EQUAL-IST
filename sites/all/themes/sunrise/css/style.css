@@ -2068,8 +2068,8 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 	background-repeat: no-repeat;
 	background-position: right;
 }
-.Sidebar {
-	margin-left: 30px;
+#panel-bootstrap-region-sidebar {
+	margin-left:30px;
 }
 /* Sidebar Vote */
 .Sidebar .vud-widget-alternate {
