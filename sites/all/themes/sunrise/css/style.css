@@ -2909,8 +2909,8 @@ form.feedback-form div.form-item div.form-textarea-wrapper span.mceEditor{
 /*userprofile*/
 div.panel-col-last:nth-child(2) > div:nth-child(1) {
     font-size: 25px;
-	margin-bottom: 100px;
-	margin-top: 50px;
+	margin-bottom: 70px;
+	margin-top: 70px;
     line-height: 1.5;
 }
 
@@ -2927,6 +2927,7 @@ div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) > dt:nth-child
     display: inline;
     font-size: 25px;
     line-height: 1.5;
+    font-weight: bold;
 }
 
 div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) > dd:nth-child(2) {
@@ -2946,6 +2947,6 @@ div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) {
     line-height: 1.5;
 }
 
-.pane-block-19 > div:nth-child(3) > p:nth-child(1) > strong:nth-child(1) {
+.pane-block-19 > div:nth-child(3) > p:nth-child(1) > strong:nth-child(3) {
     font-size: 25px;
 }
