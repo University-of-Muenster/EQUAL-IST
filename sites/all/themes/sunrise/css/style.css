@@ -2966,7 +2966,12 @@ div.panel-col-last:nth-child(2) > div:nth-child(1) {
     line-height: 1.5;
     font-weight: bold;
 }
-
+.page-user .pane-user-summary dt {
+    font-weight:600;
+}
+.page-user .pane-user-summary dd{
+    font-weight:400;
+}
 div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) {
     margin-bottom: 0px;
 }
