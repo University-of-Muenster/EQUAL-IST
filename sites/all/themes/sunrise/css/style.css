@@ -2918,10 +2918,26 @@ div.panel-pane:nth-child(13) > div:nth-child(1) > h3:nth-child(1) {
     display: none;
 }
 
+<<<<<<< HEAD
 .user-picture > a:nth-child(1) > img:nth-child(1) {
+=======
+.ds-2col-stacked > .group-header {
+  border-bottom: 1px solid rgba(158, 0, 93, 1.0); 
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.ds-2col-stacked > .group-footer {
+  border-top: 1px solid rgba(158, 0, 93, 1.0); 
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+}
+
+.field-name-ds-user-picture {
+>>>>>>> parent of 16cff75... userprofile
     margin-left: 300px;
-    height: 400px;
-    width: 400px;
 }
 
 .field-item {
