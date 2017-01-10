@@ -2903,3 +2903,8 @@ div.filefield-sources-list{
 form.feedback-form div.form-item div.form-textarea-wrapper span.mceEditor{
 	display: none;
 }
+
+/*userprofile*/
+div.panel-col-last:nth-child(2) > div:nth-child(1) {
+    font-size: 17px;
+}
