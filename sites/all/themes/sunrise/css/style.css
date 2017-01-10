@@ -2948,7 +2948,7 @@ div.panel-pane:nth-child(13) > div:nth-child(1) > h3:nth-child(1) {
     line-height: 1.5;
 }
 
-.ds-2col-stacked > div:nth-child(3) > dl:nth-child(8) > dt:nth-child(1) {
+div.panel-pane:nth-child(13) {
     font-size: 25px;
     font-family: 'Open Sans';
     line-height: 1.5;
