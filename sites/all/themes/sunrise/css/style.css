@@ -2920,9 +2920,15 @@ div.panel-pane:nth-child(13) > div:nth-child(1) > h3:nth-child(1) {
 
 .page-user .user-picture {
     max-width: 400px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 div.panel-pane:nth-child(13) > div:nth-child(1) > dl:nth-child(2) > dd:nth-child(2) {
     display: inline;
+}
+
+.field-label {
+    font-size: 25px;
+    font-family: 'Open Sans';
+    line-height: 1.5;
 }
