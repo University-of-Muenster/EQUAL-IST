@@ -157,7 +157,7 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
              if ($node->nid !=$current_nid){
               $parent[]=clone $temp_parent;
               $child[]=clone $temp_child;
-              $tagged_nodes[]=$node;
+              $tagged_nodes[]=clone $node;
              }
           }
           }
@@ -166,6 +166,7 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
         
       }
     }
+    
     $tag_options = array();
     $tag_header = array(
       'tag_parent' => t('Tag'),
@@ -174,7 +175,10 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
     );
     $tag_temp_name='';
     $subtag_temp_name='';
+    $string_index='';
+    $index_translate=array();
     foreach ($tagged_nodes as $key => $node) {
+      
       if($tag_temp_name==$parent[$key]->name){
         $tag_name='';
       }else{
@@ -185,7 +189,14 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
       }else{
         $subtag_name=$child[$key]->name;
       }
-      $tag_options[$node->nid] = array(
+      
+      if(array_key_exists((string)$node->nid, $tag_options)){
+        $string_index.='-'.(string)$node->nid;
+      }else{
+        $string_index=(string)$node->nid;
+      }
+      $index_translate[$node->nid][$string_index]=$string_index;
+      $tag_options[$string_index] = array(
         'tag_parent' => t($tag_name),
         'tag_child' => t($subtag_name),
         'title' => array(
@@ -198,8 +209,10 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
         )
         
       );
+      
       $tag_temp_name=$parent[$key]->name;
-      $subtag_temp_name=$child[$key]->name;   
+      $subtag_temp_name=$child[$key]->name; 
+       
     }
     $form['tag_nodes'] = array(
         '#type' => 'tableselect',
@@ -213,10 +226,13 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
       );
     //Get the Data from field field_related_ideas and print them in challenge_nodes and tag_nodes
     foreach ($form['field_related_ideas']['und']['#default_value'] as $value) {
+
       $form['challenge_nodes']['#default_value'][$value]=$value;
-      $form['tag_nodes']['#default_value'][$value]=$value;
-    }
-    
+      foreach ($index_translate[$value] as $string_id) {
+        $form['tag_nodes']['#default_value'][$string_id]=$string_id;
+      }
+      
+    } 
   }
 }
 
@@ -284,8 +300,10 @@ function ideal_idea_node_presave($node) {
     }
   }
   foreach ($node->tag_nodes as $cnid) {
-    if($cnid!=0){
-      $nids[]=$cnid;
+    $parsearray=explode("-", $cnid);
+    $pnid=intval(end($parsearray));
+    if($pnid!=0){
+      $nids[]=$pnid;
     }
   }
   $nids=array_unique($nids);

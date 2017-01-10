@@ -7,6 +7,48 @@
       $("#idea-node-form .related_nodes_tag_title").click(function(){
           $("#idea-node-form .related_nodes_tag").slideToggle("fast");
       });
+
+      $(".related_nodes_tag .form-checkbox").change(function(){
+        var originvalue = $(this).attr('value');
+        var tvalue = originvalue.split("-");
+        var value = tvalue[tvalue.length-1];
+          if ($(this).is(':checked')) {
+
+            $('.related_nodes_challenge :input').filter(function(){return this.value==value}).prop( "checked", true );
+            $('.related_nodes_tag :input').filter(function(){
+              var neworigin=this.value;
+              var tempvalue=neworigin.split("-");
+              var tmpvalue=tempvalue[tempvalue.length-1];
+              return (tmpvalue==value) && (originvalue!=neworigin);
+            }).prop( "checked", true );
+          } else {
+            $('.related_nodes_challenge :input').filter(function(){return this.value==value}).prop( "checked", false );
+            $('.related_nodes_tag :input').filter(function(){
+              var neworigin=this.value;
+              var tempvalue=neworigin.split("-");
+              var tmpvalue=tempvalue[tempvalue.length-1];
+              return (tmpvalue==value) && (originvalue!=neworigin);
+            }).prop( "checked", false );
+          }
+      });
+      $(".related_nodes_challenge .form-checkbox").change(function(){
+        var value = $(this).attr('value');
+          if($(this).is(':checked')){
+            $('.related_nodes_tag :input').filter(function(){
+              var neworigin=this.value;
+              var tempvalue=neworigin.split("-");
+              var tmpvalue=tempvalue[tempvalue.length-1];
+              return (tmpvalue==value);
+            }).prop( "checked", true );
+          } else {
+            $('.related_nodes_tag :input').filter(function(){
+              var neworigin=this.value;
+              var tempvalue=neworigin.split("-");
+              var tmpvalue=tempvalue[tempvalue.length-1];
+              return (tmpvalue==value);
+            }).prop( "checked", false );
+          }
+      });
     }
   }
 }(jQuery));
