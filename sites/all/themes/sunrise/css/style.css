@@ -2882,6 +2882,11 @@ div.filefield-sources-list{
 }
 /*END frome time zone and mention notifications*/
 
+/* Do not display the personalized data under the comment*/ 
+.rdf-meta.element-hidden .field.field-name-field-personalised-data.field-type-list-text.field-label-above{
+    display:none;
+}
+
 /*Changing position of the comment type select list */
 .form-item.form-type-select-or-other.form-item-field-comment-type-und {
     margin: 0px 0px 20px 75px;
