@@ -57,7 +57,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #444; }
 
 h1 { font-size: 68px; line-height: 48px; letter-spacing: -1px; }
 
-h2 { font-size: 42px; line-height: 1; }
+h2 { font-size: 2vw; line-height: 1; }
 
 h3 { font-size: 26px; line-height: 36px; }
 
@@ -3051,3 +3051,5 @@ div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) {
 #text a{
     color: rgba(158,9,93,1.0);
 }
+
+
