@@ -1504,6 +1504,9 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
     font-size: 20px;
     text-align: center;
 }
+.how_it_works h4{
+    font-size: 20px;
+    text-align: center;
 
 .how_it_works p {
     font-size: 15px;
