@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+        </script>
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
@@ -321,7 +322,7 @@ section {
 <!-- EOF:#page -->
 
 <a href="#header-wrapper" class="smoothScroll">
-<img src="http://www.crowdequality.eu/sites/default/files/HochScrollButton.jpg">
+<img src="http://www.crowdequality.eu/sites/default/files/HochScrollButton.jpg" alt="Button to scroll up!">
 </a>
         <br>
         <br>
@@ -362,9 +363,9 @@ section {
 
 <div class="content"> <!--warum wurde hier der Text entfernt?>-->
 <ul>
-    <li><a href="https://www.facebook.com/EQUALISTproject/?fref=ts" target="_blank" title="Facebook" class="facebook"><img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_facebook-128.png" width="50" height="50"/></a></li>
-    <li><a href="https://twitter.com/equalistproject" target="_blank" title="Twitter" class="twitter"><img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/twitter_online_social_media-128.png" width="50" height="50"/></a></li>
-    <li><a href="https://www.linkedin.com/groups/8559876" target="_blank" title="Linkedin" class="linkedin"><img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/linked_in_online_social_media-128.png" width="50" height="50"/></a></li>
+    <li><a href="https://www.facebook.com/EQUALISTproject/?fref=ts" target="_blank" title="Facebook" class="facebook"><img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_facebook-128.png" width="50" height="50"/ alt="Facebook Picture"></a></li>
+    <li><a href="https://twitter.com/equalistproject" target="_blank" title="Twitter" class="twitter"><img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/twitter_online_social_media-128.png" width="50" height="50" alt="Twitter Picture"/></a></li>
+    <li><a href="https://www.linkedin.com/groups/8559876" target="_blank" title="Linkedin" class="linkedin"><img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/linked_in_online_social_media-128.png" width="50" height="50" alt="Linkedin Picture"/></a></li>
 </ul>  
 </div>
 
