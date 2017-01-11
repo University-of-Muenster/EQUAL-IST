@@ -30,8 +30,7 @@ $(document).ready(function(){
 });
 </script>
         
-        <style>
-body, html, .main {
+        <style> body, html, .main {
     height: 100%;
 }
 
@@ -85,7 +84,7 @@ section {
 
     
     <!-- header -->
-    <header id="header" role="banner" class="clearfix">
+    <header id="header" class="clearfix">
       <!--  <div class="container"> -->
 
             <!-- #header-inside -->
@@ -113,7 +112,8 @@ section {
                     <?php endif; ?>
 
                     <div class="content" >
-                        <div class="social">                             <ul class="social">
+                        <div class="social">                             
+                            <ul class="social">
                             <li><a href="https://twitter.com/equalistproject" title="Twitter" class="twitter" target="_blank"></a></li>
                             <li><a href="https://www.facebook.com/EQUALISTproject/?fref=ts" title="Facebook" class="facebook" target="_blank"></a></li>
                             <li><a href="https://de.linkedin.com/" title="Linkedin" class="gplus" target="_blank"></a></li>
