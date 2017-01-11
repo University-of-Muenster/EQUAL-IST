@@ -3000,8 +3000,8 @@ div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) {
 
 /*Description Banner Start Page*/
 #wrap {
-    position:relative; /* make this relative to have the inner div absolute without     breaking out */
-    width: 100%;  /* fix the width or else it'll be the entire page's width */
+    position:relative; 
+    width: 100%; 
     border: 1px solid grey;
     overflow: hidden;
 }
