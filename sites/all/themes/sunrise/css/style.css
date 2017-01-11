@@ -2883,7 +2883,7 @@ div.filefield-sources-list{
 /*END frome time zone and mention notifications*/
 
 /* Do not display the personalized data under the comment*/ 
-.rdf-meta.element-hidden .field.field-name-field-personalised-data.field-type-list-text.field-label-above{
+.field.field-name-field-personalised-data.field-type-list-text.field-label-above{
     display:none;
 }
 
