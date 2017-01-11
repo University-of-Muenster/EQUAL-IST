@@ -321,7 +321,7 @@ section {
 <!-- EOF:#page -->
 
 <a href="#header-wrapper" class="smoothScroll">
-<img src="http://image.flaticon.com/icons/svg/53/53598.svg">
+<img src="http://www.crowdequality.eu/sites/default/files/HochScrollButton.jpg">
 </a>
         <br>
         <br>
