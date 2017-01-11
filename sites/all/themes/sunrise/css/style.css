@@ -2907,11 +2907,11 @@ div.filefield-sources-list{
  .form-item.form-type-radios.form-item-field-personalized-data-und{
     margin: 20px 0px 20px 75px;
 }
-edit-field-personalised-data-und .form-item.form-type-radio.form-item-field-personalised-data-und{
+ .form-item.form-type-radio.form-item-field-personalised-data-und{
     display:none;
 }
 
-edit-field-personalized-data-und .form-item.form-type-radio.form-item-field-personalized-data-und{
+ .form-item.form-type-radio.form-item-field-personalized-data-und{
     display:none;
 }
 
