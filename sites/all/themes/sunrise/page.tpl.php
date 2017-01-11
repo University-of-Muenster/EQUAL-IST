@@ -138,7 +138,7 @@ section {
         
             <!-- #main-navigation-inside -->
             <div id="main-navigation-inside" class="clearfix">
-                        <nav role="navigation">
+                        <nav>
                             <?php if ($page['navigation']) :?>
                             <?php print drupal_render($page['navigation']); ?>
                             
