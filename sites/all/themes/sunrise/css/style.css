@@ -1397,6 +1397,9 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
 .pane-content a.username{
     padding-bottom: 10px;
 }
+.pane-content img{
+    width:25px;
+}
 
 .field-items p{
     padding-top: 20px;
@@ -2906,9 +2909,6 @@ div.filefield-sources-list{
 
  .form-item.form-type-radios.form-item-field-personalized-data-und{
     margin: 20px 0px 20px 75px;
-}
-/*Editing the size of the search button on the menu panel*/
-    width:25px;
 }
 
 /*styling the Categories_Subcategories field add challenge*/ 
