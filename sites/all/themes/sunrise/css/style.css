@@ -1406,7 +1406,10 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
     color: white;
         
 }
-
+/*Tags for related challenge categories*/
+.form-item.form-type-textfield.form-item-field-tags-for-related-challenge-und-1-tid.shs-wrapper-processed{
+    display:none;
+}
 /*Post Comment Button
 
 .form-wrapper input {
