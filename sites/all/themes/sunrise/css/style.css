@@ -2569,6 +2569,17 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 .pane-node-field-categories-subcategories .field-item.even:after {
 	content:none;
 }
+.pane-node-field-links-external {
+	margin-top:20px;
+}
+.pane-node-field-links-external .pane-title{
+	
+	display: block;
+	font-size: 15px;
+	color:#333;
+	margin-top:0px;
+
+}
 /* Comments */
 .comment {
 	border-bottom: 1px solid #ccc;
