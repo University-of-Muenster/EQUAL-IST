@@ -1397,7 +1397,7 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
 .pane-content a.username{
     padding-bottom: 10px;
 }
-.pane-content img{
+.panel-pane.pane-block.pane-equal-ist-user-menu-equal-ist-user-menu-block.equal-user-menu-icon .pane-content img{
     width:25px;
 }
 
