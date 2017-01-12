@@ -129,7 +129,7 @@ section {
             <!-- EOF: #header-inside -->
         
         <!--</div>-->
-    
+        </head>
     <!-- EOF: #header --> 
         
 
