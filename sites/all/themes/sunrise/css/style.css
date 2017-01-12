@@ -3195,3 +3195,7 @@ a#switch-phase-dialog-okay:hover {
 #banner {
     display: none;
 }
+
+#header-banner-wrapper {
+    display: none;
+}
