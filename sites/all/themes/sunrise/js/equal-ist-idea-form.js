@@ -7,7 +7,9 @@
       $("#idea-node-form .related_nodes_tag_title").click(function(){
           $("#idea-node-form .related_nodes_tag").slideToggle("fast");
       });
-
+      $("#challenge-node-form .related_nodes_challenge_title").click(function(){
+          $("#challenge-node-form .related_nodes_challenge").slideToggle("fast");
+      });
       $(".related_nodes_tag .form-checkbox").change(function(){
         var originvalue = $(this).attr('value');
         var tvalue = originvalue.split("-");

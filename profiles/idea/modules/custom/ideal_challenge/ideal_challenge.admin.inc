@@ -22,7 +22,6 @@ function ideal_challenge_default_challenge_form($form) {
     $form['default_challenge']['#description'] = t('There are NO challenges created yet.<br /> Go and !add your first challenge.', array('!add' => l(t('add'), 'node/add/challenge')));
     
     return $form;
-  }
-
+  } 
   return system_settings_form($form);
 }

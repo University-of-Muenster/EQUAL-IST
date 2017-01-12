@@ -5,7 +5,7 @@
         		e.preventDefault();
         		$(this).parent().parent().find('input.form-control').trigger('click');
         	});
-        	$('#idea-node-form .image-widget-data input.form-control, #idea-node-form .file-widget input.form-control').change(function(){
+        	$('#challenge-node-form .image-widget-data input.form-control, #challenge-node-form .file-widget input.form-control').change(function(){
         		$(this).parent().find('button').show();
         	});
         }

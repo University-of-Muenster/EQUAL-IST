@@ -1,0 +1,126 @@
+/* Nachfolgend (display:none) fuer folgende css geloescht: form.node-challenge-form .field-name-body label, form.node-challenge-form .form-item-title label
+*/
+fieldset.filter-wrapper, form.node-challenge-form .field-name-field-category label{
+	display: none;
+}
+
+#challenge-node-form .dragdropfile-processed:before {
+	content: "";
+	background:none;
+	border:0;
+}
+#challenge-node-form .dragdropfile-processed{
+	outline: none;
+	background: none;
+	border: 0;
+}
+#challenge-node-form .form-type-managed-file{
+	background: #f3f3f3;
+	border: dashed 2px #c6c6c6;
+	text-align: center;
+	padding: 10px;
+}
+#challenge-node-form div.image-widget-data{
+	float: none;
+}
+#challenge-node-form .dragdropfile-processed label{
+	display: block;
+}
+#challenge-node-form .panel-default{
+	border:0;
+	-webkit-box-shadow:none;
+	box-shadow: none;
+	background: none;
+	
+}
+#challenge-node-form .panel-body{
+	padding: 0
+}
+#challenge-node-form .image-widget-data input.form-control, #challenge-node-form .image-widget-data button, #challenge-node-form .file-widget input.form-control, #challenge-node-form .file-widget button{
+	display: none;
+}
+#challenge-node-form .field-type-image, #challenge-node-form .field-type-file{
+	width: 75%;
+	float: right;
+}
+#challenge-node-form  .panel-default>.panel-heading{
+	/*display: none;*/
+}
+#challenge-node-form .form-type-managed-file label{
+	border:0;
+	background-image: url('../../ideal_idea/img/upload-images.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding-top: 38px;
+	margin-top: 25px;
+	text-align: center;
+}
+#challenge-node-form .form-type-managed-file label .title{
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+#challenge-node-form .field-type-file label{
+	background-image: url('../../ideal_idea/img/upload-docs.png');
+}
+#challenge-node-form .panel-default table thead, #challenge-node-form .panel-default .tabledrag-toggle-weight, #challenge-node-form .panel-default table td .tabledrag-handle, #challenge-node-form .panel-default table td .image-widget-data{
+	display: none;
+}
+#challenge-node-form .panel-default table td{
+	background:none;
+	border:0;
+	padding: 0;
+	position: relative;
+}
+#challenge-node-form .panel-default table{
+	
+}
+#challenge-node-form .panel-default table tbody tr{
+	
+}
+#challenge-node-form .panel-default table td button.btn-danger{
+	position: absolute;
+	background:none;
+	background-image: url('../../ideal_idea/img/remove.png');
+	text-indent: -9999px;
+	width: 19px;
+	height: 19px;
+	padding: 0;
+	border: 0;
+	right: 8px;
+	top: 8px;
+}
+#challenge-node-form .panel-default table td img.file-icon{
+	display: block;
+	-moz-box-sizing: border-box;
+	-webkit-sizing: border-box;
+	box-sizing: border-box;
+	background-image: url('../../ideal_idea/img/icon-doc.png');
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	content: '';
+	width: 76px;
+	height: 106px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+#challenge-node-form .panel-default table td img.file-icon[title="application/pdf"]{
+	background-image: url('../../ideal_idea/img/icon-pdf.png');
+}
+#challenge-node-form .panel-default table td .file-widget, #challenge-node-form .panel-default table td .image-widget{
+	width: 100%;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+#challenge-node-form .panel-default table td .image-widge{
+	float: none;
+}
+#challenge-node-form .node-column-sidebar{
+	float: right;
+	width: 20%;
+}
+#challenge-node-form .node-column-main{
+	width: 80%;
+	float: left;
+}

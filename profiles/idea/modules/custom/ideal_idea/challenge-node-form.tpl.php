@@ -5,41 +5,35 @@
     <?php endif; ?>
   </div>
   <div class="node-column-main">
-    Please check the existing ideas before creating your own idea in order to avoid duplicates. <a href="#related_nodes">You can also relate your new idea to existing ideas.</a>
+  Please check the existing challenges before creating your own challenge in order to avoid duplicates. <a href="#related_nodes">You can also relate your new challenge to existing challenges.</a>
     <?php if($form): ?>
       <?php print drupal_render_children($form); ?>
     <?php endif; ?>
-    <?php if($field_tags_for_related_challenge): ?>
-      <?php print render($field_tags_for_related_challenge); ?>
+    <?php if($field_categories_subcategories): ?>
+      <?php print render($field_categories_subcategories); ?>
     <?php endif; ?>
-
-    
-    <?php if($related_nodes): ?>
+    <?php if($tableselect_challenge): ?>
     <a id="related_nodes" style="display: block; position: relative; top: -140px; visibility: hidden;"></a>
     <div class="related_nodes">
-      <div class="related_nodes_title" >Relate your idea to an existing idea</div>
-      Select related ideas from existing ideas 
+      <div class="related_nodes_title" >Relate your challenge to an existing challenge</div>
+      Select related challenges from 
       
 
-      <div class="btn-success related_nodes_challenge_title">by challenge</div>
+      <div class="btn-success related_nodes_challenge_title">existing challenges</div>
       
-      or
-      
-      <div class="btn-success related_nodes_tag_title">by tags</div>
       <?php if(isset($_GET['sort'])): ?>
         <div class="related_nodes_challenge" style="display: inline;">  
       <?php else: ?>
         <div class="related_nodes_challenge"> 
       <?php endif; ?> 
-        <?php print render($related_nodes['challenge_nodes']); ?>
+        <?php print render($tableselect_challenge); ?>
+        <?php print render($field_challenges_similar); ?>
       </div>
-      <div class="related_nodes_tag">
-        <?php print render($related_nodes['tag_nodes']); ?>
-      </div>
+      
     </div>
     <?php endif; ?>
-    <?php if($field_external_links): ?>
-      <?php print render($field_external_links); ?>
+    <?php if($field_links_external): ?>
+      <?php print render($field_links_external); ?>
     <?php endif; ?>
     <?php if($additional_settings): ?>
       <?php print render($additional_settings); ?>
