@@ -1758,6 +1758,7 @@ a.button-inverse {
 }
 /* Buttons */
 .btn-success, input[type="button"], input[type="submit"], input[type="reset"] {
+	cursor: pointer;
 	margin: 0 auto;
 	margin-right:10px;
   font-size: 1.75rem;
@@ -2489,6 +2490,27 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 .pane-node-field-related-ideas .field-item {
 	margin-left:5px;
 }
+.pane-node-field-related-challenges {
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.pane-node-field-related-challenges .pane-title{
+	display: block;
+	font-size: 15px;
+	color:#333;
+	margin-top:0px;
+
+}
+.pane-node-field-related-challenges .field-item:before {
+	content: "\2022   ";
+}
+.pane-node-field-related-challenges .field-item {
+	margin-left:5px;
+}
 .pane-node-field-tags-for-related-challenge {
 	border: 1px solid rgba(158,0,93,1.0);	
     -webkit-border-radius: 3px;
@@ -2518,7 +2540,35 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 .pane-node-field-tags-for-related-challenge .field-item.even:after {
 	content:none;
 }
+.pane-node-field-categories-subcategories {
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.pane-node-field-categories-subcategories .pane-title{
+	display: block;
+	font-size: 15px;
+	color:#333;
+	margin-top:0px;
 
+}
+.pane-node-field-categories-subcategories li {
+	list-style-type: none;
+	display: inline-block;
+
+}
+.pane-node-field-categories-subcategories li.shs-parent {
+	margin-left: 5px;
+}
+.pane-node-field-categories-subcategories .field-name-field-tags-for-related-challenge {
+	margin-bottom:0px;
+}
+.pane-node-field-categories-subcategories .field-item.even:after {
+	content:none;
+}
 /* Comments */
 .comment {
 	border-bottom: 1px solid #ccc;
@@ -2950,6 +3000,31 @@ div.filefield-sources-list{
 	cursor:pointer
 }
 
+/* Challenge Form */
+/* Related Nodes */
+#challenge-node-form .related_nodes{
+	height:auto !important; 
+	padding:10px;
+    border: 1px solid rgba(158,0,93,1.0);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#challenge-node-form .related_nodes_title{
+	color:rgba(158,0,93,1.0);
+	margin-bottom: 10px;
+}
+#challenge-node-form .related_nodes_challenge {
+	display: none;
+} 
+#challenge-node-form .related_nodes_challenge_title{
+	display: inline-block;
+	padding:5px;
+	font-size: 13px;
+}
+#challenge-node-form .related_nodes_challenge_title:hover {
+	cursor:pointer
+}
+
 .EU_Footer_inside p{
     color: white;
 }
@@ -3055,4 +3130,54 @@ div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) {
     color: rgba(158,9,93,1.0);
 }
 
+/* Phase Module */
+a.phase-link {
+	padding:10px;
+	color:white;
+}
+div#switch-phase-dialog {
+	display: none;
+	width:400px;
+	margin-left: -200px;
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	background-color:white;
+	border: 1px solid rgba(158,0,93,1.0);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding:20px;
+    z-index: 999;
+}
+div#gray-background {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	z-index: 998;
+	top:0;
+	left:0;
+}
+#switch-phase-dialog-new-phase {
+	padding:0;
+	margin:0;
+	display:inline;
+}
+#switch-phase-dialog-abort {
+	margin-top:10px;
+	padding:10px;
+	color:white;
+}
+#switch-phase-dialog-okay {
+	margin-top:10px;
+	padding:10px;
+	color:white;
+}
+a#switch-phase-dialog-abort:hover {
+	color:rgba(158,0,93,1.0);
+}
+a#switch-phase-dialog-okay:hover {
+	color:rgba(158,0,93,1.0);
+}
 
