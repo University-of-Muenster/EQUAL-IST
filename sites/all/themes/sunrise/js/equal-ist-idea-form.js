@@ -1,33 +1,32 @@
 (function ($) {
   Drupal.behaviors.sunrise = {
     attach: function(context, settings){
-      function callbackFn(){
-        var $link = $("#lnkMoreOpt");
-        $(this).is(":visible") ? $link.text("Less Options «") : $link.text("More Options »");
+      function callbackFn1(){
+        if($(this).is(":visible") || $("#idea-node-form .related_nodes_tag").is(":visible")){
+          $("#field_ideas_similar").show("fade");
+            //TinyMCE Width bug
+            $("#edit-field-ideas-similar-und-0-value_tbl").removeAttr("style");
+            $("#edit-field-ideas-similar-und-0-value_tbl").css("width", "100%");
+        }else{
+          $("#field_ideas_similar").hide("fade");
+        }
+      }
+      function callbackFn2(){
+        if($(this).is(":visible") || $("#idea-node-form .related_nodes_challenge").is(":visible")){
+          
+          $("#field_ideas_similar").show("fade");
+            //TinyMCE Width bug
+            $("#edit-field-ideas-similar-und-0-value_tbl").removeAttr("style");
+            $("#edit-field-ideas-similar-und-0-value_tbl").css("width", "100%");
+        }else{
+          $("#field_ideas_similar").hide("fade");
+        }
       }
       $("#idea-node-form .related_nodes_challenge_title").click(function(){
-          $("#idea-node-form .related_nodes_challenge").slideToggle("fast", callbackFn);
-            $("#field_ideas_similar").show("fade");
-            //TinyMCE Width bug
-            $("#edit-field-ideas-similar-und-0-value_tbl").removeAttr("style");
-            $("#edit-field-ideas-similar-und-0-value_tbl").css("width", "100%");
-          if (!$("#idea-node-form .related_nodes_challenge").is(":visible") && !$("#idea-node-form .related_nodes_tag").is(":visible")){
-             $("#field_ideas_similar").hide("fade");
-          }
-          
+          $("#idea-node-form .related_nodes_challenge").slideToggle("fast", callbackFn1);  
       });
       $("#idea-node-form .related_nodes_tag_title").click(function(){
-          $("#idea-node-form .related_nodes_tag").slideToggle("fast", callbackFn);
-
-          
-            $("#field_ideas_similar").show("fade");
-            //TinyMCE Width bug
-            $("#edit-field-ideas-similar-und-0-value_tbl").removeAttr("style");
-            $("#edit-field-ideas-similar-und-0-value_tbl").css("width", "100%");
-          if (!$("#idea-node-form .related_nodes_challenge").is(":visible") && !$("#idea-node-form .related_nodes_tag").is(":visible")){
-             $("#field_ideas_similar").hide("fade");
-          }
-          
+          $("#idea-node-form .related_nodes_tag").slideToggle("fast", callbackFn2);
       });
       $("#challenge-node-form .related_nodes_challenge_title").click(function(){
           $("#challenge-node-form .related_nodes_challenge").slideToggle("fast");
