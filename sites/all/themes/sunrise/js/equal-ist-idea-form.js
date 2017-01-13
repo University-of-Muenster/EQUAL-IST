@@ -9,6 +9,9 @@
       });
       $("#challenge-node-form .related_nodes_challenge_title").click(function(){
           $("#challenge-node-form .related_nodes_challenge").slideToggle("fast");
+          //TinyMCE Width bug
+          $("#edit-field-challenges-similar-und-0-value_tbl").removeAttr("style");
+          $("#edit-field-challenges-similar-und-0-value_tbl").css("width", "100%");
       });
       $(".related_nodes_tag .form-checkbox").change(function(){
         var originvalue = $(this).attr('value');
