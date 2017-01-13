@@ -3113,7 +3113,7 @@ div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) {
 .field-name-field-occupation .field-label {
     font-weight: 700;
 }
-.panel-pane.pane-entity-field.pane-user-field-freetext .pane-title{
+.inside .panel-pane.pane-entity-field.pane-user-field-freetext .pane-title{
     display:none;
 }
 
