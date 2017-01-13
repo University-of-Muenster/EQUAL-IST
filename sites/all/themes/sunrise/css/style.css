@@ -3280,3 +3280,13 @@ a#switch-phase-dialog-okay:hover {
 #PoweredbyEQUALIST > p:nth-child(3) {text-align: justify;}
 #EuropenAgreement > p:nth-child(3){text-align: justify;}
 
+/* Information about rewards*/
+.pane-block-24 {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.pane-block-24 > div:nth-child(2) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) {
+    font-weight: bold;
+}
+
