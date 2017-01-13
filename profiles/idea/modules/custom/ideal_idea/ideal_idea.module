@@ -320,9 +320,10 @@ function template_preprocess_idea_node_form(&$variables) {
   // nodeformcols is an alternative for this solution.
   if (!module_exists('nodeformcols')) {
     $variables['sidebar'] = array();   // Put taxonomy fields in sidebar.
+    $variables['form']['field_idea_image']['und'][]=$variables['form']['field_copyright_infringement'];
     $variables['sidebar'][] = $variables['form']['field_idea_image'];
     $variables['sidebar'][] = $variables['form']['field_attachments'];
-
+    hide($variables['form']['field_copyright_infringement']);
     hide($variables['form']['field_idea_image']);
     hide($variables['form']['field_attachments']);
 
