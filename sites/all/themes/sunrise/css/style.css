@@ -2490,6 +2490,22 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 .pane-node-field-related-ideas .field-item {
 	margin-left:5px;
 }
+.pane-node-field-related-ideas .pane-content {
+	margin-bottom: 10px;
+}
+#related-idea-explanation-link {
+	color:white;
+	padding:10px;
+	font-size:14px;
+}
+#related-idea-explanation-link:hover {
+	color:rgba(158,0,93,1.0);
+}
+#related-idea-explanation {
+	margin-top:10px;
+	display: none;
+}
+
 .pane-node-field-related-challenges {
 	border: 1px solid rgba(158,0,93,1.0);	
     -webkit-border-radius: 3px;
