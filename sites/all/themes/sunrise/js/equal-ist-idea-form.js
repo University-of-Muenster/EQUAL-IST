@@ -4,10 +4,12 @@
       $("#idea-node-form .related_nodes_challenge_title").click(function(){
           $("#idea-node-form .related_nodes_challenge").slideToggle("fast");
           if ($("#idea-node-form .related_nodes_challenge").is(":visible") || $("#idea-node-form .related_nodes_tag").is(":visible")){
-            $("#field_ideas_similar").slideToggle("fast");
+            $("#field_ideas_similar").show("fade");
             //TinyMCE Width bug
             $("#edit-field-ideas-similar-und-0-value_tbl").removeAttr("style");
             $("#edit-field-ideas-similar-und-0-value_tbl").css("width", "100%");
+          }else{
+            $("#field_ideas_similar").hide("fade");  
           }
           
       });
@@ -15,10 +17,12 @@
           $("#idea-node-form .related_nodes_tag").slideToggle("fast");
 
           if ($("#idea-node-form .related_nodes_challenge").is(":visible") || $("#idea-node-form .related_nodes_tag").is(":visible")){
-            $("#field_ideas_similar").slideToggle("fast");
+            $("#field_ideas_similar").show("fade");
             //TinyMCE Width bug
             $("#edit-field-ideas-similar-und-0-value_tbl").removeAttr("style");
             $("#edit-field-ideas-similar-und-0-value_tbl").css("width", "100%");
+          }else{
+            $("#field_ideas_similar").hide("fade");
           }
       });
       $("#challenge-node-form .related_nodes_challenge_title").click(function(){
