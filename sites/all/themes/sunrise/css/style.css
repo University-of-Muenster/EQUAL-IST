@@ -3084,7 +3084,7 @@ div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) {
     font-weight:700;
 }
 
-.pane-block-19 > div:nth-child(3) > p:nth-child(1) > strong:nth-child(3) {
+.contextual-links-wrapper .pane-content {
     font-size: 25px;
 }
 
