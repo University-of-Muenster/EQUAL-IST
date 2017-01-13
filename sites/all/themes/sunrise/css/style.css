@@ -3134,12 +3134,12 @@ div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) {
 
 #text{
     position: absolute; 
-    left: 10%;
+    left: 2%;
     color: #333;
     text-align: left;
     background: rgba(255,255,255,0.92);
     width: 30% !important;
-    bottom: 150px;
+    bottom: 40%;
     padding: 2% 2% 2% 2%;
     text-shadow: none;
     overflow: hidden;
