@@ -3217,7 +3217,7 @@ a#switch-phase-dialog-abort:hover {
 a#switch-phase-dialog-okay:hover {
 	color:rgba(158,0,93,1.0);
 }
-/*Search Form*/
+//*Search Form*/
 .col-md-8 .clearfix #content-wrapper .region.region-content .search-form .container-inline.form-wrapper {
 	margin: 10px 0px 10px 0;
 	padding: 5px 0px;
@@ -3229,29 +3229,26 @@ a#switch-phase-dialog-okay:hover {
 .col-md-8 #main #content-wrapper .page-title{
 	margin-bottom: 5px;
 }
-.col-md-8{
-	float: left;
-	width: 65%;
-}
 
 /*Top Searches*/
-.col-md-4 .sidebar.clearfix .region.region-sidebar-first .block.block-top-searches.contextual-links-region.clearfix{
-	width: 25%;
-	float: right;
+#block-top-searches-0{
 	border: 1px solid rgba(158,0,93,1.0);
     font-weight: 300;
     -webkit-border-radius: 3px;
     border-radius: 3px;
+	background-color:rgba(158,0,93,1.0);
 	margin-left: 10%;
 	color: white;
 	margin-top: 40px;
+	padding: 5px;
 }
-.col-md-4 .sidebar.clearfix .region.region-sidebar-first .block.block-top-searches.contextual-links-region.clearfix h2{
+#block-top-searches-0 h2{
 	color:white;
 	font-size: 25px;
+	padding: 5px;
 }
 
-.col-md-4 .sidebar.clearfix .region.region-sidebar-first .block.block-top-searches.contextual-links-region.clearfix a{
+#block-top-searches-0 a{
 	color:rgba(255,255,255, 0.9);
 }
 
@@ -3259,6 +3256,8 @@ a#switch-phase-dialog-okay:hover {
 .col-md-8 .clearfix #content-wrapper .region.region-content .search-form .search-advanced.collapsible.form-wrapper.collapse-processed{
 	display: none;
 }
+
+
 
 
 /*Startseite-Container (News+Twitter Feed)*/
