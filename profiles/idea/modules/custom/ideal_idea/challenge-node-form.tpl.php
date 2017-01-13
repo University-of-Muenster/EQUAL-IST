@@ -26,9 +26,10 @@
       <?php else: ?>
         <div class="related_nodes_challenge"> 
       <?php endif; ?> 
-
-        <?php print render($tableselect_challenge); ?>
-        <div style="width:100%">
+        <div style="width:100%; display: block;">
+          <?php print render($tableselect_challenge); ?>
+        </div>
+        <div style="width:100%; display: block;">
           <?php print render($field_challenges_similar); ?>
         </div>
       </div>
