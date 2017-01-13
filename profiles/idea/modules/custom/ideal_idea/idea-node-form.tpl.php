@@ -36,6 +36,9 @@
       <div class="related_nodes_tag">
         <?php print render($related_nodes['tag_nodes']); ?>
       </div>
+      <div id="field_ideas_similar">
+          <?php print render($field_ideas_similar); ?>
+        </div>
     </div>
     <?php endif; ?>
     <?php if($field_external_links): ?>

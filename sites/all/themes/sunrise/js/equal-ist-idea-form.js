@@ -3,9 +3,11 @@
     attach: function(context, settings){
       $("#idea-node-form .related_nodes_challenge_title").click(function(){
           $("#idea-node-form .related_nodes_challenge").slideToggle("fast");
+          $("field_ideas_similar").slideToggle("fast");
       });
       $("#idea-node-form .related_nodes_tag_title").click(function(){
           $("#idea-node-form .related_nodes_tag").slideToggle("fast");
+          $("field_ideas_similar").slideToggle("fast");
       });
       $("#challenge-node-form .related_nodes_challenge_title").click(function(){
           $("#challenge-node-form .related_nodes_challenge").slideToggle("fast");

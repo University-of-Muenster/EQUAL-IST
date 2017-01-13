@@ -3010,7 +3010,10 @@ div.filefield-sources-list{
 #idea-node-form .related_nodes_challenge_title:hover, #idea-node-form .related_nodes_tag_title:hover{
 	cursor:pointer
 }
-
+#field_ideas_similar {
+	width:100%; 
+	display: none;
+}
 /* Challenge Form */
 /* Related Nodes */
 #challenge-node-form .related_nodes{

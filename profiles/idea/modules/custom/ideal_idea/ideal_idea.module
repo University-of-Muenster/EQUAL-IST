@@ -343,6 +343,10 @@ function template_preprocess_idea_node_form(&$variables) {
     if(isset($variables['form']['field_related_ideas'])){
       hide($variables['form']['field_related_ideas']);
     }
+
+    $variables['field_ideas_similar']=$variables['form']['field_ideas_similar'];
+    hide($variables['form']['field_ideas_similar']);
+
     $variables['field_tags_for_related_challenge']=$variables['form']['field_tags_for_related_challenge'];
     hide($variables['form']['field_tags_for_related_challenge']);
 
