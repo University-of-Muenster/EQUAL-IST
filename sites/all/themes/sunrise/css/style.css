@@ -3062,7 +3062,7 @@ div.panel-col-last:nth-child(2) > div:nth-child(1) {
 
 .page-user .user-picture {
     max-width: 400px;
-    margin-left: 50px;
+    margin-left: 200px;
 }
 .page-user .pane-user-summary dd, .page-user .pane-user-summary dt {
     display: inline;
