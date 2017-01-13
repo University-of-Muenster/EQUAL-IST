@@ -3249,7 +3249,7 @@ a#switch-phase-dialog-okay:hover {
 }
 
 /*Top Searches*/
-#block-top-searches-0{
+.col-md-4 #sidebar-first .region.region-sidebar-first #block-top-searches-0{
 	border: 1px solid rgba(158,0,93,1.0);
     font-weight: 300;
     -webkit-border-radius: 3px;
@@ -3260,13 +3260,13 @@ a#switch-phase-dialog-okay:hover {
 	margin-top: 40px;
 	padding: 5px;
 }
-#block-top-searches-0 h2{
+.col-md-4 #sidebar-first .region.region-sidebar-first #block-top-searches-0 h2{
 	color:white;
 	font-size: 25px;
 	padding: 5px;
 }
 
-#block-top-searches-0 a{
+.col-md-4 #sidebar-first .region.region-sidebar-first #block-top-searches-0 a{
 	color:rgba(255,255,255, 0.9);
 }
 
@@ -3274,9 +3274,6 @@ a#switch-phase-dialog-okay:hover {
 .col-md-8 .clearfix #content-wrapper .region.region-content .search-form .search-advanced.collapsible.form-wrapper.collapse-processed{
 	display: none;
 }
-
-
-
 
 /*Startseite-Container (News+Twitter Feed)*/
 .container {
