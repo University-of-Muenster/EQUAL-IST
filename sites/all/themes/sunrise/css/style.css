@@ -3088,6 +3088,13 @@ div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) {
     font-size: 25px;
 }
 
+.field-name-field-occupation {
+    margin: 0px;
+}
+
+.field-name-field-occupation .field-label {
+    font-weight: 700;
+}
 
 
 /*Description Banner Start Page*/
