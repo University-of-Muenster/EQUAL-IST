@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,greek);
+﻿@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,greek);
 
 /* Reset unusual Firefox-on-Android default style, see https://github.com/necolas/normalize.css/issues/214*/
 @media (max-width: 991px) { 
@@ -3200,3 +3200,10 @@ a#switch-phase-dialog-okay:hover {
 	color:rgba(158,0,93,1.0);
 }
 
+/*tinyMCE Editor width*/
+
+.mceEditor > table {
+    
+	width:auto;
+
+}
