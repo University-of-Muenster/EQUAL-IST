@@ -2961,18 +2961,25 @@ div.filefield-sources-list{
 .title.comment-form{
     margin: 0px 0px 0px 75px;
 }
-/*
+
 .field-type-text.field-name-field-comment-type-challenge.field-widget-select-or-other.form-wrapper .form-item.form-type-select-or-other.form-item-field-comment-type-challenge-und {
     margin: 0px 0px 20px 75px;
 }
 .field-type-list-text.field-name-field-personalised-data.field-widget-options-buttons.form-wrapper .form-item.form-type-radios.form-item-field-personalised-data-und{
     margin: 20px 0px 20px 75px;
 }
-*/
+/*for idea*/
 .field-type-list-boolean.field-name-field-personalized-data.field-widget-options-onoff.form-wrapper .form-item.form-type-checkbox.form-item-field-personalized-data-und{
     margin: 20px 0px 20px 75px;
 }
 .field.field-name-field-personalized-data.field-type-list-boolean.field-label-above{
+    display:none;
+}
+/*for challenge*/
+.field-type-list-boolean.field-name-field-personalized-data1.field-widget-options-onoff.form-wrapper .form-item.form-type-checkbox.form-item-field-personalized-data1-und{
+    margin: 20px 0px 20px 75px;
+}
+.field.field-name-field-personalized-data1.field-type-list-boolean.field-label-above{
     display:none;
 }
 
