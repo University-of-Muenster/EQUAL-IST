@@ -3009,6 +3009,9 @@ div.filefield-sources-list{
 .field-type-taxonomy-term-reference.field-name-field-comment-tags.field-widget-taxonomy-shs.form-wrapper{
     margin: 20px 0px 20px 75px;
 }
+.form-item.form-type-textfield.form-item-field-comment-tags-idea-und-0-tid shs-wrapper-processed{
+    display:none;
+}
 
 /*styling the Categories_Subcategories field add challenge*/ 
 .field-multiple-drag{
