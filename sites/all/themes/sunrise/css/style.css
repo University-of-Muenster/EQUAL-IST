@@ -2960,7 +2960,7 @@ div.filefield-sources-list{
 #edit-timezone.collapsible.form-wrapper{
     display:none;
 }
-.mceToolbar.mceLeft.mceFirst.mceLast{
+.mceFirst .mceToolbar.mceLeft.mceFirst.mceLast{
     display:none;
 }
 
