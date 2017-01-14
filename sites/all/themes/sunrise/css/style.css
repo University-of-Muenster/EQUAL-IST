@@ -2960,6 +2960,10 @@ div.filefield-sources-list{
 #edit-timezone.collapsible.form-wrapper{
     display:none;
 }
+.mceToolbar.mceLeft.mceFirst.mceLast{
+    display:none;
+}
+
 #edit-field-mention-notifications.field-type-list-boolean.field-name-field-mention-notifications.field-widget-options-onoff.form-wrapper{
     display:none;
 }
