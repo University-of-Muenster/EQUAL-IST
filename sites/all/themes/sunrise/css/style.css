@@ -3256,7 +3256,6 @@ a#switch-phase-dialog-okay:hover {
 }
 .col-md-8 #main #content-wrapper .page-title{
 	margin-bottom: 5px;
-	margin-top: 5%;
 }
 
 /*Top Searches*/
@@ -3268,7 +3267,7 @@ a#switch-phase-dialog-okay:hover {
 	background-color:rgba(158,0,93,1.0);
 	margin-left: 10%;
 	color: white;
-	margin-top: 5%;
+	margin-top: 40px;
 	padding: 5px;
 }
 .col-md-4 #sidebar-first .region.region-sidebar-first #block-top-searches-0 h2{
