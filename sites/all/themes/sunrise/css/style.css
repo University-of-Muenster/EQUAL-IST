@@ -3256,7 +3256,11 @@ div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) {
     display:none;
 }
 
-.field-name-field-bio {
+.field-name-field-bio .field-label {
+    display: inline;
+}
+
+.field-name-field-bio .field-item {
     display: inline;
 }
 
