@@ -3486,17 +3486,27 @@ a.switch-phase-dialog-okay:hover {
 }
 
 #EQUALIST_purpose {
-    width: 50%;
+    width: 100%;
     float: left;
     text-align: justify;
     padding: 5%;
 }
 
 #EU_funding {
-    width: 40%;
+    width: 100%;
     float: left;
     text-align: justify;
     padding: 5%;
 }
 
+#EQUALIST_purpose img {
+    height: 80px;
+    width: 210px;
+    border: 2px solid black;
+}
+
+#EU_funding img {
+    height: 80px;
+    width: 120px;
+}
 
