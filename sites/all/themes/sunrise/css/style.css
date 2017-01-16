@@ -286,7 +286,7 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 
 /* menu list */
 
-.menulist .menu-item { border-bottom: 1px solid #f0f0f0; padding-bottom: 20px; margin-bottom: 20px; }
+.menulist .menu-item { border-bottom: 1px solid #f0f0f0; padding-bottom: 20px; /*margin-bottom: 20px;*/ }
 
 .menulist .post-thumb { float:left; width:60px; margin-right: 20px; }
 
