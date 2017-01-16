@@ -3013,6 +3013,10 @@ div.filefield-sources-list{
     display:none;
 }
 
+.form-item.form-type-textfield.form-item-field-comment-tags-idea-und-0-tid.shs-wrapper-processed{
+    margin: 20px 0px 20px 75px;
+}
+
 /*styling the Categories_Subcategories field add challenge*/ 
 .field-multiple-drag{
     display:none;
