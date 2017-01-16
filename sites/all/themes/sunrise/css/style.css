@@ -3211,12 +3211,8 @@ form.feedback-form div.form-item div.form-textarea-wrapper span.mceEditor{
 /*userprofile*/
 div.panel-col-last:nth-child(2) > div:nth-child(1) {
     font-size: 25px;
+	margin-bottom: 70px;
     line-height: 1.5;
-}
-
-.panel-col-last.panel-panel {
-    margin-top: 70px;
-    margin-bottom: 70px;
 }
 
 .page-user .pane-user-summary h3 {
