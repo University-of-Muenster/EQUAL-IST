@@ -3016,10 +3016,10 @@ body.front div.messages {margin-top: -190%;}
     text-decoration: none;
     font-size: 1.75rem;
 }
-/*Hiding Wysiwig Editor from Occupation Other field
+/*Hiding Wysiwig Editor from Occupation Other field*/
 .mceStatusbar.mceFirst.mceLast{
     display:none;
-}*/
+}
 
 
 
