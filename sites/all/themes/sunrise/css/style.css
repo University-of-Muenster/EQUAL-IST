@@ -1798,7 +1798,29 @@ a.button-inverse {
   border-color: rgba(158,0,93,1.0);
   text-decoration:none;
 }
+.btn-inactive, .btn-inactive:hover {
+	cursor:default;
+	margin: 0 auto;
+	margin-right:10px;
+  font-size: 1.75rem;
+  padding: 1.25rem 2.5rem;
+  display: inline-block;
+   background-color: #fff;
+  color: rgba(158,0,93,1.0);
+  text-decoration:none;
+  border: 1px solid rgba(158,0,93,1.0);
 
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.btn-margin-fix {
+	margin:0;
+	margin-top:10px;
+}
 /*-----------------------------------------------
            taxonomy_role_filter module
 -----------------------------------------------*/
@@ -2018,6 +2040,7 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
     content: "Votes: ";
 
 	padding-left:10px;
+	width: 20%;
 }
 .vud-widget-alternate {
 	
@@ -2119,6 +2142,13 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 	clear:both;
 }
 /* Idea all View Vote */
+.view-ideas-all .vud-widget-alternate::before {
+	display: inline-block;
+    content: "Votes: ";
+
+	padding-left:10px;
+	width:auto;
+}
 .view-ideas-all .vud-widget-alternate{
 	clear:none;
 	float:right;
@@ -2144,6 +2174,13 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 	display:none;
 }
 /* Challenge all View Vote */
+.view-challenges-list .vud-widget-alternate::before {
+	display: inline-block;
+    content: "Votes: ";
+
+	padding-left:10px;
+	width:auto;
+}
 .view-challenges-list .vud-widget-alternate{
 	clear:none;
 	float:right;
@@ -2168,7 +2205,72 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 .view-challenges-list .field-name-field-vote .field-label {
 	display:none;
 }
+/* Voting Phase Vote widget */
+.rate-widget {
+ 	display:inline-block;
+ 	height: 100%;
+ 	width: 80%;
+ 	
+}
+/*
+.rate-widget:before {
+	display: inline-block;
+    content: "Votes: ";
+
+	padding-left:10px;
+}*/
+.rate-number-up-down-btn-up, .rate-number-up-down-btn-up.rate-voted:hover {
+	float:right;
+	background:url('../images/icons/Material_Icons_e8dc(1)_64.png');
+	background-size: 45px 45px;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-top:5px;
+    height:45px;
+	width: 50px;
+	margin-right:0px;
+	border-left:1px solid #fff;
+	font-size:0;
+}
+
+.rate-number-up-down-btn-up.rate-voted, .rate-number-up-down-btn-up:hover {
+	background:url('../images/icons/daumenicons/Material_Icons_e8dc(5)_64.png');
+	background-size: 45px 45px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.rate-number-up-down-btn-down, .rate-number-up-down-btn-down.rate-voted:hover {
+	float:right;
+	background:url('../images/icons/Material_Icons_e8db(0)_64.png');
+	background-size: 45px 45px;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-top:5px;
+    height:45px;
+	width: 50px;
+	margin-right:20px;
+	
+	font-size:0;
+}
+
+.rate-number-up-down-btn-down.rate-voted, .rate-number-up-down-btn-down:hover {
+	background:url('../images/icons/daumenicons/Material_Icons_e8db(4)_64.png');
+	background-size: 45px 45px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.rate-info {
+	display: inline-block;
+	color:white;
+}
 /* User Profile Ideas / Challenges */
+#quicktabs-user_ideas .vud-widget-alternate::before {
+	display: inline-block;
+    content: "Votes: ";
+
+	padding-left:10px;
+	width:auto;
+}
 #quicktabs-user_ideas .vud-widget-alternate{
 	clear:none;
 	float:right;
@@ -2195,6 +2297,13 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 }
 
 /* Comment Vote */
+.comment .vud-widget-alternate::before {
+	display: inline-block;
+    content: "Votes: ";
+
+	padding-left:10px;
+	width:auto;
+}
 .comment .vud-widget-alternate{
 	clear:none;
 	float:right;
@@ -2463,7 +2572,7 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 	list-style-type: none;
 	padding-left:100%;
 }
-.pane-ideal-challenge-challenge-add-idea-button .btn-success {
+.pane-ideal-challenge-challenge-add-idea-button .btn-success, .pane-equal-ist-phases-equal-ist-block-add-idea .btn-inactive  {
 	margin:0;
 	margin-top:10px;
 	width:100%;
