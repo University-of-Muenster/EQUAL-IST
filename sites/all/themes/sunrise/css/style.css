@@ -3287,7 +3287,7 @@ div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) {
 }
 
 #wrap img{
-    margin-top: 1%;
+    margin-top: 0%;
     overflow: hidden;
 }
 
