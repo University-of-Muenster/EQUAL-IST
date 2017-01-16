@@ -3259,11 +3259,7 @@ div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) {
     display:none;
 }
 
-.field-name-field-bio > div:nth-child(1) {
-    display: inline;
-}
-
-.field-name-field-bio > div:nth-child(2) {
+.field-name-field-bio{
     display: inline;
 }
 
