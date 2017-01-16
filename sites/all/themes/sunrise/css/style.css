@@ -132,7 +132,7 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 
 #header-banner-wrapper { background: #333; background-image: url(../images/local/sunrise_background1.jpg); background-attachment: fixed; background-size: cover; min-height: 0px;max-height: 100px; -webkit-background-size: cover; /* For WebKit*/ -moz-background-size: cover; /* Mozilla*/ -o-background-size: cover; /* Opera*/ background-size: cover; /* Generic*/ }
 
-#header-banner-wrapper .slogan { background: url(../images/local/bg_slogan.png) top left repeat; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; color: #fff; padding: 30px; margin: 0 auto; text-align: center; margin: 11% auto 11%; }
+/*#header-banner-wrapper .slogan { background: url(../images/local/bg_slogan.png) top left repeat; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; color: #fff; padding: 30px; margin: 0 auto; text-align: center; margin: 11% auto 11%; }*/
 
 #header-banner-wrapper .slogan h2 { font-size: 60px; font-weight: 900; margin: 0px 0px 25px; color:#fff; }
 
