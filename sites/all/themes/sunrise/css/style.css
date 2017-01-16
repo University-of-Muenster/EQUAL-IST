@@ -134,7 +134,7 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 
 /*#header-banner-wrapper .slogan { background: url(../images/local/bg_slogan.png) top left repeat; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; color: #fff; padding: 30px; margin: 0 auto; text-align: center; margin: 11% auto 11%; }*/
 
-/*#header-banner-wrapper .slogan h2 { font-size: 60px; font-weight: 900; margin: 0px 0px 25px; color:#fff; }*/
+#header-banner-wrapper .slogan h2 { font-size: 60px; font-weight: 900; margin: 0px 0px 25px; color:#fff; }
 
 #header-banner-wrapper .slogan p { font-size: 34px; font-weight: 100; }
 
