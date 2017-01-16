@@ -248,7 +248,7 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 
 /* sub-menu */
 
-#main-navigation-inside ul.sf-menu ul { position: absolute; background: url(../images/local/bg_nav.png) top left repeat; margin-top: 4px; margin-left: -15px; width: 250px; text-align: left; z-index:999; padding:0; }
+#main-navigation-inside ul.sf-menu ul { position: absolute; background: url(../images/local/bg_nav.png) top left repeat; margin-top: 0px; margin-left: -15px; width: 250px; text-align: left; z-index:999; padding:0; }
 
 #main-navigation-inside ul.sf-menu ul li { line-height: 26px; display: block; padding: 0px; font-weight: 400; padding:0; margin:0; text-transform: uppercase; }
 
