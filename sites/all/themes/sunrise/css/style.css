@@ -3213,6 +3213,8 @@ div.panel-col-last:nth-child(2) {
     font-size: 25px;
 	margin-bottom: 70px;
     line-height: 1.5;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .page-user .pane-user-summary h3 {
