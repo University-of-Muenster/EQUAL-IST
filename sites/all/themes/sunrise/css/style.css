@@ -3334,7 +3334,7 @@ a.phase-link {
 	padding:10px;
 	color:white;
 }
-div#switch-phase-dialog {
+div.switch-phase-dialog {
 	display: none;
 	width:400px;
 	margin-left: -200px;
@@ -3348,7 +3348,7 @@ div#switch-phase-dialog {
     padding:20px;
     z-index: 999;
 }
-div#gray-background {
+div.gray-background {
 	display: none;
 	position: fixed;
 	width: 100%;
@@ -3358,25 +3358,25 @@ div#gray-background {
 	top:0;
 	left:0;
 }
-#switch-phase-dialog-new-phase {
+.switch-phase-dialog-new-phase {
 	padding:0;
 	margin:0;
 	display:inline;
 }
-#switch-phase-dialog-abort {
+.switch-phase-dialog-abort {
 	margin-top:10px;
 	padding:10px;
 	color:white;
 }
-#switch-phase-dialog-okay {
+.switch-phase-dialog-okay {
 	margin-top:10px;
 	padding:10px;
 	color:white;
 }
-a#switch-phase-dialog-abort:hover {
+a.switch-phase-dialog-abort:hover {
 	color:rgba(158,0,93,1.0);
 }
-a#switch-phase-dialog-okay:hover {
+a.switch-phase-dialog-okay:hover {
 	color:rgba(158,0,93,1.0);
 }
 //*Search Form*/
