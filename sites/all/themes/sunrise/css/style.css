@@ -3263,14 +3263,14 @@ div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) {
     display: inline;
 }
 
-.pane-block-23 > div:nth-child(2) > div:nth-child(1) > p:nth-child(3) {
+.pane-block-23 > div:nth-child(2) > div:nth-child(1) > p:nth-child(1) {
     font-size: 25px;
     font-family: 'Open Sans';
     line-height: 1.5;
     font-weight:700;
 }
 
-.pane-block-23 > div:nth-child(2) > div:nth-child(1) > p:nth-child(5) {
+.pane-block-23 > div:nth-child(2) > div:nth-child(1) > p:nth-child(2) {
     font-size: 15px;
     font-family: 'Open Sans';
     line-height: 1.5;
