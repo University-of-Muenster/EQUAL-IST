@@ -744,14 +744,14 @@ div.messages.warning a { color: #a47e3c; }
 
 /* directional nav */
 
-.carousel .carousel-control { background-color: #fcfcfc; color: #444; display: block; width: 48px; height: 48px; margin: 0; padding:15px; position: absolute; overflow: hidden; top: 45%; text-align: center; cursor: pointer; opacity: 0; filter: alpha(opacity=0);  
+.carousel .carousel-control { background-color: #fcfcfc; color: white; display: block; width: 80px; height: 100%; margin: 0; padding:15px; position: absolute; overflow: hidden; top: 45%; text-align: center; cursor: pointer; opacity: 0; filter: alpha(opacity=0);  
 -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; background-image: none; outline:none; }
 
 .carousel .carousel-control.right { right: 20px }
 
 .carousel .carousel-control.left { left: 20px }
 
-.carousel a.carousel-control:active, .carousel a.carousel-control:hover { background-color: #fcfcfc }
+.carousel a.carousel-control:active, .carousel a.carousel-control:hover { background-color: transparent;}
 
 .carousel-control .icon-prev, .carousel-control .icon-next { font-size: 40px; font-family: Arial, sans-serif; display: block; right: 0; left: auto; width: 100%; }
 
@@ -759,9 +759,11 @@ div.messages.warning a { color: #a47e3c; }
 
 /* slider caption */
 
-.carousel .carousel-caption { background-color: rgba(0,0,0,0.5); color: #fff; display: block; width: 100%; padding: 20px; position: absolute; bottom: 0; left: 0; text-align: center; text-transform: uppercase; display: block; }
+.carousel .carousel-caption { background-color: rgba(0,0,0,0.5); color: #fff; display: block; width: 100%;  height:auto; padding: 20px; position: absolute; bottom: 0; left: 0; text-align: center; text-transform: uppercase; display: block; }
 
 .carousel .carousel-caption h4, .carousel .carousel-caption p { max-width: 1170px; margin: 0 auto; display: block; }
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {width: 100%;}
 
 @media all and (max-width: 768px) {
 	.carousel .carousel-caption p { display: none; }
