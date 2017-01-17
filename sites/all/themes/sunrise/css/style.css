@@ -3484,7 +3484,8 @@ a.switch-phase-dialog-okay:hover {
     opacity: 1.0;
     width: 100%;
     float: right;
-    margin-right: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
     text-align: center;
 }
 
