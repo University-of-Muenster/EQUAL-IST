@@ -3496,8 +3496,8 @@ a.switch-phase-dialog-okay:hover {
     color: white;
     background-color: #666666;
     margin-bottom: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 #EQUALIST_purpose h3{
     text-align: left;
@@ -3525,8 +3525,8 @@ a.switch-phase-dialog-okay:hover {
     background-color: rgba(158,9,93,1.0);
     color: white;
     margin-bottom: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #EU_funding:hover {
