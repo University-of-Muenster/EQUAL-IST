@@ -1236,6 +1236,10 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 {
     width: 80%;
 }
+/*user profile personal details */
+.fieldset-legend{
+    display: none;
+}
 
 
 /*Challenges*/
