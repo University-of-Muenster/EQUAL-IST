@@ -1318,6 +1318,10 @@ div.views-row-even {
 	float: left; 
 }*/
 
+.comment.clearfix{
+	margin: 0px 0px 0px 0px;
+}
+
 .views_slideshow_controls_text_ideas_in_challenge-block {
 	align-content: center;
 }
