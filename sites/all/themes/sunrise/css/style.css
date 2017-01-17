@@ -3450,10 +3450,10 @@ a.switch-phase-dialog-okay:hover {
 
 
 /*Info zu Equalist und EU*/
-#PoweredbyEQUALIST > p:nth-child(4) > img:nth-child(1) {border: none; padding: 0.8em; float:left; }  
+#PoweredbyEQUALIST > p:nth-child(2) > img:nth-child(1) {border: none; padding: 0.8em; float:left; }  
 #EuropenAgreement > p:nth-child(2) > img:nth-child(1) {border: none; padding: 0.8em; float:left; }  
 .pane-block-22 > div:nth-child(2) {margin-right: 50px;}
-#PoweredbyEQUALIST > p:nth-child(5) {text-align: justify; font-size: 15px}
+#PoweredbyEQUALIST > p:nth-child(3) {text-align: justify; font-size: 15px}
 #EuropenAgreement > p:nth-child(3){text-align: justify; font-size: 15px}
 
 /* Information about rewards*/
