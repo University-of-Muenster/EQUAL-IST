@@ -3483,28 +3483,55 @@ a.switch-phase-dialog-okay:hover {
 }
 
 .funding {
+    opacity: 1.0;
     width: 40%;
     float: right;
+    margin-right: 5%;
     text-align: center;
 }
 
 #EQUALIST_purpose {
     width: 100%;
     float: left;
-    text-align: justify;
-    padding: 5%;
+    text-align: left;
+    padding: 10%;
+    color: white;
+    background-color: rgba(158,9,93,1.0);
+    margin-bottom: 15%;
 }
+#EQUALIST_purpose h3{
+    text-align: center;
+    color: white;
+}
+#EQUALIST_purpose:hover{
+    background-color:rgba(240,78,35,1.0) ;
+    color: white;
+}
+
 
 #EU_funding {
     width: 100%;
     float: left;
-    text-align: justify;
-    padding: 5%;
+    text-align: left;
+    padding: 10%;
+    background-color: rgba(240,78,35,1.0);
+    color: white;
+}
+
+#EU_funding:hover {
+    background-color:rgba(158,9,93,1.0); 
+}
+#EU_funding h3 {
+    text-align: center;
+    color: white;
 }
 
 #EQUALIST_purpose img {
     height: 80px;
     width: 210px;
+    display: block;
+    vertical-align: middle;
+
 }
 
 #EU_funding img {
