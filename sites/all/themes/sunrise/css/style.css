@@ -3536,6 +3536,10 @@ a.switch-phase-dialog-okay:hover {
     color: white;
 }
 
+#EU_funding p {
+    font-size: 14px;
+}
+
 #EQUALIST_purpose img {
     height: 80px;
     width: 210px;
