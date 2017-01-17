@@ -3501,6 +3501,10 @@ a.switch-phase-dialog-okay:hover {
     text-align: left;
     color: white;
 }
+
+#EQUALIST_purpose p{
+    font-size: 14px;
+}
 #EQUALIST_purpose:hover{
     -webkit-transform: rotate(-2deg);
      -moz-transform: rotate(-2deg);
