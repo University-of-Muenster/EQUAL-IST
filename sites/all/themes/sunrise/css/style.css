@@ -3607,4 +3607,6 @@ a.switch-phase-dialog-okay:hover {
 	padding-left:25%;
 }
 
-
+.i-am-dragdropfile input {
+    margin-top: 4%;
+}
