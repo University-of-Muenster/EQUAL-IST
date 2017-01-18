@@ -187,7 +187,7 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 
 #main-navigation { background: rgba(255,255,255,1.0); color: black; z-index: 999; border-bottom: thick solid #A9A9A9; position: fixed; width: 100%; padding: 0px 0; margin-top: 0px; }
 
-#main-navigation-inside {color: black; margin: 0 auto; padding: 0;  text-align: center;max-height: 90px; }
+#main-navigation-inside {color: black; margin: 0 auto; padding: 0;  text-align: center; }
 
 #main-navigation-inside ul.menu { color: black; display: inline-block;}
 
