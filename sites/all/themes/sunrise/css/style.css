@@ -3577,8 +3577,6 @@ a.switch-phase-dialog-okay:hover {
     color: white;
 }
 
-<<<<<<< HEAD
-=======
 /* Rankings Page */
 #views-aggregator-datatable tr.odd.views-row-first td.views-field.views-field-rid {
 	background:url('../images/goals/FirstUniversity.png') no-repeat;
@@ -3608,4 +3606,4 @@ a.switch-phase-dialog-okay:hover {
 	padding-left:25%;
 }
 
->>>>>>> origin/master
+
