@@ -3564,4 +3564,7 @@ a.switch-phase-dialog-okay:hover {
     width: 120px;
 }
 
+.carousel-caption a{
+    color: white;
+}
 
