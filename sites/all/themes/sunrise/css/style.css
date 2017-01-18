@@ -3576,6 +3576,38 @@ a.switch-phase-dialog-okay:hover {
     color: white;
 }
 
+<<<<<<< HEAD
 .clearfix input{
     margin-top: 1%;
 }
+=======
+/* Rankings Page */
+#views-aggregator-datatable tr.odd.views-row-first td.views-field.views-field-rid {
+	background:url('../images/goals/FirstUniversity.png') no-repeat;
+	background-size: 64px 64px;
+	background-position: center left;
+	padding-left:25%;
+	height: 70px;
+	vertical-align:center;
+}
+#views-aggregator-datatable tr.even td.views-field.views-field-rid {
+	background:url('../images/goals/SecondUniversity.png') no-repeat;
+	background-size: 64px 64px;
+	background-position: center left;
+	padding-left:25%;
+	height: 70px;
+	vertical-align:center;
+}
+#views-aggregator-datatable tr.odd.views-row-last td.views-field.views-field-rid {
+	background:url('../images/goals/ThirdUniversity.png') no-repeat;
+	background-size: 64px 64px;
+	background-position: center left;
+	padding-left:25%;
+	height: 70px;
+	vertical-align:center;
+}
+#views-aggregator-datatable th.views-field.views-field-rid {
+	padding-left:25%;
+}
+
+>>>>>>> origin/master
