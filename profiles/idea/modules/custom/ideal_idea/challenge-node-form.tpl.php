@@ -4,6 +4,13 @@
       <?php print render($sidebar); ?>
     <?php endif; ?>
   </div>
+<div class="description-challenge">Here you can add a challenge that your university faces. 
+Please think of a title that gets to the heart of the challenge, a picture that helps visualizing 
+the problem and optionally also files and links that improve the understanding of the challenge for your fellow students. Please be precise when 
+you explain what needs to be improved, so that the ideas can be more precise as well. Additionally to that, it is helpful for the other users 
+if you add a short motivation for the challenge, what made you realize the problem? 
+And if there is any information that is only important for your university and shouldn't be visible to other users,  
+please add it to the "internal information" - field. </div>
   <div class="node-column-main">
   Please check the existing challenges before creating your own challenge in order to avoid duplicates. <a href="#related_nodes">You can also relate your new challenge to existing challenges.</a>
     <?php if($form): ?>
