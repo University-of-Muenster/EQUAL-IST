@@ -8,7 +8,7 @@
  */
 .form-managed-file .form-file,
 .form-managed-file .form-submit {
-  margin: 0;
+  margin: 4%;;
 }
 
 .form-managed-file input.progress-disabled {
