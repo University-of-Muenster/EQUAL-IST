@@ -19,10 +19,10 @@
 
   <?php if ($navigation): ?>
     <!-- Carousel navigation -->
-    <a class="carousel-control left" href="#" data-slide="prev">
+    <a class="carousel-control left" href="#views-bootstrap-carousel-<?php print $id ?>" data-slide="prev">
       <span class="icon-prev"></span>
     </a>
-    <a class="carousel-control right" href="#" data-slide="next">
+    <a class="carousel-control right" href="#views-bootstrap-carousel-<?php print $id ?>" data-slide="next">
       <span class="icon-next"></span>
     </a>
   <?php endif ?>
