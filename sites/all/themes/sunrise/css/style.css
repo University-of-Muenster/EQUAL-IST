@@ -3500,7 +3500,7 @@ a.switch-phase-dialog-okay:hover {
     text-align: left;
     padding: 5%;
     color: white;
-    background-color: #666666;
+    background-color: rgba(158,9,93,1.0);
     margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
@@ -3528,7 +3528,7 @@ a.switch-phase-dialog-okay:hover {
     float: left;
     text-align: left;
     padding: 5%;
-    background-color: rgba(158,9,93,1.0);
+    background-color: #666666;
     color: white;
     margin-bottom: 10%;
     margin-left: 10%;
