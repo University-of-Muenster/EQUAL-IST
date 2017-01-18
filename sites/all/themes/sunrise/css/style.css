@@ -3576,3 +3576,6 @@ a.switch-phase-dialog-okay:hover {
     color: white;
 }
 
+.clearfix input{
+    margin-top: 1%;
+}
