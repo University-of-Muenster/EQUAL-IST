@@ -17,9 +17,9 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   <?php print $scripts; ?>
-  <!-- next 5 lines are for the integration of tinymce-->
+  <!-- next 5 lines are for the integration of tinymce>
  <script src="/sites/all/libraries/tinymce/jscripts/tiny_mce/tiny_mce.js"></script>
-<!-- Just be careful that you give correct path to your tinymce.min.js file, above is the default example -->
+<! Just be careful that you give correct path to your tinymce.min.js file, above is the default example -->
  <!-- Just be careful that you give correct path to your tinymce.min.js file, above is the default example -->
     <script>
         tinymce.init({selector:'textarea'});

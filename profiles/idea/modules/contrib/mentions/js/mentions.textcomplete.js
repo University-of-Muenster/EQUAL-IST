@@ -1,6 +1,9 @@
 (function ($) {
   Drupal.behaviors.mentionsTextcomplete = {
     attach: function () {
+    /** 
+      * BUGGY CODE !!
+      *
       var settings = Drupal.settings.mentions.textcomplete;
       var matchExp = new RegExp('\\B' + settings.prefix_regex + '(\\w*)$');
 
@@ -27,6 +30,7 @@
           }
         ]);
       });
+    */
     }
   }
 })(jQuery);
