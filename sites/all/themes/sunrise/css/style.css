@@ -3589,7 +3589,7 @@ a.switch-phase-dialog-okay:hover {
 	background:url('../images/goals/SecondUniversity.png') no-repeat;
 	background-size: 64px 64px;
 	background-position: center left;
-	padding-left:20%;
+	padding-left:25%;
 	height: 70px;
 	vertical-align:center;
 }
@@ -3597,11 +3597,11 @@ a.switch-phase-dialog-okay:hover {
 	background:url('../images/goals/ThirdUniversity.png') no-repeat;
 	background-size: 64px 64px;
 	background-position: center left;
-	padding-left:30%;
+	padding-left:25%;
 	height: 70px;
 	vertical-align:center;
 }
 #views-aggregator-datatable th.views-field.views-field-rid {
-	padding-left:15%;
+	padding-left:25%;
 }
 
