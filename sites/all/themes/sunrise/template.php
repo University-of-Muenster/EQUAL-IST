@@ -1,5 +1,4 @@
 <?php 
-
 /**
  * Page alter.
  */
@@ -179,7 +178,9 @@ function sunrise_form_alter(&$form, &$form_state, $form_id) {
 
 /**
  * Add Javascript for Google Map
- */
+ *
+ * BUGGY CODE
+ *
 if (theme_get_setting('google_map_js', 'sunrise')) {
 
 	drupal_add_js('jQuery(document).ready(function($) { 
@@ -241,7 +242,7 @@ if (theme_get_setting('google_map_js', 'sunrise')) {
 	);
 	/**
 	 * Add Javascript
-	 */
+	 *
 	drupal_add_js('
 	function hideMap(){
 	jQuery("#map-anchor").html("<a href=\"javascript:showMap()\" class=\"map-toggle expand\">'.$google_map_show.'</a>");
@@ -259,7 +260,7 @@ if (theme_get_setting('google_map_js', 'sunrise')) {
 	array('type' => 'inline', 'scope' => 'header'));
 	//EOF:Javascript
 	
-}
+}*/
 
 /**
  * Add Javascript for quicksand plugin
@@ -271,7 +272,9 @@ endif;
 
 /**
  * Add jquery.prettyPhoto.js and prettyPhoto.css files for portfolio items
- */
+ *
+ * BUGGY CODE
+ *
 if (theme_get_setting('prettyphoto_js','sunrise')):
 	
 	drupal_add_js(drupal_get_path('theme', 'sunrise') . '/js/plugins/jquery.prettyPhoto.js');
@@ -299,3 +302,4 @@ if (theme_get_setting('prettyphoto_js','sunrise')):
 
 
 endif;
+*/
