@@ -3504,7 +3504,7 @@ a.switch-phase-dialog-okay:hover {
 
 #EQUALIST_purpose {
     width: 90%;
-    float: right;
+    float: left;
     text-align: left;
     padding: 5%;
     color: white;
@@ -3533,7 +3533,7 @@ a.switch-phase-dialog-okay:hover {
 
 #EU_funding {
     width: 90%;
-    float: right;
+    float: left;
     text-align: left;
     padding: 5%;
     background-color: #666666;
