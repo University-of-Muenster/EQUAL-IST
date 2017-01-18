@@ -3613,3 +3613,8 @@ a.switch-phase-dialog-okay:hover {
 .i-am-dragdropfile input {
     margin-top: 4%;
 }
+
+/* Slideshow Start Page */
+#views_slideshow_cycle_div_slideshow-block_1 {
+	margin-left: 17%; 
+}
