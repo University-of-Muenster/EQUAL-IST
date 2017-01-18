@@ -3507,15 +3507,15 @@ a.switch-phase-dialog-okay:hover {
     float: left;
     text-align: left;
     padding: 5%;
-    color: white;
-    background-color: rgba(158,9,93,1.0);
+    color: black;
+    background-color: #DDDDDD;
     margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
 }
 #EQUALIST_purpose h3{
     text-align: left;
-    color: white;
+    color: black;
 }
 
 #EQUALIST_purpose p{
@@ -3536,8 +3536,8 @@ a.switch-phase-dialog-okay:hover {
     float: left;
     text-align: left;
     padding: 5%;
-    background-color: #DDDDDD;
-    color: black;
+    background-color: rgba(158,9,93,1.0);
+    color: white;
     margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
@@ -3552,7 +3552,7 @@ a.switch-phase-dialog-okay:hover {
 }
 #EU_funding h3 {
     text-align: left;
-    color: black;
+    color: white;
 }
 
 #EU_funding p {
