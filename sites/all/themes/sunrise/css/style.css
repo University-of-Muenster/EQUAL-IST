@@ -1899,6 +1899,7 @@ a.button-inverse {
 
 .views-row {
     clear:both;
+    border: 5px solid #DCDCDC;
 }
 
 .pane-title {
