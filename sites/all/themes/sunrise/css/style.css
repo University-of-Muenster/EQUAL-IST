@@ -3635,7 +3635,9 @@ a.switch-phase-dialog-okay:hover {
 #views_slideshow_cycle_main_slideshow-block .views_slideshow_cycle_main.views_slideshow_main.viewsSlideshowCycle-processed {
 	margin-left: 25%;
 	position: absolute;
-	
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
 }
 
 /* #views_slideshow_controls_text_slideshow-block .views-slideshow-controls-text.views_slideshow_controls_text {
