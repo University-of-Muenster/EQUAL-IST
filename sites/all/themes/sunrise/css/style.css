@@ -3634,6 +3634,8 @@ a.switch-phase-dialog-okay:hover {
 
 #views_slideshow_cycle_main_slideshow-block .views_slideshow_cycle_main.views_slideshow_main.viewsSlideshowCycle-processed {
 	margin-left: 25%;
+	position: absolute;
+	
 }
 
 /* #views_slideshow_controls_text_slideshow-block .views-slideshow-controls-text.views_slideshow_controls_text {
@@ -3642,9 +3644,5 @@ a.switch-phase-dialog-okay:hover {
 
 .views-slideshow-controls-bottom.clearfix {
 	margin-left: 18%;
-}
-
-#Ongoing_challenges h3{
-    text-align: center;
 }
 
