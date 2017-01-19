@@ -2898,7 +2898,7 @@ ul.secondary a.active {
      border-radius: 3px;
 }
 #block-system-main input {
-  border-color:  rgba(158, 0, 93, 1.0);
+  border-color:  #DCDCDC;
   -webkit-border-radius: 3px;
      border-radius: 3px;
 }
@@ -3640,6 +3640,3 @@ a.switch-phase-dialog-okay:hover {
 	margin-left: 25%;
 }
 
-#edit-field-links-external-und-0-value {
-    border-color: #DCDCDC 
-}
