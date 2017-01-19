@@ -2383,6 +2383,7 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 }
 .ideal-challenge-stats-icon-td {
 	padding-left:3px;
+    border: none;
 }
 .ideal-stats-count {
 	vertical-align:top;
