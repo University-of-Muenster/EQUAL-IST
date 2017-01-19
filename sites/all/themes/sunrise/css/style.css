@@ -3648,3 +3648,8 @@ a.switch-phase-dialog-okay:hover {
     text-align: center;
 }
 
+.views-slideshow-cycle-main-frame-row-item {
+    position: absolute;
+    left: 50%;
+}
+
