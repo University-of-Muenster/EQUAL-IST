@@ -3625,6 +3625,6 @@ a.switch-phase-dialog-okay:hover {
 
 /* Slideshow Start Page */
 
-#views_slideshow_cycle_main_slideshow-block .views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section {
+#views_slideshow_cycle_teaser_section_slideshow-block .views-slideshow-cycle-main-frame.views_slideshow_cycle_teaser_section {
 	margin-left: 25%;
 }
