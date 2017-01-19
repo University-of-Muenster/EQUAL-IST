@@ -2103,7 +2103,7 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 	background-position: right;
 }
 #panel-bootstrap-region-sidebar {
-	margin-left:30px;
+	margin-left: 0px;
 }
 /* Sidebar Vote */
 .Sidebar .vud-widget-alternate {
