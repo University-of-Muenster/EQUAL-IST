@@ -1348,8 +1348,8 @@ div.views-row-even {
     padding-bottom: 10px;
     padding-top: 10px;
     padding-right: 30px;
-    width: 100%;
-    height: 500px;
+    max-width:  width: 100%;
+    max-height: 500px;
 }
 
 .views_slideshow_cycle_teaser_section_ideas_in_challenge-block {
