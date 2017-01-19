@@ -19,9 +19,9 @@ p { margin: 0 0 0; padding: 0; }
 
 /** Entfernung der Add Idea Teil 2 */
 
-a, a:visited { color: #E54D1B; text-decoration: none; }
+a, a:visited { color: rgba(158,9,93,1.0); text-decoration: none; }
 
-a:hover { color: #FF4D4D; text-decoration: underline; }
+a:hover { color: rgba(158,9,93,1.0); text-decoration: underline; }
 
 a:focus { text-decoration: none; }
 
