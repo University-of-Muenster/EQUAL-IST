@@ -1,5 +1,5 @@
 (function ($) {
-  alert("Form");
+
   Drupal.behaviors.equalistideaform = {
     attach: function(context, settings){
       function callbackFn1(){
