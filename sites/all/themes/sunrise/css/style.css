@@ -2571,6 +2571,12 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 	font-size:20px;
 	color:rgba(158,0,93,1.0);
 }
+#equal_ist_blocks_phase .equal_ist_blocks_phase_spacer_below {
+	margin-left:-20px;
+;
+	font-size:10px;
+	color:#333;
+}
 #equal_ist_blocks_phase .line {
 	display:inline-block;
 	list-style-type: none;
@@ -3377,12 +3383,12 @@ div.gray-background {
 	margin:0;
 	display:inline;
 }
-.switch-phase-dialog-abort {
+a.switch-phase-dialog-abort {
 	margin-top:10px;
 	padding:10px;
 	color:white;
 }
-.switch-phase-dialog-okay {
+a.switch-phase-dialog-okay {
 	margin-top:10px;
 	padding:10px;
 	color:white;
