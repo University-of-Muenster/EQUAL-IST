@@ -1,5 +1,6 @@
 (function ($) {
-  Drupal.behaviors.sunrise = {
+  alert("Form");
+  Drupal.behaviors.equalistideaform = {
     attach: function(context, settings){
       function callbackFn1(){
         if($(this).is(":visible") || $("#idea-node-form .related_nodes_tag").is(":visible")){
