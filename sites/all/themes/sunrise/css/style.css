@@ -3633,3 +3633,7 @@ a.switch-phase-dialog-okay:hover {
 #views_slideshow_controls_text_slideshow-block .views-slideshow-controls-text.views_slideshow_controls_text {
 	margin-left: 25%;
 }
+
+.views-slideshow-controls-bottom.clearfix {
+	margin-left: 25%;
+}
