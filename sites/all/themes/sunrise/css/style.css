@@ -10,7 +10,7 @@
 * { transition: all 0.3s ease-out; } 
 
 /*Undisplay the "Disable richt-text" option on the add/edit pages*/
-#wysiwyg-toggle-edit-field-idea-internal-information-und-0-value{
+.wysiwyg-toggle-wrapper{
     display: none; 
 }
 
