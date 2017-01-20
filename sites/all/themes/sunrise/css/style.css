@@ -87,22 +87,26 @@ table tr.even, table tr.odd, th { background-color: transparent; border-bottom: 
 thead tr th, thead tr td, tbody tr th, tbody tr td { padding: 8px; line-height: 142%; vertical-align: top;  }
 
 /* border for create challenge */
-#field-categories-subcategories-values.field-multiple-table.sticky-enabled.tabledrag-processed th td {
+#field-categories-subcategories-values.field-multiple-table.sticky-enabled.tabledrag-processed th, 
+#field-categories-subcategories-values.field-multiple-table.sticky-enabled.tabledrag-processed td {
     border:1px solid rgba(158,0,93,1.0); 
     -webkit-border-radius: 3px;
     border-radius: 3px;
 }
-#field-links-external-values.field-multiple-table.sticky-enabled.tabledrag-processed th td{
+#field-links-external-values.field-multiple-table.sticky-enabled.tabledrag-processed th, 
+#field-links-external-values.field-multiple-table.sticky-enabled.tabledrag-processed td{
     border:1px solid rgba(158,0,93,1.0);   
     -webkit-border-radius: 3px;
     border-radius: 3px;
 }
-#field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed th td{
+#field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed th,
+#field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed td{
     border:1px solid rgba(158,0,93,1.0);   
     -webkit-border-radius: 3px;
     border-radius: 3px;
 }
-#field-external-links-values.field-multiple-table.sticky-enabled.tabledrag-processed th td{
+#field-external-links-values.field-multiple-table.sticky-enabled.tabledrag-processed th,
+#field-external-links-values.field-multiple-table.sticky-enabled.tabledrag-processed td{
     border:1px solid rgba(158,0,93,1.0);   
     -webkit-border-radius: 3px;
     border-radius: 3px;
