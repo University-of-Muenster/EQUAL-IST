@@ -9,6 +9,11 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 * { transition: all 0.3s ease-out; } 
 
+/*Undisplay the "Disable richt-text" option on the add/edit pages*/
+#wysiwyg-toggle-edit-field-idea-internal-information-und-0-value{
+    display: none; 
+}
+
 body { color: #666666; font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 1.5; }
 
 p { margin: 0 0 0; padding: 0; }
