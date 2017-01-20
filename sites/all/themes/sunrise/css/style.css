@@ -86,7 +86,27 @@ table tr.even, table tr.odd, th { background-color: transparent; border-bottom: 
 
 thead tr th, thead tr td, tbody tr th, tbody tr td { padding: 8px; line-height: 142%; vertical-align: top; 
     /*border:1px solid rgba(158,0,93,1.0);*/ }
-
+/* border for create challenge */
+#field-categories-subcategories-values tr {
+    border-left:1px solid rgba(158,0,93,1.0);   
+    border-bottom:1px solid rgba(158,0,93,1.0);
+    border-right:1px solid rgba(158,0,93,1.0);
+}
+#field-links-external-values tr{
+    border-left:1px solid rgba(158,0,93,1.0);   
+    border-bottom:1px solid rgba(158,0,93,1.0);
+    border-right:1px solid rgba(158,0,93,1.0);
+}
+#field-tags-for-related-challenge-values tr{
+    border-left:1px solid rgba(158,0,93,1.0);   
+    border-bottom:1px solid rgba(158,0,93,1.0);
+    border-right:1px solid rgba(158,0,93,1.0);
+}
+#field-external-links-values tr{
+    border-left:1px solid rgba(158,0,93,1.0);   
+    border-bottom:1px solid rgba(158,0,93,1.0);
+    border-right:1px solid rgba(158,0,93,1.0);
+}
 /* header */
 
 #header { display: none; margin: 0 auto; padding:30px 0 0; width: 100%; position: relative; }
