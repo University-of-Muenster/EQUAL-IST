@@ -3364,6 +3364,7 @@ div.panel-pane:nth-child(11) > div:nth-child(1) > dl:nth-child(2) {
 a.phase-link {
 	padding:10px;
 	color:white;
+	font-size: 17px;
 }
 div.switch-phase-dialog {
 	display: none;
