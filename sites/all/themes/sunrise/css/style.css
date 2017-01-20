@@ -108,10 +108,7 @@ thead tr th, thead tr td, tbody tr th, tbody tr td { padding: 8px; line-height: 
     border:1px solid rgba(158,0,93,1.0);   
 }
 /*Slideshow start page*/
-.panel-2col-stacked.clearfix.panel-display .view.view-slideshow.view-id-slideshow.view-display-id-block.view-dom-id-58964ef94bd8d7fbd98bcf64bdce11b8{
-        margin-left: auto;
-        margin-right: auto;
-}
+
 /* header */
 
 #header { display: none; margin: 0 auto; padding:30px 0 0; width: 100%; position: relative; }
