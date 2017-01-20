@@ -87,29 +87,25 @@ table tr.even, table tr.odd, th { background-color: transparent; border-bottom: 
 thead tr th, thead tr td, tbody tr th, tbody tr td { padding: 8px; line-height: 142%; vertical-align: top;  }
 
 /* border for create challenge */
-#field-categories-subcategories-values tr td {
-    border-left:1px solid rgba(158,0,93,1.0);   
-    border-bottom:1px solid rgba(158,0,93,1.0);
-    border-right:1px solid rgba(158,0,93,1.0);
-    border-radius: 20px;
+#field-categories-subcategories-values table {
+    border:1px solid rgba(158,0,93,1.0);   
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 }
-#field-links-external-values tr td{
-    border-left:1px solid rgba(158,0,93,1.0);   
-    border-bottom:1px solid rgba(158,0,93,1.0);
-    border-right:1px solid rgba(158,0,93,1.0);
-    border-radius: 20px;
+#field-links-external-values table{
+    border:1px solid rgba(158,0,93,1.0);   
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 }
-#field-tags-for-related-challenge-values tr td{
-    border-left:1px solid rgba(158,0,93,1.0);   
-    border-bottom:1px solid rgba(158,0,93,1.0);
-    border-right:1px solid rgba(158,0,93,1.0);
-    border-radius: 20px;
+#field-tags-for-related-challenge-values table{
+    border:1px solid rgba(158,0,93,1.0);   
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 }
-#field-external-links-values tr td{
-    border-left:1px solid rgba(158,0,93,1.0);   
-    border-bottom:1px solid rgba(158,0,93,1.0);
-    border-right:1px solid rgba(158,0,93,1.0);
-    border-radius: 20px;
+#field-external-links-values table{
+    border:1px solid rgba(158,0,93,1.0);   
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 }
 /*Slideshow start page*/
 .panel-2col-stacked.clearfix.panel-display .view.view-slideshow.view-id-slideshow.view-display-id-block.view-dom-id-58964ef94bd8d7fbd98bcf64bdce11b8{
