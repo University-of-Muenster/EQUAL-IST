@@ -92,17 +92,17 @@ thead tr th, thead tr td, tbody tr th, tbody tr td { padding: 8px; line-height: 
     -webkit-border-radius: 3px;
     border-radius: 3px;
 }
-#field-links-external-values th, td{
+#field-links-external-values.field-multiple-table.sticky-enabled.tabledrag-processed th, td{
     border:1px solid rgba(158,0,93,1.0);   
     -webkit-border-radius: 3px;
     border-radius: 3px;
 }
-#field-tags-for-related-challenge-values th, td{
+#field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed th, td{
     border:1px solid rgba(158,0,93,1.0);   
     -webkit-border-radius: 3px;
     border-radius: 3px;
 }
-#field-external-links-values th, td{
+#field-external-links-values.field-multiple-table.sticky-enabled.tabledrag-processed th, td{
     border:1px solid rgba(158,0,93,1.0);   
     -webkit-border-radius: 3px;
     border-radius: 3px;
