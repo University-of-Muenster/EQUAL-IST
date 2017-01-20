@@ -1798,7 +1798,26 @@ a.button-inverse {
 	margin-right:10px;
     margin-top: 1%;
   font-size: 10px;
-  /*padding: 1.25rem 2.5rem;*/
+  padding: 1.25rem 2.5rem;
+  display: inline-block;
+  background-color: rgba(158,0,93,1.0);
+  border: 1px solid transparent;
+  color: #fff;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+/*Buttons on create challenge/idea page*/
+#edit-field-links-external-und-add-more--2, #edit-field-categories-subcategories-und-add-more, 
+#edit-field-tags-for-related-challenge-und-add-more, #edit-field-external-links-und-add-more{
+	cursor: pointer;
+	margin: 0 auto;
+	margin-right:10px;
+    margin-top: 1%;
+  font-size: 10px;
   display: inline-block;
   background-color: rgba(158,0,93,1.0);
   border: 1px solid transparent;
