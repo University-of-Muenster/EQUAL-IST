@@ -3712,3 +3712,7 @@ a.switch-phase-dialog-okay:hover {
 #Ongoing_challenges h3{
     text-align: center;
 }
+
+#views_slideshow_cycle_teaser_section_slideshow-block .views-slideshow-cycle-main-frame.views_slideshow_cycle_teaser_section {
+	margin-left: 15%; 
+}
