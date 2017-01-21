@@ -3684,7 +3684,11 @@ a.switch-phase-dialog-okay:hover {
 }
 
 .contextual-links-region.panel-pane.pane-block.pane-block-29 {
-	text-align: center;
+	font-size: 22px;
+}
+
+.contextual-links-region.panel-pane.pane-block.pane-block-30 {
+	font-size: 22px;
 }
 
 /* Slideshow Start Page */
