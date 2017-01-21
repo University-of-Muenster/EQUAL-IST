@@ -3683,6 +3683,10 @@ a.switch-phase-dialog-okay:hover {
     margin-top: 4%;
 }
 
+.contextual-links-region.panel-pane.pane-block.pane-block-29 {
+	text-align: center;
+}
+
 /* Slideshow Start Page */
 
 #views_slideshow_cycle_teaser_section_slideshow-block .views-slideshow-cycle-main-frame.views_slideshow_cycle_teaser_section {
@@ -3721,3 +3725,4 @@ a.switch-phase-dialog-okay:hover {
 #views_slideshow_cycle_teaser_section_slideshow-block .views-slideshow-cycle-main-frame.views_slideshow_cycle_teaser_section {
 	margin-left: 15%; 
 }
+
