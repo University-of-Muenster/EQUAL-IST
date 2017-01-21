@@ -3679,6 +3679,10 @@ a.switch-phase-dialog-okay:hover {
 	padding-right: 16%;
 } 
 
+#views-aggregator-datatable tr.odd.views-row-first td.views-field.views-field-points.views-align-left {
+	padding-right: 14%;
+}
+
 .i-am-dragdropfile input {
     margin-top: 4%;
 }
