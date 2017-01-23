@@ -1339,7 +1339,14 @@ ul.pager li a, ul.pager li.pager-current{
     color: rgba(158,0,93,1.0);
 }
 
-
+.collapsible.form-wrapper.collapse-processed .fieldset-legend .fieldset-title{
+	display: block;
+    font-weight: bold;
+    padding: 5px 0px 0px 0px;
+    color: #666666;
+    margin-bottom: 2px;
+    font-size: 14px;
+}
 
 
  /* Detailled Challenge page */
