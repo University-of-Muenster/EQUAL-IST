@@ -2920,8 +2920,8 @@ ul.primary li.active a {
 ul.primary li a:hover {
   background-color: #FFFFFF;
   border-color: rgba(240,78, 35, 1.0);
-  border-bottom-color: rgba(240,78, 35, 1.0);
-  color: rgba(240,78, 35, 1.0);
+  border-bottom-color: rgba(158, 0, 93, 1.0);
+  color: rgba(158, 0, 93, 1.0);
 }
 ul.secondary {
   border-style: none;
