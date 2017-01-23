@@ -3802,5 +3802,10 @@ a.dialog-okay:hover {
 }
 
 /*Footer*/
-#block-block-18 > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2) {color: #737373;}
+#block-block-18 > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2) {
+    color: #737373; 
+    font-weight: 600;
+    text-decoration: none; 
+    font-family: 'Open Sans';
+}
 
