@@ -3801,4 +3801,6 @@ a.dialog-okay:hover {
     width: auto;
 }
 
+/*Footer*/
+#block-block-18 > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2) {color: #737373;}
 
