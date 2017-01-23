@@ -3725,5 +3725,7 @@ a.switch-phase-dialog-okay:hover {
     margin-left: 50%;
 }
 
-
+.views-slideshow_cycle_main img{
+    width: 33%;
+}
 
