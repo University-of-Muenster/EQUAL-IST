@@ -3720,8 +3720,11 @@ a.switch-phase-dialog-okay:hover {
 
 .slideshow_start_1 {
     margin-left: 50%;
-    margin-top: 500px;
-    color: black;
+    margin-top: 50px;
+}
+
+.slideshow_start_1 img {
+    width: 33%;
 }
 
 
