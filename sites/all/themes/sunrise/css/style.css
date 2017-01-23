@@ -3790,8 +3790,8 @@ a.dialog-okay:hover {
 
 
 .slideshow_start_1 {
-    margin-left: 20%;
-    margin-top: 50px;
+    margin: auto;
+    width: 50%;
 }
 
 .slideshow_start_1 img {
