@@ -3577,15 +3577,15 @@ a.switch-phase-dialog-okay:hover {
     float: left;
     text-align: left;
     padding: 5%;
-    color: black;
-    background-color: #DDDDDD;
+    color: #737373;
+    background-color: #cccccc;
     margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
 }
 #EQUALIST_purpose h3{
     text-align: left;
-    color: black;
+    color: #595959;
 }
 
 #EQUALIST_purpose p{
