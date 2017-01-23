@@ -2097,10 +2097,10 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 }
 .vud-widget-alternate::before {
 	display: inline-block;
-    content: "Votes: ";
+    content: "Likes: ";
 
 	padding-left:10px;
-	width: 20%;
+
 }
 .vud-widget-alternate {
 	
@@ -2168,7 +2168,6 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 	width: 100%;
 }
 
-=======
 /* Challenge Seite Detail */
 .field-name-field-challenge-image {float:left;
 	margin-right: 20px;
@@ -2204,7 +2203,7 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 /* Idea all View Vote */
 .view-ideas-all .vud-widget-alternate::before {
 	display: inline-block;
-    content: "Votes: ";
+    content: "Likes: ";
 
 	padding-left:10px;
 	width:auto;
@@ -2236,7 +2235,7 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 /* Challenge all View Vote */
 .view-challenges-list .vud-widget-alternate::before {
 	display: inline-block;
-    content: "Votes: ";
+    content: "Likes: ";
 
 	padding-left:10px;
 	width:auto;
@@ -2269,8 +2268,17 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 .rate-widget {
  	display:inline-block;
  	height: 100%;
- 	width: 80%;
+ 	width: 100%;
  	
+}
+.rate-widget:before {
+ 	content:"Votes: ";
+ 	padding-left:10px;
+ 	
+}
+.pane-equal-ist-phases-equal-ist-block-voting .vud-widget-alternate::before {
+	display: none;
+    content: " ";
 }
 /*
 .rate-widget:before {
@@ -2326,7 +2334,7 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 /* User Profile Ideas / Challenges */
 #quicktabs-user_ideas .vud-widget-alternate::before {
 	display: inline-block;
-    content: "Votes: ";
+    content: "Likes: ";
 
 	padding-left:10px;
 	width:auto;
@@ -2359,7 +2367,7 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 /* Comment Vote */
 .comment .vud-widget-alternate::before {
 	display: inline-block;
-    content: "Votes: ";
+    content: "Likes: ";
 
 	padding-left:10px;
 	width:auto;
@@ -3417,10 +3425,7 @@ a.phase-link {
 	color:white;
 	font-size: 17px;
 }
-div.switch-phase-dialog {
-	display: none;
-	width:400px;
-	margin-left: -200px;
+div.dialog {
 	position: fixed;
 	top: 40%;
 	left: 50%;
@@ -3430,6 +3435,71 @@ div.switch-phase-dialog {
     border-radius: 3px;
     padding:20px;
     z-index: 999;
+}
+div.switch-phase.dialog {
+	display: none;
+	width:400px;
+	margin-left: -200px;
+	
+}
+div.select-ideas.dialog {
+	top:150px;
+	max-height: 70%;
+	overflow: scroll;
+	width:70%;
+	min-width: 400px;
+	margin-left: -35%;
+}
+div.select-ideas-left-wrapper, div.select-ideas-right-wrapper {
+	float:left;
+	width:45%;
+	border:0;
+	margin-left:2.5%;
+	margin-right:2.5%;
+	
+}
+.select-ideas-left-wrapper h3, .select-ideas-right-wrapper h3{
+	font-size: 17px;
+}
+div.select-ideas-left, div.select-ideas-right {
+	width:100%;
+	padding:10px;
+	border: 1px solid rgba(158,0,93,1.0);
+	-webkit-border-radius: 3px;
+    border-radius: 3px;
+    min-height: 40px;
+}
+ 
+.select-ideas-left img, .select-ideas-right img{
+	height:45px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+div.idea-row {
+	width:100%;
+	border-bottom: 1px solid #c0c0c0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.select-ideas-left .idea-row .idea-switch{
+	float: right;
+}
+.select-ideas-right .idea-row .idea-switch{
+	float: left;
+}
+div.idea-row .idea-switch a{
+	font-size: 15px;
+	font-weight: 900;
+	padding:10px;
+	color:white;
+	height:100%;
+}
+div.idea-row .idea-switch a:hover{
+	color:rgba(158,0,93,1.0);
+}
+div.idea-row .idea-content{
+	
 }
 div.gray-background {
 	display: none;
@@ -3441,25 +3511,25 @@ div.gray-background {
 	top:0;
 	left:0;
 }
-.switch-phase-dialog-new-phase {
+.switch-phase-new-phase {
 	padding:0;
 	margin:0;
 	display:inline;
 }
-a.switch-phase-dialog-abort {
+a.dialog-abort {
 	margin-top:10px;
 	padding:10px;
 	color:white;
 }
-a.switch-phase-dialog-okay {
+a.dialog-okay {
 	margin-top:10px;
 	padding:10px;
 	color:white;
 }
-a.switch-phase-dialog-abort:hover {
+a.dialog-abort:hover {
 	color:rgba(158,0,93,1.0);
 }
-a.switch-phase-dialog-okay:hover {
+a.dialog-okay:hover {
 	color:rgba(158,0,93,1.0);
 }
 //*Search Form*/
