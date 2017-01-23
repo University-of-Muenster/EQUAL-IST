@@ -3721,6 +3721,7 @@ a.switch-phase-dialog-okay:hover {
 .slideshow_start {
     margin-left: 50%;
     margin-top: 500px;
+    color: black;
 }
 
 #slideshow_start {
