@@ -345,7 +345,7 @@ section {
     <div class="content">
 <ul>
     <li><a href="https://equal-ist.eu/" target="_blank">www.equal-ist.eu</a></li>
-    <li><a href="info@equal-ist.eu" target="_blank">info@equal-ist.eu</a></li>
+    <li>info@equal-ist.eu</li>
 </ul> 
     </div>    
 
@@ -435,7 +435,7 @@ section {
                     <!-- #subfooter-left -->
                     <div class="subfooter-area">                  
                     <p> 
-                    <a href="#">©2016 EQUAL-IST All rights reserved.</a> <br>
+                    ©2016 EQUAL-IST All rights reserved.<br>
                     <a href="/node/82">Terms and Conditions</a> <br>
 					<a href="/node/83"> House Rules </a>
                     </p>
