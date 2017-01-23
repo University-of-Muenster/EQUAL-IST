@@ -443,7 +443,7 @@ textarea:focus, input:focus { outline: 0; }
 
 #footer ul li { list-style-type: none; border-bottom: none; margin: 0px 0px 15px 0px; clear:both }
 
-#footer .content a { font-weight: 600; color: #737373; text-decoration: none; }
+#footer .content a { font-weight: 600; color: #737373; text-decoration: none; font-family: 'Open Sans', sans-serif;}
 
 #footer .content a:hover { text-decoration: underline;color: rgba(158,9,93,1.0); }
 
