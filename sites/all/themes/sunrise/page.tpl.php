@@ -362,9 +362,9 @@ section {
 
 <div class="content"> <!--warum wurde hier der Text entfernt?>-->
 <ul>
-    <li><a href="https://www.facebook.com/EQUALISTproject/?fref=ts" target="_blank" title="Facebook" class="facebook"><img src="http://www.crowdequality.eu/sites/default/files/online_social_media_facebook-128.png" width="50" height="50" alt="Facebook Picture" /></a></li>
-    <li><a href="https://twitter.com/equalistproject" target="_blank" title="Twitter" class="twitter"><img src="http://www.crowdequality.eu/sites/default/files/twitter_online_social_media-128.png" width="50" height="50" alt="Twitter Picture"/></a></li>
-    <li><a href="https://www.linkedin.com/groups/8559876" target="_blank" title="Linkedin" class="linkedin"><img src="http://www.crowdequality.eu/sites/default/files/linked_in_online_social_media-128.png" width="50" height="50" alt="Linkedin Picture"/></a></li>
+    <li><a href="https://www.facebook.com/EQUALISTproject/?fref=ts" target="_blank" title="Like us on Facebook" class="facebook"><img src="http://www.crowdequality.eu/sites/default/files/online_social_media_facebook-128.png" width="50" height="50" alt="Facebook Picture" /></a></li>
+    <li><a href="https://twitter.com/equalistproject" target="_blank" title="Follow us on Twitter" class="twitter"><img src="http://www.crowdequality.eu/sites/default/files/twitter_online_social_media-128.png" width="50" height="50" alt="Twitter Picture"/></a></li>
+    <li><a href="https://www.linkedin.com/groups/8559876" target="_blank" title="Join the Linkedin Group" class="linkedin"><img src="http://www.crowdequality.eu/sites/default/files/linked_in_online_social_media-128.png" width="50" height="50" alt="Linkedin Picture"/></a></li>
 </ul>  
 </div>
 
