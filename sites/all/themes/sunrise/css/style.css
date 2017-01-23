@@ -2172,8 +2172,8 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 .field-name-field-challenge-image {float:left;
 	margin-right: 20px;
 	margin-bottom: 10px;
-	width:256px;
-	height:256px;}
+	/*width:256px;
+	height:256px;*/}
 .Sidebar .vud-widget-alternate .alternate-votes-display {
 	
 	font: 700 2rem 'Lato', Verdana, Helvetica, sans-serif;
