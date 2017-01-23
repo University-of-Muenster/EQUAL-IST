@@ -3721,8 +3721,8 @@ a.switch-phase-dialog-okay:hover {
 	margin-left: 15%; 
 }
 
-.views-slideshow-cycle-main-frame-row-item {
-    width: 900px; margin: 0 auto;
+views_slideshow_cycle_main {
+    margin-left: 50%;
 }
 
 
