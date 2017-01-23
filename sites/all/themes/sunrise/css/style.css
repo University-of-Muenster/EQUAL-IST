@@ -3794,5 +3794,10 @@ a.dialog-okay:hover {
     margin-top: 50px;
 }
 
+.slideshow_start_1 img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
 
 
