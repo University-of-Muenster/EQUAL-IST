@@ -433,7 +433,7 @@ textarea:focus, input:focus { outline: 0; }
 
 /* footer */
 
-#footer { clear: both; padding: 20px 0; overflow: hidden; margin: 0 auto; background: #DDDDDD; color: #999; }
+#footer { clear: both; padding: 20px 0; overflow: hidden; margin: 0 auto; background: #cccccc; color: #999; }
 
 #footer-inside { padding: 40px 0; }
 
