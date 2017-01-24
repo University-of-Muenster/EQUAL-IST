@@ -63,19 +63,21 @@
 $color_class='';
 	switch ($vars['field_comment_tags'][0]['tid']) {
 		case 153:
-			$color_class='comment-agreement';
+			$color_class=' comment-agreement';
 			break;
 		case 155:
-			$color_class='comment-criticism';
+			$color_class=' comment-criticism';
 			break;
 		case 154:
-			$color_class='comment-extension';
+			$color_class=' comment-extension';
 			break;
 		case 156:
-			$color_class='comment-other';
+			$color_class=' comment-other';
 			break;	
 	}
 	$comment_body=render($content['comment_body']);
+	$pos=strpos($comment_body, '"', 1);
+	$comment_body=substr_replace($comment_body, $color_class, $pos, 0);
 	dsm($comment_body);
  ?>
 <div class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
