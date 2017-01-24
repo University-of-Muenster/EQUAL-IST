@@ -3777,6 +3777,8 @@ a.dialog-okay:hover {
 .views-field.views-field-points {
 	vertical-align: inherit;
 	width: 300px;
+	margin-right: 5%;
+	margin-left: 5%;
 }
 
 .view.view-top-university.view-id-top_university.view-display-id-block.view-dom-id-3279a62077182c67b24133726f88020e th.views-field.views-field-points {
