@@ -3729,7 +3729,7 @@ a.dialog-okay:hover {
 	padding-left:25%;
 	height: 70px;
 	vertical-align: inherit;
-	width: 780px;
+	width: 500px;
 }
 #views-aggregator-datatable tr.even td.views-field.views-field-rid {
 	background:url('../images/goals/SecondUniversity.png') no-repeat;
@@ -3737,7 +3737,7 @@ a.dialog-okay:hover {
 	background-position: center left;
 	padding-left:25%;
 	height: 70px;
-	vertical-align:center;
+	vertical-align:inherit;
 }
 #views-aggregator-datatable tr.odd.views-row-last td.views-field.views-field-rid {
 	background:url('../images/goals/ThirdUniversity.png') no-repeat;
@@ -3745,7 +3745,7 @@ a.dialog-okay:hover {
 	background-position: center left;
 	padding-left:25%;
 	height: 70px;
-	vertical-align:center;
+	vertical-align:inherit;
 }
 #views-aggregator-datatable th.views-field.views-field-rid {
 	padding-left:25%;
@@ -3788,7 +3788,7 @@ margin-right: 5%;
 }
 
 .views-field.views-field-picture {
-	width: 265px;
+	width: 100px;
 }
 
 /*.views-field.views-field-points.views-align-left {
