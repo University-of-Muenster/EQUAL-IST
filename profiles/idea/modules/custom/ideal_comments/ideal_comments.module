@@ -143,7 +143,7 @@ function ideal_comments_preprocess_comment(&$vars) {
 			break;	
 	}
 
-  $vars['content']['comment_body']['#attributes']['class']=$color_class;
+  $vars['content']['comment_body']['classes_array'][]=$color_class;
 
   $date = date('D d.m.Y h.i A',$comment->created);
   if (date('Ymd') == date('Ymd', $comment->created)) {
