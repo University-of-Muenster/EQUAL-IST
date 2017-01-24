@@ -75,9 +75,9 @@ $color_class='';
 			$color_class=' comment-other';
 			break;	
 	}
-	$comment_body=render($content['comment_body']);
-	$pos=strpos($comment_body, '"', 1);
-	$comment_body=substr_replace($comment_body, $color_class, $pos, 0);
+	$tmp_comment_body=render($content['comment_body']);
+	$pos=strpos($tmp_comment_body, '>', 0);
+	$comment_body=substr_replace($tmp_comment_body, $color_class, $pos-1, 0);
 	dsm($comment_body);
  ?>
 <div class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
