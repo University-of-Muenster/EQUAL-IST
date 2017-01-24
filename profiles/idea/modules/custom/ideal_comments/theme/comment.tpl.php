@@ -60,6 +60,7 @@
  */
 ?> 
 <?php 
+dsm($content['comment_body']);
 $color_class='';
 switch ($content['field_comment_tags']['#items'][0]['tid']) {
     case 153:
