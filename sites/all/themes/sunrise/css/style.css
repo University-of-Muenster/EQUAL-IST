@@ -3851,6 +3851,19 @@ img.transparent {
     padding: 0%;
 }
 
+/*Comment-Tags color*/
 .comment-agreement {
 	background-color:green;
+}
+
+.comment-criticism {
+	background-color:red;
+}
+
+.comment-extension {
+	background-color:blue;
+}
+
+.comment-other {
+	background-color:thistle;
 }
