@@ -3850,3 +3850,7 @@ img.transparent {
     margin: auto;
     padding: 0%;
 }
+
+.comment-agreement {
+	background-color:green;
+}
