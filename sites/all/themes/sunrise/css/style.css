@@ -1407,6 +1407,7 @@ div.views-row-even {
     -webkit-border-radius: 3px;
     border-radius: 3px;	
 	font-weight: 300;
+	width:100%;
 }
 
 .challenge-add-idea-button a:hover{
