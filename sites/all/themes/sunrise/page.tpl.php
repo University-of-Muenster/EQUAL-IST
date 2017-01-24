@@ -321,7 +321,7 @@ section {
 <!-- EOF:#page -->
 
 <a href="#header-wrapper" class="smoothScroll">
-<img src="http://www.crowdequality.eu/sites/default/files/HochScrollButton.jpg" alt="Button to scroll up!">
+<img src="http://www.crowdequality.eu/sites/default/files/HochScrollButton.jpg" title= "Get back to the top of the page" alt="Button to scroll up!">
 </a>
         <br>
         <br>
