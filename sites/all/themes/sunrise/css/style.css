@@ -3333,7 +3333,7 @@ div.panel-col-last:nth-child(2) {
     font-weight:400;
 }
 
-dl.pane-user-summary {
+.panel-pane.pane-entity-field-extra.pane-user-summary {
     margin-bottom: 0px;
 }
 
