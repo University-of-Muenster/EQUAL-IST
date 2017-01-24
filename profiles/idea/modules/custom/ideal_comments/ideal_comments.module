@@ -144,7 +144,7 @@ function ideal_comments_preprocess_comment(&$vars) {
 	}
 
   $vars['classes_array'][]=$color_class;
-	
+
   $date = date('D d.m.Y h.i A',$comment->created);
   if (date('Ymd') == date('Ymd', $comment->created)) {
       $date  = format_interval(time() - $comment->created, 1) . ' ' . t('ago'); 
@@ -159,4 +159,5 @@ function ideal_comments_preprocess_comment(&$vars) {
 
   $vars['content']['comment_form'] = $comment_form;
   $vars['content']['comment_form']['#weight'] = 1000;
+  dsm($vars);
 }
