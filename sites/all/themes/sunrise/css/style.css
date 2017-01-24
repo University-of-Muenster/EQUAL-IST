@@ -3751,6 +3751,10 @@ a.dialog-okay:hover {
 	padding-left:12%;
 }
 
+.view.view-top-university.view-id-top_university.view-display-id-block.view-dom-id-b9a68de56bee3e9b1b1ce48cf54b9a17 th.views-field.views-field-points.views-align-left {
+	padding-left: 5%;
+}
+
 #views-aggregator-datatable tr.odd.views-row-first td.views-field.views-field-points{
 	padding-right: 16%;
 } 
