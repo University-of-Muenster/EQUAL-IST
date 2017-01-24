@@ -73,6 +73,7 @@
       // We hide the comments and links now so that we can render them later.
 	 
       hide($content['links']);
+	  dsm($content);
       print render($content); 
     ?>
       
