@@ -126,7 +126,7 @@ function ideal_comments_forms($form_id, $args) {
 function ideal_comments_preprocess_comment(&$vars) {
   $node = $vars['node'];
   $comment = $vars['comment'];
-
+	dsm($vars);
   $date = date('D d.m.Y h.i A',$comment->created);
   if (date('Ymd') == date('Ymd', $comment->created)) {
       $date  = format_interval(time() - $comment->created, 1) . ' ' . t('ago'); 
