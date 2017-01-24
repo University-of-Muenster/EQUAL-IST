@@ -161,6 +161,3 @@ function ideal_comments_preprocess_comment(&$vars) {
   $vars['content']['comment_form']['#weight'] = 1000;
   
 }
-function template_preprocess_field(&$variables, $hook) {
-	dsm($variables);
-}
