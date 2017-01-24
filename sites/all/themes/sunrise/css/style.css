@@ -3863,11 +3863,11 @@ img.transparent {
 }
 
 .comment-criticism {
-	background-color:rgba(50,205,50,0.5);
+	background-color:rgba(0,128,0,0.5);
 }
 
 .comment-extension {
-	background-color:rgba(0,0,139,0.5);
+	background-color:rgba(65,105,225,0.5);
 }
 
 .comment-other {
