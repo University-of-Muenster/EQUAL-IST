@@ -3773,10 +3773,9 @@ a.dialog-okay:hover {
 	width: 500px;
 }
 
-.view.view-most-active-users.view-id-most_active_users.view-display-id-block.view-dom-id-5313d671dc3d08dd4074f475aa0a3481 th.views-field.views-field-points {
+.views-field.views-field-points {
 	vertical-align: inherit;
 	width: 300px;
-	margin-right: 5%;
 }
 
 .views-field.views-field-rid.views-align-left {
