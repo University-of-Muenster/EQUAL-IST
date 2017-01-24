@@ -75,7 +75,8 @@ $color_class='';
 			$color_class='comment-other';
 			break;	
 	}
-	dsm($content);
+	$comment_body=render($content['comment_body']);
+	dsm($comment_body);
  ?>
 <div class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
@@ -85,7 +86,7 @@ $color_class='';
 
   <div class="content"<?php print $content_attributes; ?>>
     <div class="submitted">
-      <?php print render ($content['comment_body']); print $submitted; ?>
+      <?php print $comment_body; print $submitted; ?>
     </div>   
      <?php
       // We hide the comments and links now so that we can render them later.
