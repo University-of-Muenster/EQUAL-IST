@@ -3771,7 +3771,11 @@ a.dialog-okay:hover {
 	color: #868686;
 }
 
-.view.view-most-active-users.view-id-most_active_users.view-display-id-block.view-dom-id-3edbb205e15a013888b093fc08ecbc36 {
+/*.view.view-most-active-users.view-id-most_active_users.view-display-id-block.view-dom-id-3edbb205e15a013888b093fc08ecbc36 {
+	vertical-align: inherit;
+} */
+
+.views-field.views-field-name {
 	vertical-align: inherit;
 }
 	
