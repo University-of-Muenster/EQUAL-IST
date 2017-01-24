@@ -3858,17 +3858,17 @@ img.transparent {
 
 /*Comment-Tags color*/
 .comment-agreement {
-	background-color:rgb(240,128,128);
+	background-color:rgba(255,0,0,0.5);
 }
 
 .comment-criticism {
-	background-color:rgb(102,205,170);
+	background-color:rgba(50,205,50,0.5);
 }
 
 .comment-extension {
-	background-color:rgb(135,206,235);
+	background-color:rgba(0,0,139,0.5);
 }
 
 .comment-other {
-	background-color:rgb(250,235,215);
+	background-color:rgba(250,235,215,0.5);
 }
