@@ -59,24 +59,7 @@
  * @ingroup themeable
  */
 ?> 
-<?php 
-dsm($content['comment_body']);
-$color_class='';
-switch ($content['field_comment_tags']['#items'][0]['tid']) {
-    case 153:
-        $color_class='comment-agreement';
-        break;
-    case 155:
-        $color_class='comment-criticism';
-        break;
-    case 154:
-        $color_class='comment-extension';
-        break;
-	case 156:
-        $color_class='comment-other';
-        break;	
-}
- ?>
+
 <div class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <?php print $picture ?>
@@ -84,7 +67,7 @@ switch ($content['field_comment_tags']['#items'][0]['tid']) {
    <?php print $author; ?>
 
   <div class="content"<?php print $content_attributes; ?>>
-    <div class="submitted <?php print $color_class; ?>">
+    <div class="submitted">
       <?php print render ($content['comment_body']); print $submitted; ?>
     </div>   
      <?php
