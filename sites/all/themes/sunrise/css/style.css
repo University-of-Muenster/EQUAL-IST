@@ -3728,7 +3728,8 @@ a.dialog-okay:hover {
 	background-position: center left;
 	padding-left:25%;
 	height: 70px;
-	vertical-align:center;
+	vertical-align: inherit;
+	width: 765px;
 }
 #views-aggregator-datatable tr.even td.views-field.views-field-rid {
 	background:url('../images/goals/SecondUniversity.png') no-repeat;
@@ -3779,8 +3780,7 @@ a.dialog-okay:hover {
 }
 
 .views-field.views-field-rid {
-	vertical-align: inherit;
-	width: 765px;
+	
 }
 
 .view.view-top-university.view-id-top_university.view-display-id-block.view-dom-id-3279a62077182c67b24133726f88020e th.views-field.views-field-points.views-align-left {
