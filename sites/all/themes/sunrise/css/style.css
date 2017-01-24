@@ -3773,7 +3773,6 @@ a.dialog-okay:hover {
 
 .views-field.views-field-name {
 	vertical-align: inherit;
-	width: 500px;
 }
 
 .views-field.views-field-points {
@@ -3782,11 +3781,6 @@ a.dialog-okay:hover {
 
 .views-field.views-field-rid.views-align-left {
 	vertical-align: inherit;
-	width: 800px;
-}
-
-.views-field.views-field-picture {
-	width: 300px; 
 }
 
 .views-field.views-field-points.views-align-left {
