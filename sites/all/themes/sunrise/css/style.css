@@ -3312,7 +3312,7 @@ div.panel-col-last:nth-child(2) {
 }
 
 .field-name-field-name {
-   margin-top: 70px;
+   margin-top: 5%;
 }
 
 .page-user .pane-user-summary h3 {
@@ -3331,10 +3331,6 @@ div.panel-col-last:nth-child(2) {
 
 .page-user .pane-user-summary dd{
     font-weight:400;
-}
-
-.panel-pane.pane-entity-field-extra.pane-user-summary {
-    margin-bottom: 0px;
 }
 
 .field-label {
