@@ -3779,20 +3779,32 @@ a.dialog-okay:hover {
 
 .views-field.views-field-name {
 	vertical-align: inherit;
+	width: 500px;
 }
 
 .views-field.views-field-points {
 	vertical-align: inherit;
+	width: 300px;
 }
 
 .views-field.views-field-rid.views-align-left {
 	vertical-align: inherit;
+	width: 265px;
 }
 
 .views-field.views-field-points.views-align-left {
 vertical-align: inherit; 
 }
-	
+
+.views-field.views-field-picture {
+	width: 265px;
+}
+
+.views-field.views-field-points.views-align-left {
+	width: 300px;
+}
+
+
 
 /* Slideshow Start Page */
 
