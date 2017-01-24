@@ -59,7 +59,24 @@
  * @ingroup themeable
  */
 ?> 
-
+<?php
+$color_class='';
+	switch ($vars['field_comment_tags'][0]['tid']) {
+		case 153:
+			$color_class='comment-agreement';
+			break;
+		case 155:
+			$color_class='comment-criticism';
+			break;
+		case 154:
+			$color_class='comment-extension';
+			break;
+		case 156:
+			$color_class='comment-other';
+			break;	
+	}
+	dsm($content);
+ ?>
 <div class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <?php print $picture ?>
@@ -74,7 +91,7 @@
       // We hide the comments and links now so that we can render them later.
 	 
       hide($content['links']);
-	  dsm($content);
+	  
       print render($content); 
     ?>
       
