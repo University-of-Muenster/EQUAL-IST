@@ -62,7 +62,6 @@
 <?php
 //Color Class Definition for Comment tags
 $color_class='';
-dsm($content);
 if(isset($content['field_comment_tags_idea'])){
 	switch ($content['field_comment_tags_idea']['#items'][0]['tid']) {
 		case 153:
