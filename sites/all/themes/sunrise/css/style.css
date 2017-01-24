@@ -3778,7 +3778,7 @@ a.dialog-okay:hover {
 	width: 300px;
 }
 
-.views-field.views-field-rid.views-align-left {
+.views-field.views-field-rid {
 	vertical-align: inherit;
 	width: 765px;
 }
