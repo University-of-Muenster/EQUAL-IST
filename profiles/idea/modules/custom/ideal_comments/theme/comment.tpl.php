@@ -82,8 +82,8 @@ switch ($content['field_comment_tags']['#items'][0]['tid']) {
 
    <?php print $author; ?>
 
-  <div class="content <?php print $color_class; ?>"<?php print $content_attributes; ?>>
-    <div class="submitted">
+  <div class="content"<?php print $content_attributes; ?>>
+    <div class="submitted <?php print $color_class; ?>">
       <?php print render ($content['comment_body']); print $submitted; ?>
     </div>   
      <?php
