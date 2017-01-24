@@ -61,6 +61,7 @@
 ?> 
 <?php
 $color_class='';
+dsm($content);
 	switch ($content['field_comment_tags']['#items'][0]['tid']) {
 		case 153:
 			$color_class=' comment-agreement';
