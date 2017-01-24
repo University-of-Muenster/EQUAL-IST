@@ -2637,6 +2637,17 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 	display:inline-block;
 	list-style-type: none;
 }
+#equal_ist_blocks_phase .equal_ist_blocks_phase_info {
+	display:inline-block;
+	list-style-type: none;
+	margin-left: 10px;
+}
+#equal_ist_blocks_phase .equal_ist_blocks_phase_days {
+	display:inline-block;
+	list-style-type: none;
+	margin-left: 10px;
+	color:rgba(158,0,93,1.0);
+}
 #equal_ist_blocks_phase .equal_ist_blocks_phase_spacer {
 	display:inline-block;
 	list-style-type: none;
@@ -2647,8 +2658,8 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 }
 #equal_ist_blocks_phase .equal_ist_blocks_phase_spacer_below {
 	position:absolute;
-	margin-left:-40px;
-	bottom:20px;
+	margin-left:-30px;
+	bottom:25px;
 
 	
 	font-size:10px;
@@ -3427,6 +3438,11 @@ div.panel-col-last:nth-child(2) {
 
 /* Phase Module */
 a.phase-link {
+	padding:10px;
+	color:white;
+	font-size: 17px;
+}
+a.select-ideas-link {
 	padding:10px;
 	color:white;
 	font-size: 17px;

@@ -1,9 +1,13 @@
 <?php
 // Sort Helpfunction 
-    function sortmulti ($array, $index, $order, $natsort=FALSE, $case_sensitive=FALSE) {
+    function sortmulti ($array, $index, $order, $challenge_sort=FALSE, $natsort=FALSE, $case_sensitive=FALSE) {
          if(is_array($array) && count($array)>0) {
              foreach(array_keys($array) as $key) { 
-                $temp[$key]=$array[$key][$index]['data']['#title'];
+                if($challenge_sort){
+                  $temp[$key]=$array[$key][$index]['data']['#title'];
+                }else{
+                  $temp[$key]=$array[$key][$index];
+                }
              }
              if(!$natsort) {
                  if ($order=='asc') {
@@ -38,10 +42,13 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
 
 
   if ($form_id == 'idea_node_form') {
+    //Important for Phase module
+    $form['field_active']['und']['#default_value']=1;
+
     $path = drupal_get_path('module', 'ideal_idea');
     drupal_add_js($path . '/js/ideal_idea.js');
     drupal_add_css($path . '/css/ideal_idea.css');
-
+    
     //add placeholders on fields
     $form['title']['#attributes']['placeholder'] = $form['title']['#title'];
     //dvm($form['field_attachments']['und']);
@@ -133,7 +140,7 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
     }
     
     //Sort
-    $challenge_options_sort=sortmulti($challenge_options, $challenge_index, $challenge_order);
+    $challenge_options_sort=sortmulti($challenge_options, $challenge_index, $challenge_order, TRUE);
     //Build the tableselect.
     $form['challenge_nodes'] = array(
         '#type' => 'tableselect',
@@ -241,6 +248,8 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
   }
   
   if ($form_id == 'challenge_node_form') {
+
+
     $path = drupal_get_path('module', 'ideal_challenge');
     drupal_add_js($path . '/js/ideal_challenge.js');
     drupal_add_css($path . '/css/ideal_challenge.css');
@@ -276,7 +285,7 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
       $order='asc';
     }
     //Sort
-    $challenge_options_sort=sortmulti($challenge_options, 'challenge', $order);
+    $challenge_options_sort=sortmulti($challenge_options, 'challenge', $order, TRUE);
     //Build the tableselect.
     $form['tableselect_challenge'] = array(
         '#type' => 'tableselect',
@@ -294,7 +303,16 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
       'data' => drupal_get_path('theme',$GLOBALS['theme']).'/js/equal-ist-idea-form.js',
       );
 
+    // Set default dates for Phase module !
+    /*
+    $test=date('d/m/y',strtotime('+30 days'));
+    dsm($test);
+    $form['field_phase1_end']['und'][0]['#default_value']=$test;
+    $form['field_phase1_end']['und'][0]['#date_is_default']=TRUE;
+    dsm($form);
+    */
   }
+
 }
 
 /**
@@ -394,6 +412,7 @@ if($node->type=='challenge'){
     $target=array('target_id' => $nid);
     $node->field_related_challenges['und'][]=$target;
   }
+
   
 }  
 
