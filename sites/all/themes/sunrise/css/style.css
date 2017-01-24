@@ -3747,13 +3747,13 @@ a.dialog-okay:hover {
 	height: 70px;
 	vertical-align:center;
 }
-#views-aggregator-datatable th.views-field.views-field-rid {
+/*#views-aggregator-datatable th.views-field.views-field-rid {
 	padding-left:25%;
-}
+} */
 
-#views-aggregator-datatable tr.odd.views-row-first td.views-field.views-field-points{
-	padding-right: 16%;
-} 
+/*#views-aggregator-datatable tr.odd.views-row-first td.views-field.views-field-points{
+	padding-right: 16%; 
+} */
 
 .i-am-dragdropfile input {
     margin-top: 4%;
@@ -3774,15 +3774,16 @@ a.dialog-okay:hover {
 	width: 500px;
 }
 
-.views-field.views-field-points {
+/*.views-field.views-field-points {
 	vertical-align: inherit;
 	width: 300px;
-}
+} */
 
 .view.view-top-university.view-id-top_university.view-display-id-block.view-dom-id-3279a62077182c67b24133726f88020e th.views-field.views-field-points {
 vertical-align: inherit; 
 width: 300px;
 margin-right: 5%;
+margin-left: 5%;
 }
 
 .views-field.views-field-picture {
