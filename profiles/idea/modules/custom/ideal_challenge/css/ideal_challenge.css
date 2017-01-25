@@ -40,8 +40,8 @@ fieldset.filter-wrapper, form.node-challenge-form .field-name-field-category lab
 	display: none;
 }
 #challenge-node-form .field-type-image, #challenge-node-form .field-type-file{
-	width: 75%;
-	float: right;
+	width: 100%;
+	float: left;/*width auf 100 Prozent und float auf left*/
 }
 #challenge-node-form  .panel-default>.panel-heading{
 	/*display: none;*/
@@ -121,6 +121,6 @@ fieldset.filter-wrapper, form.node-challenge-form .field-name-field-category lab
 	width: 20%;
 }
 #challenge-node-form .node-column-main{
-	width: 80%;
+	width: 75%;
 	float: left;
 }

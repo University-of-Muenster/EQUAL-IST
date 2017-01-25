@@ -3890,3 +3890,8 @@ img.transparent {
 .comment-other {
 	background-color:rgba(250,235,215,0.5);
 }
+
+.challenge-description {
+    width: 75%;
+    float: left;
+}
