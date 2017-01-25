@@ -2232,7 +2232,7 @@ a.button-inverse {
  	padding-left:10px;
  	
 }
-.pane-equal-ist-phases-equal-ist-block-voting .vud-widget-alternate::before, .view-ideas-all .vud-widget-alternate::before  {
+.pane-equal-ist-phases-equal-ist-block-voting .vud-widget-alternate::before, .vud-widget-not-likes .vud-widget-alternate::before  {
 	display: none;
     content: " ";
 }
