@@ -2612,9 +2612,7 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 #equal_ist_blocks_phase .equal_ist_blocks_phase_spacer_below {
 	position:absolute;
 	margin-left:-30px;
-	bottom:25px;
-
-	
+	top:30px;
 	font-size:10px;
 	color:#333;
 }
