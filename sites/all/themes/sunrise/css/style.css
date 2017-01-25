@@ -3897,6 +3897,6 @@ img.transparent {
 
 
 /*Registration site do not display "What code is in the image"*/
-.form-item .form-type-textfield .form-item-captcha-response label{
+.form-item.form-type-textfield.form-item-captcha-response label{
     display: none;
 }
