@@ -218,7 +218,7 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 
 .sf-menu li { float: none; list-style: none; }
 
-#main-navigation { background: rgba(255,255,255,1.0); color: black; z-index: 999; border-bottom: thick solid #A9A9A9; position: fixed; width: 100%; padding: 0px 0; margin-top: 0px;}
+#main-navigation { background: rgba(255,255,255,1.0); color: black; z-index: 999; border-bottom: thick solid #cccccc; position: fixed; width: 100%; padding: 0px 0; margin-top: 0px;}
 
 #main-navigation-inside {color: black; margin: 0 auto; padding: 0;  text-align: center; }
 
@@ -3219,6 +3219,7 @@ div.filefield-sources-list{
 	display: inline-block;
 	padding:5px;
 	font-size: 13px;
+    margin-left: 5px;
 }
 #idea-node-form .related_nodes_challenge_title:hover, #idea-node-form .related_nodes_tag_title:hover{
 	cursor:pointer
