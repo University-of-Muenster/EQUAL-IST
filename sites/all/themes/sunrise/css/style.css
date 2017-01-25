@@ -3871,7 +3871,7 @@ img.transparent {
     padding: 1.25rem 2.5rem;
     display: block;
     background-color: white;
-    border: 1px solid transparent;
+    border: 1px solid rgba(158,0,93,1.0);
     color: rgba(158,0,93,1.0);
     font-weight: 300;
     -webkit-border-radius: 3px;
