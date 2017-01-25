@@ -3854,22 +3854,22 @@ img.transparent {
 /*Comment-Tags color*/
 .comment-agreement {
 	background-color:rgba(0,128,0,0.05);
-    border: 5px solid rgba(0,128,0,1.0);
+    border: 5px solid rgba(0,128,0,0.3);
 }
 
 .comment-criticism {
 	background-color:rgba(255,0,0,0.05);
-    border: 5px solid rgba(255,0,0,1.0);
+    border: 5px solid rgba(255,0,0,0.3);
 }
 
 .comment-extension {
 	background-color:rgba(65,105,225,0.05);
-    border: 5px solid rgba (65,105,225,1.0);
+    border: 5px solid rgba (65,105,225,0.3);
 }
 
 .comment-other {
 	background-color:rgba(250,235,215,0.05);
-    border: 5px solid rgba(250,235,215,1.0);
+    border: 5px solid rgba(250,235,215,0.3);
 }
 
 
