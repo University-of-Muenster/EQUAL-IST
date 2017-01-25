@@ -3915,3 +3915,10 @@ img.transparent {
     font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
     padding: 5px 10px;
 }
+
+.view-content .vud-widget-alternate .up-inactive {
+    height: 25px;
+    width: 30px;
+    background-size: 25px 25px;
+    margin-right: 10px;
+}
