@@ -3909,3 +3909,9 @@ img.transparent {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
+
+.view-content .vud-widget-alternate .alternate-votes-display {
+    font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
+    padding: 5px 10px;
+}
