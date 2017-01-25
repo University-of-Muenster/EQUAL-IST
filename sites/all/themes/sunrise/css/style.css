@@ -3540,6 +3540,9 @@ a.dialog-abort:hover {
 a.dialog-okay:hover {
 	color:rgba(158,0,93,1.0);
 }
+.transparent-inactive {
+	opacity: 0.3;
+}
 //*Search Form*/
 .col-md-8 .clearfix #content-wrapper .region.region-content .search-form .container-inline.form-wrapper {
 	margin: 10px 0px 10px 0;
