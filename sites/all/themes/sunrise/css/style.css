@@ -3868,7 +3868,7 @@ img.transparent {
 
 .comment-other {
 	background-color:rgba(250,235,215,0.05);
-    border: 5px solid rgba(250,235,215,0.3);
+    border: 5px solid rgba(250,235,215,1.0);
 }
 
 
