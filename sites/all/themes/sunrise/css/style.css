@@ -3877,6 +3877,11 @@ img.transparent {
     display: none;
 }
 
+.field-name-field-comment-tags .field-item {
+    color: black;
+    font-weight: 500;
+}
+
 .challenge-description {
     width: 75%;
     float: left;
