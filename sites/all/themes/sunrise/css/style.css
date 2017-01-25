@@ -3896,7 +3896,7 @@ img.transparent {
 
 
 /*Vote Button:Idea overview list*/
-.view-ideas-belonging-to-challenge .vud-widget-alternate {
+.view-content .vud-widget-alternate {
     clear: none;
     float: right;
     width: 200px;
