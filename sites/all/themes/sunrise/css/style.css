@@ -3255,7 +3255,7 @@ div.filefield-sources-list{
 	width:100%; 
 	display: none;
 }
-#idea-node-form .node-form.node-idea-form .form-textarea-wrapper.resizable-textarea{
+#idea-node-form .form-textarea-wrapper.resizable-textarea{
 	border: 1px solid rgba(158,9,93,1.0);
     font-weight: 300;
     -webkit-border-radius: 3px;
