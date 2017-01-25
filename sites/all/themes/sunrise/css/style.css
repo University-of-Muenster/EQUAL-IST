@@ -3934,6 +3934,11 @@ img.transparent {
 #field-external-links-values--2 td {
     border: 1px solid rgba(158,0,93,1.0);
 }
+/*button active add idea/challenge */
+.form-item.form-type-checkbox.form-item-field-active-und #edit-field-active-und{
+    display: none;
+}
+
 /*Designing the statics page*/
 /*General information*/
 .statistics-platform #table-0 tr,
