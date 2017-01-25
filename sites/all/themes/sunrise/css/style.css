@@ -3899,7 +3899,7 @@ img.transparent {
 
 /*Registration site do not display "What code is in the image"*/
 .form-item.form-type-textfield.form-item-captcha-response label{
-    display: none;
+    display: none;}
 =======
 /*Vote Button:Idea overview list*/
 .view-content .vud-widget-alternate {
@@ -3921,4 +3921,6 @@ img.transparent {
     padding: 5px 10px;
 }
 
-
+#field-tags-for-related-challenge-values--2 td {
+    border: 1px solid rgba(158,0,93,1.0);
+}
