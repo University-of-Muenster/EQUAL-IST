@@ -2065,6 +2065,7 @@ a.button-inverse {
     -webkit-border-radius: 3px;
     border-radius: 3px;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 .vud-widget-alternate .alternate-votes-display {
 	display: inline-block;
