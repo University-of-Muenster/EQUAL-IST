@@ -2094,6 +2094,7 @@ a.button-inverse {
 	width: 60px;
 	margin-right:20px;
 	border-left:1px solid #fff;
+	margin-left:5px;
 }
 .vud-widget-alternate .up-active {
 	float:right;
@@ -2106,6 +2107,7 @@ a.button-inverse {
 	width: 60px;
 	margin-right:20px;
 	border-left:1px solid #fff;
+	margin-left:5px;
 }
 .vud-widget-alternate .up-inactive:hover {
 	background:url('../images/icons/daumenicons/Material_Icons_e8dc(5)_64.png');
@@ -2167,7 +2169,7 @@ a.button-inverse {
 .view-ideas-all .vud-widget-alternate{
 	clear:none;
 	float:right;
-	width: 200px;
+	width: auto;
 	height: 35px;
 	font-size:1.25rem;
 }
@@ -2199,7 +2201,7 @@ a.button-inverse {
 .view-challenges-list .vud-widget-alternate{
 	clear:none;
 	float:right;
-	width: 200px;
+	width: auto;
 	height: 35px;
 	font-size:1.25rem;
 }
@@ -2255,6 +2257,7 @@ a.button-inverse {
 	width: 50px;
 	margin-right:0px;
 	border-left:1px solid #fff;
+	margin-left:5px;
 	font-size:0;
 }
 
@@ -2332,7 +2335,7 @@ a.button-inverse {
 .comment .vud-widget-alternate{
 	clear:none;
 	float:right;
-	width: 200px;
+	width: auto;
 	height: 35px;
 	font-size:1.25rem;
 }
@@ -2346,6 +2349,7 @@ a.button-inverse {
 	width: 30px;
 	background-size: 25px 25px;
 	margin-right:10px;
+	margin-left:5px;
 }
 .comment .vud-widget-alternate .up-inactive:hover {
 	background-size: 25px 25px;
