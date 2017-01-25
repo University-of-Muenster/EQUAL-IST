@@ -43,8 +43,11 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
 
   if ($form_id == 'idea_node_form') {
     //Important for Phase module
-    $form['field_active']['und']['#default_value']=1;
-
+    $node = $form_state['node'];
+    if (!isset($node->nid) || isset($node->is_new)) {
+      $form['field_active']['und']['#default_value']=1;
+    }
+    
     $path = drupal_get_path('module', 'ideal_idea');
     drupal_add_js($path . '/js/ideal_idea.js');
     drupal_add_css($path . '/css/ideal_idea.css');
