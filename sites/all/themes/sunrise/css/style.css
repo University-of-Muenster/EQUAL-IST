@@ -3954,13 +3954,14 @@ img.transparent {
 }
 
 /*Designing the statics page*/
+.statistics-platform table{
+text-align: center;
+}
 /*General information*/
 .statistics-platform #table-0 tr,
 .statistics-platform #table-0 th,
-.statistics-platform #table-0 td
-.statistics-platform #table-0 table{
+.statistics-platform #table-0 td{
     border: 1px solid rgba(158,0,93,1.0);
-	text-align: center;
 }
 /*Universities*/
 .statistics-platform #table-8 tr,
