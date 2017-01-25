@@ -3844,3 +3844,7 @@ img.transparent {
     width: 75%;
     float: left;
 }
+
+#views_slideshow_controls_text_slideshow-block {
+    text-align: center;
+}
