@@ -2139,7 +2139,7 @@ div.panel-pane:nth-child(5) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)
 	border: 1px solid rgba(158,0,93,1.0);	
     -webkit-border-radius: 3px;
     border-radius: 3px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .vud-widget-alternate .alternate-votes-display {
 	display: inline-block;
