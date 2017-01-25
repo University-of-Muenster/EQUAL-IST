@@ -3931,6 +3931,6 @@ img.transparent {
     border: 1px solid rgba(158,0,93,1.0);
 }
 /*Designing the statics page*/
-.statistics-platform .table-0{
+.statistics-platform #table-0{
     border: 1px solid rgba(158,0,93,1.0);
 }
