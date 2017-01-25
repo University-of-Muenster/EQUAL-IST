@@ -3935,8 +3935,15 @@ img.transparent {
 }
 
 #field-external-links-values--2 td {
-    border: 1px solid rgba(158,0,93,0.99);
+    border: 1px solid rgba(158,0,93,1.0);
 }
+
+#field-categories-subcategories-values--2 td {
+    border: 1px solid rgba(158,0,93,1.0);
+}
+
+
+
 /*Designing the statics page*/
 .statistics-platform #table-0 table{
     border: 1px solid rgba(158,0,93,1.0);
