@@ -3896,16 +3896,6 @@ img.transparent {
 }
 
 
-/*Vote Button:Idea overview list*/
-.view-content .vud-widget-alternate {
-    clear: none;
-    float: right;
-    width: 200px;
-    height: 35px;
-    font-size: 1.25rem;
-<<<<<<< HEAD
-}
-
 /*Registration site do not display "What code is in the image"*/
 .form-item .form-type-textfield .form-item-captcha-response label{
     display: none;
