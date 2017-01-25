@@ -3942,7 +3942,9 @@ img.transparent {
     border: 1px solid rgba(158,0,93,1.0);
 }
 
-
+#field-links-external-values--2 td {
+    border: 1px solid rgba(158,0,93,1.0);
+}
 
 /*Designing the statics page*/
 .statistics-platform #table-0 table{
