@@ -2232,10 +2232,11 @@ a.button-inverse {
  	padding-left:10px;
  	
 }
-.pane-equal-ist-phases-equal-ist-block-voting .vud-widget-alternate::before {
+.pane-equal-ist-phases-equal-ist-block-voting .vud-widget-alternate::before, .view-ideas-all .vud-widget-alternate::before  {
 	display: none;
     content: " ";
 }
+
 /*
 .rate-widget:before {
 	display: inline-block;
