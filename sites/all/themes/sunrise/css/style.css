@@ -2239,6 +2239,7 @@ a.button-inverse {
     content: " ";
 }
 
+
 /*
 .rate-widget:before {
 	display: inline-block;
@@ -2291,6 +2292,27 @@ a.button-inverse {
 	display: inline-block;
 	color:white;
 }
+/* Small widget */
+.vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up,
+.vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up.rate-voted:hover,
+.vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up.rate-voted,
+.vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up:hover,
+.vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-down,
+.vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-down.rate-voted:hover,
+.vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-down.rate-voted,
+.vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-down:hover {
+	background-size: 25px 25px;
+	height:25px;
+	width: 30px;
+	margin-right:10px;
+}
+.vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up,
+.vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up.rate-voted:hover,
+.vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up.rate-voted,
+.vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up:hover{
+	margin-right:5px;
+}
+ 
 /* User Profile Ideas / Challenges */
 #quicktabs-user_ideas .vud-widget-alternate::before {
 	display: inline-block;
@@ -2302,7 +2324,7 @@ a.button-inverse {
 #quicktabs-user_ideas .vud-widget-alternate{
 	clear:none;
 	float:right;
-	width: 200px;
+	width: auto;
 	height: 35px;
 	font-size:1.25rem;
 }
@@ -2316,6 +2338,7 @@ a.button-inverse {
 	width: 30px;
 	background-size: 25px 25px;
 	margin-right:10px;
+	margin-left:5px;
 }
 #quicktabs-user_ideas .vud-widget-alternate .up-inactive:hover {
 	background-size: 25px 25px;
@@ -2937,7 +2960,6 @@ ul.secondary a.active {
   border-color:  rgba(158, 0, 93, 1.0);
   -webkit-border-radius: 3px;
      border-radius: 3px;
-    font-size: 1vw;
 }
 
 #block-system-main select {
@@ -3903,26 +3925,6 @@ img.transparent {
 /*Registration site do not display "What code is in the image"*/
 .form-item.form-type-textfield.form-item-captcha-response label{
     display: none;}
-=======
-/*Vote Button:Idea overview list*/
-.view-content .vud-widget-alternate {
-    clear: none;
-    float: right;
-    width: 200px;
-    height: 35px;
-    font-size: 1.25rem;
-    display: block;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-
-.view-content .vud-widget-alternate .alternate-votes-display {
-    font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
-    padding: 5px 10px;
-}
 
 
 /*Rahmen AddIdea und AddChallenge "Add another item" */
@@ -3931,7 +3933,7 @@ img.transparent {
 }
 
 #field-external-links-values--2 td {
-    border: 1px solid rgba(158,0,93,1.0);
+    border: 1px solid rgba(158,0,93,0.99);
 }
 /*button active add idea/challenge */
 .form-item.form-type-checkbox.form-item-field-active-und #edit-field-active-und{
