@@ -237,12 +237,14 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 }
 #block-panels-mini-header .pane-equal-ist-blocks-equal-ist-icon{
 	display:inline-block;
+	float:left;
 }
 #block-panels-mini-header .pane-system-main-menu{
 	display:inline-block;
 }
 #block-panels-mini-header .pane-equal-ist-user-menu-equal-ist-user-search-block {
 	display:inline-block;
+	margin-right:10px;
 }
 #block-panels-mini-header .pane-equal-ist-user-menu-equal-ist-user-menu-block {
 	display:inline-block;
@@ -250,6 +252,9 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 #block-panels-mini-header .panel-separator{
 	display:none;
 	clear:none;
+}
+#block-panels-mini-header .pane-system-user-menu{
+	margin-right:10px;
 }
 
 /* equal_ist_user_menu */
