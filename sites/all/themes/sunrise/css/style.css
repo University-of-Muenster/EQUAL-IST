@@ -3872,6 +3872,11 @@ img.transparent {
     border: 5px solid rgba(250,235,215,1.0);
 }
 
+
+.field-name-field-comment-tags .field-label {
+    display: none;
+}
+
 .challenge-description {
     width: 75%;
     float: left;
