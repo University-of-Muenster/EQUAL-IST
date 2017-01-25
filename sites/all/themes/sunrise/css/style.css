@@ -3883,3 +3883,8 @@ img.transparent {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
+#views_slideshow_controls_text_slideshow-block {
+    text-align: center;
+}
