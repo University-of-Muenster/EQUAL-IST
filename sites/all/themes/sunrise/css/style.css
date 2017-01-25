@@ -232,6 +232,22 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 
 #main-navigation-inside ul.menu li a:hover, #main-navigation-inside ul.menu li.current-menu-item a, #main-navigation-inside ul.menu li.current_page_item a { color: rgba(158,0,93,1.0); text-decoration: none}
 
+#block-panels-mini-header {
+	width:100%;
+}
+#block-panels-mini-header .pane-equal-ist-blocks-equal-ist-icon{
+	display:inline-block;
+}
+#block-panels-mini-header .pane-system-main-menu{
+	display:inline-block;
+}
+#block-panels-mini-header .pane-equal-ist-user-menu-equal-ist-user-search-block {
+	display:inline-block;
+}
+#block-panels-mini-header .pane-equal-ist-user-menu-equal-ist-user-menu-block {
+	display:inline-block;
+}
+
 /* equal_ist_user_menu */
 
 .equal-user-menu-icon {
@@ -1433,6 +1449,7 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
     color: #333;
     background-color: rgba(158,0,93,1.0); 
 }
+
 
 /*Challenge Desciption*/
 
