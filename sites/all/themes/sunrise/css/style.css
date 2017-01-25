@@ -2306,6 +2306,12 @@ a.button-inverse {
 	width: 30px;
 	margin-right:10px;
 }
+.vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up,
+.vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up.rate-voted:hover,
+.vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up.rate-voted,
+.vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up:hover{
+	margin-right:5px;
+}
  
 /* User Profile Ideas / Challenges */
 #quicktabs-user_ideas .vud-widget-alternate::before {
@@ -2318,7 +2324,7 @@ a.button-inverse {
 #quicktabs-user_ideas .vud-widget-alternate{
 	clear:none;
 	float:right;
-	width: 200px;
+	width: auto;
 	height: 35px;
 	font-size:1.25rem;
 }
@@ -2332,6 +2338,7 @@ a.button-inverse {
 	width: 30px;
 	background-size: 25px 25px;
 	margin-right:10px;
+	margin-left:5px;
 }
 #quicktabs-user_ideas .vud-widget-alternate .up-inactive:hover {
 	background-size: 25px 25px;
