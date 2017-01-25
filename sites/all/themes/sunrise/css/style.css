@@ -247,6 +247,10 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 #block-panels-mini-header .pane-equal-ist-user-menu-equal-ist-user-menu-block {
 	display:inline-block;
 }
+#block-panels-mini-header .panel-separator{
+	display:none;
+	clear:none;
+}
 
 /* equal_ist_user_menu */
 
