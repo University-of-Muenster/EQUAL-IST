@@ -602,7 +602,7 @@ a img { border: 0px none; }
 
 
 
-#main .comment p { margin: 15px 0; padding-bottom: 0px; }
+#main .comment p { margin-bottom: 15px; padding-bottom: 0px; }
 
 
 .comment ul.inline li {  display: inline-block; }
