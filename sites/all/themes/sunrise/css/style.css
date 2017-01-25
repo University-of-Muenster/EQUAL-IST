@@ -3902,4 +3902,9 @@ img.transparent {
     width: 200px;
     height: 35px;
     font-size: 1.25rem;
+    display: block;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
