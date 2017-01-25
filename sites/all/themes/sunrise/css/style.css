@@ -2580,6 +2580,7 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 #equal_ist_blocks_phase .equal_ist_blocks_phase_deactive {
 	display:inline-block;
 	list-style-type: none;
+    margin-right: 5%;
 }
 #equal_ist_blocks_phase .equal_ist_blocks_phase_info {
 	display:inline-block;
