@@ -3900,4 +3900,25 @@ img.transparent {
 /*Registration site do not display "What code is in the image"*/
 .form-item.form-type-textfield.form-item-captcha-response label{
     display: none;
+=======
+/*Vote Button:Idea overview list*/
+.view-content .vud-widget-alternate {
+    clear: none;
+    float: right;
+    width: 200px;
+    height: 35px;
+    font-size: 1.25rem;
+    display: block;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
+
+
+.view-content .vud-widget-alternate .alternate-votes-display {
+    font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
+    padding: 5px 10px;
+}
+
+
