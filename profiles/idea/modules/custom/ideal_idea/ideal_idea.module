@@ -73,12 +73,12 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
     );
     //upload fields text
     //for images
-    $form['field_idea_image']['und']['#file_upload_title'] = '<div class="title">'.t('Add images here').'</div>'.t('Drag & drop images or <a href="#" class="open-browse">browse</a> them from your computer');
+    $form['field_idea_image']['und']['#file_upload_title'] = '<div class="title">'.t('Images').'</div>'.t('Please upload an image characterising the idea. <br>Drag & drop images or <a href="#" class="open-browse">browse</a> them from your computer.');
     $form['field_idea_image']['und']['#title'] = '';
     $form['field_idea_image']['und']['#file_upload_description'] = '';
     //for documents
     $form['field_attachments']['und']['#file_upload_title'] = '<div class="title">'.t('Add documents here').'</div>'.t('Drag & drop pdf or text files or <a href="#" class="open-browse">browse</a> them from your computer');
-    $form['field_attachments']['und']['#title'] = '';
+    $form['field_attachments']['und']['#title'] = 'Attachments <br><br> You can upload files with further information about the idea.<br> Drag & drop pdf or text files or <a href="#" class="open-browse">browse</a> them from your computer.';
     $form['field_attachments']['und']['#file_upload_description'] = '';
     
     
