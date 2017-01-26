@@ -2614,6 +2614,9 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 }
 #related-idea-explanation-link:hover {
 	color:rgba(158,0,93,1.0);
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 }
 #related-idea-explanation {
 	margin-top:10px;
@@ -4708,15 +4711,4 @@ a#edit-cancel:hover {
     color: rgba(158,0,93,1.0);
     font-weight: 300;
     border-radius: 3px;
-}
-/* Ideas belonging to Challenge Button */
-a#show-additional-ideas:active {
-	background-color: #fff;
-	border-color: rgba(158,0,93,1.0);
-	color: rgba(158,0,93,1.0);
-}
-a#show-additional-ideas-not-active:active{
-	background-color: #fff;
-	border-color: rgba(158,0,93,1.0);
-	color: rgba(158,0,93,1.0);
 }
