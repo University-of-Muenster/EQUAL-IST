@@ -3960,7 +3960,7 @@ img.transparent {
 }
 
 /*Anonymous publishing*/
-.collapsible.form-wrapper.collapse-processed .fieldset-legend .fieldset-title{
+#edit-anonymous-publishing .fieldset-legend .fieldset-title{
     padding: 5px;
     color: #666666;
 	font-size: 14px;
