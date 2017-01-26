@@ -47,7 +47,7 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
     if (!isset($node->nid) || isset($node->is_new)) {
       $form['field_active']['und']['#default_value']=1;
     }
-    
+
     $path = drupal_get_path('module', 'ideal_idea');
     drupal_add_js($path . '/js/ideal_idea.js');
     drupal_add_css($path . '/css/ideal_idea.css');
@@ -341,12 +341,14 @@ function template_preprocess_idea_node_form(&$variables) {
   // nodeformcols is an alternative for this solution.
   if (!module_exists('nodeformcols')) {
     $variables['sidebar'] = array();   // Put taxonomy fields in sidebar.
-    $variables['form']['field_idea_image']['und'][]=$variables['form']['field_copyright_infringement'];
     $variables['sidebar'][] = $variables['form']['field_idea_image'];
     $variables['sidebar'][] = $variables['form']['field_attachments'];
     hide($variables['form']['field_copyright_infringement']);
     hide($variables['form']['field_idea_image']);
     hide($variables['form']['field_attachments']);
+
+    $variables['field_copyright_infringement']=$variables['form']['field_copyright_infringement'];
+    hide($variables['form']['field_copyright_infringement']);
 
     // Anonymous Publishing put seperate
     if(isset($variables['form']['anonymous_publishing'])){
