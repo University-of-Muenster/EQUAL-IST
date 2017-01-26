@@ -2614,9 +2614,6 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 }
 #related-idea-explanation-link:hover {
 	color:rgba(158,0,93,1.0);
-	border: 1px solid rgba(158,0,93,1.0);	
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
 }
 #related-idea-explanation {
 	margin-top:10px;
@@ -3187,7 +3184,7 @@ div.filefield-sources-list{
 }
 #idea-node-form .related_nodes_challenge_title:hover, #idea-node-form .related_nodes_tag_title:hover{
 	text-decoration:underline;
-	border: none;
+
 }
 #field_ideas_similar {
 	width:100%; 
