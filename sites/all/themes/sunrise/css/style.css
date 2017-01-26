@@ -3267,7 +3267,7 @@ div.filefield-sources-list{
 }
 
 /*border for create challenge und idea*/
-#field-categories-subcategories-values.field-multiple-table.sticky-enabled.tabledrag-processed /*th, 
+#field-categories-subcategories-values/*.field-multiple-table.sticky-enabled.tabledrag-processed th, 
 #field-categories-subcategories-values.field-multiple-table.sticky-enabled.tabledrag-processed tr,
 #field-categories-subcategories-values.field-multiple-table.sticky-enabled.tabledrag-processed td,
 #field-categories-subcategories-values.field-multiple-table.sticky-enabled.tabledrag-processed table*/{
@@ -3275,7 +3275,7 @@ div.filefield-sources-list{
 	-webkit-border-radius: 3px;
     border-radius: 3px;	
 }
-#field-links-external-values.field-multiple-table.sticky-enabled.tabledrag-processed /*th, 
+#field-links-external-values/*.field-multiple-table.sticky-enabled.tabledrag-processed th, 
 #field-links-external-values.field-multiple-table.sticky-enabled.tabledrag-processed tr,
 #field-links-external-values.field-multiple-table.sticky-enabled.tabledrag-processed td,
 #field-links-external-values.field-multiple-table.sticky-enabled.tabledrag-processed table*/{
@@ -3283,21 +3283,13 @@ div.filefield-sources-list{
 	-webkit-border-radius: 3px;
     border-radius: 3px;	
 }
-#field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed /*th,
+#field-tags-for-related-challenge-values/*.field-multiple-table.sticky-enabled.tabledrag-processed th,
 #field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed tr,
 #field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed td,
 #field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed table*/{
     border:1px solid rgba(158,0,93,1.0); 
 	-webkit-border-radius: 3px;
     border-radius: 3px;	
-}
-#field-external-links-values.field-multiple-table.sticky-enabled.tabledrag-processed /*th,
-#field-external-links-values.field-multiple-table.sticky-enabled.tabledrag-processed tr,
-#field-external-links-values.field-multiple-table.sticky-enabled.tabledrag-processed td,
-#field-external-links-values.field-multiple-table.sticky-enabled.tabledrag-processed table*/{
-    border:1px solid rgba(158,0,93,1.0);  
-	 -webkit-border-radius: 3px;
-    border-radius: 3px;
 }
 	
 /* Challenge Form */
