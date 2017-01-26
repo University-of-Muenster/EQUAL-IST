@@ -596,9 +596,9 @@ a img { border: 0px none; }
 .comment .new { margin: 10px 0; display: inline-block; }
 
 /* Taxonomy term reference */
-
+/* Voting Bug Fix
 .field-type-taxonomy-term-reference { position: relative; } 
-
+*/
 .field-type-taxonomy-term-reference .field-label { font-weight: 400; }
 
 /*.field-type-taxonomy-term-reference .field-label, .field-type-taxonomy-term-reference .field-items { display: inline-block; }*/
