@@ -3973,9 +3973,9 @@ img.transparent {
 text-align: center;
 }
 /*General information*/
-.statistics-platform #table-0 tr,
-.statistics-platform #table-0 th,
-.statistics-platform #table-0 td{
+.statistics-platform #table-7 tr,
+.statistics-platform #table-7 th,
+.statistics-platform #table-7 td{
     border: 1px solid rgba(158,0,93,1.0);
 }
 /*Universities*/
