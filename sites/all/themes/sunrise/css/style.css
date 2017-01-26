@@ -3264,7 +3264,14 @@ div.filefield-sources-list{
 #idea-node-form .description{
 	font-size: 12px;
 }
-
+#idea-node-form .related_nodes .btn-success.related_nodes_tag_title{
+	background-color: white;
+	color:rgba(158,9,93,1.0);
+}
+#idea-node-form .related_nodes .btn-success.related_nodes_challenge_title{
+	background-color: white;
+	color:rgba(158,9,93,1.0);
+}
 /* Challenge Form */
 /* Related Nodes */
 #challenge-node-form .related_nodes{
