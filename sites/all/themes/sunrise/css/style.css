@@ -4713,6 +4713,8 @@ div.view-empty {
 }
 
 .view-goals-completed-by-user div.view-empty {
+    margin: 0 auto;
+    margin-bottom: 40px;
     width: 50%;
 }
 
