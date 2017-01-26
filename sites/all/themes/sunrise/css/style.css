@@ -3959,6 +3959,13 @@ img.transparent {
     padding-top: 5%;
 }
 
+/*Anonymous publishing*/
+.collapsible.form-wrapper.collapse-processed .fieldset-legend .fieldset-title{
+    padding: 5px;
+    color: #666666;
+	font-size: 14px;
+	font-weight: bold;
+}
 
 /*Registration site do not display "What code is in the image"*/
 .form-item.form-type-textfield.form-item-captcha-response label{
