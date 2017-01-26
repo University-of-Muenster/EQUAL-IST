@@ -2140,112 +2140,30 @@ a.button-inverse {
 .Sidebar .vud-widget-alternate {
 	clear:both;
 }
-/* Idea all View Vote */
-.view-ideas-all .vud-widget-alternate::before {
+/* Small Like Widget 
+
+   line    view
+   1st     All Ideas View
+   2nd     Ideas belonging to Challenge (show all belonging ideas)
+   3rd     All Challenges View
+   4th     User Profil Content
+   5th     Comment 
+*/
+.view-ideas-all .vud-widget-alternate::before, 
+.view-ideas-belonging-to-challenge .vud-widget-alternate::before, 
+.view-challenges-list .vud-widget-alternate::before,
+#quicktabs-user_ideas .vud-widget-alternate::before,
+.comment .vud-widget-alternate::before{
 	display: inline-block;
     content: "Likes: ";
 
 	padding-left:10px;
 	width:auto;
 }
-.view-ideas-all .vud-widget-alternate{
-	clear:none;
-	float:right;
-	width: auto;
-	height: 35px;
-	font-size:1.25rem;
-}
-.view-ideas-all .vud-widget-alternate .alternate-votes-display {
-	font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
-	padding:5px 10px;
-	
-}
-.view-ideas-all .vud-widget-alternate .up-active, .view-ideas-all  .vud-widget-alternate .up-inactive {
-	height:25px;
-	width: 30px;
-	background-size: 25px 25px;
-	margin-right:10px;
-}
-.view-ideas-all .vud-widget-alternate .up-inactive:hover {
-	background-size: 25px 25px;
-}
-.view-ideas-all .field-name-field-vote .field-label {
-	display:none;
-}
-/* Challenge all View Vote */
-.view-challenges-list .vud-widget-alternate::before {
-	display: inline-block;
-    content: "Likes: ";
-
-	padding-left:10px;
-	width:auto;
-}
-.view-challenges-list .vud-widget-alternate{
-	clear:none;
-	float:right;
-	width: auto;
-	height: 35px;
-	font-size:1.25rem;
-}
-.view-challenges-list .vud-widget-alternate .alternate-votes-display {
-	font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
-	padding:5px 10px;
-	
-}
-.view-challenges-list .vud-widget-alternate .up-active, .view-challenges-list  .vud-widget-alternate .up-inactive {
-	height:25px;
-	width: 30px;
-	background-size: 25px 25px;
-	margin-right:10px;
-}
-.view-challenges-list .vud-widget-alternate .up-inactive:hover {
-	background-size: 25px 25px;
-}
-.view-challenges-list .field-name-field-vote .field-label {
-	display:none;
-}
-/* User Profile Ideas / Challenges */
-#quicktabs-user_ideas .vud-widget-alternate::before {
-	display: inline-block;
-    content: "Likes: ";
-
-	padding-left:10px;
-	width:auto;
-}
-#quicktabs-user_ideas .vud-widget-alternate{
-	clear:none;
-	float:right;
-	width: auto;
-	height: 35px;
-	font-size:1.25rem;
-}
-#quicktabs-user_ideas .vud-widget-alternate .alternate-votes-display {
-	font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
-	padding:5px 10px;
-	
-}
-#quicktabs-user_ideas .vud-widget-alternate .up-active, #quicktabs-user_ideas  .vud-widget-alternate .up-inactive {
-	height:25px;
-	width: 30px;
-	background-size: 25px 25px;
-	margin-right:10px;
-	margin-left:5px;
-}
-#quicktabs-user_ideas .vud-widget-alternate .up-inactive:hover {
-	background-size: 25px 25px;
-}
-#quicktabs-user_ideas .field-name-field-vote .field-label {
-	display:none;
-}
-
-/* Comment Vote */
-.comment .vud-widget-alternate::before {
-	display: inline-block;
-    content: "Likes: ";
-
-	padding-left:10px;
-	width:auto;
-}
+.view-ideas-all .vud-widget-alternate,
+.view-ideas-belonging-to-challenge .vud-widget-alternate,
+.view-challenges-list .vud-widget-alternate,
+#quicktabs-user_ideas .vud-widget-alternate,
 .comment .vud-widget-alternate{
 	clear:none;
 	float:right;
@@ -2253,24 +2171,41 @@ a.button-inverse {
 	height: 35px;
 	font-size:1.25rem;
 }
-.comment .vud-widget-alternate .alternate-votes-display {
+.view-ideas-all .vud-widget-alternate .alternate-votes-display,
+.view-ideas-belonging-to-challenge .vud-widget-alternate .alternate-votes-display,
+.view-challenges-list .vud-widget-alternate .alternate-votes-display,
+#quicktabs-user_ideas .vud-widget-alternate .alternate-votes-display,
+.comment .vud-widget-alternate .alternate-votes-display{
 	font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
 	padding:5px 10px;
 	
 }
-.comment .vud-widget-alternate .up-active, .comment  .vud-widget-alternate .up-inactive {
+.view-ideas-all .vud-widget-alternate .up-active, .view-ideas-all  .vud-widget-alternate .up-inactive,
+.view-ideas-belonging-to-challenge .vud-widget-alternate .up-active, .view-ideas-belonging-to-challenge .vud-widget-alternate .up-inactive,
+.view-challenges-list .vud-widget-alternate .up-active, .view-challenges-list .vud-widget-alternate .up-inactive,
+#quicktabs-user_ideas .vud-widget-alternate .up-active, #quicktabs-user_ideas .vud-widget-alternate .up-inactive,
+.comment .vud-widget-alternate .up-active, .comment .vud-widget-alternate .up-inactive{
 	height:25px;
 	width: 30px;
 	background-size: 25px 25px;
 	margin-right:10px;
 	margin-left:5px;
 }
-.comment .vud-widget-alternate .up-inactive:hover {
+.view-ideas-all .vud-widget-alternate .up-inactive:hover,
+.view-ideas-belonging-to-challenge .vud-widget-alternate .up-inactive:hover,
+.view-challenges-list .vud-widget-alternate .up-inactive:hover,
+#quicktabs-user_ideas .vud-widget-alternate .up-inactive:hover,
+.comment .vud-widget-alternate .up-inactive:hover{
 	background-size: 25px 25px;
 }
-.comment .field-name-field-vote .field-label {
+.view-ideas-all .field-name-field-vote .field-label,
+.view-ideas-belonging-to-challenge .field-name-field-vote .field-label,
+.view-challenges-list .field-name-field-vote .field-label,
+#quicktabs-user_ideas .field-name-field-vote .field-label,
+.comment .field-name-field-vote .field-label{
 	display:none;
 }
+
 /* Voting Phase Vote widget */
 .rate-widget {
  	display:inline-block;
@@ -2355,12 +2290,14 @@ a.button-inverse {
 	height:25px;
 	width: 30px;
 	margin-right:10px;
+
 }
 .vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up,
 .vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up.rate-voted:hover,
 .vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up.rate-voted,
 .vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up:hover{
 	margin-right:5px;
+	margin-left:5px;
 }
  
 
