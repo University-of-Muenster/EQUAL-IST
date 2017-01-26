@@ -3236,7 +3236,7 @@ div.filefield-sources-list{
     border-radius: 3px;
 }
 #idea-node-form .related_nodes_title{
-	color:rgba(158,0,93,1.0);
+	font-style: bold;
 	margin-bottom: 10px;
 }
 #idea-node-form .related_nodes_challenge, #idea-node-form .related_nodes_tag{
