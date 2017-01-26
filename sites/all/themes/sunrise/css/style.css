@@ -2560,7 +2560,7 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 	border: 1px solid rgba(158,0,93,1.0);	
     -webkit-border-radius: 3px;
     border-radius: 3px;
-	padding: 8px 20px 8px 70px;
+	padding: 35px 20px 35px 70px;
 	color: #666666;
 }
 .equal_ist_blocks_author{
@@ -3222,7 +3222,7 @@ div.filefield-sources-list{
 }
 /*END therefore 574 commented*/
 >>>>>>> origin/master
-/* User Profile  user Ideas/ challenges */
+/* USer Profile  user Ideas/ challenges */
 #quicktabs-user_ideas .views-row {
 	margin-bottom: 100px;
 }
@@ -3280,11 +3280,11 @@ div.filefield-sources-list{
 	background-color: white;
 	color:rgba(158,9,93,1.0);
 }
-#idea-node-form .draggable.even .field-multiple-drag{
-	border:0px;
+#idea-node-form .draggable.even{
+	border:none;
 }
-#idea-node-form .draggable.odd .field-multiple-drag{
-	border:0px;
+#idea-node-form .draggable.odd{
+	border:none;
 }
 #idea-node-form .field-label{
 	border:none;
