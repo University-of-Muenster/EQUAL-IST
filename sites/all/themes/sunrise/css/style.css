@@ -2208,6 +2208,73 @@ a.button-inverse {
 .view-challenges-list .field-name-field-vote .field-label {
 	display:none;
 }
+/* User Profile Ideas / Challenges */
+#quicktabs-user_ideas .vud-widget-alternate::before {
+	display: inline-block;
+    content: "Likes: ";
+
+	padding-left:10px;
+	width:auto;
+}
+#quicktabs-user_ideas .vud-widget-alternate{
+	clear:none;
+	float:right;
+	width: auto;
+	height: 35px;
+	font-size:1.25rem;
+}
+#quicktabs-user_ideas .vud-widget-alternate .alternate-votes-display {
+	font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
+	padding:5px 10px;
+	
+}
+#quicktabs-user_ideas .vud-widget-alternate .up-active, #quicktabs-user_ideas  .vud-widget-alternate .up-inactive {
+	height:25px;
+	width: 30px;
+	background-size: 25px 25px;
+	margin-right:10px;
+	margin-left:5px;
+}
+#quicktabs-user_ideas .vud-widget-alternate .up-inactive:hover {
+	background-size: 25px 25px;
+}
+#quicktabs-user_ideas .field-name-field-vote .field-label {
+	display:none;
+}
+
+/* Comment Vote */
+.comment .vud-widget-alternate::before {
+	display: inline-block;
+    content: "Likes: ";
+
+	padding-left:10px;
+	width:auto;
+}
+.comment .vud-widget-alternate{
+	clear:none;
+	float:right;
+	width: auto;
+	height: 35px;
+	font-size:1.25rem;
+}
+.comment .vud-widget-alternate .alternate-votes-display {
+	font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
+	padding:5px 10px;
+	
+}
+.comment .vud-widget-alternate .up-active, .comment  .vud-widget-alternate .up-inactive {
+	height:25px;
+	width: 30px;
+	background-size: 25px 25px;
+	margin-right:10px;
+	margin-left:5px;
+}
+.comment .vud-widget-alternate .up-inactive:hover {
+	background-size: 25px 25px;
+}
+.comment .field-name-field-vote .field-label {
+	display:none;
+}
 /* Voting Phase Vote widget */
 .rate-widget {
  	display:inline-block;
@@ -2299,73 +2366,7 @@ a.button-inverse {
 	margin-right:5px;
 }
  
-/* User Profile Ideas / Challenges */
-#quicktabs-user_ideas .vud-widget-alternate::before {
-	display: inline-block;
-    content: "Likes: ";
 
-	padding-left:10px;
-	width:auto;
-}
-#quicktabs-user_ideas .vud-widget-alternate{
-	clear:none;
-	float:right;
-	width: auto;
-	height: 35px;
-	font-size:1.25rem;
-}
-#quicktabs-user_ideas .vud-widget-alternate .alternate-votes-display {
-	font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
-	padding:5px 10px;
-	
-}
-#quicktabs-user_ideas .vud-widget-alternate .up-active, #quicktabs-user_ideas  .vud-widget-alternate .up-inactive {
-	height:25px;
-	width: 30px;
-	background-size: 25px 25px;
-	margin-right:10px;
-	margin-left:5px;
-}
-#quicktabs-user_ideas .vud-widget-alternate .up-inactive:hover {
-	background-size: 25px 25px;
-}
-#quicktabs-user_ideas .field-name-field-vote .field-label {
-	display:none;
-}
-
-/* Comment Vote */
-.comment .vud-widget-alternate::before {
-	display: inline-block;
-    content: "Likes: ";
-
-	padding-left:10px;
-	width:auto;
-}
-.comment .vud-widget-alternate{
-	clear:none;
-	float:right;
-	width: auto;
-	height: 35px;
-	font-size:1.25rem;
-}
-.comment .vud-widget-alternate .alternate-votes-display {
-	font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
-	padding:5px 10px;
-	
-}
-.comment .vud-widget-alternate .up-active, .comment  .vud-widget-alternate .up-inactive {
-	height:25px;
-	width: 30px;
-	background-size: 25px 25px;
-	margin-right:10px;
-	margin-left:5px;
-}
-.comment .vud-widget-alternate .up-inactive:hover {
-	background-size: 25px 25px;
-}
-.comment .field-name-field-vote .field-label {
-	display:none;
-}
 /*  Vote Ende */
 
 
