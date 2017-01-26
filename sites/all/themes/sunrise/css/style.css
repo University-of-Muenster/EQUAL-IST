@@ -4735,7 +4735,6 @@ a#edit-cancel {
     text-decoration: none;
     margin: 0 auto;
     margin-right: 10px;
-    font-size: 1.75rem;
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: rgba(158,0,93,1.0);
@@ -4749,8 +4748,7 @@ a#edit-cancel:hover {
     text-decoration: none;
     margin: 0 auto;
     margin-right: 10px;
-    font-size: 1.75rem;
-    padding: 1.25rem 2.5rem;
+     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: white;
     border: 1px solid rgba(158,0,93,1.0);
