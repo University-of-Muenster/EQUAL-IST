@@ -3230,7 +3230,7 @@ div.filefield-sources-list{
     margin-left: 5px;
 }
 #idea-node-form .related_nodes_challenge_title:hover, #idea-node-form .related_nodes_tag_title:hover{
-	cursor:pointer
+	text-decoration:underline;
 }
 #field_ideas_similar {
 	width:100%; 
@@ -3320,7 +3320,9 @@ div.filefield-sources-list{
 	margin-bottom: 10px;
 }
 #challenge-node-form .related_nodes_challenge {
-	display: none;
+	font-size: 14px;
+	background-color: white;
+	color:rgba(158,9,93,1.0);
 } 
 #challenge-node-form .related_nodes_challenge_title{
 	display: inline-block;
@@ -3328,7 +3330,7 @@ div.filefield-sources-list{
 	font-size: 13px;
 }
 #challenge-node-form .related_nodes_challenge_title:hover {
-	cursor:pointer
+	text-decoration:underline;
 }
 
 #challenge-node-form #edit-body-und-0-value_tbl{
