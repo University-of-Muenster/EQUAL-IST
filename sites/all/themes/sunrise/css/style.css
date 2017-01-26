@@ -3278,6 +3278,9 @@ div.filefield-sources-list{
 #idea-node-form .draggable.odd{
 	border:none;
 }
+#idea-node-form .field-label{
+	border:none;
+}
 	
 /* Challenge Form */
 /* Related Nodes */
