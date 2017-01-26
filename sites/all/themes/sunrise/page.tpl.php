@@ -344,7 +344,7 @@ section {
 
     <div class="content">
 <ul>
-    <li><a href="www.equal-ist-eu"target="_blank"> Website: ww.equal-ist.eu</a></li>
+    <li><a href="https://equal-ist.eu/" target="_blank">www.equal-ist.eu</a></li>
     <li><a href="mailto:info@equal-ist.eu?Subject=General%20Information"target="_top">info@equal-ist.eu</a></li>
     
 </ul> 
