@@ -3226,11 +3226,14 @@ div.filefield-sources-list{
 #idea-node-form .related_nodes_challenge_title, #idea-node-form .related_nodes_tag_title{
 	display: inline-block;
 	padding:5px;
-	font-size: 13px;
+	font-size: 14px;
+	background-color: white;
+	color:rgba(158,9,93,1.0);
     margin-left: 5px;
 }
 #idea-node-form .related_nodes_challenge_title:hover, #idea-node-form .related_nodes_tag_title:hover{
 	text-decoration:underline;
+	border: none;
 }
 #field_ideas_similar {
 	width:100%; 
@@ -3250,16 +3253,6 @@ div.filefield-sources-list{
 }
 #idea-node-form .description{
 	font-size: 12px;
-}
-#idea-node-form .btn-success.related_nodes_tag_title{
-	font-size: 14px;
-	background-color: white;
-	color:rgba(158,9,93,1.0);
-}
-#idea-node-form .btn-success.related_nodes_challenge_title{
-	font-size: 14px;
-	background-color: white;
-	color:rgba(158,9,93,1.0);
 }
 #idea-node-form .draggable.even{
 	border:none;
