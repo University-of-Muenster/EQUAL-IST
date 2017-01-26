@@ -581,7 +581,7 @@ a img { border: 0px none; }
 
 .comment ul.inline li {  display: inline-block; }
 
-.comment ul.links.inline li a { color:rgba(158,0,93,1.0); min-width: 0; padding: 5px 10px 5px 0px; font-size: 10px; width: auto; display: inline-block; opacity: 0.5; margin-top: 5px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;  margin-right: 5px; }
+.comment ul.links.inline li a { color:rgba(158,0,93,1.0); min-width: 0; padding: 5px 10px 5px 0px; font-size: 14px; width: auto; display: inline-block; opacity: 0.5; margin-top: 5px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;  margin-right: 5px; }
 
 .comment ul.links.inline li a:hover { opacity: 1; }
 
@@ -3884,6 +3884,11 @@ img.transparent {
 .challenge-description {
     width: 75%;
     float: left;
+}
+
+/*Show all Comments*/
+.show-all-comments.jquery-once-1-processed{
+	color: rgba(158,0,93,1.0);
 }
 
 /*Add Comment Button*/
