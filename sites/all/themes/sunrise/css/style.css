@@ -3313,7 +3313,7 @@ div.filefield-sources-list{
     margin-bottom: 5px;
 }
 #challenge-node-form .related_nodes_title{
-	color:rgba(158,0,93,1.0);
+	font-weight: bold;
 	margin-bottom: 10px;
 }
 #challenge-node-form .related_nodes_challenge {
@@ -3321,12 +3321,12 @@ div.filefield-sources-list{
 	background-color: white;
 	color:rgba(158,9,93,1.0);
 } 
-#challenge-node-form .related_nodes_challenge_title{
+#challenge-node-form .btn-success .related_nodes_challenge_title{
 	display: inline-block;
 	padding:5px;
 	font-size: 13px;
 }
-#challenge-node-form .related_nodes_challenge_title:hover {
+#challenge-node-form .btn-success .related_nodes_challenge_title:hover {
 	text-decoration:underline;
 }
 
