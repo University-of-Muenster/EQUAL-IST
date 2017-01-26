@@ -3272,6 +3272,13 @@ div.filefield-sources-list{
 	background-color: white;
 	color:rgba(158,9,93,1.0);
 }
+#idea-node-form .draggable.even{
+	border:none;
+}
+#node-idea-form .draggable.odd{
+	border:none;
+}
+	
 /* Challenge Form */
 /* Related Nodes */
 #challenge-node-form .related_nodes{
