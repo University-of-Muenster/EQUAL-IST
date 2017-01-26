@@ -3948,6 +3948,14 @@ img.transparent {
 #field-external-links-values--2 td {
     border: 1px solid rgba(158,0,93,0.99);
 }
+
+#field-categories-subcategories-values--2 td {
+    border: 1px solid rgba(158,0,93,0.99);
+}
+
+#field-links-external-values--2 td {
+    border: 1px solid rgba(158,0,93,0.99);
+}
 /*button active add idea/challenge */
 .form-item.form-type-checkbox.form-item-field-active-und #edit-field-active-und{
     display: none;
