@@ -2030,9 +2030,11 @@ a.button-inverse {
 }
 .vud-widget-alternate {
 	
-	float: none;
+	float: right;
 	display:block;
-	width: 100%;
+	width: auto;
+	height: 35px;
+	font-size: 1.25rem;
 	background-image: linear-gradient(to right, rgba(240,78,35,1.0), rgba(158,0,93,1.0));
 	/*background-color:rgba(158,0,93,1.0);*/
 	color: #fff;
