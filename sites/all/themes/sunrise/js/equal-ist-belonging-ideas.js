@@ -5,10 +5,20 @@
 			
 
 			$("#show-additional-ideas").click(function() {
-				$(".view-ideas-belonging-to-challenge").slideToggle("fast");	
+				if($(".view-ideas-belonging-to-challenge").is(":visible")){
+					$(".view-ideas-belonging-to-challenge").hide("fade");
+				}else{
+					$(".view-ideas-belonging-to-challenge-not-active").hide();
+					$(".view-ideas-belonging-to-challenge").show("fade");
+				}	
 			});
 			$("#show-additional-ideas-not-active").click(function() {
-				$(".view-ideas-belonging-to-challenge-not-active").slideToggle("fast");
+				if($(".view-ideas-belonging-to-challenge-not-active").is(":visible")){
+					$(".view-ideas-belonging-to-challenge-not-active").hide("fade");
+				}else{
+					$(".view-ideas-belonging-to-challenge").hide();	
+					$(".view-ideas-belonging-to-challenge-not-active").show("fade");
+				}
 			});
 		}
 	};	
