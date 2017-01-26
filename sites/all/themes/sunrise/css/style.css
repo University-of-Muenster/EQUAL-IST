@@ -3259,8 +3259,7 @@ div.filefield-sources-list{
 	margin-bottom: 10px;
 }
 #challenge-node-form .related_nodes_challenge {
-	font-size: 14px;
-	background-color: white;
+	display:none;
 } 
 #challenge-node-form .related_nodes_challenge_title{
 	display: inline-block;
