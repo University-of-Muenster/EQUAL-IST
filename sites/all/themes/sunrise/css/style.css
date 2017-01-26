@@ -3261,6 +3261,9 @@ div.filefield-sources-list{
     -webkit-border-radius: 3px;
     border-radius: 3px;
 }
+#idea-node-form .description{
+	font-size: 12px;
+}
 
 /* Challenge Form */
 /* Related Nodes */
