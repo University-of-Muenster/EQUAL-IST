@@ -3271,10 +3271,12 @@ div.filefield-sources-list{
 	font-size: 12px;
 }
 #idea-node-form .btn-success.related_nodes_tag_title{
+	font-size: 14px;
 	background-color: white;
 	color:rgba(158,9,93,1.0);
 }
 #idea-node-form .btn-success.related_nodes_challenge_title{
+	font-size: 14px;
 	background-color: white;
 	color:rgba(158,9,93,1.0);
 }
