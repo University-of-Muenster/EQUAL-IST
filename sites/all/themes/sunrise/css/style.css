@@ -1381,16 +1381,7 @@ div.views-row-even {
 #views_slideshow_cycle_teaser_section_ideas_in_challenge-block {
     height: 300px;
 }
-a#show-additional-ideas:active {
-	background-color: #fff;
-	border-color: rgba(158,0,93,1.0);
-	color: border-color: rgba(158,0,93,1.0);
-}
-a#show-additional-ideas-not-active:active{
-	background-color: #fff;
-	border-color: rgba(158,0,93,1.0);
-	color: border-color: rgba(158,0,93,1.0);;
-}
+
 .view-ideas-belonging-to-challenge{
 	display: none;
 }
@@ -4717,4 +4708,15 @@ a#edit-cancel:hover {
     color: rgba(158,0,93,1.0);
     font-weight: 300;
     border-radius: 3px;
+}
+/* Ideas belonging to Challenge Button */
+a#show-additional-ideas:active {
+	background-color: #fff;
+	border-color: rgba(158,0,93,1.0);
+	color: rgba(158,0,93,1.0);
+}
+a#show-additional-ideas-not-active:active{
+	background-color: #fff;
+	border-color: rgba(158,0,93,1.0);
+	color: rgba(158,0,93,1.0);
 }
