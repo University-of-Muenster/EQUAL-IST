@@ -4710,6 +4710,15 @@ div.view-empty {
     width: 35%;
 }
 
+.view-user-ideas div.view-empty {
+    margin: 0 auto;
+    width: 35%;
+}
+
+.view-goals-completed-by-user div.view-empty {
+    width: 50%;
+}
+
 .view-ideas-in-challenge div.view-empty {
     width: 85%;
 }
