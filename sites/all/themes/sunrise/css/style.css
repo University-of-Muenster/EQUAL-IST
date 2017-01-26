@@ -3271,11 +3271,7 @@ div.filefield-sources-list{
 	display: inline-block;
 	padding:5px;
 	font-size: 13px;
-	background-color: none;
-	border:none;
-}
-#challenge-node-form .related_nodes_challenge_title:hover {
-	text-decoration:underline;
+
 }
 
 #challenge-node-form #edit-body-und-0-value_tbl{
