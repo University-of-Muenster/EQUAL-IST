@@ -103,7 +103,7 @@ thead tr th, thead tr td, tbody tr th, tbody tr td { padding: 8px; line-height: 
 #field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed tr,
 #field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed td,
 #field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed table{
-    border:1px solid rgba(158,0,93,1.0);  
+    border:1px solid rgba(158,0,93,1.0);   
 }
 #field-external-links-values.field-multiple-table.sticky-enabled.tabledrag-processed th,
 #field-external-links-values.field-multiple-table.sticky-enabled.tabledrag-processed tr,
@@ -3289,11 +3289,6 @@ div.filefield-sources-list{
 #idea-node-form .field-label{
 	border:none;
 }
-#idea-node-form #field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed th,
-#idea-node-form #field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed tr,
-#idea-node-form #field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed td,
-#idea-node-form #field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed table{
-    border:none; 
 	
 /* Challenge Form */
 /* Related Nodes */
