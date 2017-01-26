@@ -52,6 +52,9 @@ please add it to the "internal information" - field. </div><br>
     <?php if($anonymous_publishing): ?>
       <?php print render($anonymous_publishing); ?>
     <?php endif; ?>
+	<?php if($field_copyright_infringement): ?>
+	  <?php print render($field_copyright_infringement); ?>
+	  <?php endif; ?>
     <?php if($buttons): ?>
       <div class="node-buttons">
         <?php print render($buttons); ?>
