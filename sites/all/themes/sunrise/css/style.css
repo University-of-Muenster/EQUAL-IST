@@ -1280,6 +1280,10 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 	margin-right: auto;
 }
 
+.views-field.views-field-goal-img {
+	margin: auto;
+}
+
 
 /*Challenges*/
 
