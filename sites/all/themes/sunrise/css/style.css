@@ -3324,6 +3324,19 @@ div.filefield-sources-list{
 	cursor:pointer
 }
 
+#challenge-node-form #edit-body-und-0-value_tbl{
+	border: 1px solid rgba(158,9,93,1.0);
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#challenge-node-form #edit-field-challenge-internal-und-0-value_tbl{
+	border: 1px solid rgba(158,9,93,1.0);
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
 .EU_Footer_inside p{
     color: white;
 }
