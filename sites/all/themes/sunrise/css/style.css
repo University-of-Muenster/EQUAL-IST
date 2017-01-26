@@ -2283,7 +2283,8 @@ a.button-inverse {
  	padding-left:10px;
  	
 }
-.pane-equal-ist-phases-equal-ist-block-voting .vud-widget-alternate::before, .vud-widget-alternate.vud-widget-small::before  {
+.pane-equal-ist-phases-equal-ist-block-voting .vud-widget-alternate::before, .vud-widget-alternate.vud-widget-small::before,
+#quicktabs-user_ideas .vud-widget-alternate.vud-widget-small::before {
 	display: none;
     content: " ";
 }
