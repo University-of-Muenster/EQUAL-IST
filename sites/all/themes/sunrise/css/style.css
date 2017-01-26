@@ -1830,6 +1830,9 @@ a.button-inverse {
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
+a.btn-success{
+	color:#fff;
+}
 /*Buttons on create challenge/idea page*/
 #edit-field-links-external-und-add-more--2, #edit-field-categories-subcategories-und-add-more, 
 #edit-field-tags-for-related-challenge-und-add-more, #edit-field-external-links-und-add-more{
@@ -3886,11 +3889,6 @@ img.transparent {
 .challenge-description {
     width: 75%;
     float: left;
-}
-
-/*Show all Comments*/
-.show-all-comments.jquery-once-1-processed{
-	color: rgba(158,0,93,1.0);
 }
 
 /*Add Comment Button*/
