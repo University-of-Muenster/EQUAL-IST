@@ -2159,12 +2159,14 @@ a.button-inverse {
 
 	padding-left:10px;
 	width:auto;
+
 }
 .view-ideas-all .vud-widget-alternate,
 .view-ideas-belonging-to-challenge .vud-widget-alternate,
 .view-challenges-list .vud-widget-alternate,
 #quicktabs-user_ideas .vud-widget-alternate,
 .comment .vud-widget-alternate{
+	z-index: 20;
 	clear:none;
 	float:right;
 	width: auto;
