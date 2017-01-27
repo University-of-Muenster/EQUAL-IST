@@ -3927,6 +3927,15 @@ img.transparent {
     font-weight: 500;
 }
 
+field-name-field-comment-tags-idea .field-label {
+    display: none;
+}
+
+field-name-field-comment-tags-idea .field-item {
+    color: black;
+    font-weight: 500;
+}
+
 /*Add Comment Button*/
 .pane-block-34 .pane-content a {
     margin: 0 auto;
