@@ -2121,6 +2121,10 @@ a.btn-success{
 #panel-bootstrap-region-sidebar {
 	margin-left: 0px;
 }
+
+#panel-bootstrap-region-sidebar .alternate-votes-display {
+    margin-top: 1.2%;
+}
 /* Sidebar Vote */
 .Sidebar .vud-widget-alternate {
 	float: none;
