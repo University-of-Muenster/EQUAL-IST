@@ -4171,6 +4171,7 @@ a#edit-cancel {
     color: #fff;
     font-weight: 300;
     border-radius: 3px;
+    font-size: 13px;
 }
 
 a#edit-cancel:hover {
@@ -4184,6 +4185,7 @@ a#edit-cancel:hover {
     color: rgba(158,0,93,1.0);
     font-weight: 300;
     border-radius: 3px;
+    font-size: 13px;
 }
 
 a#edit-delete {
@@ -4197,6 +4199,7 @@ a#edit-delete {
     color: #fff;
     font-weight: 300;
     border-radius: 3px;
+    font-size: 13px;
 }
 
 a#edit-delete:hover {
@@ -4210,6 +4213,7 @@ a#edit-delete:hover {
     color: rgba(158,0,93,1.0);
     font-weight: 300;
     border-radius: 3px;
+    font-size: 13px;
 }
 /*Do not display the flag system on the node-82/node-83*/
 #node-82 .flag-wrapper.flag-abuse-node.flag-abuse-node-82 .flag.flag-action.flag-link-confirm{
