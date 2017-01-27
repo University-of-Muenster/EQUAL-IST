@@ -2731,7 +2731,7 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
     margin-top: 10px;
 }
 
-.comment-by-node-author .field-name-comment-body.field-type-text-long {
+field-name-comment-body.field-type-text-long.field-label-hidden.comment-extension {
     margin-left: 0px;
     margin-top: 0px;
 }
