@@ -4106,6 +4106,32 @@ a#edit-cancel:hover {
     font-weight: 300;
     border-radius: 3px;
 }
+
+a#edit-delete {
+    text-decoration: none;
+    margin: 0 auto;
+    margin-right: 10px;
+    padding: 1.25rem 2.5rem;
+    display: inline-block;
+    background-color: rgba(158,0,93,1.0);
+    border: 1px solid transparent;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 3px;
+}
+
+a#edit-delete:hover {
+    text-decoration: none;
+    margin: 0 auto;
+    margin-right: 10px;
+     padding: 1.25rem 2.5rem;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid rgba(158,0,93,1.0);
+    color: rgba(158,0,93,1.0);
+    font-weight: 300;
+    border-radius: 3px;
+}
 /*Do not display the flag system on the node-82/node-83*/
 #node-82 .flag-wrapper.flag-abuse-node.flag-abuse-node-82 .flag.flag-action.flag-link-confirm{
 	display:none;
