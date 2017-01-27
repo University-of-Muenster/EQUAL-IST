@@ -576,7 +576,7 @@ a img { border: 0px none; }
 
 
 
-#main .comment p { margin-bottom: 20px; padding-bottom: 0px; }
+#main .comment p { margin-bottom: 5px; padding-bottom: 0px; margin-top: 5px}
 
 
 .comment ul.inline li {  display: inline-block; }
