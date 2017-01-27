@@ -3924,11 +3924,11 @@ img.transparent {
     font-weight: 500;
 }
 
-field-name-field-comment-tags-idea .field-label {
+.field-name-field-comment-tags-idea .field-label {
     display: none;
 }
 
-field-name-field-comment-tags-idea .field-item {
+.field-name-field-comment-tags-idea .field-item {
     color: black;
     font-weight: 500;
 }
