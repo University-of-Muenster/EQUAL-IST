@@ -2727,6 +2727,12 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 	color: #333;
 }
 
+field-type-text-long.field-name-comment-body.field-widget-text-textarea.form-wrapper {
+    margin-top: 10px;
+    margin-left: 65px;
+}
+
+
 /* no reply */
 .comment ul.inline  li.comment-reply{
 	display:none;
