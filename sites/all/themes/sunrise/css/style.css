@@ -3184,12 +3184,17 @@ div.filefield-sources-list{
 	display: inline-block;
 	padding:5px;
 	font-size: 14px;
-	background-color: white;
-	color:rgba(158,9,93,1.0);
+	background-color: rgba(158,9,93,1.0);
+	color:white;
     margin-left: 5px;
 }
 #idea-node-form .related_nodes_challenge_title:hover, #idea-node-form .related_nodes_tag_title:hover{
-	text-decoration:underline;
+	display: inline-block;
+	padding:5px;
+	font-size: 14px;
+	background-color: white;
+	color:rgba(158,9,93,1.0);
+    margin-left: 5px;
 
 }
 #field_ideas_similar {
