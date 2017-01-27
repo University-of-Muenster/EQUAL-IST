@@ -3377,6 +3377,42 @@ Subcategories
     border:1px solid rgba(158,0,93,1.0);
 }
 
+/*External Links*/
+
+#field-external-links-values--3 td{
+   border:1px solid rgba(158,0,93,1.0); 
+}
+
+
+#field-external-links-values--4 td{
+   border:1px solid rgba(158,0,93,1.0); 
+}
+
+#field-external-links-values--5 td{
+    border:1px solid rgba(158,0,93,1.0);
+}
+
+#field-external-links-values--6 td{
+    border:1px solid rgba(158,0,93,1.0);
+}
+
+#field-external-links-values--7 td{
+    border:1px solid rgba(158,0,93,1.0);
+}
+
+#field-external-links-values--8 td{
+    border:1px solid rgba(158,0,93,1.0);
+}
+
+#field-external-links-values--9 td{
+    border:1px solid rgba(158,0,93,1.0);
+}
+
+#field-external-links-values--10 td{
+    border:1px solid rgba(158,0,93,1.0);
+}
+
+
 
 /*border for create challenge und idea*/
 #field-categories-subcategories-values.field-multiple-table.sticky-enabled.tabledrag-processed th, 
