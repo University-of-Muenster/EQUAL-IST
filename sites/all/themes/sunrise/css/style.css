@@ -736,7 +736,7 @@ div.messages { padding: 15px 15px 15px 50px;  border: 1px solid transparent; bor
 
 div.messages a { font-weight: bold; }
 
-div.messages.status { color: #595959; background-color: #cccccc; border-color: #cccccc; margin-top: 65px; }
+div.messages.status { color: #468847; background-color: #dff0d8; border-color: #d6e9c6; margin-top: 65px; }
 
 div.messages.status a { color: #356635; }
 
