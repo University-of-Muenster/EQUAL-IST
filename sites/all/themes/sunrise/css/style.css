@@ -2728,12 +2728,6 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
     margin-top: 10px;
 }
 
-field-name-comment-body.field-type-text-long.field-label-hidden.comment-extension {
-    margin-left: 0px;
-    margin-top: 0px;
-}
-
-
 /* no reply */
 .comment ul.inline  li.comment-reply{
 	display:none;
@@ -3896,21 +3890,25 @@ img.transparent {
 .comment-agreement {
 	background-color:rgba(0,128,0,0.05);
     border: 5px solid rgba(0,128,0,0.3);
+    margin-left: 0px;
 }
 
 .comment-criticism {
 	background-color:rgba(255,0,0,0.05);
     border: 5px solid rgba(255,0,0,0.3);
+    margin-left: 0px;
 }
 
 .comment-extension {
 	background-color:rgba(65,105,225,0.05);
     border: 5px solid rgba(65,105,225,0.3);
+    margin-left: 0px;
 }
 
 .comment-other {
 	background-color:rgba(250,235,215,0.05);
     border: 5px solid rgba(250,235,215,1.0);
+    margin-left: 0px;
 }
 
 .challenge-description {
