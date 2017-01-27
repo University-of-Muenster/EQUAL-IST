@@ -4119,4 +4119,13 @@ a#edit-cancel:hover {
 #node-83 .links.inline .statistics_counter.first {
 	display:none;
 }
+/*Starting-page participate button*/
+#js-trigger-overlay {
+	width: 25%;
+	background-image: linear-gradient(to right, rgba(240,78,35,1.0), rgba(158,0,93,1.0));
+}
+#js-trigger-overlay:hover {
+	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
