@@ -2724,11 +2724,13 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
     border-radius: 3px;
 	padding: 1px 1px 1px 15px;
 	color: #333;
+    margin-left: 65px;
+    margin-top: 10px;
 }
 
-field-type-text-long.field-name-comment-body.field-widget-text-textarea.form-wrapper {
-    margin-top: 10px;
-    margin-left: 65px;
+.field-name-comment-body.field-type-text-long {
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
 
