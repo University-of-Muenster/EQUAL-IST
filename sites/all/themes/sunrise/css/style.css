@@ -3230,6 +3230,10 @@ div.filefield-sources-list{
 	padding: 5px;
 }
 
+/*extended menus add challenge
+
+Subcategories
+*/
 #field-categories-subcategories-values--3 td{
     border:1px solid rgba(158,0,93,1.0);
 }
@@ -3261,7 +3265,39 @@ div.filefield-sources-list{
     border:1px solid rgba(158,0,93,1.0);
 }
 
+/*External Links*/
 
+#field-links-external-values--3 td {
+    border:1px solid rgba(158,0,93,1.0);
+}
+
+#field-links-external-values--4 td {
+    border:1px solid rgba(158,0,93,1.0);
+}
+
+#field-links-external-values--5 td {
+    border:1px solid rgba(158,0,93,1.0);
+}
+
+#field-links-external-values--6 td {
+    border:1px solid rgba(158,0,93,1.0);
+}
+
+#field-links-external-values--7 td {
+    border:1px solid rgba(158,0,93,1.0);
+}
+
+#field-links-external-values--8 td {
+    border:1px solid rgba(158,0,93,1.0);
+}
+
+#field-links-external-values--9 td {
+   border:1px solid rgba(158,0,93,1.0); 
+}
+
+#field-links-external-values--10 td {
+    border:1px solid rgba(158,0,93,1.0);
+}
 
 
 /*border for create challenge und idea*/
