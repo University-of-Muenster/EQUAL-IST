@@ -4146,11 +4146,6 @@ a#edit-delete:hover {
 	display:none;
 }
 /*Starting-page participate button*/
-
-#block-block-11 .content{
-	color:white;
-	text-decoration: none;
-}
 #block-block-11 {
 	width: 25%;
 	background-image: linear-gradient(to right, rgba(240,78,35,1.0), rgba(158,0,93,1.0));
@@ -4171,5 +4166,6 @@ a#edit-delete:hover {
 #block-block-11:hover {
 	color: white;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	text-decoration: none;
 }
 
