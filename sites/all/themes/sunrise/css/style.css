@@ -1285,6 +1285,10 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 	justify-content: center;
 }
 
+.panel-pane.pane-block.pane-views-goals-completed-by-user-block .views-field.views-field-title {
+	text-align: center;
+}
+
 
 /*Challenges*/
 .views-field-field-challenge-image img {
