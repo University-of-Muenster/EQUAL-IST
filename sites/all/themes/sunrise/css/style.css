@@ -4124,6 +4124,16 @@ a#edit-cancel:hover {
 	width: 25%;
 	background-image: linear-gradient(to right, rgba(240,78,35,1.0), rgba(158,0,93,1.0));
 	text-align: center;
+	text-decoration: none;
+    margin: 0 auto;
+    margin-right: 10px;
+    padding: 1.25rem 2.5rem;
+    display: inline-block;
+    border: 1px solid transparent;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 3px;
+	color: white;
 }
 #block-block-11:hover {
 	color: white;
