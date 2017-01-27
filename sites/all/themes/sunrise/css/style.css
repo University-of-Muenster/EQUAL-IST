@@ -1576,7 +1576,10 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
     font-size: 15px;
     text-align: center;
 }
-
+/*tinymce body*/
+#tinymce body{
+	padding: 5px;
+}
 
 /*Participate now Button*/
 
