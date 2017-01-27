@@ -446,7 +446,7 @@ textarea:focus, input:focus { outline: 0; }
 
 #footer .content a:hover { text-decoration: underline;color: rgba(158,9,93,1.0); }
 
-#footer .content img {border: none;margin-left: 10%; padding: 0.8em; float:left; height: 60px; width: 60px; }
+#footer .content img {border: none; padding: 0.8em; float:left; height: 60px; width: 60px; }
 
 /* subfooter */
 
