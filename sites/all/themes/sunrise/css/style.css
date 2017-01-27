@@ -1398,7 +1398,12 @@ div.views-row-even {
    position: absolute;
    top:0;
    left:0;
+   width:50px;
+   height:50px;
    z-index:20;
+}
+.view-top-3-ideas-of-challenge .views-row{
+	position: relative;
 }
 
 /* Add Attachment File to Drupal/Modules/File/icons/text-plain.png*/
