@@ -2343,14 +2343,12 @@ a.btn-success{
 	font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
 	padding:5px 10px;
 	color:rgba(158,0,93,1.0);
-	/*margin:5px;*/
-    margin-top: 4px;
+    margin: 5px;
     background-color:#fff;
 	border: 1px solid rgba(158,0,93,1.0);	
     -webkit-border-radius: 3px;
     border-radius: 3px;
-    margin-left:5px;
-    margin-right:5px
+
 }
 .votes-deactive::before{
 	display: inline-block;
