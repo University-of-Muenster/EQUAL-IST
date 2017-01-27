@@ -3996,6 +3996,8 @@ img.transparent {
 
 
 /*Rahmen AddIdea und AddChallenge "Add another item" */
+
+
 #field-tags-for-related-challenge-values--2 td {
     border: 1px solid rgba(158,0,93,1.0);
 }
@@ -4023,13 +4025,20 @@ img.transparent {
 .statistics-platform th{
 text-align: center;
 }
+.statistics-platform tr,
+.statistics-platform th,
+.statistics-platform td
+{
+    border: 1px solid rgba(158,0,93,1.0);
+}
 /*General information*/
+/*
 .statistics-platform #table-7 tr,
 .statistics-platform #table-7 th,
 .statistics-platform #table-7 td{
     border: 1px solid rgba(158,0,93,1.0);
 }
-/*Universities*/
+/*Universities
 .statistics-platform #table-8 tr,
 .statistics-platform #table-8 th,
 .statistics-platform #table-8 td{
@@ -4077,7 +4086,7 @@ text-align: center;
 .statistics-platform #table-15 td{
     border: 1px solid rgba(158,0,93,1.0);
 }
-/*Occupation*/
+/*Occupation
 .statistics-platform #table-140 tr,
 .statistics-platform #table-140 th,
 .statistics-platform #table-140 td{
@@ -4678,9 +4687,7 @@ text-align: center;
 .statistics-platform #table-15151 td{
     border: 1px solid rgba(158,0,93,1.0);
 }
-
-
-
+*/
 /*Message when there is no conent*/
 div.view-empty {
     background-image: url('http://www.crowdequality.eu/misc/message-24-warning.png');
