@@ -1393,10 +1393,7 @@ div.views-row-even {
 .view-ideas-belonging-to-challenge-not-active {
 	display: none;
 }
-.top-3-votings {
-	float:right;
-	
-}
+
 /* Add Attachment File to Drupal/Modules/File/icons/text-plain.png*/
 
 .field-item-even img{
@@ -2325,7 +2322,42 @@ a.btn-success{
 	margin-right:5px;
 	margin-left:5px;
 }
- 
+
+.votes-deactive {
+
+	display:block;
+	width: auto;
+	background-image: linear-gradient(to right, rgba(240,78,35,1.0), rgba(158,0,93,1.0));
+	/*background-color:rgba(158,0,93,1.0);*/
+	color: #fff;
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+
+}
+.votes-deactive .votes-display {
+	display: inline-block;
+	height: 80%;
+	border: 0;
+	font: 700 1.25rem 'Lato', Verdana, Helvetica, sans-serif;
+	padding:5px 10px;
+	color:rgba(158,0,93,1.0);
+	/*margin:5px;*/
+    margin-top: 4px;
+    background-color:#fff;
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin-left:5px;
+    margin-right:5px
+}
+.votes-deactive::before{
+	display: inline-block;
+    content: "Votes: ";
+	padding-left:10px;
+	width:auto;
+
+}
 
 /*  Vote Ende */
 
