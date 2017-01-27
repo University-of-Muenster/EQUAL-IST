@@ -2326,6 +2326,7 @@ a.btn-success{
 .votes-deactive {
 
 	display:block;
+	float: right;
 	width: auto;
 	background-image: linear-gradient(to right, rgba(240,78,35,1.0), rgba(158,0,93,1.0));
 	/*background-color:rgba(158,0,93,1.0);*/
