@@ -3972,6 +3972,10 @@ a.dialog-okay:hover {
     border:  1px solid rgba(158,9,93,1.0);
 }
 
+.views-table.cols-3 tr{
+    border:  1px solid rgba(158,9,93,1.0);
+}
+
 .view.view-top-university.view-id-top_university.view-display-id-block.view-dom-id-b9a68de56bee3e9b1b1ce48cf54b9a17 th.views-field.views-field-points.views-align-left {
 	padding-left: 5%;
 }
