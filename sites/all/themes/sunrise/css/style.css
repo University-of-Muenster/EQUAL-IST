@@ -3491,10 +3491,14 @@ Subcategories
 	font-size: 12px;
 }
 #challenge-node-form #edit-anonymous-publishing-options{
-	border: 1px solid rgba(158,9,93,1.0);
+	/*border: 1px solid rgba(158,9,93,1.0);*/
     -webkit-border-radius: 3px;
     border-radius: 3px;
 	padding: 5px;
+}
+
+#edit-anonymous-publishing {
+   border: 1px solid rgba(158,9,93,1.0); 
 }
 
 /*Footer*/
