@@ -1409,9 +1409,16 @@ div.views-row-even {
     max-width: 100%;
 }
 
+/*Slideshow detailed Challenges */
+
 .views_slideshow_cycle_teaser_section_ideas_in_challenge-block {
 	width: 276px;
 }
+
+.panel-pane.pane-block.pane-views-ideas-in-challenge-block {
+	margin-bottom: 40px;
+}
+
 
 
 /* Add Idea Button*/
