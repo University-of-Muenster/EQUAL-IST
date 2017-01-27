@@ -1393,6 +1393,10 @@ div.views-row-even {
 .view-ideas-belonging-to-challenge-not-active {
 	display: none;
 }
+.top-3-votings {
+	float:right;
+	
+}
 /* Add Attachment File to Drupal/Modules/File/icons/text-plain.png*/
 
 .field-item-even img{
