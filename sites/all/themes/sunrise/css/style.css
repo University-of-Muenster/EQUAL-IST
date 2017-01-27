@@ -4752,15 +4752,15 @@ a#edit-cancel:hover {
     border-radius: 3px;
 }
 /*Do not display the flag system on the node-82/node-83*/
-.flag-wrapper.flag-abuse-node-flag-abuse-node-82 .flag.flag-action.flag-link-confirm{
+.flag-wrapper.flag-abuse-node-flag-abuse-node-82 .flag.flag-action.flag-link-confirm .flag-throbber{
 	display:none;
 }
-.flag-wrapper.flag-abuse-node-flag-abuse-node-82 .flag-throbber{
+#node-82 .links.inline .statistics_counter.first {
 	display:none;
 }
-.flag-wrapper.flag-abuse-node-flag-abuse-node-83 .flag.flag-action.flag-link-confirm{
+.flag-wrapper.flag-abuse-node-flag-abuse-node-83 .flag.flag-action.flag-link-confirm .flag-throbber{
 	display:none;
 }
-.flag-wrapper.flag-abuse-node-flag-abuse-node-83 .flag-throbber{
+#node-83 .links.inline .statistics_counter.first {
 	display:none;
 }
