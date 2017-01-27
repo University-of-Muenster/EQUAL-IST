@@ -1274,9 +1274,10 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 }
 
 /*user profile goals */
-
-.views-field.views-field-title {
+.contextual-links-region.panel-pane.pane-block.pane-views-goals-completed-by-user-block {
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .views-field.views-field-goal-img {
