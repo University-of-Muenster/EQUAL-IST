@@ -2510,9 +2510,9 @@ a.btn-success{
 	margin-left: 60px;
 }
 span.social-button {	
-	margin:0;
+	margin-left:20%;
 	padding:0;
-	width:80px;
+	width:100%;
 	display:inline-block;
 	padding:5px;
 }
@@ -4396,11 +4396,5 @@ a#edit-delete:hover {
     font-size: 20px;
 }
 
-
-/*Share Buttons*/
-
-#fb-root .social-buttons {
-    margin-top: 2px;
-}
 
 
