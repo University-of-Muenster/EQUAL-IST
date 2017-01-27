@@ -4397,3 +4397,10 @@ a#edit-delete:hover {
 }
 
 
+/*Share Buttons*/
+
+#fb-root .social-buttons {
+    margin-top: 2px;
+}
+
+
