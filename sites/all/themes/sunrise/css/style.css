@@ -394,7 +394,7 @@ textarea:focus, input:focus { outline: 0; }
 
 /* blog */
 
-.submitted { color: #ccc; margin: 20px 0px; }
+.submitted { color: #ccc; margin: 20px 0px 0px 65px; }
 
 /* sidebar second */
 
@@ -2724,7 +2724,6 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
     -webkit-border-radius: 3px;
     border-radius: 3px;
 	padding: 1px 1px 1px 15px;
-	margin-left: 65px;
 	color: #333;
 }
 
