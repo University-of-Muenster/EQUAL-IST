@@ -1,10 +1,12 @@
 <?php
 // Sort Helpfunction 
-    function sortmulti ($array, $index, $order, $challenge_sort=FALSE, $natsort=FALSE, $case_sensitive=FALSE) {
+    function sortmulti ($array, $index, $order, $challenge_sort=FALSE, $idea_vote_sort=FALSE, $natsort=FALSE, $case_sensitive=FALSE) {
          if(is_array($array) && count($array)>0) {
              foreach(array_keys($array) as $key) { 
                 if($challenge_sort){
                   $temp[$key]=$array[$key][$index]['data']['#title'];
+                }elseif($idea_vote_sort){
+                  $temp[$key]=$array[$key]->field_field_vote[0]['rendered']['#markup'];
                 }else{
                   $temp[$key]=$array[$key][$index];
                 }
@@ -39,7 +41,7 @@
  * Implementation of hook_form_FORM_ID_alter().
  */
 function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
-	dsm($form);
+
 
   if ($form_id == 'idea_node_form') {
     //Important for Phase module
@@ -73,12 +75,12 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
     );
     //upload fields text
     //for images
-    $form['field_idea_image']['und']['#file_upload_title'] = '<div class="title">'.t('Images').'</div>'.t('Please upload an image characterising the idea. <br>Drag & drop images or <a href="#" class="open-browse">browse</a> them from your computer.');
+    $form['field_idea_image']['und']['#file_upload_title'] = '<div class="title">'.t('Add images here').'</div>'.t('Drag & drop images or <a href="#" class="open-browse">browse</a> them from your computer');
     $form['field_idea_image']['und']['#title'] = '';
     $form['field_idea_image']['und']['#file_upload_description'] = '';
     //for documents
     $form['field_attachments']['und']['#file_upload_title'] = '<div class="title">'.t('Add documents here').'</div>'.t('Drag & drop pdf or text files or <a href="#" class="open-browse">browse</a> them from your computer');
-    $form['field_attachments']['und']['#title'] = 'Attachments <br><br> You can upload files with further information about the idea.<br> Drag & drop pdf or text files or <a href="#" class="open-browse">browse</a> them from your computer.';
+    $form['field_attachments']['und']['#title'] = '';
     $form['field_attachments']['und']['#file_upload_description'] = '';
     
     
