@@ -4763,7 +4763,4 @@ a#edit-cancel:hover {
 #node-83 .links.inline .statistics_counter.first {
 	display:none;
 }
-/*anonymous login or register to post comments*/
-.comment_forbidden.first.last li{
-	font-size: 14px;
-}
+
