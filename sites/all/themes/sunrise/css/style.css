@@ -4343,7 +4343,7 @@ a#edit-delete:hover {
 #node-82 .links.inline .forward-link.first li  {
 	display:none;
 }
-#node-82 .links.inline .forward-link.first .statistics_counter li {
+#node-82 .links.inline .forward-link.first .statistics_counter.first.last li {
 	display:none;
 }
 #node-82 .links.inline .forward-link.first .flag-abuse_node li {
@@ -4356,7 +4356,7 @@ a#edit-delete:hover {
 #node-83 .links.inline .forward-link.first li {
 	display:none;
 }
-#node-83 .links.inline .forward-link.first .statistics_counter li  {
+#node-83 .links.inline .forward-link.first .statistics_counter.first.last li  {
 	display:none;
 }
 #node-83 .links.inline .forward-link.first  .flag-abuse_node li {
