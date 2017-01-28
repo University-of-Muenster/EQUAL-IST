@@ -4340,29 +4340,29 @@ a#edit-delete:hover {
     font-size: 13px;
 }
 /*Do not display the flag system on the node-82/node-83*/
-#node-82 .links.inline .forward-link.first  {
+#node-82 .links.inline .forward-link.first li  {
 	display:none;
 }
-#node-82 .links.inline .forward-link.first .statistics_counter  {
+#node-82 .links.inline .forward-link.first .statistics_counter li {
 	display:none;
 }
-#node-82 .links.inline .forward-link.first .flag-abuse_node {
+#node-82 .links.inline .forward-link.first .flag-abuse_node li {
 	display:none;
 }
-#node-82 .links.inline .forward-link.first .flag-abuse_whitelist_node.last  {
+#node-82 .links.inline .forward-link.first .flag-abuse_whitelist_node.last li {
 	display:none;
 }
 
-#node-83 .links.inline .forward-link.first  {
+#node-83 .links.inline .forward-link.first li {
 	display:none;
 }
-#node-83 .links.inline .forward-link.first .statistics_counter  {
+#node-83 .links.inline .forward-link.first .statistics_counter li  {
 	display:none;
 }
-#node-83 .links.inline .forward-link.first  .flag-abuse_node {
+#node-83 .links.inline .forward-link.first  .flag-abuse_node li {
 	display:none;
 }
-#node-83 .links.inline .forward-link.first .flag-abuse_whitelist_node.last  {
+#node-83 .links.inline .forward-link.first .flag-abuse_whitelist_node.last li  {
 	display:none;
 }
 /*Starting-page participate button*/
