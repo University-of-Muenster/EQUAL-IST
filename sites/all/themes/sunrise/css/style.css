@@ -4340,7 +4340,7 @@ a#edit-delete:hover {
     font-size: 13px;
 }
 /*Do not display the flag system on the node-82/node-83*/
-#node-82 .links.inline .forward-link.first{
+#node-82 .links.inline .forward-link.first ul {
 	display:none;
 }
 /*
@@ -4348,7 +4348,7 @@ a#edit-delete:hover {
 	display:none;
 }*/
 
-#node-83 .links.inline .forward-link.first {
+#node-83 .links.inline .forward-link.first ul {
 	display:none;
 }/*
 #node-83 .links.inline .statistics_counter.first {
