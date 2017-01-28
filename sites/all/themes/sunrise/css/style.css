@@ -4340,18 +4340,29 @@ a#edit-delete:hover {
     font-size: 13px;
 }
 /*Do not display the flag system on the node-82/node-83*/
-#node-82 .links.inline .forward-link.first ul {
+#node-82 .links.inline .forward-link.first  {
 	display:none;
 }
-/*
-#node-82 .links.inline .statistics_counter.first {
+#node-82 .links.inline .forward-link.first .statistics_counter  {
 	display:none;
-}*/
+}
+#node-82 .links.inline .forward-link.first .flag-abuse_node {
+	display:none;
+}
+#node-82 .links.inline .forward-link.first .flag-abuse_whitelist_node.last  {
+	display:none;
+}
 
-#node-83 .links.inline .forward-link.first ul {
+#node-83 .links.inline .forward-link.first  {
 	display:none;
-}/*
-#node-83 .links.inline .statistics_counter.first {
+}
+#node-83 .links.inline .forward-link.first .statistics_counter  {
+	display:none;
+}
+#node-83 .links.inline .forward-link.first  .flag-abuse_node {
+	display:none;
+}
+#node-83 .links.inline .forward-link.first .flag-abuse_whitelist_node.last  {
 	display:none;
 }
 /*Starting-page participate button*/
