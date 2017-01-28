@@ -4340,15 +4340,17 @@ a#edit-delete:hover {
     font-size: 13px;
 }
 /*Do not display the flag system on the node-82/node-83*/
-#node-82 .flag-wrapper.flag-abuse-node.flag-abuse-node-82 .flag.flag-action.flag-link-confirm{
+#node-82 .links.inline .forward-link.first{
 	display:none;
 }
+/*
 #node-82 .links.inline .statistics_counter.first {
 	display:none;
-}
-#node-83 .flag-wrapper.flag-abuse-node.flag-abuse-node-83 .flag.flag-action.flag-link-confirm {
+}*/
+
+#node-83 .links.inline .forward-link.first {
 	display:none;
-}
+}/*
 #node-83 .links.inline .statistics_counter.first {
 	display:none;
 }
