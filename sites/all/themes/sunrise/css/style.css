@@ -2761,10 +2761,10 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 .pane-node-field-categories-subcategories .field-item.even:after {
 	content:none;
 }
-.pane-node-field-links-external {
+.pane-node-field-external-links {
 	margin-top:20px;
 }
-.pane-node-field-links-external .pane-title{
+.pane-node-field-external-links .pane-title{
 	
 	display: block;
 	font-size: 15px;
@@ -4464,18 +4464,7 @@ a#edit-delete:hover {
     font-size: 20px;
 }
 
-views_slideshow_cycle_div_ideas_in_challenge-block_1 {
-    height: 256px;
+#nav_menu_middle {
+    color: aqua;
 }
 
-views_slideshow_cycle_div_ideas_in_challenge-block_2 {
-    height: 256px;
-}
-
-views_slideshow_cycle_div_ideas_in_challenge-block_0 {
-    height: 256px;
-}
-
-.views-slideshow-cycle-main-frame-row.views_slideshow_cycle_slide.views_slideshow_slide.views-row-2.views_slideshow_cycle_hidden.views-row-even {
-    height: 256px;
-}
