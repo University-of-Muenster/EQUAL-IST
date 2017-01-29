@@ -2761,10 +2761,10 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 .pane-node-field-categories-subcategories .field-item.even:after {
 	content:none;
 }
-.pane-node-field-links-external {
+.pane-node-field-external-links {
 	margin-top:20px;
 }
-.pane-node-field-links-external .pane-title{
+.pane-node-field-external-links .pane-title{
 	
 	display: block;
 	font-size: 15px;
