@@ -1393,7 +1393,10 @@ div.views-row-even {
 .view-ideas-belonging-to-challenge-not-active {
 	display: none;
 }
-
+.pane-equal-ist-phases-equal-ist-block-belonging-ideas {
+	clear: both;
+	margin-top: 20px;
+}
 .top3-idea-badget {
    position: absolute;
    top:0;
