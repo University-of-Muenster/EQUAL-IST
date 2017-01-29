@@ -4408,8 +4408,7 @@ a#edit-delete:hover {
     -moz-transition: all 0.3s ease-in-out;
 	color: white;
 	font-size: 20px;
-	padding: 15px;	
-	
+	padding: 15px;		
 }
 #block-block-11 a{
 	color: white;
@@ -4435,4 +4434,14 @@ a#edit-delete:hover {
     font-size: 20px;
 }
 
+views_slideshow_cycle_div_ideas_in_challenge-block_1 {
+    height: 256px;
+}
 
+views_slideshow_cycle_div_ideas_in_challenge-block_2 {
+    height: 256px;
+}
+
+views_slideshow_cycle_div_ideas_in_challenge-block_0 {
+    height: 256px;
+}
