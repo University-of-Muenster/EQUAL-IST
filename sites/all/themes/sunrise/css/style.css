@@ -4186,11 +4186,12 @@ img.transparent {
     width: 75%;
     float: left;
 }
-
+/* display comment label tags*/
 .field-name-field-comment-tags .field-label {
-    display: none;
+    font-size: 20px;
+	font-color: #666666;
 }
-
+*/
 .field-name-field-comment-tags .field-item {
     color: black;
     font-weight: 500;
