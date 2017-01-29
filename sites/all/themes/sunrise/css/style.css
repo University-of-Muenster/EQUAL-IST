@@ -4474,5 +4474,5 @@ a#edit-delete:hover {
 }
 
 .tabs.primary > li:nth-child(5){
-    visibility: hidden;
+    display: none;
 }
