@@ -2772,6 +2772,33 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 	margin-top:0px;
 
 }
+.pane-node-field-attachments {
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.pane-node-field-attachments .pane-title{
+	
+	display: block;
+	font-size: 15px;
+	color:rgba(158,0,93,1.0);
+	margin-top:0px;
+
+}
+.pane-node-field-attachments .file-icon{
+	display: inline-block;
+
+}
+.pane-node-field-attachments a{
+	
+	display: inline-block;
+
+	background: none;
+
+}
 /* Comments */
 .comment {
 	border-bottom: 1px solid #ccc;
