@@ -42,7 +42,6 @@
  */
 function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
 	
-	dsm($form);
 	if ($form_id == 'idea_node_form') {
     //Important for Phase module
     $node = $form_state['node'];
@@ -76,7 +75,7 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
     //upload fields text
     //for images
     $form['field_idea_image']['und']['#file_upload_title'] = 'Image <br> <br> Please upload an image by using Drag & Drop or choose one from the file browser, characterising the challenge. ';
-    $form['field_idea_image']['und']['#title'] = 'okay';
+    $form['field_idea_image']['und']['#title'] = '';
     $form['field_idea_image']['und']['#file_upload_description'] = '';
     //for documents
     $form['field_attachments']['und']['#file_upload_title'] = '';
