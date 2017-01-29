@@ -2577,68 +2577,7 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 	padding-top:10px;
 	padding-left:20px;
 }
-.pane-equal-ist-blocks-equal-ist-blocks-phase {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	
-}
-#equal_ist_blocks_phase {
-	text-align: justify; 
-	width:100%;
-	vertical-align:top;
-	font-size:17px;
-	
-}
-#equal_ist_blocks_phase ul{
-	padding-left:0;
-	
-}
-#equal_ist_blocks_phase .equal_ist_blocks_phase_active {
-	display:inline-block;
-	list-style-type: none;
-	border: 1px solid rgba(158,0,93,1.0);	
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-	padding:10px;
-	color:black;
-}
-#equal_ist_blocks_phase .equal_ist_blocks_phase_deactive {
-	display:inline-block;
-	list-style-type: none;
-    margin-right: 5%;
-}
-#equal_ist_blocks_phase .equal_ist_blocks_phase_info {
-	display:inline-block;
-	list-style-type: none;
-	margin-left: 10px;
-}
-#equal_ist_blocks_phase .equal_ist_blocks_phase_days {
-	display:inline-block;
-	list-style-type: none;
-	margin-left: 10px;
-	color:rgba(158,0,93,1.0);
-}
-#equal_ist_blocks_phase .equal_ist_blocks_phase_spacer {
-	display:inline-block;
-	list-style-type: none;
-	
-	font-weight:bold;
-	font-size:20px;
-	color:rgba(158,0,93,1.0);
-}
-#equal_ist_blocks_phase .equal_ist_blocks_phase_spacer_below {
-	position:absolute;
-	margin-left:-30px;
-	top:30px;
-	font-size:10px;
-	color:#333;
-}
 
-#equal_ist_blocks_phase .line {
-	display:inline-block;
-	list-style-type: none;
-	padding-left:100%;
-}
 .pane-ideal-challenge-challenge-add-idea-button .btn-success, .pane-equal-ist-phases-equal-ist-block-add-idea .btn-inactive  {
 	margin:0;
 	margin-top:10px;
@@ -3703,6 +3642,70 @@ div.panel-col-last:nth-child(2) {
 }
 
 /* Phase Module */
+.pane-equal-ist-blocks-equal-ist-blocks-phase {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+#equal_ist_blocks_phase {
+	text-align: justify; 
+	width:100%;
+	vertical-align:top;
+	font-size:17px;
+	
+}
+#equal_ist_blocks_phase ul{
+	padding-left:0;
+	
+}
+#equal_ist_blocks_phase .equal_ist_blocks_phase_active {
+	display:inline-block;
+	list-style-type: none;
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	padding:10px;
+	color:black;
+	width:15%;
+}
+#equal_ist_blocks_phase .equal_ist_blocks_phase_deactive {
+	display:inline-block;
+	list-style-type: none;
+    margin-right: 5%;
+    width:15%;
+}
+#equal_ist_blocks_phase .equal_ist_blocks_phase_info {
+	display:inline-block;
+	list-style-type: none;
+	margin-left: 10px;
+}
+#equal_ist_blocks_phase .equal_ist_blocks_phase_days {
+	display:inline-block;
+	list-style-type: none;
+	margin-left: 10px;
+	color:rgba(158,0,93,1.0);
+}
+#equal_ist_blocks_phase .equal_ist_blocks_phase_spacer {
+	display:inline-block;
+	list-style-type: none;
+	
+	font-weight:bold;
+	font-size:20px;
+	color:rgba(158,0,93,1.0);
+}
+#equal_ist_blocks_phase .equal_ist_blocks_phase_spacer_below {
+	position:absolute;
+	margin-left:-30px;
+	top:30px;
+	font-size:10px;
+	color:#333;
+}
+
+#equal_ist_blocks_phase .line {
+	display:inline-block;
+	list-style-type: none;
+	padding-left:100%;
+}
 a.phase-link {
 	padding:10px;
 	color:white;
