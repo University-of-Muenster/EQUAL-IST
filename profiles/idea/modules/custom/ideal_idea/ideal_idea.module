@@ -79,8 +79,8 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
     $form['field_idea_image']['und']['#title'] = '';
     $form['field_idea_image']['und']['#file_upload_description'] = '';
     //for documents
-    $form['field_attachments']['und']['#file_upload_title'] = 'Attachments <br> <br> You can upload files with further information about the challenge.';
-    $form['field_attachments']['und']['#title'] = '';
+    $form['field_attachments']['und']['#file_upload_title'] = '';
+    $form['field_attachments']['und'][0]['#title'] = 'Attachments <br> <br> You can upload files with further information about the challenge.';
     $form['field_attachments']['und']['#file_upload_description'] = '';
     
     
