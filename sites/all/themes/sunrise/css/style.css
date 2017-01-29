@@ -4466,3 +4466,8 @@ a#edit-delete:hover {
 .panel-pane.pane-block.pane-block-30 p{
     font-size: 20px;
 }
+
+/*display none for start page twitter feed "embed*/
+#twitter-widget-0 .u-floatLeft {
+    display:none;
+}
