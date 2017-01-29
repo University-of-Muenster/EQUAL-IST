@@ -4473,3 +4473,6 @@ a#edit-delete:hover {
 }
 
 
+li.active:nth-child(5){
+    display: none;
+}
