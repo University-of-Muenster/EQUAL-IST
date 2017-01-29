@@ -4472,7 +4472,6 @@ a#edit-delete:hover {
     font-size: 20px;
 }
 
-
-li.active:nth-child(5){
+li.ul.primary:nth-child(5){
     display: none;
 }
