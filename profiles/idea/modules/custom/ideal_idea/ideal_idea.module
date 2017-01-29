@@ -41,7 +41,7 @@
  * Implementation of hook_form_FORM_ID_alter().
  */
 function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
-
+	dsm($form);
   if ($form_id == 'idea_node_form') {
     //Important for Phase module
     $node = $form_state['node'];
@@ -69,17 +69,17 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
       '#type' => 'button',
       '#access' => TRUE,
       '#value' =>('Abort the Idea'),
-      '#weight' => 4,
+      '#weight' => 5,
       '#attributes' => array('class' => array('go-back'), 'onClick' => 'history.go(-1);'),
     );
     //upload fields text
     //for images
-    $form['field_idea_image']['und']['#file_upload_title'] = '<div class="title">'.t('Add images here').'</div>'.t('Drag & drop images or <a href="#" class="open-browse">browse</a> them from your computer');
+    $form['field_idea_image']['und']['#file_upload_title'] = 'Image <br> <br> Please upload an image by using Drag & Drop or choose one from the file browser, characterising the challenge. ';
     $form['field_idea_image']['und']['#title'] = '';
     $form['field_idea_image']['und']['#file_upload_description'] = '';
     //for documents
-    $form['field_attachments']['und']['#file_upload_title'] = '<div class="title">'.t('Add documents here').'</div>'.t('Drag & drop pdf or text files or <a href="#" class="open-browse">browse</a> them from your computer');
-    $form['field_attachments']['und']['#title'] = '';
+    $form['field_attachments']['und']['#file_upload_title'] = '';
+    $form['field_attachments']['und']['#title'] = 'Attachments <br> <br> You can upload files with further information about the challenge.';
     $form['field_attachments']['und']['#file_upload_description'] = '';
     
     
