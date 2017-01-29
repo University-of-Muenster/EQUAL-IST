@@ -3672,7 +3672,6 @@ div.panel-col-last:nth-child(2) {
 #equal_ist_blocks_phase .equal_ist_blocks_phase_deactive {
 	display:inline-block;
 	list-style-type: none;
-    margin-right: 5%;
     width:15%;
     text-align: center;
 }
@@ -3712,6 +3711,7 @@ a.phase-link {
 	padding:10px;
 	color:white;
 	font-size: 17px;
+	width:100%;
 }
 a.select-ideas-link {
 	padding:10px;
@@ -4468,3 +4468,8 @@ a#edit-delete:hover {
 .panel-pane.pane-block.pane-block-30 p{
     font-size: 20px;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/master
