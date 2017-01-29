@@ -4532,3 +4532,8 @@ a#edit-delete:hover {
 .panel-pane.pane-block.pane-block-30 p{
     font-size: 20px;}
 
+/*remove File Broweser User Profile*/
+
+li.primary:nth-child(5){
+    display: none;
+}
