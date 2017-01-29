@@ -196,7 +196,7 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 
 #main-navigation-inside {color: black; margin: 0 auto; padding: 0;  text-align: center; }
 
-#main-navigation-inside ul.menu { color: black; display: inline-block;}
+#main-navigation-inside ul.menu { color: black; display: inline-block;margin: auto;}
 
 #main-navigation-inside ul.menu li {color: black; padding: 0 15px; font-size: 14px; font-weight: 700; text-transform: uppercase; transition:none; }
 
