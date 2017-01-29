@@ -4476,7 +4476,6 @@ views_slideshow_cycle_div_ideas_in_challenge-block_0 {
     height: 256px;
 }
 
-
-.views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide.views_slideshow_slide.views-row-1.views-row-odd {
-    display: none;
+.views-slideshow-cycle-main-frame-row.views_slideshow_cycle_slide.views_slideshow_slide.views-row-2.views_slideshow_cycle_hidden.views-row-even {
+    height: 256px;
 }
