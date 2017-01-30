@@ -3286,7 +3286,7 @@ div.filefield-sources-list{
     border-radius: 3px;
 	padding: 5px;
 }
-#idea-node-form .file-icon{
+.form-item.form-type-managed-file.form-item-field-attachements-und-0 .file-icon{
 	display: none;
 }
 
@@ -4485,3 +4485,8 @@ a#edit-delete:hover {
 /*.tabs.primary > li:nth-child(5){
     display: none;
 }*/
+
+/* Checkbox */
+.form-checkbox {
+	margin-top: 0px; 
+}
