@@ -3286,6 +3286,10 @@ div.filefield-sources-list{
     border-radius: 3px;
 	padding: 5px;
 }
+#idea-node-form .file-icon{
+	display: none;
+}
+
 
 /*extended menus add challenge and ideas
 
