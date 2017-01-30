@@ -6,7 +6,7 @@
                 if($challenge_sort){
                   $temp[$key]=$array[$key][$index]['data']['#title'];
                 }elseif($idea_vote_sort){
-                  $temp[$key]=$array[$key]->field_field_vote[0]['rendered']['#markup'];
+                  $temp[$key]=$array[$key]->votings;
                 }else{
                   $temp[$key]=$array[$key][$index];
                 }
