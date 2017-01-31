@@ -4251,46 +4251,6 @@ img.transparent {
     display: inline;
     font-size: 14px;
 }
-/*Add Comment Button*/
-.pane-block-34 .pane-content a {
-    margin: 0 auto;
-    font-size: 1.75rem;
-    padding: 1.25rem 2.5rem;
-    display: block;
-    background-color: rgba(158,0,93,1.0);
-    border: 1px solid transparent;
-    color: #ffffff;
-    font-weight: 300;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-decoration: none;
-}
-
-.pane-block-34 .pane-content a:hover {
-    margin: 0 auto;
-    font-size: 1.75rem;
-    padding: 1.25rem 2.5rem;
-    display: block;
-    background-color: white;
-    border: 1px solid rgba(158,0,93,1.0);
-    color: rgba(158,0,93,1.0);
-    font-weight: 300;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-decoration: none;
-}
 
 
 #views_slideshow_controls_text_slideshow-block {
