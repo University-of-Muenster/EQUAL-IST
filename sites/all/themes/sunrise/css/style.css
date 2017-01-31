@@ -1409,11 +1409,8 @@ div.views-row-even {
 	position: relative;
 }
 .challenge-add-comment {
-	margin: 0;
-    margin-top: 10px;
-    width: 100%;
-    font-size: 1.75rem;
-    padding: 1.25rem 2.5rem;
+	margin-top: 20px;
+	width: 100%;
 }
 
 /* Add Attachment File to Drupal/Modules/File/icons/text-plain.png*/
