@@ -2794,6 +2794,10 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
     margin-top: 10px;
 }
 
+.field.field-name-field-comment-tags-idea.field-type-taxonomy-term-reference.field-label-above {
+	font-size: 10px;
+}
+
 /* no reply */
 .comment ul.inline  li.comment-reply{
 	display:none;
