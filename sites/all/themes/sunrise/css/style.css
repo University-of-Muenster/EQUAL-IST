@@ -3399,6 +3399,10 @@ Subcategories
     border:1px solid rgba(158,0,93,1.0);
 }
 
+.node-buttons #edit-cancel {
+	display: none;
+}
+
 /*External Links*/
 
 #field-external-links-values--3 td{
