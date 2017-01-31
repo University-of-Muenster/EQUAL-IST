@@ -4231,6 +4231,10 @@ img.transparent {
     font-size: 14px;
 }
 
+.field-name-field-comment-tags-idea {
+	margin-left: 20px;
+}
+
 /*Add Comment Button*/
 .pane-block-34 .pane-content a {
     margin: 0 auto;
