@@ -4196,21 +4196,28 @@ img.transparent {
 /* display comment label tags*/
 .field-name-field-comment-tags .field-label {
     font-size: 20px;
-	font-color: #666666;
+    color: black;
+    font-weight: 500;
 }
 */
 .field-name-field-comment-tags .field-item {
     color: black;
     font-weight: 500;
+    display: inline;
+    font-size: 20px;
 }
 
 .field-name-field-comment-tags-idea .field-label {
-    display: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
 }
 
 .field-name-field-comment-tags-idea .field-item {
     color: black;
     font-weight: 500;
+    display: inline;
+    font-size: 20px;
 }
 
 /*Add Comment Button*/
