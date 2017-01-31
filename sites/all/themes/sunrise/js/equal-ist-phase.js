@@ -42,6 +42,7 @@
                     var preselected = $(".select-ideas").attr("id").split("-");
                     preselected.splice(0,3);
                     selected=preselected;
+                    alert(selected);
                     var MINIDEAS = $(".select-ideas").attr("id").split("-");
                     MINIDEAS = MINIDEAS[1];
                     alert(MINIDEAS);
