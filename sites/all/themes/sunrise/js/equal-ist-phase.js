@@ -42,11 +42,12 @@
                     var preselected = $(".select-ideas").attr("id").split("-");
                     preselected.splice(0,3);
                     selected=preselected;
-                    var MAXIDEAS = $(".select-ideas").attr("id").split("-");
-                    MAXIDEAS = MAXIDEAS[1];
+                    var MINIDEAS = $(".select-ideas").attr("id").split("-");
+                    MINIDEAS = MINIDEAS[1];
+                    alert(MINIDEAS);
                     done=1;
                 }
-                if (selected.length >= MAXIDEAS){
+                if (selected.length >= MINIDEAS){
                     $(".dialog").hide("fade");
                     $(".gray-background").hide("fade");
                    var string="";
