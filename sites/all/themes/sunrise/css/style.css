@@ -3680,10 +3680,10 @@ div.panel-col-last:nth-child(2) {
 }
 .equal_ist_blocks_phase ul{
 	padding-left:0;
-	
+	font-size: 4vw;
 }
 .equal_ist_blocks_phase ul li, .equal_ist_blocks_phase ul li a{
-	font-size: 4vw;
+	
 }
 
 .equal_ist_blocks_phase .equal_ist_blocks_phase_active {
