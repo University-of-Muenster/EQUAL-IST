@@ -4490,6 +4490,9 @@ a#edit-delete:hover {
     margin-left: 0px;
 }
 
+#edit-pass-pass2 {
+    margin-bottom: 0px;
+}
 /*Ausblenden des fünten List Elements (für später)*/
 /*.tabs.primary > li:nth-child(5){
     display: none;
