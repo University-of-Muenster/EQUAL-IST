@@ -40,11 +40,13 @@
             $(".select-ideas .dialog-okay").click(function(){
                 if(!done){
                     var preselected = $(".select-ideas").attr("id").split("-");
-                    preselected.splice(0,1);
+                    preselected.splice(0,3);
                     selected=preselected;
+                    var MAXIDEAS = $(".select-ideas").attr("id").split("-");
+                    MAXIDEAS = MAXIDEAS[1];
                     done=1;
                 }
-                if (selected.length >= 3){
+                if (selected.length >= MAXIDEAS){
                     $(".dialog").hide("fade");
                     $(".gray-background").hide("fade");
                    var string="";
