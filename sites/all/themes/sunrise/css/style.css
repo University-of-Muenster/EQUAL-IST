@@ -3682,8 +3682,8 @@ div.panel-col-last:nth-child(2) {
 	padding-left:0;
 	
 }
-.equal_ist_blocks_phase ul li, .equal_ist_blocks_phase ul li a{
-		font-size: 2vw;
+.equal_ist_blocks_phase ul li{
+		
 }
 
 .equal_ist_blocks_phase .equal_ist_blocks_phase_active {
@@ -3695,12 +3695,14 @@ div.panel-col-last:nth-child(2) {
 	padding:13px;
 	color:black;
 	width:15%;
+	min-width: 102px;
 	text-align: center;
 }
 .equal_ist_blocks_phase .equal_ist_blocks_phase_deactive {
 	display:inline-block;
 	list-style-type: none;
     width:15%;
+    min-width: 102px;
     text-align: center;
 }
 .equal_ist_blocks_phase .equal_ist_blocks_phase_info {
