@@ -1921,7 +1921,6 @@ a.btn-success{
 }
 .btn-inactive, .btn-inactive:hover {
 	cursor:default;
-	margin: 0 auto;
 	margin-right:10px;
   font-size: 1.75rem;
   padding: 1.25rem 2.5rem;
@@ -3722,7 +3721,7 @@ div.panel-col-last:nth-child(2) {
 .equal_ist_blocks_phase .equal_ist_blocks_phase_spacer_below {
 	position:absolute;
 	margin-left:-30px;
-	top:30px;
+	margin-top:20px;
 	font-size:10px;
 	color:#333;
 }
