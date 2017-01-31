@@ -3676,11 +3676,12 @@ div.panel-col-last:nth-child(2) {
 	width:100%;
 	vertical-align:top;
 	font-size:17px;
+	font-size: 4vw;
 	
 }
 .equal_ist_blocks_phase ul{
 	padding-left:0;
-	font-size: 4vw;
+	
 }
 .equal_ist_blocks_phase ul li, .equal_ist_blocks_phase ul li a{
 	
