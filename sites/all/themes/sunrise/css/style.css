@@ -4235,6 +4235,22 @@ img.transparent {
 	margin-left: 65px;
 }
 
+.field-name-field-comment-tags-challenge .field-item.even {
+	    color: black;
+    font-weight: 500;
+    display: inline;
+    font-size: 14px;
+}
+.field-name-field-comment-tags-challenge .field-label {
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    float: left;
+}
+.field.field-name-field-comment-tags.field-type-taxonomy-term-reference.field-label-above {
+	margin-left: 65px;
+}
+
 /*Add Comment Button*/
 .pane-block-34 .pane-content a {
     margin: 0 auto;
