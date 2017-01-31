@@ -8,6 +8,7 @@
     		var taxid;
     		var nid;
     		var oldtaxname;
+            var MINIDEAS;
             var selected= [];
             var done=0;
             
@@ -42,8 +43,8 @@
                     var preselected = $(".select-ideas").attr("id").split("-");
                     preselected.splice(0,3);
                     selected=preselected;
-                    var MINIDEAS = $(".select-ideas").attr("id").split("-");
-                    MINIDEAS = MINIDEAS[1];
+                    TMPMINIDEAS = $(".select-ideas").attr("id").split("-");
+                    MINIDEAS = TMPMINIDEAS[1];
                     done=1;
                 }
                 if (selected.length >= MINIDEAS){
@@ -69,6 +70,8 @@
                     var preselected = $(".select-ideas").attr("id").split("-");
                     preselected.splice(0,3);
                     selected=preselected;
+                    var TMPMINIDEAS = $(".select-ideas").attr("id").split("-");
+                    MINIDEAS = TMPMINIDEAS[1];
                     done=1;
                 }
                 var nidarray = $(this).attr("id").split("-");
