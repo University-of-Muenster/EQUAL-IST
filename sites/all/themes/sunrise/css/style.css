@@ -1412,7 +1412,9 @@ div.views-row-even {
 	margin-top: 20px;
 	width: 100%;
 }
-
+.challenge-add-comment a{
+	margin:0;
+}
 /* Add Attachment File to Drupal/Modules/File/icons/text-plain.png*/
 
 .field-item-even img{
