@@ -1605,7 +1605,7 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
 }
 
 /*Twitter embed entfernen*/
-.timeline-Footer.u-cf{
+#twitter-widget-0 .timeline-Widget .timeline-Footer.u-cf{
 	display: none;
 }
 
