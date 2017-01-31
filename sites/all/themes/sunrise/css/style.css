@@ -4198,9 +4198,10 @@ img.transparent {
     font-size: 20px;
     color: black;
     font-weight: 500;
+    float: left;
 }
 */
-.field-name-field-comment-tags .field-item {
+.field-name-field-comment-tags .field-item.even {
     color: black;
     font-weight: 500;
     display: inline;
@@ -4211,9 +4212,10 @@ img.transparent {
     font-size: 20px;
     color: black;
     font-weight: 500;
+    float: left;
 }
 
-.field-name-field-comment-tags-idea .field-item {
+.field-name-field-comment-tags-idea .field-item.even {
     color: black;
     font-weight: 500;
     display: inline;
