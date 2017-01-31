@@ -42,10 +42,8 @@
                     var preselected = $(".select-ideas").attr("id").split("-");
                     preselected.splice(0,3);
                     selected=preselected;
-                    alert(selected);
                     var MINIDEAS = $(".select-ideas").attr("id").split("-");
                     MINIDEAS = MINIDEAS[1];
-                    alert(MINIDEAS);
                     done=1;
                 }
                 if (selected.length >= MINIDEAS){
@@ -69,7 +67,7 @@
             $(".idea-row .idea-switch").click(function(){
                 if(!done){
                     var preselected = $(".select-ideas").attr("id").split("-");
-                    preselected.splice(0,1);
+                    preselected.splice(0,3);
                     selected=preselected;
                     done=1;
                 }
