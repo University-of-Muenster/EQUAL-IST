@@ -48,9 +48,9 @@
                     MINIDEAS = TMPMINIDEAS[1];
                     done=1;
                 }
-                alert("Test");
-                if (selected.length >= MINIDEAS && okayclick==1){
-                    alert("Test1");
+
+                if (selected.length >= MINIDEAS && okayclick){
+
                     $(".dialog").hide("fade");
                     $(".gray-background").hide("fade");
                    var string="";
@@ -62,9 +62,9 @@
                     }
                     location.replace(location.pathname+"?task=select-ideas&nid="+string); 
                 }else {
-                    alert("Test2");
+
                     $(".select-ideas").animate({ scrollTop: 0 }, "slow");
-                    $(".select-ideas .messages.error").show("fade");
+                    $(".select-ideas #minideas-warning").show("fade");
                     okayclick=1;
                 }
                 
