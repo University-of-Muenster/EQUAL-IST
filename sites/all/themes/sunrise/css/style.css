@@ -1494,6 +1494,7 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
 
 .field-items p{
     padding-right: 21px;
+	text-align: justify;
 }
 
 .col-xs-4 h2{
