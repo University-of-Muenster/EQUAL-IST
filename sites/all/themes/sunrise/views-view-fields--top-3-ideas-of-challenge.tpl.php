@@ -24,10 +24,14 @@
  * @ingroup views_templates
  */
 ?>
-<?php dsm($view); ?>
-<?php dsm($fields); ?>
-<?php dsm($row); ?>
+
+<?php if ($row->rank ==1){ $pic="FirstPlace.png";} ?>
+<?php if ($row->rank ==2){ $pic="SecondPlace.png";} ?>
+<?php if ($row->rank ==3){ $pic="ThirdPlace.png";} ?>
+<?php $fields['field_idea_image']->wrapper_prefix='<div class="top3-idea-badget"><img src="/sites/all/themes/sunrise/images/goals/'.$pic.'"></div>'
+		.$fields['field_idea_image']->wrapper_prefix; ?>
 <?php foreach ($fields as $id => $field): ?>
+
   <?php if (!empty($field->separator)): ?>
     <?php print $field->separator; ?>
   <?php endif; ?>
