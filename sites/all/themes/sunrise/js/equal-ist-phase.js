@@ -49,7 +49,7 @@
                     done=1;
                 }
 
-                if (selected.length >= MINIDEAS && okayclick){
+                if (selected.length >= MINIDEAS || okayclick){
 
                     $(".dialog").hide("fade");
                     $(".gray-background").hide("fade");
