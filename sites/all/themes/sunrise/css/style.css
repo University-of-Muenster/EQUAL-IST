@@ -3571,6 +3571,7 @@ div.panel-col-last:nth-child(2) {
 .page-user .user-picture {
     max-width: 400px;
     margin-left: 150px;
+	margin-bottom: 40px;
 }
 .page-user .pane-user-summary dd, .page-user .pane-user-summary dt {
     display: inline;
