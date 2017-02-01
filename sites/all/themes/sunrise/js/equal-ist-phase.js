@@ -11,6 +11,7 @@
             var MINIDEAS;
             var selected= [];
             var done=0;
+            var okayclick=0;
             
     		$(".phase-link").click(function(){
     			taxarray = $(this).attr("id").split("-");
@@ -47,7 +48,7 @@
                     MINIDEAS = TMPMINIDEAS[1];
                     done=1;
                 }
-                if (selected.length >= MINIDEAS){
+                if (selected.length >= MINIDEAS && okayclick){
                     $(".dialog").hide("fade");
                     $(".gray-background").hide("fade");
                    var string="";
@@ -61,7 +62,7 @@
                 }else {
                     $(".select-ideas").animate({ scrollTop: 0 }, "slow");
                     $(".select-ideas .messages.error").show("fade");
-
+                    okayclick=1;
                 }
                 
             });
