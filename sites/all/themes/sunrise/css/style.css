@@ -2150,6 +2150,10 @@ a.btn-success{
 #panel-bootstrap-region-sidebar .alternate-votes-display {
     margin-top: 5px;
 }
+.margin-fix {
+	margin:0;
+	margin-top: 20px;
+}
 /* Sidebar Vote */
 .Sidebar .vud-widget-alternate {
 	float: none;
@@ -3681,9 +3685,6 @@ div.panel-col-last:nth-child(2) {
 .equal_ist_blocks_phase ul{
 	padding-left:0;
 	
-}
-.equal_ist_blocks_phase ul li{
-		
 }
 
 .equal_ist_blocks_phase .equal_ist_blocks_phase_active {
