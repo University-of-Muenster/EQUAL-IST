@@ -2150,10 +2150,10 @@ a.btn-success{
 	background-repeat: no-repeat;
 	background-position: right;
 }
-/*
-#panel-bootstrap-region-sidebar {
-	margin-left: 20px;
-}*/
+/* If new content Region is added on Idea or Challenge Page, it should be added here */
+#panel-bootstrap-region-center, #panel-bootstrap-region-content_bottom {
+	margin-right: 20px;
+}
 
 #panel-bootstrap-region-sidebar .alternate-votes-display {
     margin-top: 5px;
