@@ -4332,6 +4332,9 @@ text-align: center;
     border: 1px solid rgba(158,0,93,1.0);
 }
 
+.contextual-links-region.panel-pane.pane-block.pane-statistics-module-statistics-module-uni a.btn-success {
+	margin-bottom: 25px;
+}
 
 /*Message when there is no conent*/
 div.view-empty {
