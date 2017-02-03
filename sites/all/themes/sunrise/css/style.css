@@ -3724,7 +3724,7 @@ div.panel-col-last:nth-child(2) {
 	display:inline-block;
 	list-style-type: none;
 	margin-left: 10px;
-	color:rgba(158,0,93,1.0);
+	color: black;
 }
 .equal_ist_blocks_phase .equal_ist_blocks_phase_spacer {
 	display:inline-block;
