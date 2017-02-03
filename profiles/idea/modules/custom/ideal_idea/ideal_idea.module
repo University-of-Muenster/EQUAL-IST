@@ -1,47 +1,10 @@
 <?php
-// Sort Helpfunction 
-    function sortmulti ($array, $index, $order, $challenge_sort=FALSE, $idea_vote_sort=FALSE, $natsort=FALSE, $case_sensitive=FALSE) {
-         if(is_array($array) && count($array)>0) {
-             foreach(array_keys($array) as $key) { 
-                if($challenge_sort){
-                  $temp[$key]=$array[$key][$index]['data']['#title'];
-                }elseif($idea_vote_sort){
-                  $temp[$key]=$array[$key]->votings;
-                }else{
-                  $temp[$key]=$array[$key][$index];
-                }
-             }
-             if(!$natsort) {
-                 if ($order=='asc') {
-                     asort($temp);
-                 } else {    
-                     arsort($temp);
-                 }
-             }
-             else 
-             {
-                 if ($case_sensitive===true) {
-                     natsort($temp);
-                 } else {
-                     natcasesort($temp);
-                 }
-                if($order!='asc') { 
-                 $temp=array_reverse($temp,TRUE);
-                }
-             }
-             foreach(array_keys($temp) as $key) { 
-                   $sorted[$key]=$array[$key];
-             }
-             return $sorted;
-         }
-     return $sorted;
-    }
-    //End Helpfunction
+
 /**
  * Implementation of hook_form_FORM_ID_alter().
  */
 function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
-
+	
 	if ($form_id == 'idea_node_form') {
     //Important for Phase module
     $node = $form_state['node'];
