@@ -38,7 +38,7 @@ function ideal_challenge_theme($existing, $type, $theme, $path) {
 * Implements hook_form_alter
 * Created by Equal-Ist Project
 */
-function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
+function ideal_challenge_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'challenge_node_form') {
 
 
