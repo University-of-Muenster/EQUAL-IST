@@ -29,14 +29,123 @@ function ideal_challenge_theme($existing, $type, $theme, $path) {
       'render element' => 'form',
       'template' => 'challenge-node-form',
       // this will set to module/theme path by default:
-      'path' => drupal_get_path('module', 'ideal_idea'),
+      'path' => drupal_get_path('module', 'ideal_challenge'),
     ),
     
   ); 
 }
+/**
+* Implements hook_form_alter
+* Created by Equal-Ist Project
+*/
+function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'challenge_node_form') {
+
+
+    $form['field_challenge_image']['und']['#file_upload_title'] = 'Image <br> <br> Please upload an image by using Drag & Drop or choose one from the file browser, characterising the challenge. ';
+    $form['field_attachements']['und']['#file_upload_title'] = 'Attachments <br> <br> You can upload files with further information about the idea.';
+      $path = drupal_get_path('module', 'ideal_challenge');
+      
+    //changing value of submit 
+    $form['actions']['submit']['#value']='Submit the challenge';
+    //changing value of delete
+    $form['actions']['delete']['#value']='Abort the challenge';
+    
+    
+    $path = drupal_get_path('module', 'ideal_challenge');
+      drupal_add_js($path . '/js/ideal_challenge.js');
+      drupal_add_css($path . '/css/ideal_challenge.css');
+     $current_nid =0;
+      if ($node = menu_get_object()) {
+        $current_nid = $node->nid;
+      }
+
+      //BEGIN: Get Challenges and display for related Challenges Block
+
+      $challenge_options = array();
+      $challenge_header = array(
+        'challenge' => array('data' => t('Challenge'), 'field' => 'n.challenge')
+      );
+      $nodes = node_load_multiple(array(), array('type' => 'challenge'));
+
+      foreach ($nodes as $node) {
+        if($node->nid != $current_nid){
+          
+          $challenge_options[$node->nid] = array(
+            'challenge' => array(
+              'data' => array(
+                 '#type' => 'link',
+                 '#title' => $node->title,
+                  '#href' => 'node/' . $node->nid,
+               )
+             ),
+          
+          );
+        } 
+      }
+      if ($_GET['sort']=='desc') {
+        $order='desc';
+      } else {
+        $order='asc';
+      }
+
+      // Sorting $challenge_options for displaying in tableselect
+      if (module_exists('equal_ist_phases')) {
+        //Sortfunction declared in equal_ist_phases module!
+        $challenge_options_sort=sortmulti($challenge_options, 'challenge', $order, TRUE);
+      }else{
+        //If Module does not exist, use this sorting
+        $challenge_options_sort=array();
+        if(is_array($challenge_options) && count($challenge_options)>0) {
+           foreach(array_keys($challenge_options) as $key) { 
+              $temp[$key]=$challenge_options[$key]['challenge']['data']['#title'];
+           }
+           
+           if ($order=='asc') {
+               asort($temp);
+           } else {    
+               arsort($temp);
+           }
+           
+           foreach(array_keys($temp) as $key) { 
+                 $challenge_options_sort[$key]=$challenge_options[$key];
+           }
+        }
+        
+      }
+      
+      //Build the tableselect.
+      $form['tableselect_challenge'] = array(
+          '#type' => 'tableselect',
+          '#header' => $challenge_header,
+          '#options' => $challenge_options_sort,
+          '#empty' => t('No content available.'),
+        );
+      //Get the Data from field field_related_ideas and print them in challenge_nodes and tag_nodes
+      foreach ($form['field_related_challenges']['und']['#default_value'] as $value) {
+        $form['tableselect_challenge']['#default_value'][$value]=$value;  
+      } 
+      $form['field_related_challenges']['#access']=FALSE;
+      $form['#attached']['js'][]=array(
+        'type' => 'file',
+        'data' => drupal_get_path('theme',$GLOBALS['theme']).'/js/equal-ist-idea-form.js',
+        );
+      //END of related CHallenge Block
+
+      // Set default dates for Phase module !
+      /*
+      $test=date('d/m/y',strtotime('+30 days'));
+      dsm($test);
+      $form['field_phase1_end']['und'][0]['#default_value']=$test;
+      $form['field_phase1_end']['und'][0]['#date_is_default']=TRUE;
+      dsm($form);
+      */
+  }
+}
 
 /**
  * Preprocessor for theme('challenge_node_form').
+ * Altered by EQUAL-IST Project
  */
 function template_preprocess_challenge_node_form(&$variables) {
 
@@ -77,6 +186,11 @@ function template_preprocess_challenge_node_form(&$variables) {
     hide($variables['form']['field_related_challenges']);
   }
 }
+
+/**
+* NEXT FUNCTIONS contain Open Ideal blocks that are not used anymore by Crowdequality !
+*
+*/
 
 /**
  * Implements hook_block_info().
