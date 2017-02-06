@@ -42,8 +42,10 @@ function ideal_challenge_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'challenge_node_form') {
 
 
-    $form['field_challenge_image']['und']['#file_upload_title'] = 'Image <br> <br> Please upload an image by using Drag & Drop or choose one from the file browser, characterising the challenge. ';
-    $form['field_attachements']['und']['#file_upload_title'] = 'Attachments <br> <br> You can upload files with further information about the idea.';
+    //$form['field_challenge_image']['und']['#file_upload_title'] = 'Image <br> <br> Please upload an image by using Drag & Drop or choose one from the file browser, characterising the challenge. ';
+	$form['field_challenge_image']['und'][0]['#title'] = 'Image <br> <br> Please upload an image by using Drag & Drop or choose one from the file browser, characterising the challenge. ';
+    //$form['field_attachements']['und']['#file_upload_title'] = 'Attachments <br> <br> You can upload files with further information about the idea.';
+	$form['field_attachements']['und'][0]['#title'] = 'Attachments <br> <br> You can upload files with further information about the idea.';
       $path = drupal_get_path('module', 'ideal_challenge');
       
     //changing value of submit 
