@@ -60,71 +60,75 @@
  */
 ?> 
 <?php
-//Color Class Definition for Comment tags
-$color_class='';
-if(isset($content['field_comment_tags_idea'])){
-	switch ($content['field_comment_tags_idea']['#items'][0]['tid']) {
-		case 153:
-			$color_class=' comment-agreement';
-			break;
-		case 155:
-			$color_class=' comment-criticism';
-			break;
-		case 154:
-			$color_class=' comment-extension';
-			break;
-		case 156:
-			$color_class=' comment-other';
-			break;	
+//Check if Comment should be visible, see taxonomy_role_filter.module 
+if (!isset($visible) || $visible): 
+
+	//Color Class Definition for Comment tags
+	$color_class='';
+	if(isset($content['field_comment_tags_idea'])){
+		switch ($content['field_comment_tags_idea']['#items'][0]['tid']) {
+			case 153:
+				$color_class=' comment-agreement';
+				break;
+			case 155:
+				$color_class=' comment-criticism';
+				break;
+			case 154:
+				$color_class=' comment-extension';
+				break;
+			case 156:
+				$color_class=' comment-other';
+				break;	
+		}
 	}
-}
-if(isset($content['field_comment_tags'])){
-	switch ($content['field_comment_tags']['#items'][0]['tid']) {
-		case 153:
-			$color_class=' comment-agreement';
-			break;
-		case 155:
-			$color_class=' comment-criticism';
-			break;
-		case 154:
-			$color_class=' comment-extension';
-			break;
-		case 156:
-			$color_class=' comment-other';
-			break;	
+	if(isset($content['field_comment_tags'])){
+		switch ($content['field_comment_tags']['#items'][0]['tid']) {
+			case 153:
+				$color_class=' comment-agreement';
+				break;
+			case 155:
+				$color_class=' comment-criticism';
+				break;
+			case 154:
+				$color_class=' comment-extension';
+				break;
+			case 156:
+				$color_class=' comment-other';
+				break;	
+		}
 	}
-}
-	
-	$tmp_comment_body=render($content['comment_body']);
-	$pos=strpos($tmp_comment_body, '>', 0);
-	$comment_body=substr_replace($tmp_comment_body, $color_class, $pos-1, 0);
+		
+		$tmp_comment_body=render($content['comment_body']);
+		$pos=strpos($tmp_comment_body, '>', 0);
+		$comment_body=substr_replace($tmp_comment_body, $color_class, $pos-1, 0);
 
- ?>
-<div class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+	 ?>
+	<div class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
-  <?php print $picture ?>
+	  <?php print $picture ?>
 
-   <?php print $author; ?>
+	   <?php print $author; ?>
 
-  <div class="content"<?php print $content_attributes; ?>>
-    <div class="submitted">
-      <?php print $comment_body; print $submitted; ?>
-    </div>   
-     <?php
-      // We hide the comments and links now so that we can render them later.
-	 
-      hide($content['links']);
+	  <div class="content"<?php print $content_attributes; ?>>
+	    <div class="submitted">
+	      <?php print $comment_body; print $submitted; ?>
+	    </div>   
+	     <?php
+	      // We hide the comments and links now so that we can render them later.
+		 
+	      hide($content['links']);
+		  
+	      print render($content); 
+	    ?>
+	      
+	    <?php if ($signature): ?>
+	    <div class="user-signature clearfix">
+	      <?php print $signature ?>
+	    </div>
+	    <?php endif; ?>
+	    <?php print render($content['links']) ?>
+	  </div>
 	  
-      print render($content); 
-    ?>
-      
-    <?php if ($signature): ?>
-    <div class="user-signature clearfix">
-      <?php print $signature ?>
-    </div>
-    <?php endif; ?>
-    <?php print render($content['links']) ?>
-  </div>
-  
 
-</div>
+	</div>
+<?php endif; ?>
