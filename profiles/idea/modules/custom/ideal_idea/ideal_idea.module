@@ -160,7 +160,7 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
               $child[]=clone $temp_child;
               $tagged_nodes[]=clone $node;
              }
-          }
+            }
           }
           
         }
@@ -235,11 +235,10 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
       
     } 
 
-  }
-  
-  
+  } 
 
 }
+
 
 /**
  * Implements hook_theme().
@@ -328,20 +327,22 @@ if($node->type=='idea'){
     }
   }
   $nids=array_unique($nids);
-  $node->field_related_ideas['und']=array();
+  if (!empty($nids)){
+    $node->field_related_ideas['und']=array();
+  }
   foreach($nids as $nid){
     $target=array( 'target_id' => $nid);
     $node->field_related_ideas['und'][]=$target;
   }
 }
 if($node->type=='challenge'){
-  $node->field_related_challenges['und']=array();
+  if (!empty($node->tableselect_challenge)){
+    $node->field_related_challenges['und']=array();
+  }
   foreach ($node->tableselect_challenge as $nid) {
     $target=array('target_id' => $nid);
     $node->field_related_challenges['und'][]=$target;
   }
-
-  
 }  
 
 }
