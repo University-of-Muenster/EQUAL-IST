@@ -188,6 +188,23 @@ function template_preprocess_challenge_node_form(&$variables) {
 }
 
 /**
+  * Implements hook_node_presave() 
+  * Assign $node->tableselect_challenge  to $node->field_related_challenges
+  */
+function ideal_challenge_node_presave($node) {
+  if($node->type=='challenge'){
+    if (!empty($node->tableselect_challenge)){
+      $node->field_related_challenges['und']=array();
+    }
+    foreach ($node->tableselect_challenge as $nid) {
+      $target=array('target_id' => $nid);
+      $node->field_related_challenges['und'][]=$target;
+    }
+  }  
+}
+
+
+/**
 * NEXT FUNCTIONS contain Open Ideal blocks that are not used anymore by Crowdequality !
 *
 */

@@ -335,15 +335,6 @@ if($node->type=='idea'){
     $node->field_related_ideas['und'][]=$target;
   }
 }
-if($node->type=='challenge'){
-  if (!empty($node->tableselect_challenge)){
-    $node->field_related_challenges['und']=array();
-  }
-  foreach ($node->tableselect_challenge as $nid) {
-    $target=array('target_id' => $nid);
-    $node->field_related_challenges['und'][]=$target;
-  }
-}  
 
 }
 /**
