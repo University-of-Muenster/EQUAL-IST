@@ -1815,6 +1815,9 @@ a.button-inverse {
 .contextual-links-region.panel-pane.pane-block.pane-block-37 p{
 	font-size: 20px;
 }
+.panel-pane.pane-block.pane-block-37 p{
+	font-size: 20px; 
+}
 
 /* buttons */
 .btn-success, input[type="button"], input[type="submit"], input[type="reset"] {
