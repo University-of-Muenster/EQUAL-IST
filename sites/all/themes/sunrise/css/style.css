@@ -4298,17 +4298,17 @@ div.view-empty {
 
 .view-my-commented-ideas div.view-empty {
     margin: 0 auto;
-    width: 35%;
+    width: 50%;
 }
 
 .view-user-ideas div.view-empty {
     margin: 0 auto;
-    width: 35%;
+    width: 50%;
 }
 
 .view-my-voted-ideas div.view-empty {
     margin: 0 auto;
-    width: 35%;
+    width: 50%;
 }
 
 .view-goals-completed-by-user div.view-empty {
