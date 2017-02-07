@@ -57,6 +57,7 @@ function ideal_comments_form_comment_form_alter(&$form, &$form_state, $form_id) 
     unset($form['author']['_author']['#title']);
     $form['actions']['submit']['#value'] = t('Post comment');
     $form['actions']['submit']['#attributes']['class'][] = 'btn btn-success';
+    dsm($form);
     $form['comment_body']['und']['0']['value']['#attributes']['placeholder'] = t('Add comment');
     $image = theme('user_picture', array('account' => $user));
     $form['author']['_author']['#markup'] = $image . $form['author']['_author']['#markup'];
