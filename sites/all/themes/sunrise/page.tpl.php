@@ -394,8 +394,8 @@
                     <div class="subfooter-area">                  
                     <p> 
                     ©2016 EQUAL-IST All rights reserved.<br>
-                    <a href="/node/82">Terms and Conditions</a> <br>
-					<a href="/node/83"> House Rules </a>
+                    <a href="/termsandconditions">Terms and Conditions</a> <br>
+					<a href="/houserules"> House Rules </a>
                     </p>
                     </div>
                     <!-- EOF: #subfooter-left -->
