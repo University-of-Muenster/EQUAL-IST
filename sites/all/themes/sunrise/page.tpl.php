@@ -358,7 +358,7 @@
 <div class="col-md-3">
 <div class="region region-footer-fourth">
 
-<div id="block-block-20" class="block block-block clearfix">
+<div id="block-block-21" class="block block-block clearfix">
 <h2>Partners</h2>
     
 <div class="content">
