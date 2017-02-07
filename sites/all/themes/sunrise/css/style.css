@@ -4506,11 +4506,6 @@ margin-right: 5%;
     margin-top: 0px;
 }
 
-/*Ausblenden des fünten List Elements (für später)*/
-/*.tabs.primary > li:nth-child(5){
-    display: none;
-}*/
-
 
 /*Upload Buttons*/
 #edit-field-challenge-image-und-0-ajax-wrapper input{
