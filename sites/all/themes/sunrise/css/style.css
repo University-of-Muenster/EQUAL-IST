@@ -2457,8 +2457,12 @@ a.btn-success{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 10px;
-	
 }
+
+#panel-bootstrap-region-sidebar .messages.warning {
+	margin-top: 20px;
+}
+
 .pane-node-field-status .pane-content {
 	display: inline-block;
 }
