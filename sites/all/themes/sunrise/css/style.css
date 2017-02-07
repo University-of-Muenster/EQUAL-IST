@@ -3929,7 +3929,7 @@ a.dialog-okay:hover {
     line-height: 1.5;
 }
 
-h1.pane-block-24 {
+.pane-block-24 .pane-content h1{
     font-size: 50px;
     font-weight: 100;
     margin: 50px auto 50px;
