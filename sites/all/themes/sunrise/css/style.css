@@ -1435,6 +1435,23 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
     display:none;
 }
 
+/* edit user profile */
+.form-item.form-type-checkbox.form-item-picture-delete .description {
+    margin-left: 0px;
+}
+
+#edit-picture .user-picture {
+    margin-left: 0px;
+}
+
+#edit-pass-pass2 {
+    margin-bottom: 0px;
+}
+
+#edit-field-name {
+    margin-top: 0px;
+}
+
 /* challenges */
 .views-field-field-challenge-image img {
     float:left; 
@@ -4490,23 +4507,6 @@ margin-right: 5%;
 /* top users heading */
 .panel-pane.pane-block.pane-block-30 p{
     font-size: 20px;
-}
-
-/* edit user profile */
-.form-item.form-type-checkbox.form-item-picture-delete .description {
-    margin-left: 0px;
-}
-
-#edit-picture .user-picture {
-    margin-left: 0px;
-}
-
-#edit-pass-pass2 {
-    margin-bottom: 0px;
-}
-
-#edit-field-name {
-    margin-top: 0px;
 }
 
 
