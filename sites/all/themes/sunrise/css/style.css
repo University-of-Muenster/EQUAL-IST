@@ -3929,8 +3929,12 @@ a.dialog-okay:hover {
     line-height: 1.5;
 }
 
-.pane-block-24 > div:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) {
-    font-weight: bold;
+h1.pane-block-24 {
+    font-size: 50px;
+    font-weight: 100;
+    margin: 50px auto 50px;
+    color: #868686;
+}
 }
 
 #Project_Funding {
