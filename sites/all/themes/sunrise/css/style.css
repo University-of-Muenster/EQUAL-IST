@@ -2081,6 +2081,11 @@ a.btn-success{
 	margin:0;
 	margin-top:10px;
 }
+
+.challenge-add-idea-button .btn-margin-fix {
+	margin-top: 20px;
+}
+
 /* taxonomy_role_filter module */
 
 .taxonomy_role_filter_active, a.taxonomy_role_filter_deactive:hover {
