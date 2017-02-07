@@ -4541,3 +4541,7 @@ margin-right: 5%;
 #panels-ipe-paneid-24 {
     margin-bottom: 20px;
 }
+
+.image-widget-data.file-icon {
+    display: none;
+}
