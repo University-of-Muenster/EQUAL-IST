@@ -10,7 +10,7 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
     //Important for Phase module
     $node = $form_state['node'];
     if (!isset($node->nid) || isset($node->is_new)) {
-      $form['field_active']["$lang"]['#default_value']=1;
+      $form['field_active'][$lang]['#default_value']=1;
     }
 
     $path = drupal_get_path('module', 'ideal_idea');
@@ -22,8 +22,8 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
 
 	
 	
-    $form['body']["$lang"][0]['#attributes']['placeholder'] = $form['body']["$lang"][0]['#title'];
-    $form['field_category']["$lang"]['#options']['_none'] = $form['field_category']["$lang"]['#title'];
+    $form['body'][$lang][0]['#attributes']['placeholder'] = $form['body']["$lang"][0]['#title'];
+    $form['field_category'][$lang]['#options']['_none'] = $form['field_category']["$lang"]['#title'];
 
     //change submit button
     $form['actions']['submit']['#value'] = ('Submit your Idea');
@@ -42,13 +42,13 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
     );
     //upload fields text
     //for images
-    $form['field_idea_image']["$lang"]['#file_upload_title'] = '';
-    $form['field_idea_image']["$lang"][0]['#title'] = 'Image <br> <br> Please upload an image by using Drag & Drop or choose one from the file browser, characterising the idea. ';
-    $form['field_idea_image']["$lang"]['#file_upload_description'] = '';
+    $form['field_idea_image'][$lang]['#file_upload_title'] = '';
+    $form['field_idea_image'][$lang][0]['#title'] = 'Image <br> <br> Please upload an image by using Drag & Drop or choose one from the file browser, characterising the idea. ';
+    $form['field_idea_image'][$lang]['#file_upload_description'] = '';
     //for documents
-    $form['field_attachments']["$lang"]['#file_upload_title'] = '';
-    $form['field_attachments']["$lang"][0]['#title'] = 'Attachments <br> <br> You can upload files with further information about the idea.';
-    $form['field_attachments']["$lang"]['#file_upload_description'] = '';
+    $form['field_attachments'][$lang]['#file_upload_title'] = '';
+    $form['field_attachments'][$lang"][0]['#title'] = 'Attachments <br> <br> You can upload files with further information about the idea.';
+    $form['field_attachments'][$lang]['#file_upload_description'] = '';
     
     
     //BEGIN
@@ -70,7 +70,7 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
 
     foreach ($nodes as $node) {
       if($node->nid != $current_nid){
-        $challenge=node_load($node->field_challenge_ref["$lang"][0]['target_id']);
+        $challenge=node_load($node->field_challenge_ref[$lang][0]['target_id']);
         $challenge_options[$node->nid] = array(
           'challenge' => array(
             'data' => array(
@@ -231,7 +231,7 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
       'data' => drupal_get_path('theme',$GLOBALS['theme']).'/js/equal-ist-idea-form.js',
       );
     //Get the Data from field field_related_ideas and print them in challenge_nodes and tag_nodes
-    foreach ($form['field_related_ideas']["$lang"]['#default_value'] as $value) {
+    foreach ($form['field_related_ideas'][$lang]['#default_value'] as $value) {
 
       $form['challenge_nodes']['#default_value'][$value]=$value;
       foreach ($index_translate[$value] as $string_id) {
@@ -335,11 +335,11 @@ if($node->type=='idea'){
   }
   $nids=array_unique($nids);
   if (!empty($nids)){
-    $node->field_related_ideas["$lang"]=array();
+    $node->field_related_ideas[$lang]=array();
   }
   foreach($nids as $nid){
     $target=array( 'target_id' => $nid);
-    $node->field_related_ideas["$lang"][]=$target;
+    $node->field_related_ideas[$lang][]=$target;
   }
 }
 
