@@ -9,7 +9,7 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 * { transition: all 0.3s ease-out; } 
 
-/*Undisplay the "Disable richt-text" option on the add/edit pages*/
+/*Undisplay the "Disable rich-text" option on the add/edit pages*/
 .wysiwyg-toggle-wrapper{
     display: none; 
 }
@@ -18,11 +18,11 @@ body { color: #666666; font-family: 'Open Sans', sans-serif; font-size: 14px; li
 
 p { margin: 0 0 0; padding: 0; }
 
-/**Entfernung der Blöcke von About unten */
+/*Deletion of blocks on About bottom */
 
 #node-63 ul.links.inline { display:none; }
 
-/** Entfernung der Add Idea Teil 2 */
+/*Deletion of Add Idea*/
 
 a, a:visited { color: rgba(158,9,93,1.0); text-decoration: none; }
 
@@ -135,8 +135,6 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 
 .html { overflow-x:hidden; }
 
-/*.front #header-banner-wrapper { height:100vh; min-height: 600px; }*/
-
 #header-banner-wrapper { background: #333; background-image: url(../images/local/sunrise_background1.jpg); background-attachment: fixed; background-size: cover; min-height: 50px;max-height: 160px; -webkit-background-size: cover; /* For WebKit*/ -moz-background-size: cover; /* Mozilla*/ -o-background-size: cover; /* Opera*/ background-size: cover; /* Generic*/ }
 
 #header-banner-wrapper .slogan { background: url(../images/local/bg_slogan.png) top left repeat; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; color: #fff; padding: 30px; margin: 0 auto; text-align: center; margin: 11% auto 11%; }
@@ -151,7 +149,7 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 }
 
 
-/* promoted-insied */
+/* promoted-inside */
 
 
 <?php if (is_landing_page()):?>
@@ -532,7 +530,7 @@ ul.menu li.expanded ul { padding-left: 25px; border-top: 1px dashed #ddd; margin
 
 .sf-menu.sf-horizontal.sf-shadow ul { background: #ffffff; padding: inherit!important; -webkit-border-top-right-radius: 0; -webkit-border-bottom-left-radius: 0; -moz-border-radius-topright: 0; -moz-border-radius-bottomleft: 0; border-top-right-radius: 0; border-bottom-left-radius: 0; }
 
-/* Logo - Site name*/
+/* Logo - site name*/
 
 a img { border: 0px none; }
 
@@ -596,12 +594,8 @@ a img { border: 0px none; }
 .comment .new { margin: 10px 0; display: inline-block; }
 
 /* Taxonomy term reference */
-/* Voting Bug Fix
-.field-type-taxonomy-term-reference { position: relative; } 
-*/
+/* Voting Bug Fix */
 .field-type-taxonomy-term-reference .field-label { font-weight: 400; }
-
-/*.field-type-taxonomy-term-reference .field-label, .field-type-taxonomy-term-reference .field-items { display: inline-block; }*/
 
 .field-type-taxonomy-term-reference .field-item { margin: 0; display:inline;}
 
@@ -720,15 +714,6 @@ ul.links li { margin: 0; display: inherit; }
 .dark .small { color: #999; font-size: 13px; }
 
 #block-user-login { padding: 0px 0 25px; margin: 0 0 20px 0; }
-
-/* tags cloud */
-/*
-.tag { display: inline-block; }
-
-.tag a { background-color: #444; color: #fff; font-size: 12px; line-height: 1em; padding: 8px; margin: 3px 0; zoom: 1; z-index: 0;
--webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; position: relative; display: block; }
-
-.tag a:hover { color: #fff; text-decoration: none; } */
 
 /* Drupal status messages */
 
@@ -1100,17 +1085,17 @@ ul#portfolio-items-one-fourth li {  width:162px;min-height:300px; height:300px !
 
 ul#portfolio-items-one-fourth li .portfolio-item{ float:left; background:#f8f9f9;width:162px;height:auto;padding:0;}
 
-ul#portfolio-items-one-fourth li .item-content{ /*background:#615951;*/ float:left; width:162px; text-align:center; padding:0px 0 15px 0;height:auto; }
+ul#portfolio-items-one-fourth li .item-content{ float:left; width:162px; text-align:center; padding:0px 0 15px 0;height:auto; }
 
 #portfolio-items-one-fourth .description{padding-top:15px; }
 
 ul#portfolio-items-one-fourth li .item-content:hover{ background:#9dcedf;}
 
-ul#portfolio-items-one-fourth li .item-content p{margin:0;padding:0;font-weight:800; /*color:#FFF;*/} 
+ul#portfolio-items-one-fourth li .item-content p{margin:0;padding:0;font-weight:800;} 
 
-ul#portfolio-items-one-fourth li .item-content p a{margin:0;padding:0;font-weight:800; /*color:#FFF;*/} 
+ul#portfolio-items-one-fourth li .item-content p a{margin:0;padding:0;font-weight:800;} 
 
-ul#portfolio-items-one-fourth li .item-content span{font-style:italic; /*color:#FFF;*/} 
+ul#portfolio-items-one-fourth li .item-content span{font-style:italic;} 
 
 ul#portfolio-items-one-fourth li img{ width:100%;height:auto;padding:0;margin:0; }
 
@@ -1120,7 +1105,7 @@ ul#portfolio-items-one-third li {  width:236px;height:207px!important;}
 
 ul#portfolio-items-one-third li .portfolio-item{ float:left; background:#f8f9f9;width:236px;height:auto;padding:0!important;}
 
-ul#portfolio-items-one-third li .item-content{ /*background:#615951;*/ float:left; width:236px; text-align:center; padding:0px 0 15px 0; height:auto; }
+ul#portfolio-items-one-third li .item-content{float:left; width:236px; text-align:center; padding:0px 0 15px 0; height:auto; }
 
 #portfolio-items-one-third  .description{padding-top:15px; }
 
@@ -1179,17 +1164,17 @@ ul#portfolio-items-one-fourth li { width: 220px; margin: 0 20px 20px 0; float: l
 
 ul#portfolio-items-one-fourth li .portfolio-item { background: #f8f9f9; width: 220px; height: auto; padding: 0; }
 
-ul#portfolio-items-one-fourth li .item-content { /*background: #615951;*/ float: left; width: 220px; text-align: center; padding: 0px 0 15px 0; height: auto; }
+ul#portfolio-items-one-fourth li .item-content { float: left; width: 220px; text-align: center; padding: 0px 0 15px 0; height: auto; }
 
 #portfolio-items-one-fourth .description { padding-top: 15px; font-size: 12px; } 
 
 ul#portfolio-items-one-fourth li .item-content:hover { background: #9dcedf; }
 
-ul#portfolio-items-one-fourth li .item-content p { margin: 0; padding: 0; font-weight: 800; /*color: #FFF;*/ }
+ul#portfolio-items-one-fourth li .item-content p { margin: 0; padding: 0; font-weight: 800;}
 
-ul#portfolio-items-one-fourth li .item-content p a { margin: 0; padding: 0; font-weight: 800; /*color: #FFF;*/ }
+ul#portfolio-items-one-fourth li .item-content p a { margin: 0; padding: 0; font-weight: 800;}
 
-ul#portfolio-items-one-fourth li .item-content span { font-style: italic; /*color: #FFF;*/ }
+ul#portfolio-items-one-fourth li .item-content span { font-style: italic;}
 
 ul#portfolio-items-one-fourth li img { width: 100%; height: auto; padding: 0; margin: 0; }
 
@@ -1199,7 +1184,7 @@ ul#portfolio-items-one-third li { width: 300px; min-height: 310px; }
 
 ul#portfolio-items-one-third li .portfolio-item { float: left; background: #f8f9f9; width: 300px; height: auto; padding: 0; }
 
-ul#portfolio-items-one-third li .item-content { /*background: #615951;*/ float: left; width: 300px; text-align: center; padding: 0px 0 15px 0; height: auto; }
+ul#portfolio-items-one-third li .item-content {float: left; width: 300px; text-align: center; padding: 0px 0 15px 0; height: auto; }
 
 #portfolio-items-one-third  .description { padding-top: 15px; }
 
@@ -1233,7 +1218,7 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 
 .filterable li { float: left; margin-left: 25px; list-style: none;  }
 
-.filterable li a { display: block;  /*color: #FFF;*/ font: bold 11px arial; text-decoration: none;  text-align: center; width: 100%; height: auto; padding: 5px 5px; margin: 5px; /*background: #615951;*/
+.filterable li a { display: block; font: bold 11px arial; text-decoration: none;  text-align: center; width: 100%; height: auto; padding: 5px 5px; margin: 5px; /*background: #615951;*/
 -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
 
 .filterable li.active a { color: #FFF; background: #9dcedf; }
@@ -1246,9 +1231,7 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 }
 
 .smoothScroll
-
 {
-
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1268,12 +1251,12 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 {
     width: 80%;
 }
-/*user profile personal details */
+/* user profile personal details */
 .fieldset-legend{
     display: none;
 }
 
-/*user profile goals */
+/* user profile goals */
 .contextual-links-region.panel-pane.pane-block.pane-views-goals-completed-by-user-block {
 	text-align: center;
 	margin-left: auto;
@@ -1290,7 +1273,7 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 }
 
 
-/*Challenges*/
+/* challenges */
 .views-field-field-challenge-image img {
     float:left; 
     margin-right: 20px;
@@ -1351,27 +1334,11 @@ ul.pager li a, ul.pager li.pager-current{
     color: rgba(158,0,93,1.0);
 }
 
-/*.node-column-main .collapsible.form-wrapper.collapse-processed .fieldset-legend .fieldset-title{
-	display: block;
-    font-weight: bold;
-    padding: 5px 0px 0px 0px;
-    color: #666666;
-    margin-bottom: 2px;
-    font-size: 14px;
-}*/
-
-
- /* Detailed Challenge page */
+ /* detailed challenge page */
 
 ul.pager li.active a, ul.pager li.pager-current{
     background-color: rgba(158,0,93,1.0);
     color: white;}
-	
-
-/** Einrückung auf der Idea Overview Reiter Most commented ideas
-div.views-row-even {
-	float: left; 
-}*/
 
 .views_slideshow_controls_text_ideas_in_challenge-block {
 	align-content: center;
@@ -1380,8 +1347,6 @@ div.views-row-even {
 .views_slideshow_cycle_div_ideas_in_challenge-block_1 {
 	margin-bottom: 20px; 
 }
-
-
 
 #views_slideshow_cycle_teaser_section_ideas_in_challenge-block {
     height: 260px;
@@ -1416,23 +1381,21 @@ div.views-row-even {
 .challenge-add-comment a{
 	margin:0;
 }
-/* Add Attachment File to Drupal/Modules/File/icons/text-plain.png*/
+/* add attachment file to Drupal/Modules/File/icons/text-plain.png*/
 
 .field-item-even img{
     width: 100px;
     height: 100px;
 }
 
-.field-item img {
-    /*height:50px;
-    width: 50px;*/
+.field-item img{
     padding-bottom: 10px;
     padding-top: 10px;
     padding-right: 30px;
     max-width: 100%;
 }
 
-/*Slideshow detailed Challenges */
+/* slideshow detailed challenges */
 
 .views_slideshow_cycle_teaser_section_ideas_in_challenge-block {
 	width: 276px;
@@ -1442,9 +1405,7 @@ div.views-row-even {
 	margin-bottom: 40px;
 }
 
-
-
-/* Add Idea Button*/
+/* add idea button*/
 .challenge-add-idea-button a{
 	background-color: rgba(158,0,93,1.0);
     border-color:rgba(158,0,93,1.0); 
@@ -1472,7 +1433,7 @@ div.views-row-even {
 	margin-left: auto;
     margin-right: auto;
 }
-/* Navigation Bar Top*/
+/* navigation bar top */
 
 ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93,1.0);  } ul.primary li.active a { border-bottom: 1px solid #fff; }
 
@@ -1481,8 +1442,7 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
     background-color: rgba(158,0,93,1.0); 
 }
 
-
-/*Challenge Desciption*/
+/* challenge desciption */
 
 .panels-bootstrap-row-inner_page-main-row
 {
@@ -1502,27 +1462,13 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
     color: white;
         
 }
-/*Tags for related challenge categories*/
+/* tags for related challenge categories */
+
 .form-item.form-type-textfield.form-item-field-tags-for-related-challenge-und-1-tid.shs-wrapper-processed{
     display:none;
 }
-/*Post Comment Button
 
-.form-wrapper input {
-	background-color: rgba(158,0,93,1.0);
-    border-color:rgba(158,0,93,1.0); 
-    color:white;
-    
-}
-
-.form-wrapper input:hover {
-	color: #333;
-    background-color: white;
-    border-color: rgba(158,0,93,1.0); 
-}
-*/
-
-/*Feedback-Button*/
+/* feedback button */
 
 .feedback-link {
     text-align: center;
@@ -1559,7 +1505,7 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
 }
 
 
-/*Block Start Page*/
+/* block start page */
 
 .info-header {
     text-align: center;
@@ -1612,13 +1558,12 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
     text-align: center;
 }
 
-/*Participate now Button*/
+/* participate now button*/
 
 body {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  /*font: 400 1.4rem 'Lato', Verdana, Helvetica, sans-serif;*/
 }
 
 * {
@@ -1699,7 +1644,8 @@ a.button-inverse {
   transition: all 0.3s ease-in-out;
 }
 
-/* Idea page: Categorisierung von Ideas*/
+/* idea page: categorisation of ideas */
+
 #quicktabs-tab-ideas_by_category-0 {
     text-align: center;
     margin-bottom: 50px;
@@ -1851,17 +1797,18 @@ a.button-inverse {
     margin-left: 30%;
     margin-bottom: 20%;
 }
-/*Infotext Idea overview*/
+/* information idea overview */
+
 .contextual-links-region.panel-pane.pane-block.pane-block-40 p{
 	font-size: 20px;
 }
 
-/*Infotext Challenge overview*/
+/* information challenge overview */
 .contextual-links-region.panel-pane.pane-block.pane-block-37 p{
 	font-size: 20px;
 }
 
-/* Buttons */
+/* buttons */
 .btn-success, input[type="button"], input[type="submit"], input[type="reset"] {
 	cursor: pointer;
 	margin: 0 auto;
@@ -1883,7 +1830,8 @@ a.button-inverse {
 a.btn-success{
 	color:#fff;
 }
-/*Buttons on create challenge/idea page*/
+/* buttons on create challenge/idea page */
+
 #edit-field-links-external-und-add-more--2, #edit-field-categories-subcategories-und-add-more, 
 #edit-field-tags-for-related-challenge-und-add-more, #edit-field-external-links-und-add-more{
 	cursor: pointer;
@@ -1947,9 +1895,8 @@ a.btn-success{
 	margin:0;
 	margin-top:10px;
 }
-/*-----------------------------------------------
-           taxonomy_role_filter module
------------------------------------------------*/
+/* taxonomy_role_filter module */
+
 .taxonomy_role_filter_active, a.taxonomy_role_filter_deactive:hover {
 
 	display:block;
@@ -1992,7 +1939,8 @@ a.btn-success{
 	display:none;
 }
 
-/*ideas*/
+/* ideas */
+
 .views-field-field-idea-image img {
     float:left; 
     width: 256px;
@@ -2076,9 +2024,8 @@ a.btn-success{
 }
 
 
-/* Vote up / down module
-*  and node:Ideas right side
-**/
+/* vote up / down module
+*  and node: ideas right side */
 
 .vud-widget-alternate  a {
 	color: #fff;
@@ -2099,7 +2046,6 @@ a.btn-success{
 	display:block;
 	width: 100%;
 	background-image: linear-gradient(to right, rgba(240,78,35,1.0), rgba(158,0,93,1.0));
-	/*background-color:rgba(158,0,93,1.0);*/
 	color: #fff;
 	border: 1px solid rgba(158,0,93,1.0);	
     -webkit-border-radius: 3px;
@@ -2114,7 +2060,6 @@ a.btn-success{
 	font: 700 2rem 'Lato', Verdana, Helvetica, sans-serif;
 	color:rgba(158,0,93,1.0);
 	padding:5px 30px;
-	/*margin:5px;*/
     margin-top: 3px;
     background-color:#fff;
 	border: 1px solid rgba(158,0,93,1.0);	
@@ -2154,7 +2099,7 @@ a.btn-success{
 	background-repeat: no-repeat;
 	background-position: right;
 }
-/* If new content Region is added on Idea or Challenge Page, it should be added here */
+/* if a new content Region is added on Idea or Challenge Page, it should be added here */
 #panel-bootstrap-region-center, #panel-bootstrap-region-content_bottom {
 	margin-right: 20px;
 }
@@ -2166,25 +2111,22 @@ a.btn-success{
 	margin:0;
 	margin-top: 20px;
 }
-/* Sidebar Vote */
+/* sidebar vote */
 .Sidebar .vud-widget-alternate {
 	float: none;
 	display:block;
 	width: 100%;
 }
 
-/* Challenge Seite Detail */
-.field-name-field-challenge-image {float:left;
+/* challenge page detailed */
+.field-name-field-challenge-image {
+	float:left;
 	margin-right: 20px;
 	margin-bottom: 10px;
     min-width: 100%;
-	/*width:256px;
-	height:256px;*/}
+}
 .Sidebar .vud-widget-alternate .alternate-votes-display {
-	
 	font: 700 2rem 'Lato', Verdana, Helvetica, sans-serif;
-
-
 }
 .Sidebar .vud-widget-alternate .up-inactive {
 	background-size: 45px 45px;
@@ -2202,19 +2144,20 @@ a.btn-success{
 .Sidebar .vud-widget-alternate .up-inactive:hover {
 	background-size: 45px 45px;
 }
-/* Idea / Challenge Vote */
+/* idea / challenge vote */
 .Sidebar .vud-widget-alternate {
 	clear:both;
 }
 /* Small Like Widget 
 
    line    view
-   1st     All Ideas View
-   2nd     Ideas belonging to Challenge (show all belonging ideas)
-   3rd     All Challenges View
-   4th     User Profil Content
-   5th     Comment 
+   1st     all ideas view
+   2nd     ideas belonging to challenge (show all belonging ideas)
+   3rd     all challenges View
+   4th     user profile content
+   5th     comment 
 */
+
 .view-ideas-all .vud-widget-alternate::before, 
 .view-ideas-belonging-to-challenge .vud-widget-alternate::before, 
 .view-challenges-list .vud-widget-alternate::before,
@@ -2222,7 +2165,6 @@ a.btn-success{
 .comment .vud-widget-alternate::before{
 	display: inline-block;
     content: "Likes: ";
-
 	padding-left:10px;
 	width:auto;
 
@@ -2274,7 +2216,7 @@ a.btn-success{
 	display:none;
 }
 
-/* Voting Phase Vote widget */
+/* voting phase vote widget */
 .rate-widget {
  	display:inline-block;
  	height: 100%;
@@ -2292,14 +2234,6 @@ a.btn-success{
     content: " ";
 }
 
-
-/*
-.rate-widget:before {
-	display: inline-block;
-    content: "Votes: ";
-
-	padding-left:10px;
-}*/
 .rate-number-up-down-btn-up, .rate-number-up-down-btn-up.rate-voted:hover {
 	float:right;
 	background:url('../images/icons/Material_Icons_e8dc(1)_64.png');
@@ -2345,7 +2279,7 @@ a.btn-success{
 	display: inline-block;
 	color:white;
 }
-/* Small widget */
+/* small widget */
 .vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up,
 .vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up.rate-voted:hover,
 .vud-widget-alternate.vud-widget-small .rate-number-up-down-btn-up.rate-voted,
@@ -2374,7 +2308,6 @@ a.btn-success{
 	float: right;
 	width: auto;
 	background-image: linear-gradient(to right, rgba(240,78,35,1.0), rgba(158,0,93,1.0));
-	/*background-color:rgba(158,0,93,1.0);*/
 	color: #fff;
 	border: 1px solid rgba(158,0,93,1.0);	
     -webkit-border-radius: 3px;
@@ -2403,10 +2336,10 @@ a.btn-success{
 
 }
 
-/*  Vote Ende */
+/*  vote end */
 
 
-/* Ideal Stats */
+/* ideal stats */
 .ideal-challenge-stats-views-icon {
 	width: 64px;
 	height: 64px;
@@ -2498,7 +2431,8 @@ a.btn-success{
 	margin-left: 10px;
 
 }
-/* Sidebar Idea and Challenge */
+/* sidebar idea and challenge */
+
 .pane-node-field-status {
 	border: 1px solid rgba(158,0,93,1.0);	
 	background-color: #fff;
@@ -2740,7 +2674,8 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 	margin-top:0px;
 
 }
-/* Idea Attachments */
+/* idea attachments */
+
 .pane-node-field-attachments {
 	border: 1px solid rgba(158,0,93,1.0);	
     -webkit-border-radius: 3px;
@@ -2767,7 +2702,8 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 	background: none;
 
 }
-/* Challenge Attachments */
+/* challenge attachments */
+
 .pane-node-field-attachements {
 	border: 1px solid rgba(158,0,93,1.0);	
     -webkit-border-radius: 3px;
@@ -2796,7 +2732,8 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 
 }
 
-/* Comments */
+/* comments */
+
 .comment {
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 3px;
@@ -2816,6 +2753,7 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 }
 
 /* no reply */
+
 .comment ul.inline  li.comment-reply{
 	display:none;
 }
@@ -2841,7 +2779,7 @@ div #content-wrapper .collapsible.form-wrapper{
 	float:bottom;
 }
 
-/*user profil*/
+/* user profile */
 .field-label {
 	font-size: 17px;
 }
@@ -2881,7 +2819,7 @@ div #content-wrapper .collapsible.form-wrapper{
 }
 
 
-/* Adaptation of the comment textfield*/
+/* adaptation of the comment textfield*/
 
 #mceu_15 {
 	visibility: hidden;
@@ -2902,70 +2840,65 @@ div #content-wrapper .collapsible.form-wrapper{
 .mce-statusbar .mce-container-body{
 	visibility: hidden;
 }
-/*
-.mce-edit-area {
-	max-width: 15em;
-}*/
+
 /*tab styling*/
 
 ul.primary {
-  border-bottom: 5px solid rgba(158, 0, 93, 1.0);
-  /*border-collapse: collapse;*/
-  height: auto;
-  line-height: normal;
-  list-style: none;
-  margin: 50px;
-  padding: 0 0 0 5px; /* LTR */
-  white-space: nowrap;
+	border-bottom: 5px solid rgba(158, 0, 93, 1.0);
+	height: auto;
+	line-height: normal;
+	list-style: none;
+	margin: 50px;
+	padding: 0 0 0 5px; /* LTR */
+	white-space: nowrap;
 }
 ul.primary li {
-  display: inline;
+	display: inline;
 }
 ul.primary li a {
-  background-color: rgba(158, 0, 93, 1.0);
-  border-color: rgba(158, 0, 93, 1.0);
-  border-style: none none solid none;
-  border-width: 5px;
-  height: auto;
-  margin-right: 0.5em; /* LTR */
-  padding: 0 1em;
-  text-decoration: none;
-  color: #FFFFFF;
+	background-color: rgba(158, 0, 93, 1.0);
+	border-color: rgba(158, 0, 93, 1.0);
+	border-style: none none solid none;
+	border-width: 5px;
+	height: auto;
+	margin-right: 0.5em; /* LTR */
+	padding: 0 1em;
+	text-decoration: none;
+	color: #FFFFFF;
 }
 ul.primary li.active a {
-  background-color: #FFFFFF;
-  /*border: 1px solid rgba(158, 0, 93, 1.0);*/
-  /*border-bottom: solid rgba(240,78, 35, 1.0);*/
-  border-style: none none none none;
-  color: rgba(158, 0, 93, 1.0);
+	background-color: #FFFFFF;
+	border-style: none none none none;
+	color: rgba(158, 0, 93, 1.0);
 }
 ul.primary li a:hover {
-  background-color: #FFFFFF;
-  border-color: rgba(240,78, 35, 1.0);
-  border-bottom-color: rgba(158, 0, 93, 1.0);
-  color: rgba(158, 0, 93, 1.0);
+	background-color: #FFFFFF;
+	border-color: rgba(240,78, 35, 1.0);
+	border-bottom-color: rgba(158, 0, 93, 1.0);
+	color: rgba(158, 0, 93, 1.0);
 }
 ul.secondary {
-  border-style: none;
-  padding: 0.5em 1em;
-  margin: 2px;
-  color: rgba(240,78, 35, 1.0);
+	border-style: none;
+	padding: 0.5em 1em;
+	margin: 2px;
+	color: rgba(240,78, 35, 1.0);
 }
 ul.secondary li {
-  display: inline;
-  padding: 0 1em;
+	display: inline;
+	padding: 0 1em;
 }
 ul.secondary a {
-  padding: 0;
-  text-decoration: none;
-  color:white;
+	padding: 0;
+	text-decoration: none;
+	color:white;
 }
 ul.secondary a.active {
   border-bottom: 0px;
   color: rgba(255,255,255, 0.9);;
   
 }
-/* User registration form */
+/* user registration form */
+
 #user-register-form  label {
   font-size: 17px;
   
@@ -3001,7 +2934,8 @@ ul.secondary a.active {
 	font-size: 14px;
 }
 body.front div.messages {margin-top: -190%;}
-/*removing certain headlines on the profile page*/
+
+/* removing certain headlines on the profile page */
 
 .user-profile .group-right h3{
 	display:none;
@@ -3015,10 +2949,10 @@ body.front div.messages {margin-top: -190%;}
 	display: none;
 }
 
-/*Buttons Userseite*/
+/* buttons user profile*/
+
 #quicktabs-tab-user_ideas-0 {
     text-align: center;
-    /*margin-bottom: 50px;*/
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: rgba(158,0,93,1.0);
@@ -3039,7 +2973,6 @@ body.front div.messages {margin-top: -190%;}
     border: 1px solid rgba(158,0,93,1.0);
     display: inline-block; 
     text-align: center;
-    /*margin-bottom: 50px;*/
     padding: 1.25rem 2.5rem;
     font-weight: 300;
     -webkit-border-radius: 3px;
@@ -3052,7 +2985,6 @@ body.front div.messages {margin-top: -190%;}
 }
 #quicktabs-tab-user_ideas-1 {
     text-align: center;
-    /*margin-bottom: 50px;*/
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: rgba(158,0,93,1.0);
@@ -3073,7 +3005,6 @@ body.front div.messages {margin-top: -190%;}
     border: 1px solid rgba(158,0,93,1.0);
     display: inline-block; 
     text-align: center;
-    /*margin-bottom: 50px;*/
     padding: 1.25rem 2.5rem;
     font-weight: 300;
     -webkit-border-radius: 3px;
@@ -3086,7 +3017,6 @@ body.front div.messages {margin-top: -190%;}
 }
 #quicktabs-tab-user_ideas-2 {
     text-align: center;
-    /*margin-bottom: 50px;*/
     padding: 1.25rem 2.5rem;
     display: inline-block;
     background-color: rgba(158,0,93,1.0);
@@ -3107,7 +3037,6 @@ body.front div.messages {margin-top: -190%;}
     border: 1px solid rgba(158,0,93,1.0);
     display: inline-block; 
     text-align: center;
-    /*margin-bottom: 50px;*/
     padding: 1.25rem 2.5rem;
     font-weight: 300;
     -webkit-border-radius: 3px;
@@ -3118,14 +3047,8 @@ body.front div.messages {margin-top: -190%;}
     text-decoration: none;
     font-size: 1.75rem;
 }
-/*Hiding Wysiwig Editor from Occupation Other field
-.mceStatusbar.mceFirst.mceLast{
-    display:none;
-}
-*/
 
-
-/** Hiding the unnecessary buttons of add challenge form */
+/* hiding the unnecessary buttons of add challenge form */
 
 .filefield-source.filefield-source-reference.clear-block {
     display:none;
@@ -3150,11 +3073,13 @@ div.filefield-sources-list{
 #quicktabs-ideas_by_category .item-list ul li {
 	margin:0;
 }
-/* Bug Fix Datei auswählen */
+/* choose bug fix file */
+
 .form-managed-file .form-file {
 	width: 100%;
 }
-/*Challenge List abstand */
+/* challenge list space */
+
 .pane-views-challenges-list-block-1 .views-row {
 	margin-bottom: 100px;
 }
@@ -3165,31 +3090,25 @@ div.filefield-sources-list{
 #edit-author--2.form-item.form-type-item{
     display:none;
 }
-/** Versuch den select anonymous nach unten zu packen wahrscheinlich über das Modul machen müssen 
-#edit-anonymous-publishing.collapsible.form-wrapper{
-	weight:-500;
-} */
 
-/*Deletion Time zone and Mention notifications from user profile*/
+/* deletion time zone and mention notifications from user profile */
+
 #edit-timezone.collapsible.form-wrapper{
     display:none;
 }
-/*
-.mceFirst .mceToolbar.mceLeft.mceFirst.mceLast{
-    display:none;
-}
-*/
+
 #edit-field-mention-notifications.field-type-list-boolean.field-name-field-mention-notifications.field-widget-options-onoff.form-wrapper{
     display:none;
 }
-/*END frome time zone and mention notifications*/
 
-/* Do not display the personalized data under the comment*/ 
+/* do not display the personalized data under the comment */
+
 .field.field-name-field-personalised-data.field-type-list-text.field-label-above{
     display:none;
 }
 
-/*Changing position of the comment type select list */
+/* changing position of the comment type select list */
+
 .form-item.form-type-select-or-other.form-item-field-comment-type-und {
     margin: 0px 0px 20px 75px;
 }
@@ -3203,14 +3122,16 @@ div.filefield-sources-list{
 .field-type-list-text.field-name-field-personalised-data.field-widget-options-buttons.form-wrapper .form-item.form-type-radios.form-item-field-personalised-data-und{
     margin: 20px 0px 20px 75px;
 }
-/*for idea*/
+/* for idea */
+
 .field-type-list-boolean.field-name-field-personalized-data.field-widget-options-onoff.form-wrapper .form-item.form-type-checkbox.form-item-field-personalized-data-und{
     margin: 20px 0px 20px 75px;
 }
 .field.field-name-field-personalized-data.field-type-list-boolean.field-label-above{
     display:none;
 }
-/*for challenge*/
+/* for challenge */
+
 .field-type-list-boolean.field-name-field-personalized-data1.field-widget-options-onoff.form-wrapper .form-item.form-type-checkbox.form-item-field-personalized-data1-und{
     margin: 20px 0px 20px 75px;
 }
@@ -3232,7 +3153,7 @@ div.filefield-sources-list{
     margin: 20px 0px 20px 75px;
 }
 
-/*styling the Categories_Subcategories field add challenge*/ 
+/* styling the categories_Subcategories field add challenge*/ 
 .field-multiple-drag{
     display:none;
 }
@@ -3240,14 +3161,16 @@ div.filefield-sources-list{
 .form-item .tabledrag-toggle-weight-wrapper{ 
     display:none;
 }
-/*END therefore 574 commented*/
->>>>>>> origin/master
-/* USer Profile  user Ideas/ challenges */
+
+/* user profile  user ideas/ challenges */
+
 #quicktabs-user_ideas .views-row {
 	margin-bottom: 100px;
 }
-/* Idea Form */
-/* Related Nodes */
+
+/* idea form */
+/* related nodes */
+
 #idea-node-form .related_nodes{
 	height:auto !important; 
 	padding:10px;
@@ -3318,10 +3241,10 @@ div.filefield-sources-list{
 }
 
 
-/*extended menus add challenge and ideas
+/* extended menus add challenge and ideas
 
-Subcategories
-*/
+	subcategories */
+	
 #field-categories-subcategories-values--3 td{
     border:1px solid rgba(158,0,93,1.0);
 }
@@ -3353,7 +3276,7 @@ Subcategories
     border:1px solid rgba(158,0,93,1.0);
 }
 
-/*External Links*/
+/* external links */
 
 #field-links-external-values--3 td {
     border:1px solid rgba(158,0,93,1.0);
@@ -3387,7 +3310,7 @@ Subcategories
     border:1px solid rgba(158,0,93,1.0);
 }
 
-/*Add idea*/
+/* add idea */
 
 #field-tags-for-related-challenge-values--3 td{
     border:1px solid rgba(158,0,93,1.0);
@@ -3425,7 +3348,7 @@ Subcategories
 	display: none;
 }
 
-/*External Links*/
+/* external links */
 
 #field-external-links-values--3 td{
    border:1px solid rgba(158,0,93,1.0); 
@@ -3462,7 +3385,8 @@ Subcategories
 
 
 
-/*border for create challenge und idea*/
+/* border for create challenge und idea */
+
 #field-categories-subcategories-values.field-multiple-table.sticky-enabled.tabledrag-processed th, 
 #field-categories-subcategories-values.field-multiple-table.sticky-enabled.tabledrag-processed tr,
 #field-categories-subcategories-values.field-multiple-table.sticky-enabled.tabledrag-processed td,
@@ -3471,6 +3395,7 @@ Subcategories
 	-webkit-border-radius: 3px;
     border-radius: 3px;	
 }
+
 #field-links-external-values.field-multiple-table.sticky-enabled.tabledrag-processed th, 
 #field-links-external-values.field-multiple-table.sticky-enabled.tabledrag-processed tr,
 #field-links-external-values.field-multiple-table.sticky-enabled.tabledrag-processed td,
@@ -3479,6 +3404,7 @@ Subcategories
 	-webkit-border-radius: 3px;
     border-radius: 3px;	
 }
+
 #field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed th,
 #field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed tr,
 #field-tags-for-related-challenge-values.field-multiple-table.sticky-enabled.tabledrag-processed td,
@@ -3487,6 +3413,7 @@ Subcategories
 	-webkit-border-radius: 3px;
     border-radius: 3px;	
 }
+
 #field-external-links-values.field-multiple-table.sticky-enabled.tabledrag-processed th,
 #field-external-links-values.field-multiple-table.sticky-enabled.tabledrag-processed tr,
 #field-external-links-values.field-multiple-table.sticky-enabled.tabledrag-processed td,
@@ -3496,8 +3423,9 @@ Subcategories
     border-radius: 3px;
 }
 	
-/* Challenge Form */
-/* Related Nodes */
+/* challenge form */
+/* related nodes */
+
 #challenge-node-form .related_nodes{
 	height:auto !important; 
 	padding:10px;
@@ -3546,7 +3474,7 @@ Subcategories
 	padding: 5px;
 }
 
-/*Footer*/
+/* footer */
 .EU_Footer_inside p{
     color: white;
 }
@@ -3554,12 +3482,12 @@ Subcategories
     height: auto;
 }
 
-/* Hiding the unnecessary wysiwyg-window of the feedback-module. */
+/* hiding the unnecessary wysiwyg-window of the feedback-module */
 form.feedback-form div.form-item div.form-textarea-wrapper span.mceEditor{
 	display: none;
 }
 
-/*userprofile*/
+/* userprofile */
 div.panel-col-last:nth-child(2) {
     font-size: 25px;
 	line-height: 1.5;
@@ -3627,7 +3555,8 @@ div.panel-col-last:nth-child(2) {
     line-height: 1.5;
 }
 
-/*Description Banner Start Page*/
+/* description banner start page*/
+
 #wrap {
     position:relative; 
     width: 100%;
@@ -3640,7 +3569,6 @@ div.panel-col-last:nth-child(2) {
     margin-top: 0%;
     overflow: hidden;
 }
-
 
 #text{
     position: absolute; 
@@ -3657,7 +3585,7 @@ div.panel-col-last:nth-child(2) {
     font-family: 'Open Sans', sans-serif;
     vertical-align: baseline;
 }
-*/
+
 #text h2{
     font-size: 1vw;
     margin-right: 2%;
@@ -3679,7 +3607,8 @@ div.panel-col-last:nth-child(2) {
     color: rgba(158,9,93,1.0);
 }
 
-/* Phase Module */
+/* phase module */
+
 .pane-equal-ist-phases-equal-ist-block-phase {
 	margin-top: 19px;
 	margin-right: 10px;
@@ -3878,20 +3807,24 @@ a.dialog-okay:hover {
 	display: inline-block;
 }
 
-//*Search Form*/
+/* search form */
+
 .col-md-8 .clearfix #content-wrapper .region.region-content .search-form .container-inline.form-wrapper {
 	margin: 10px 0px 10px 0;
 	padding: 5px 0px;
 }
+
 .col-md-8 .clearfix #content-wrapper .region.region-content .search-form .container-inline.form-wrapper #edit-keys{
 	margin: 10px 0px 10px 0;
 	padding: 5px;
 }
+
 .col-md-8 #main #content-wrapper .page-title{
 	margin-bottom: 5px;
 }
 
-/*Top Searches*/
+/* top searches */
+
 .col-md-4 #sidebar-first .region.region-sidebar-first #block-top-searches-0{
 	border: 1px solid rgba(158,0,93,1.0);
     font-weight: 300;
@@ -3903,6 +3836,7 @@ a.dialog-okay:hover {
 	margin-top: 40px;
 	padding: 5px;
 }
+
 .col-md-4 #sidebar-first .region.region-sidebar-first #block-top-searches-0 h2{
 	color:white;
 	font-size: 25px;
@@ -3913,19 +3847,18 @@ a.dialog-okay:hover {
 	color:rgba(255,255,255, 0.9);
 }
 
-/*not showing the advanced search*/
+/* not showing the advanced search */
 .col-md-8 .clearfix #content-wrapper .region.region-content .search-form .search-advanced.collapsible.form-wrapper.collapse-processed{
 	display: none;
 }
 
-/*Startseite-Container (News+Twitter Feed)*/
+/* start page container (news + twitter feed) */
 .container {
   width: 95%;
   margin: 0 auto;
 }
 
-
-/*carousel*/
+/* carousel */
 .carousel-indicators {
     display: none;
 }
@@ -3938,15 +3871,28 @@ a.dialog-okay:hover {
     margin-right: auto 
 }
 
+/* information regarding equalist and EU */
+#PoweredbyEQUALIST > p:nth-child(6) > img:nth-child(1) {
+	border: none; padding: 0.8em; float:left; 
+}
+  
+#EuropenAgreement > p:nth-child(2) > img:nth-child(1) {
+	border: none; padding: 0.8em; float:left; 
+}
+  
+.pane-block-22 > div:nth-child(2) {
+	margin-right: 50px;
+}
 
-/*Info zu Equalist und EU*/
-#PoweredbyEQUALIST > p:nth-child(6) > img:nth-child(1) {border: none; padding: 0.8em; float:left; }  
-#EuropenAgreement > p:nth-child(2) > img:nth-child(1) {border: none; padding: 0.8em; float:left; }  
-.pane-block-22 > div:nth-child(2) {margin-right: 50px;}
-#PoweredbyEQUALIST > p:nth-child(7) {text-align: justify; font-size: 15px}
-#EuropenAgreement > p:nth-child(3){text-align: justify; font-size: 15px}
+#PoweredbyEQUALIST > p:nth-child(7) {
+	text-align: justify; font-size: 15px
+}
 
-/* Information about rewards*/
+#EuropenAgreement > p:nth-child(3){
+	text-align: justify; font-size: 15px
+}
+
+/* information about rewards*/
 .pane-block-24 {
     font-size: 25px;
     line-height: 1.5;
@@ -3993,6 +3939,7 @@ a.dialog-okay:hover {
     margin-left: 10%;
     margin-right: 10%;
 }
+
 #EQUALIST_purpose h3{
     text-align: left;
     color: #595959;
@@ -4001,6 +3948,7 @@ a.dialog-okay:hover {
 #EQUALIST_purpose p{
     font-size: 14px;
 }
+
 #EQUALIST_purpose:hover{
     -webkit-transform: rotate(-2deg);
      -moz-transform: rotate(-2deg);
@@ -4009,7 +3957,6 @@ a.dialog-okay:hover {
           transform: rotate(-2deg);
     
 }
-
 
 #EU_funding {
     width: 100%;
@@ -4030,6 +3977,7 @@ a.dialog-okay:hover {
       -ms-transform: rotate(-2deg);
           transform: rotate(-2deg);
 }
+
 #EU_funding h3 {
     text-align: left;
     color: white;
@@ -4056,7 +4004,7 @@ a.dialog-okay:hover {
     color: white;
 }
 
-/* Rankings Page */
+/* rankings page */
 #views-aggregator-datatable tr.odd.views-row-first td.views-field.views-field-rid {
 	background:url('../images/goals/FirstUniversity.png') no-repeat;
 	background-size: 64px 64px;
@@ -4066,6 +4014,7 @@ a.dialog-okay:hover {
 	vertical-align: inherit;
 	width: 75%;
 }
+
 #views-aggregator-datatable tr.even td.views-field.views-field-rid {
 	background:url('../images/goals/SecondUniversity.png') no-repeat;
 	background-size: 64px 64px;
@@ -4074,6 +4023,7 @@ a.dialog-okay:hover {
 	height: 70px;
 	vertical-align:inherit;
 }
+
 #views-aggregator-datatable tr.odd.views-row-last td.views-field.views-field-rid {
 	background:url('../images/goals/ThirdUniversity.png') no-repeat;
 	background-size: 64px 64px;
@@ -4082,6 +4032,7 @@ a.dialog-okay:hover {
 	height: 70px;
 	vertical-align:inherit;
 }
+
 #views-aggregator-datatable th.views-field.views-field-rid {
 	padding-left:25%;
 }
@@ -4138,10 +4089,7 @@ margin-right: 5%;
 	width: 25%;
 }
 
-
-
-
-/* Slideshow Start Page */
+/* slideshow start page */
 
 #views_slideshow_cycle_teaser_section_slideshow-block .views-slideshow-cycle-main-frame.views_slideshow_cycle_teaser_section {
 	position: absolute;
@@ -4151,7 +4099,6 @@ margin-right: 5%;
 }
 
 #views_slideshow_cycle_main_slideshow-block .views_slideshow_cycle_main.views_slideshow_main.viewsSlideshowCycle-processed {
-
 	position: absolute;
 	margin-left: auto;
 	margin-right: auto;
@@ -4173,7 +4120,6 @@ margin-right: 5%;
     text-align: center;
 }
 
-
 .slideshow_start_1 {
     margin: auto;
     width: 50%;
@@ -4185,7 +4131,7 @@ margin-right: 5%;
     width: auto;
 }
 
-/*Footer*/
+/* footer */
 #block-block-18 > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2) {
     color: #737373; 
     font-weight: 600;
@@ -4199,7 +4145,7 @@ img.transparent {
     padding: 0%;
 }
 
-/*Comment-Tags color*/
+/* comment tags color */
 .comment-agreement {
 	background-color:rgba(0,128,0,0.05);
     border: 5px solid rgba(0,128,0,0.3);
@@ -4228,7 +4174,7 @@ img.transparent {
     width: 75%;
     float: left;
 }
-/* display comment label tags*/
+/* display comment label tags */
 .field-name-field-comment-tags .field-label {
     font-size: 20px;
     color: black;
@@ -4266,13 +4212,13 @@ img.transparent {
 	font-size: 14px;
 }
 .field.field-name-field-comment-tags.field-type-taxonomy-term-reference.field-label-above .field-item.even {
-	    color: black;
+	color: black;
     font-weight: 500;
     display: inline;
     font-size: 14px;
 }
 .field.field-name-field-comment-tags.field-type-taxonomy-term-reference.field-label-above .field-label {
-	    color: black;
+	color: black;
     font-weight: 500;
     display: inline;
     font-size: 14px;
@@ -4284,7 +4230,7 @@ img.transparent {
     font-size: 22px;
 }
 
-/*Anonymous publishing*/
+/* anonymous publishing */
 #edit-anonymous-publishing .fieldset-legend .fieldset-title{
     padding: 5px;
     color: #666666;
@@ -4295,12 +4241,12 @@ img.transparent {
 	margin-bottom: 0px;
 }
 
-/*Registration site do not display "What code is in the image"*/
+/* registration site does not display "What code is in the image" */
 .form-item.form-type-textfield.form-item-captcha-response label{
     display: none;}
 
 
-/*Rahmen AddIdea und AddChallenge "Add another item" */
+/* border AddIdea and AddChallenge "Add another item" */
 
 
 #field-tags-for-related-challenge-values--2 td {
@@ -4318,18 +4264,22 @@ img.transparent {
 #field-links-external-values--2 td {
     border: 1px solid rgba(158,0,93,0.99);
 }
-/*button active add idea/challenge */
+
+/* button active add idea/challenge */
 .form-item.form-type-checkbox.form-item-field-active-und #edit-field-active-und{
     display: none;
 }
-/*Designing at registration page the Please indicate field!*/
+
+/* designing at registration page the "please indicate" - field */
 .form-textarea-wrapper.resizable.textarea-processed.resizable-textarea{
    border: 1px solid rgba(158,0,93,0.99);
 }
-/*Designing the statics page*/
+
+/* designing the statics page */
 .statistics-platform th{
-text-align: center;
+	text-align: center;
 }
+
 .statistics-platform tr,
 .statistics-platform th,
 .statistics-platform td
@@ -4341,7 +4291,7 @@ text-align: center;
 	margin-bottom: 25px;
 }
 
-/*Message when there is no conent*/
+/* message when there is no content */
 div.view-empty {
     background-image: url('http://www.crowdequality.eu/misc/message-24-warning.png');
     background-repeat: no-repeat;
@@ -4384,7 +4334,7 @@ div.view-empty {
     width: 85%;
 }
 
-/*Cancel Button*/
+/* cancel button */
 a#edit-cancel {
     text-decoration: none;
     margin: 0 auto;
@@ -4440,7 +4390,8 @@ a#edit-delete:hover {
     border-radius: 3px;
     font-size: 13px;
 }
-/*Do not display the flag system on the node-82/node-83*/
+
+/* hiding flag system on the node-82/node-83 */
 #node-82 .links.inline .forward-link.first li  {
 	display:none;
 }
@@ -4466,7 +4417,8 @@ a#edit-delete:hover {
 #node-83 .links.inline .forward-link.first .flag-abuse_whitelist_node.last li  {
 	display:none;
 }
-/*Starting-page participate button*/
+
+/* start page participate button */
 #block-block-11 {
 	width: 25%;
 	background-image: linear-gradient(to right, rgba(240,78,35,1.0), rgba(158,0,93,1.0));
@@ -4496,19 +4448,19 @@ a#edit-delete:hover {
 	text-decoration:none;
 }
 
-/*Top universities Überschrift*/
+/* top universities heading */
 .panel-pane.pane-block.pane-block-29 p{
     font-size: 20px;
     
 }
 
-/*Top Users Überschrift*/
+/* top users heading */
 
 .panel-pane.pane-block.pane-block-30 p{
     font-size: 20px;
 }
 
-/*Edit Userprofile*/
+/* edit user profile */
 .form-item.form-type-checkbox.form-item-picture-delete .description {
     margin-left: 0px;
 }
@@ -4524,6 +4476,7 @@ a#edit-delete:hover {
 #edit-field-name {
     margin-top: 0px;
 }
+
 /*Ausblenden des fünten List Elements (für später)*/
 /*.tabs.primary > li:nth-child(5){
     display: none;
