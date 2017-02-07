@@ -1322,7 +1322,11 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 	text-align: center;
 }
 
-/* buttons user profile*/
+/* quicktabs user profile*/
+
+#quicktabs-user_ideas .views-row {
+	margin-bottom: 100px;
+}
 
 #quicktabs-tab-user_ideas-0 {
     text-align: center;
@@ -3192,12 +3196,6 @@ div.filefield-sources-list{
 
 .form-item .tabledrag-toggle-weight-wrapper{ 
     display:none;
-}
-
-/* user profile  user ideas/ challenges */
-
-#quicktabs-user_ideas .views-row {
-	margin-bottom: 100px;
 }
 
 /* idea form */
