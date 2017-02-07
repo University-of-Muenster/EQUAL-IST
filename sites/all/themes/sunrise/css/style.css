@@ -454,7 +454,7 @@ textarea:focus, input:focus { outline: 0; }
 
 #footer .content img {border: none; padding: 0.8em; float:left; height: 60px; width: 60px; margin-left: 20px; }
 
-h2.region-footer-fourth {color: #cccccc;}
+#footer .region-footer-fourth #block-block-21 h2 {color: #cccccc;}
 
 /* subfooter */
 
