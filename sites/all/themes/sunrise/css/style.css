@@ -3570,6 +3570,10 @@ div.panel-col-last:nth-child(2) {
     line-height: 1.5;
 }
 
+.panel-2col-stacked .panel-separator {
+    margin: 0 0 0 0;
+}
+
 /* description banner start page*/
 
 #wrap {
