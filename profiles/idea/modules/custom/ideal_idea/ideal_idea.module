@@ -22,8 +22,8 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
 
 	
 	
-    $form['body'][$lang][0]['#attributes']['placeholder'] = $form['body']["$lang"][0]['#title'];
-    $form['field_category'][$lang]['#options']['_none'] = $form['field_category']["$lang"]['#title'];
+    $form['body'][$lang][0]['#attributes']['placeholder'] = $form['body'][$lang][0]['#title'];
+    $form['field_category'][$lang]['#options']['_none'] = $form['field_category'][$lang]['#title'];
 
     //change submit button
     $form['actions']['submit']['#value'] = ('Submit your Idea');
@@ -47,7 +47,7 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
     $form['field_idea_image'][$lang]['#file_upload_description'] = '';
     //for documents
     $form['field_attachments'][$lang]['#file_upload_title'] = '';
-    $form['field_attachments'][$lang"][0]['#title'] = 'Attachments <br> <br> You can upload files with further information about the idea.';
+    $form['field_attachments'][$lang][0]['#title'] = 'Attachments <br> <br> You can upload files with further information about the idea.';
     $form['field_attachments'][$lang]['#file_upload_description'] = '';
     
     
