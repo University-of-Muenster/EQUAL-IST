@@ -2238,6 +2238,11 @@ a.btn-success{
     border-radius: 3px;
 	margin-top: 20px;
 }
+
+.vud-widget.vud-widget-alternate  #widget-node-76 {
+	margin-bottom: 10px;
+}
+
 .vud-widget-alternate .alternate-votes-display {
 	display: inline-block;
 	height: 80%;
