@@ -2583,14 +2583,14 @@ a.btn-success{
 	margin-left: 5px;
 	display: inline-block;
 }
-#ideal-challenge-stats {
+.ideal-challenge-stats {
 	border: 1px solid rgba(158,0,93,1.0);	
     -webkit-border-radius: 3px;
     border-radius: 3px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-#ideal-challenge-stats .col-xs-12 {
+.ideal-challenge-stats .col-xs-12 {
 	padding: 10px ;
 	margin-left:0;
 }
@@ -3214,6 +3214,11 @@ div.filefield-sources-list{
 .form-item .tabledrag-toggle-weight-wrapper{ 
     display:none;
 }
+
+#field-categories-subcategories-values label{ margin-left: 10px;}
+#field-external-links-add-more-wrapper label{margin-left: 10px;}
+#field-tags-for-related-challenge-add-more-wrapper label{margin-left:10px}
+
 
 /* idea form */
 /* related nodes */
