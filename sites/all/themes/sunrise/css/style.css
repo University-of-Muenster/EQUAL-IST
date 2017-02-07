@@ -1261,6 +1261,46 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 {
     width: 80%;
 }
+
+/* user profile */
+.field-label {
+	font-size: 17px;
+}
+.ds-2col-stacked {
+	color: black;
+	font-size: 17px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	line-height: 25px;
+}
+ 
+ .ds-2col-stacked > .group-left > h3{
+  display: none;
+}
+
+.ds-2col-stacked > .group-header {
+  border-bottom: 1px solid rgba(158, 0, 93, 1.0); 
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.ds-2col-stacked > .group-footer {
+  border-top: 1px solid rgba(158, 0, 93, 1.0); 
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(158, 0, 93, 1.0); 
+}
+
+.ds-2col-stacked > .group-left{
+	padding-bottom: 10px;
+}
+.ds-2col-stacked > .group-right{
+	padding-bottom: 10px;
+}
+
 /* user profile personal details */
 .fieldset-legend{
     display: none;
@@ -2806,44 +2846,7 @@ div #content-wrapper .collapsible.form-wrapper{
 	float:bottom;
 }
 
-/* user profile */
-.field-label {
-	font-size: 17px;
-}
-.ds-2col-stacked {
-	color: black;
-	font-size: 17px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	line-height: 25px;
-}
- 
- .ds-2col-stacked > .group-left > h3{
-  display: none;
-}
 
-.ds-2col-stacked > .group-header {
-  border-bottom: 1px solid rgba(158, 0, 93, 1.0); 
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-}
-
-.ds-2col-stacked > .group-footer {
-  border-top: 1px solid rgba(158, 0, 93, 1.0); 
-  margin-top: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid rgba(158, 0, 93, 1.0); 
-}
-
-.ds-2col-stacked > .group-left{
-	padding-bottom: 10px;
-}
-.ds-2col-stacked > .group-right{
-	padding-bottom: 10px;
-}
 
 
 /* adaptation of the comment textfield*/
