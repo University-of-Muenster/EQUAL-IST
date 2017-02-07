@@ -572,7 +572,7 @@ a img { border: 0px none; }
 
 .indented { margin-left: 70px; }
 
-#comments h2.title { font-size: 22px; line-height: 1; border-bottom: 2px solid #DDDDDD; display: block; margin-top: 30px; margin-bottom:10px; padding-bottom: 10px; width: 100%; }
+#comments h2.title { font-size: 22px; line-height: 1; border-bottom: 2px solid #DDDDDD; display: block; margin-top: 20px; margin-bottom:10px; padding-bottom: 10px; width: 100%; }
 
 #comments h2.comment-form { border-bottom: none; }
 
