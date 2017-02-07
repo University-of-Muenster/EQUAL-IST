@@ -329,6 +329,8 @@ function template_preprocess_idea_node_form(&$variables) {
   * Assign $node->tag_nodes and $node->challenge_nodes to $node->field_related_ideas
   */
 function ideal_idea_node_presave($node) {
+	//$language take it from the field and parse in into the $form
+	$lang25= $node->language;
 if($node->type=='idea'){
   $nids=array();
   foreach ($node->challenge_nodes as $cnid) {
@@ -345,15 +347,11 @@ if($node->type=='idea'){
   }
   $nids=array_unique($nids);
   if (!empty($nids)){
-	//$language take it from the field and parse in into the $form
-	$lang16 = $form['field_related_ideas']['#language'];
-    $node->field_related_ideas["$lang16"]=array();
+    $node->field_related_ideas["$lang25"]=array();
   }
   foreach($nids as $nid){
     $target=array( 'target_id' => $nid);
-	//$language take it from the field and parse in into the $form
-	$lang17 = $form['field_related_ideas']['#language'];
-    $node->field_related_ideas["$lang17"][]=$target;
+    $node->field_related_ideas["$lang25"][]=$target;
   }
 }
 
