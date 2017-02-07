@@ -1813,6 +1813,10 @@ a.button-inverse {
 	font-size: 20px;
 }
 
+.panel-pane.pane-block.pane-block-40 p{
+	font-size: 20px;
+}
+
 /* information challenge overview */
 .contextual-links-region.panel-pane.pane-block.pane-block-37 p{
 	font-size: 20px;
