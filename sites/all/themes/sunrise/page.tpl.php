@@ -348,15 +348,6 @@
          
 </ul>
 </div>
-
-<div class="content">
-<ul>
-    <li><a href="http://www.unive.it/pag/13526/" target="_blank">Ca' Foscari University of Venice (UNIVE)</a></li>
-    <li><a href="https://www.uni.li/en" target="_blank">The University of Liechtenstein (UNILI)</a></li>
-    <li><a href="http://www.utu.fi/en/Pages/home.aspx" target="_blank">The University of Turku (UTU)</a></li>
-    <li><a href="http://ktu.edu/en" target="_blank">Kaunas University of Technology (KTU)</a></li>
-</ul>
-</div>   
     
 </div>
     
@@ -370,7 +361,14 @@
 <div id="block-block-20" class="block block-block clearfix">
 <h2></h2>
     
-
+<div class="content">
+<ul>
+    <li><a href="http://www.unive.it/pag/13526/" target="_blank">Ca' Foscari University of Venice (UNIVE)</a></li>
+    <li><a href="https://www.uni.li/en" target="_blank">The University of Liechtenstein (UNILI)</a></li>
+    <li><a href="http://www.utu.fi/en/Pages/home.aspx" target="_blank">The University of Turku (UTU)</a></li>
+    <li><a href="http://ktu.edu/en" target="_blank">Kaunas University of Technology (KTU)</a></li>
+</ul>
+</div>
     
 </div>
     
