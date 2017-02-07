@@ -1421,6 +1421,16 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
     font-size: 1.75rem;
 }
 
+/* deletion time zone and mention notifications from user profile */
+
+#edit-timezone.collapsible.form-wrapper{
+    display:none;
+}
+
+#edit-field-mention-notifications.field-type-list-boolean.field-name-field-mention-notifications.field-widget-options-onoff.form-wrapper{
+    display:none;
+}
+
 /* challenges */
 .views-field-field-challenge-image img {
     float:left; 
@@ -3122,15 +3132,6 @@ div.filefield-sources-list{
     display:none;
 }
 
-/* deletion time zone and mention notifications from user profile */
-
-#edit-timezone.collapsible.form-wrapper{
-    display:none;
-}
-
-#edit-field-mention-notifications.field-type-list-boolean.field-name-field-mention-notifications.field-widget-options-onoff.form-wrapper{
-    display:none;
-}
 
 /* do not display the personalized data under the comment */
 
