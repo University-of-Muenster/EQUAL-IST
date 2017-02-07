@@ -2520,7 +2520,7 @@ ul.pager li a, ul.pager li.pager-current{
 }
 
 .pane-content a{
-    color: rgba(158,0,93,1.0);
+    color: white;
 }
 
 /* challenge list space */
