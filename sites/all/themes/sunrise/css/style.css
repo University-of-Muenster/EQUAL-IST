@@ -4506,6 +4506,8 @@ margin-right: 5%;
     display: none;
 }*/
 
+
+/*Upload Buttons*/
 #edit-field-challenge-image-und-0-ajax-wrapper input{
     margin: 5px;
 }
@@ -4522,6 +4524,7 @@ margin-right: 5%;
     margin: 5px;
 }
 
+/*Admin challenge page*/
 #panels-ipe-paneid-24 {
     margin-bottom: 20px;
 }
