@@ -1322,6 +1322,104 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 	text-align: center;
 }
 
+/* buttons user profile*/
+
+#quicktabs-tab-user_ideas-0 {
+    text-align: center;
+    padding: 1.25rem 2.5rem;
+    display: inline-block;
+    background-color: rgba(158,0,93,1.0);
+    border: 1px solid rgba(158,0,93,1.0);
+    color: white;
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    font-size: 1.75rem;
+}
+
+#quicktabs-tab-user_ideas-0:hover, #quicktabs-tab-user_ideas-0:active, #quicktabs-tab-user_ideas-0:focus {
+    background-color: white;
+    color: rgba(158,0,93,1.0);
+    border: 1px solid rgba(158,0,93,1.0);
+    display: inline-block; 
+    text-align: center;
+    padding: 1.25rem 2.5rem;
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    font-size: 1.75rem;
+}
+#quicktabs-tab-user_ideas-1 {
+    text-align: center;
+    padding: 1.25rem 2.5rem;
+    display: inline-block;
+    background-color: rgba(158,0,93,1.0);
+    border: 1px solid rgba(158,0,93,1.0);
+    color: white;
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    font-size: 1.75rem;
+}
+
+#quicktabs-tab-user_ideas-1:hover, #quicktabs-tab-user_ideas-1:active, #quicktabs-tab-user_ideas-1:focus {
+    background-color: white;
+    color: rgba(158,0,93,1.0);
+    border: 1px solid rgba(158,0,93,1.0);
+    display: inline-block; 
+    text-align: center;
+    padding: 1.25rem 2.5rem;
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    font-size: 1.75rem;
+}
+#quicktabs-tab-user_ideas-2 {
+    text-align: center;
+    padding: 1.25rem 2.5rem;
+    display: inline-block;
+    background-color: rgba(158,0,93,1.0);
+    border: 1px solid rgba(158,0,93,1.0);
+    color: white;
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    font-size: 1.75rem;
+}
+
+#quicktabs-tab-user_ideas-2:hover, #quicktabs-tab-user_ideas-2:focus, #quicktabs-tab-user_ideas-2:active  {
+    background-color: white;
+    color: rgba(158,0,93,1.0);
+    border: 1px solid rgba(158,0,93,1.0);
+    display: inline-block; 
+    text-align: center;
+    padding: 1.25rem 2.5rem;
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    font-size: 1.75rem;
+}
 
 /* challenges */
 .views-field-field-challenge-image img {
@@ -2979,104 +3077,7 @@ body.front div.messages {margin-top: -190%;}
 	display: none;
 }
 
-/* buttons user profile*/
 
-#quicktabs-tab-user_ideas-0 {
-    text-align: center;
-    padding: 1.25rem 2.5rem;
-    display: inline-block;
-    background-color: rgba(158,0,93,1.0);
-    border: 1px solid rgba(158,0,93,1.0);
-    color: white;
-    font-weight: 300;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    font-size: 1.75rem;
-}
-
-#quicktabs-tab-user_ideas-0:hover, #quicktabs-tab-user_ideas-0:active, #quicktabs-tab-user_ideas-0:focus {
-    background-color: white;
-    color: rgba(158,0,93,1.0);
-    border: 1px solid rgba(158,0,93,1.0);
-    display: inline-block; 
-    text-align: center;
-    padding: 1.25rem 2.5rem;
-    font-weight: 300;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    text-decoration: none;
-    font-size: 1.75rem;
-}
-#quicktabs-tab-user_ideas-1 {
-    text-align: center;
-    padding: 1.25rem 2.5rem;
-    display: inline-block;
-    background-color: rgba(158,0,93,1.0);
-    border: 1px solid rgba(158,0,93,1.0);
-    color: white;
-    font-weight: 300;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    font-size: 1.75rem;
-}
-
-#quicktabs-tab-user_ideas-1:hover, #quicktabs-tab-user_ideas-1:active, #quicktabs-tab-user_ideas-1:focus {
-    background-color: white;
-    color: rgba(158,0,93,1.0);
-    border: 1px solid rgba(158,0,93,1.0);
-    display: inline-block; 
-    text-align: center;
-    padding: 1.25rem 2.5rem;
-    font-weight: 300;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    text-decoration: none;
-    font-size: 1.75rem;
-}
-#quicktabs-tab-user_ideas-2 {
-    text-align: center;
-    padding: 1.25rem 2.5rem;
-    display: inline-block;
-    background-color: rgba(158,0,93,1.0);
-    border: 1px solid rgba(158,0,93,1.0);
-    color: white;
-    font-weight: 300;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    font-size: 1.75rem;
-}
-
-#quicktabs-tab-user_ideas-2:hover, #quicktabs-tab-user_ideas-2:focus, #quicktabs-tab-user_ideas-2:active  {
-    background-color: white;
-    color: rgba(158,0,93,1.0);
-    border: 1px solid rgba(158,0,93,1.0);
-    display: inline-block; 
-    text-align: center;
-    padding: 1.25rem 2.5rem;
-    font-weight: 300;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    text-decoration: none;
-    font-size: 1.75rem;
-}
 
 /* hiding the unnecessary buttons of add challenge form */
 
