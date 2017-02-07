@@ -359,7 +359,7 @@
 <div class="region region-footer-third">
 
 <div id="block-block-20" class="block block-block clearfix">
-<br>
+<h2></h2>
     
 <div class="content">
 <ul>
