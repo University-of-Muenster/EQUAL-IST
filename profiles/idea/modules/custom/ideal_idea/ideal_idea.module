@@ -26,7 +26,10 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
     //change submit button
     $form['actions']['submit']['#value'] = ('Submit your Idea');
     $form['actions']['submit']['#attributes'] = array('class' => array('submit-idea'));
-
+	
+	//changing label for delete button
+	$form['actions']['delete']['#value']='Delete the idea';
+	
     //add back button
     $form['actions']['cancel'] = array(
       '#type' => 'button',
