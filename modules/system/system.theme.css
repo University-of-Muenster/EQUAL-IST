@@ -100,7 +100,7 @@ label.option {
 .form-type-checkbox .description {
   margin-left: 2.4em;
 }
-input.form-checkbox,
+/*input.form-checkbox,*/
 input.form-radio {
   vertical-align: middle;
 }
