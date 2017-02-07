@@ -155,6 +155,7 @@ function social_buttons_theme($existing, $type, $theme, $path) {
 
 /**
  * Theme function for display social buttons.
+ * changing the span to a div to avoid validator errors
  */
 function theme_social_buttons($variables) {
   drupal_add_css(drupal_get_path('module', 'social_buttons') . '/social_buttons.css');
@@ -165,7 +166,7 @@ function theme_social_buttons($variables) {
   }
   foreach ($buttons as $button) {
     if (!empty($button)) {
-      $output .= '<span class="social-button">' . $button . '</span>';
+      $output .= '<div class="social-button">' . $button . '</div>';
     }
   }
   $output .= '</div>';
