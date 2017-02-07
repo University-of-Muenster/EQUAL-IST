@@ -359,7 +359,7 @@
 <div class="region region-footer-fourth">
 
 <div id="block-block-20" class="block block-block clearfix">
-<h2><br></h2>
+<h2>Partners</h2>
     
 <div class="content">
 <ul>
