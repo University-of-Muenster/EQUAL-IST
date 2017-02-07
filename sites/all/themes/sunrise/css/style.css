@@ -4549,3 +4549,7 @@ margin-right: 5%;
 #edit-field-idea-image-und-0-upload-button {
     margin: 10px;
 }
+
+.form-item-field-attachments-und-0-description img{
+    display: none;
+}
