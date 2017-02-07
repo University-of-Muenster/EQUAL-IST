@@ -51,7 +51,7 @@ function ideal_challenge_form_alter(&$form, &$form_state, $form_id) {
     //changing value of submit 
     $form['actions']['submit']['#value']='Submit the challenge';
     //changing value of delete
-    $form['actions']['delete']['#value']='Abort the challenge';
+    $form['actions']['delete']['#value']='Delete the challenge';
     
     
     $path = drupal_get_path('module', 'ideal_challenge');

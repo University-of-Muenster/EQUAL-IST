@@ -4,7 +4,7 @@
  * Implementation of hook_form_FORM_ID_alter().
  */
 function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
-	
+	dsm($form);
 	if ($form_id == 'idea_node_form') {
     //Important for Phase module
     $node = $form_state['node'];
