@@ -39,6 +39,7 @@ function ideal_challenge_theme($existing, $type, $theme, $path) {
 * Created by Equal-Ist Project
 */
 function ideal_challenge_form_alter(&$form, &$form_state, $form_id) {
+	dsm($form);
   if ($form_id == 'challenge_node_form') {
 
 
