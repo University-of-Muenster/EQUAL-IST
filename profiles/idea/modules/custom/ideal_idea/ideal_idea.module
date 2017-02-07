@@ -4,6 +4,7 @@
  * Implementation of hook_form_FORM_ID_alter().
  */
 function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
+	//importing the form language
 	$lang = $form['language']['#value'];
 	if ($form_id == 'idea_node_form') {
     //Important for Phase module

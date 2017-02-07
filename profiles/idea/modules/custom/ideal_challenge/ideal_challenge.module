@@ -39,14 +39,14 @@ function ideal_challenge_theme($existing, $type, $theme, $path) {
 * Created by Equal-Ist Project
 */
 function ideal_challenge_form_alter(&$form, &$form_state, $form_id) {
-	dsm($form);
-  if ($form_id == 'challenge_node_form') {
+	
+	//importing the form language
+	$lang=$form['language']['#value'];
+	
+	if ($form_id == 'challenge_node_form') {
 
-
-    //$form['field_challenge_image']['und']['#file_upload_title'] = 'Image <br> <br> Please upload an image by using Drag & Drop or choose one from the file browser, characterising the challenge. ';
-	$form['field_challenge_image']['und'][0]['#title'] = 'Image <br> <br> Please upload an image by using Drag & Drop or choose one from the file browser, characterising the challenge. ';
-    //$form['field_attachements']['und']['#file_upload_title'] = 'Attachments <br> <br> You can upload files with further information about the idea.';
-	$form['field_attachements']['und'][0]['#title'] = 'Attachments <br> <br> You can upload files with further information about the idea.';
+	$form['field_challenge_image']["$lang"][0]['#title'] = 'Image <br> <br> Please upload an image by using Drag & Drop or choose one from the file browser, characterising the challenge. ';
+	$form['field_attachements']["$lang"][0]['#title'] = 'Attachments <br> <br> You can upload files with further information about the idea.';
       $path = drupal_get_path('module', 'ideal_challenge');
       
     //changing value of submit 
@@ -125,7 +125,7 @@ function ideal_challenge_form_alter(&$form, &$form_state, $form_id) {
           '#empty' => t('No content available.'),
         );
       //Get the Data from field field_related_ideas and print them in challenge_nodes and tag_nodes
-      foreach ($form['field_related_challenges']['und']['#default_value'] as $value) {
+      foreach ($form['field_related_challenges']["$lang"]['#default_value'] as $value) {
         $form['tableselect_challenge']['#default_value'][$value]=$value;  
       } 
       $form['field_related_challenges']['#access']=FALSE;
@@ -134,15 +134,6 @@ function ideal_challenge_form_alter(&$form, &$form_state, $form_id) {
         'data' => drupal_get_path('theme',$GLOBALS['theme']).'/js/equal-ist-idea-form.js',
         );
       //END of related CHallenge Block
-
-      // Set default dates for Phase module !
-      /*
-      $test=date('d/m/y',strtotime('+30 days'));
-      dsm($test);
-      $form['field_phase1_end']['und'][0]['#default_value']=$test;
-      $form['field_phase1_end']['und'][0]['#date_is_default']=TRUE;
-      dsm($form);
-      */
   }
 }
 
@@ -195,13 +186,14 @@ function template_preprocess_challenge_node_form(&$variables) {
   * Assign $node->tableselect_challenge  to $node->field_related_challenges
   */
 function ideal_challenge_node_presave($node) {
+	$lang= $node->language;
   if($node->type=='challenge'){
     if (!empty($node->tableselect_challenge)){
-      $node->field_related_challenges['und']=array();
+      $node->field_related_challenges["$lang"]=array();
     }
     foreach ($node->tableselect_challenge as $nid) {
       $target=array('target_id' => $nid);
-      $node->field_related_challenges['und'][]=$target;
+      $node->field_related_challenges["$lang"][]=$target;
     }
   }  
 }
