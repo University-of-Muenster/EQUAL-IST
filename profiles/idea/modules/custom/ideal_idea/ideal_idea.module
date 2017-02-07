@@ -9,7 +9,7 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
     //Important for Phase module
     $node = $form_state['node'];
     if (!isset($node->nid) || isset($node->is_new)) {
-		ld and parse in into the $form
+		//ld and parse in into the $form
 			$lang21 = $form['field_active']['#language'];
       $form['field_active']["$lang21"]['#default_value']=1;
     }
