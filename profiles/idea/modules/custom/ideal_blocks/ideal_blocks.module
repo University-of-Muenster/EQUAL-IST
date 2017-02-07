@@ -45,7 +45,7 @@ function ideal_blocks_block_view($delta = '') {
 }
 
 /**
- * Get statistics for a challenge.
+ * Create statistic block for contribution (number of ideas, users, likes, comments)
  */
 function _ideal_blocks_challenge_stats() {
   $entity = menu_get_object();
@@ -92,7 +92,7 @@ function _ideal_blocks_challenge_stats() {
     $user_count = $result->rowCount();
 
     // Generate output.
-    $output = '<div id="ideal-challenge-stats">';
+    $output = '<div class="ideal-challenge-stats">';
     $output .= '<div class="row top ideas col-xs-12"><div class="ideal-challenge-stats-name">Contribution: </div>' . format_plural($idea_count, '<div class="ideal-challenge-stats-ideas">1 idea </div>', '<div class="ideal-challenge-stats-ideas">@count ideas </div>') . '</div>';
     $output .= '<table class="counts challenge-page"><tr>';
     $output .= '<td class="col users ideal-challenge-stats-icon-td" title="People involved in ideas of this challenge"><div class="ideal-challenge-stats-small-users-icon" >' . t(' ') . '</div><div class="challenge-stats-count">' . $user_count . '</div></td>';
@@ -105,7 +105,7 @@ function _ideal_blocks_challenge_stats() {
 }
 
 /**
- * Get statistics for a idea.
+ * Create statistic block with number of views and comments for idea and challenge page
  */
 function _ideal_blocks_idea_stats() {
   $entity = menu_get_object();
@@ -171,7 +171,7 @@ function _ideal_blocks_idea_stats() {
 	
 	* Erste Zeile neu:
 	*/
-	$output = '<div id="ideal-challenge-stats">';
+	$output = '<div class="ideal-challenge-stats">';
     $output .= '<table class="counts idea-page" ><tr>';
     $output .= '  <td class="col views ideal-challenge-stats-icon-td"><div class="ideal-challenge-stats-views-icon">' . t(' ') . '</div><div class="ideal-stats-count">' . $view_count . '</div></td>';
     $output .= '  <td class="col comments ideal-challenge-stats-icon-td"><div class="ideal-challenge-stats-comments-icon">' . t(' ') . '</div><div class="ideal-stats-count">' . $comment_count . '</div></td>';	
