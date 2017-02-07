@@ -3327,10 +3327,6 @@ div.filefield-sources-list{
 
 /* add idea */
 
-#edit-field-idea-image-und--5-table .sticky-enabled.tabledrag-processed .file-icon {
-	display: none; 
-}
-
 #field-tags-for-related-challenge-values--3 td{
     border:1px solid rgba(158,0,93,1.0);
 }
