@@ -21,9 +21,9 @@
  <script src="/sites/all/libraries/tinymce/jscripts/tiny_mce/tiny_mce.js"></script>
 <! Just be careful that you give correct path to your tinymce.min.js file, above is the default example -->
  <!-- Just be careful that you give correct path to your tinymce.min.js file, above is the default example -->
-    <script>
+ <?php /*   <script>
         tinymce.init({selector:'textarea'});
-    </script>
+    </script> */ ?>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">
