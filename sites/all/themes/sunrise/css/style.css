@@ -4276,6 +4276,14 @@ img.transparent {
 }
 
 /* designing the statics page */
+.selectbox-universities #selectbox-universities {
+	width: 470px;
+}
+
+.selectbox-occupation #selectbox-occupation {
+	width: 470px;
+}
+
 .statistics-platform th{
 	text-align: center;
 }
