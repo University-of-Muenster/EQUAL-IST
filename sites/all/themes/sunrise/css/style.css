@@ -2686,7 +2686,7 @@ span.social-button {
 	display: inline-block;
 }
 
-/* equal_ist_blocks.module */
+/* Begin of equal_ist_blocks.module */
 .pane-equal-ist-blocks-equal-ist-blocks-author {
 	border: 1px solid rgba(158,0,93,1.0);	
     -webkit-border-radius: 3px;
@@ -2726,57 +2726,6 @@ span.social-button {
 .field-type-taxonomy-term-reference .child-taxonomy-term{
 	display: inline-block;
 	margin-left: 10px;	
-}
-
-
-
-.pane-node-field-challenge-ref {
-background:url('../images/icons/iconsohneschatten/Material_Icons_e0c6(0)_64.png') no-repeat;
-	background-size: 64px 64px;
-	background-position: center left;
-	border: 1px solid rgba(158,0,93,1.0);	
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding: 25px 20px 25px 70px;
-}
-.field-name-field-university {
-background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png') no-repeat;
-	background-size: 64px 64px;
-	background-position: center left;
-	border: 1px solid rgba(158,0,93,1.0);	
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-	padding: 20px 20px 20px 70px;
-	color: #666666;
-}
-.equal_ist_blocks_author{
-	margin-left: 10px;
-}
-.equal_ist_blocks_author::before {
-	display: inline-block;
-	content: "By: ";
-	vertical-align:top;
-	padding-top:10px;
-	padding-right:20px;
-	
-}
-.equal_ist_blocks_author_pic {
-	display: inline-block;
-}
-.equal_ist_blocks_author_name {
-	display: inline-block;
-	vertical-align:top;
-	padding-top:10px;
-	padding-left:20px;
-}
-
-.pane-ideal-challenge-challenge-add-idea-button .btn-success, .pane-equal-ist-phases-equal-ist-block-add-idea .btn-inactive  {
-	margin:0;
-	margin-top:10px;
-	width:100%;
-	
 }
 .pane-node-field-related-ideas {
 	border: 1px solid rgba(158,0,93,1.0);	
@@ -2837,6 +2786,57 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 	margin-left:5px;
 }
 
+/* End of equal_ist_blocks.module */
+
+
+.pane-node-field-challenge-ref {
+background:url('../images/icons/iconsohneschatten/Material_Icons_e0c6(0)_64.png') no-repeat;
+	background-size: 64px 64px;
+	background-position: center left;
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 25px 20px 25px 70px;
+}
+.field-name-field-university {
+background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png') no-repeat;
+	background-size: 64px 64px;
+	background-position: center left;
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	padding: 20px 20px 20px 70px;
+	color: #666666;
+}
+.equal_ist_blocks_author{
+	margin-left: 10px;
+}
+.equal_ist_blocks_author::before {
+	display: inline-block;
+	content: "By: ";
+	vertical-align:top;
+	padding-top:10px;
+	padding-right:20px;
+	
+}
+.equal_ist_blocks_author_pic {
+	display: inline-block;
+}
+.equal_ist_blocks_author_name {
+	display: inline-block;
+	vertical-align:top;
+	padding-top:10px;
+	padding-left:20px;
+}
+
+.pane-ideal-challenge-challenge-add-idea-button .btn-success, .pane-equal-ist-phases-equal-ist-block-add-idea .btn-inactive  {
+	margin:0;
+	margin-top:10px;
+	width:100%;
+	
+}
 
 
 .pane-node-field-external-links {
