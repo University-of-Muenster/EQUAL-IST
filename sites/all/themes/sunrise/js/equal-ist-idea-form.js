@@ -4,23 +4,23 @@
     attach: function(context, settings){
       function callbackFn1(){
         if($(this).is(":visible") || $("#idea-node-form .related_nodes_tag").is(":visible")){
-          $("#field_ideas_similar").show("fade");
+          $("#field_ideas_similar").show();
             //TinyMCE Width bug
             $("#edit-field-ideas-similar-und-0-value_tbl").removeAttr("style");
             $("#edit-field-ideas-similar-und-0-value_tbl").css("width", "100%");
         }else{
-          $("#field_ideas_similar").hide("fade");
+          $("#field_ideas_similar").hide();
         }
       }
       function callbackFn2(){
         if($(this).is(":visible") || $("#idea-node-form .related_nodes_challenge").is(":visible")){
           
-          $("#field_ideas_similar").show("fade");
+          $("#field_ideas_similar").show();
             //TinyMCE Width bug
             $("#edit-field-ideas-similar-und-0-value_tbl").removeAttr("style");
             $("#edit-field-ideas-similar-und-0-value_tbl").css("width", "100%");
         }else{
-          $("#field_ideas_similar").hide("fade");
+          $("#field_ideas_similar").hide();
         }
       }
       $("#idea-node-form .related_nodes_challenge_title").click(function(){
@@ -35,6 +35,7 @@
           $("#edit-field-challenges-similar-und-0-value_tbl").removeAttr("style");
           $("#edit-field-challenges-similar-und-0-value_tbl").css("width", "100%");
       });
+      // Sync checked items on .related_nodes_tag and .related_nodes_challenge
       $(".related_nodes_tag .form-checkbox").change(function(){
         var originvalue = $(this).attr('value');
         var tvalue = originvalue.split("-");
