@@ -53,7 +53,13 @@ $(document).ready(function(){
   });
 });
 </script>
-        
+<?php /* Prevent hybridauth facebook redirect bug */ ?>
+     <script type="text/javascript">
+    if (window.location.hash && window.location.hash == '#_=_') {
+        window.location.hash = '';
+    }
+</script>   
+
         <style>
 body, html, .main {
     height: 100%;
