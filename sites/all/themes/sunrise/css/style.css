@@ -3211,13 +3211,16 @@ div.filefield-sources-list{
     -webkit-border-radius: 3px;
     border-radius: 3px;
 }
+#idea-node-form .related_nodes table th.select-all input{
+	display: none;
+}
 #idea-node-form .related_nodes_title{
 	font-weight: bold;
 	margin-bottom: 10px;
 }
 #idea-node-form .related_nodes_challenge, #idea-node-form .related_nodes_tag{
 	display: none;
-} 
+}
 #idea-node-form .related_nodes_challenge_title, #idea-node-form .related_nodes_tag_title{
 	display: inline-block;
 	padding:5px;
