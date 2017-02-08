@@ -75,16 +75,7 @@ function sunrise_preprocess_html(&$variables) {
 		});',
 		array('type' => 'inline', 'scope' => 'header'));
 	}
-		/**
-	*  Add Javascript for User menu and Search expand
-	*/
-	 drupal_add_js(
-		drupal_get_path('theme', 'sunrise') . '/js/equal-user-menu-expand.js', array( 
-			'scope' => 'header', 
-			'weight' => '15',
-			'group' => JS_LIBRARY,
-			'every_page' => TRUE			
-		));
+	
 	
 	//EOF:Javascript
 }
