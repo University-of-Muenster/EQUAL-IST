@@ -2718,6 +2718,7 @@ span.social-button {
 .pane-node-field-categories-subcategories .field-item, 
 .pane-node-field-tags-for-related-challenge .field-item{
 	display: block;
+	margin-bottom: 10px;
 }
 .field-type-taxonomy-term-reference .parent-taxonomy-term{
 	display: inline-block;
