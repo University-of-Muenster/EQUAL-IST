@@ -2699,6 +2699,36 @@ span.social-button {
 	width:45px;
 	height:45px;
 }
+.pane-node-field-categories-subcategories, .pane-node-field-tags-for-related-challenge {
+	border: 1px solid rgba(158,0,93,1.0);	
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.pane-node-field-categories-subcategories .pane-title, 
+.pane-node-field-tags-for-related-challenge .pane-title{
+	display: block;
+	font-size: 15px;
+	color:#333;
+	margin-top:0px;
+
+}
+.pane-node-field-categories-subcategories .field-item, 
+.pane-node-field-tags-for-related-challenge .field-item{
+	display: block;
+}
+.field-type-taxonomy-term-reference .parent-taxonomy-term{
+	display: inline-block;
+	margin-right: 10px;
+}
+.field-type-taxonomy-term-reference .child-taxonomy-term{
+	display: inline-block;
+	margin-left: 10px;	
+}
+
+
 
 .pane-node-field-challenge-ref {
 background:url('../images/icons/iconsohneschatten/Material_Icons_e0c6(0)_64.png') no-repeat;
@@ -2806,64 +2836,9 @@ background:url('../images/icons/iconsohneschatten/Material_Icons_e80c(6)_64.png'
 .pane-node-field-related-challenges .field-item {
 	margin-left:5px;
 }
-.pane-node-field-tags-for-related-challenge {
-	border: 1px solid rgba(158,0,93,1.0);	
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding: 10px;
-}
-.pane-node-field-tags-for-related-challenge .pane-title{
-	display: block;
-	font-size: 15px;
-	color:#333;
-	margin-top:0px;
 
-}
-.pane-node-field-tags-for-related-challenge li {
-	list-style-type: none;
-	display: inline-block;
 
-}
-.pane-node-field-tags-for-related-challenge li.shs-parent {
-	margin-left: 5px;
-}
-.pane-node-field-tags-for-related-challenge .field-name-field-tags-for-related-challenge {
-	margin-bottom:0px;
-}
-.pane-node-field-tags-for-related-challenge .field-item.even:after {
-	content:none;
-}
-.pane-node-field-categories-subcategories {
-	border: 1px solid rgba(158,0,93,1.0);	
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding: 10px;
-}
-.pane-node-field-categories-subcategories .pane-title{
-	display: block;
-	font-size: 15px;
-	color:#333;
-	margin-top:0px;
 
-}
-.pane-node-field-categories-subcategories li {
-	list-style-type: none;
-	display: inline-block;
-
-}
-.pane-node-field-categories-subcategories li.shs-parent {
-	margin-left: 5px;
-}
-.pane-node-field-categories-subcategories .field-name-field-tags-for-related-challenge {
-	margin-bottom:0px;
-}
-.pane-node-field-categories-subcategories .field-item.even:after {
-	content:none;
-}
 .pane-node-field-external-links {
 	margin-top:20px;
 }
