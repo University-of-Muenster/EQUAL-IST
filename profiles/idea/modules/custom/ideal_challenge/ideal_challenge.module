@@ -131,7 +131,7 @@ function ideal_challenge_form_alter(&$form, &$form_state, $form_id) {
       $form['field_related_challenges']['#access']=FALSE;
       $form['#attached']['js'][]=array(
         'type' => 'file',
-        'data' => drupal_get_path('theme',$GLOBALS['theme']).'/js/equal-ist-idea-form.js',
+        'data' => drupal_get_path('module', 'ideal_idea').'/js/equal-ist-idea-form.js',
         );
       //END of related CHallenge Block
   }

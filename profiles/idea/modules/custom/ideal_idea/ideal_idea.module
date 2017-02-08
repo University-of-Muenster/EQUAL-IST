@@ -228,7 +228,7 @@ function ideal_idea_form_alter(&$form, &$form_state, $form_id) {
       );
     $form['#attached']['js'][]=array(
       'type' => 'file',
-      'data' => drupal_get_path('theme',$GLOBALS['theme']).'/js/equal-ist-idea-form.js',
+      'data' => drupal_get_path('module', 'ideal_idea').'/js/equal-ist-idea-form.js',
       );
     //Get the Data from field field_related_ideas and print them in challenge_nodes and tag_nodes
     foreach ($form['field_related_ideas'][$lang]['#default_value'] as $value) {
