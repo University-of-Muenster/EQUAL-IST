@@ -189,8 +189,8 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 /* navigation */
 
 .sf-menu li { float: none; list-style: none; }
-
-#main-navigation { background: rgba(255,255,255,1.0); color: black; z-index: 999; border-bottom: 1px solid #cccccc; position: fixed; width: 100%; padding: 0px 0; margin-top: 0px;}
+/* Added min-width for navigation */
+#main-navigation {min-width: 860px; background: rgba(255,255,255,1.0); color: black; z-index: 999; border-bottom: 1px solid #cccccc; position: fixed; width: 100%; padding: 0px 0; margin-top: 0px;}
 
 #main-navigation-inside {color: black; margin: 0 auto; padding: 0;  text-align: center; }
 
@@ -1738,11 +1738,12 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:rgba(158,0,93
 }
 
 /* participate now button*/
-
+/* added min-width */
 body {
   min-height: 100%;
   margin: 0;
   padding: 0;
+  min-width: 860px;
 }
 
 * {
